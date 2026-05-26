@@ -1,0 +1,1975 @@
+iat-alta-junction:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 6} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=1.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-antigo-heights:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 70% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=2.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-averill-kelly-creek-wilderness:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 20} features within 80m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=4.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-camp-27:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 2} features within 80m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=2.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-dells-of-the-eau-claire:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - rocky_outcrop
+  - water
+  seasonality:
+  - fall_color
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 6, ''rocky_outcrop'': 4} features within 80m'
+    parking: 'OSM: 7 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (20%)
+    family_friendly: difficulty=moderate, length=2.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-east-lake:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 4} features within 80m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=7.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-emmons-creek:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=2.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-grandfather-falls:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 16} features within 80m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 40% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=4.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-harrison-hills:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: exposed
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 5} features within 80m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: max elev 586m suggests prominent ridge (forest coverage 0%)
+    family_friendly: difficulty=difficult, length=14.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-hartman-creek:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=5.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-highland-lakes:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 12} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=8.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-ice-override:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality:
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 80m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.8mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-iola-ski-hill:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality:
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 80m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 90% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=2.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-jerry-lake:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 5} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=15.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-kettlebowl:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality:
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 80m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=difficult, length=10.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-lake-eleven:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: roadside
+  accessibility: unknown
+  scenery_tags:
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 13, ''wetland'': 2} features within 80m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 80% of sample points in OSM forest polygons
+    family_friendly: difficulty=difficult, length=15.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-lumbercamp:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 80m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 60% of sample points in OSM forest polygons
+    family_friendly: difficulty=difficult, length=12.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-mondeaux-esker:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 5} features within 80m'
+    parking: 'OSM: 4 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=11.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-new-hope:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality:
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 80m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=3.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-new-wood:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 2} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=6.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-parrish-hills:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 4} features within 80m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=12.1mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-pine-line:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality:
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 80m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-plover-river:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 3} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 60% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=5.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-rib-lake:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 7} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (10%)
+    family_friendly: difficulty=moderate, length=6.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-ringle:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=9.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-summit-moraine:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 10, ''wetland'': 7, ''prairie'': 1} features within
+      100m'
+    parking: 'OSM: 3 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: 80% of sample points in OSM forest polygons
+    family_friendly: difficulty=difficult, length=12.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-thornapple-creek:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=3.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-timberland-wilderness:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 4} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=3.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-turtle-rock:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 8} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=5.1mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-underdown:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=6.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-white-cedar:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags: []
+  seasonality:
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+iat-wood-lake:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 10} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='IATA / WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=13.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-big-eau-pleine-bridle-trail:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  - water
+  seasonality:
+  - fall_color
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 1, ''water'': 1} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=7.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-dynamite-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-frog-chorus-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - fall_color
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 1, ''water'': 1, ''wetland'': 2, ''prairie'':
+      1} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-giant-hardwoods-nature-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-heritage-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 4} features within 100m'
+    parking: 'OSM: 5 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-homestead-loop-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - rocky_outcrop
+  - water
+  seasonality:
+  - fall_color
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''rocky_outcrop'': 1, ''water'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---alta-junction-underdown-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 5} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=1.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---antigo-heights-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (10%)
+    family_friendly: difficulty=moderate, length=4.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---antigo-heights-kettlebowl-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: roadside
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 3} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 40% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=4.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 3} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---camp-27-tiberland-wilderness-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=1.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---deerfield-emmons-creek-connection:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=14.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---dells-of-the-eau-claire-plover-river-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 3} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=3.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---east-lake-pine-line-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---grandfather-falls-turtle-rock-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 11} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=2.1mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---highland-lakes-connection:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 10, ''wetland'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=4.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---ice-override-antigo-heights-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=10.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---lake-eleven-cornell-connection:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - prairie
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 23, ''prairie'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=strenuous, length=38.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---new-hope-white-cedar-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 3} features within 100m'
+    parking: 'OSM: 5 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=24.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---pine-line-mondeaux-esker-connection:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 10} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=3.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---plover-river-ice-override-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=4.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---rib-lake-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 4} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 5} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---underdown-grandfather-falls-connection:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 15} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (10%)
+    family_friendly: difficulty=difficult, length=10.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---waupaca-river-connection:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=2.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-iat---white-cedar-ringle-connector:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=moderate, length=3.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-moses-creek-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 5, ''wetland'': 1} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 30% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-north-wiouwash-state-recreation-trail:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 10} features within 100m'
+    parking: 'OSM: 3 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Wisconsin Department of Natural Resources'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=17.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-pine-meadows-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''wetland'': 3, ''prairie'': 2, ''water'': 2} features within
+      100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.1mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-plank-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.2mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-quarry-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - rocky_outcrop
+  seasonality:
+  - fall_color
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''rocky_outcrop'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.8mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-red-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  seasonality:
+  - fall_color
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 1} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-south-unit-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=0.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-trail-of-reflections:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - fall_color
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 1, ''water'': 1, ''wetland'': 2, ''prairie'':
+      2} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 70% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=0.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-turkey-vulture-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags:
+  - rocky_outcrop
+  - water
+  seasonality:
+  - fall_color
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''rocky_outcrop'': 7, ''water'': 1} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-west-unit-trail:
+  family_friendly: true
+  dog_policy: unknown
+  bike_allowed: false
+  parking: none
+  accessibility: unknown
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=easy, length=1.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+osm-yellow-trail:
+  family_friendly: false
+  dog_policy: unknown
+  bike_allowed: false
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  - water
+  seasonality:
+  - fall_color
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 1, ''water'': 3} features within 100m'
+    parking: 'OSM: 9 amenity=parking within 300m'
+    dog_policy: default for managing_authority='Unknown'
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=4.8mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+state-green-circle-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - fall_color
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 2, ''water'': 31, ''wetland'': 4, ''prairie'':
+      2} features within 100m'
+    parking: 'OSM: 84 amenity=parking within 300m'
+    dog_policy: default for managing_authority='WI DNR'
+    exposure: default for central WI; OSM forest data sparse (10%)
+    family_friendly: difficulty=difficult, length=30.8mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+state-mountain-bay-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 75} features within 100m'
+    parking: 'OSM: 13 amenity=parking within 300m'
+    dog_policy: default for managing_authority='WI DNR'
+    exposure: default for central WI; OSM forest data sparse (10%)
+    family_friendly: difficulty=strenuous, length=76.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+state-tomorrow-river-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - prairie
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 11, ''prairie'': 7} features within 100m'
+    parking: 'OSM: 5 amenity=parking within 300m'
+    dog_policy: default for managing_authority='WI DNR'
+    exposure: default for central WI; OSM forest data sparse (20%)
+    family_friendly: difficulty=difficult, length=28.9mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+state-wiouwash-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: unknown
+  scenery_tags:
+  - overlook
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - fall_color
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''overlook'': 1, ''water'': 39, ''wetland'': 13, ''prairie'':
+      5} features within 100m'
+    parking: 'OSM: 6 amenity=parking within 300m'
+    dog_policy: default for managing_authority='WI DNR'
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=strenuous, length=50.0mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)
+state-wolf-river-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: roadside
+  accessibility: unknown
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 25} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: default for managing_authority='WI DNR'
+    exposure: 60% of sample points in OSM forest polygons
+    family_friendly: difficulty=strenuous, length=37.5mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
+    drainage: default 'loamy' (soil data enrichment is Phase 2)

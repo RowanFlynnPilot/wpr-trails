@@ -1,0 +1,60 @@
+name: Hourly Conditions
+
+# Refreshes fast-changing data: weather forecast, observations, alerts, scoring.
+# Runs every hour on the hour plus manual dispatch.
+# Requires the weekly pipeline to have run at least once (needs trail data).
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify trail data exists
+        run: |
+          if [ ! -f data/processed/index.json ]; then
+            echo "::error::data/processed/index.json missing - run Weekly Pipeline first"
+            exit 1
+          fi
+
+      - name: Pull conditions
+        run: |
+          python -m scrapers.nws_forecast
+          python -m scrapers.nws_observations
+          python -m scrapers.nws_alerts
+
+      - name: Build conditions + scores
+        run: |
+          python -m transforms.build_conditions
+          python -m transforms.build_scores
+
+      - name: Commit refreshed outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/conditions.json data/processed/scores.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Hourly refresh: conditions + scores"
+            git push
+          fi

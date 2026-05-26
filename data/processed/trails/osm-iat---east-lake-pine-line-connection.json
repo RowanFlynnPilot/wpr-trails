@@ -1,0 +1,107 @@
+{
+  "id": "osm-iat---east-lake-pine-line-connection",
+  "name": "IAT - East Lake-Pine Line connection",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "relation_id": 19708006,
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -90.2914488,
+        45.3114315
+      ],
+      [
+        -90.2910751,
+        45.3177125
+      ],
+      [
+        -90.2911039,
+        45.320108
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 963.7,
+    "elevation_gain_m": 11.2,
+    "elevation_max_m": 482.2,
+    "elevation_min_m": 475.0,
+    "elevation_profile": [
+      [
+        0.0,
+        480.7
+      ],
+      [
+        100.0,
+        481.8
+      ],
+      [
+        200.0,
+        481.5
+      ],
+      [
+        300.0,
+        482.2
+      ],
+      [
+        400.0,
+        475.8
+      ],
+      [
+        500.0,
+        475.0
+      ],
+      [
+        600.0,
+        477.6
+      ],
+      [
+        700.0,
+        482.2
+      ],
+      [
+        800.0,
+        478.3
+      ],
+      [
+        900.0,
+        476.9
+      ],
+      [
+        965.4,
+        479.0
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": "nwn",
+    "blaze_color": null,
+    "counties": [
+      "taylor"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -90.29121439656112,
+      45.31576828127737
+    ],
+    "bbox": [
+      -90.2914488,
+      45.3114315,
+      -90.2910751,
+      45.320108
+    ],
+    "drive_minutes_from_wausau": 63,
+    "trailhead_coords": null
+  }
+}

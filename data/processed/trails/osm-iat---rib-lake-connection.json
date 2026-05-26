@@ -1,0 +1,127 @@
+{
+  "id": "osm-iat---rib-lake-connection",
+  "name": "IAT - Rib Lake connection",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "relation_id": 19705716,
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -90.197947,
+        45.340383
+      ],
+      [
+        -90.198012,
+        45.340246
+      ],
+      [
+        -90.198044,
+        45.337915
+      ],
+      [
+        -90.1904022,
+        45.3377065
+      ],
+      [
+        -90.190325,
+        45.3376999
+      ],
+      [
+        -90.1879506,
+        45.3376184
+      ],
+      [
+        -90.1878304,
+        45.3377523
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 1080.6,
+    "elevation_gain_m": 8.9,
+    "elevation_max_m": 500.2,
+    "elevation_min_m": 494.9,
+    "elevation_profile": [
+      [
+        0.0,
+        497.2
+      ],
+      [
+        99.3,
+        497.6
+      ],
+      [
+        199.3,
+        499.0
+      ],
+      [
+        279.3,
+        494.9
+      ],
+      [
+        379.3,
+        495.8
+      ],
+      [
+        479.3,
+        497.6
+      ],
+      [
+        579.3,
+        499.5
+      ],
+      [
+        679.3,
+        499.9
+      ],
+      [
+        779.3,
+        499.1
+      ],
+      [
+        879.2,
+        498.0
+      ],
+      [
+        979.2,
+        500.2
+      ],
+      [
+        1054.4,
+        500.0
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": "nwn",
+    "blaze_color": null,
+    "counties": [
+      "taylor"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -90.19390333071763,
+      45.338041823272285
+    ],
+    "bbox": [
+      -90.198044,
+      45.3376184,
+      -90.1878304,
+      45.340383
+    ],
+    "drive_minutes_from_wausau": 59,
+    "trailhead_coords": null
+  }
+}

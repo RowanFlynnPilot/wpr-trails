@@ -1,0 +1,131 @@
+{
+  "id": "osm-iat---averill-kelly-creek-wilderness-new-wood-connection",
+  "name": "IAT - Averill-Kelly Creek Wilderness-New Wood connection",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "relation_id": 19705688,
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -89.8890086,
+        45.2878983
+      ],
+      [
+        -89.888993,
+        45.288566
+      ],
+      [
+        -89.889009,
+        45.289813
+      ],
+      [
+        -89.889004,
+        45.290965
+      ],
+      [
+        -89.888957,
+        45.293343
+      ],
+      [
+        -89.888962,
+        45.29423
+      ],
+      [
+        -89.888957,
+        45.294329
+      ],
+      [
+        -89.889001,
+        45.295624
+      ],
+      [
+        -89.8890906,
+        45.2967172
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 979.2,
+    "elevation_gain_m": 7.1,
+    "elevation_max_m": 432.2,
+    "elevation_min_m": 424.4,
+    "elevation_profile": [
+      [
+        0.0,
+        430.3
+      ],
+      [
+        100.0,
+        432.2
+      ],
+      [
+        200.0,
+        430.3
+      ],
+      [
+        300.0,
+        429.0
+      ],
+      [
+        400.0,
+        427.2
+      ],
+      [
+        500.0,
+        425.7
+      ],
+      [
+        600.0,
+        424.6
+      ],
+      [
+        700.0,
+        424.4
+      ],
+      [
+        800.0,
+        425.7
+      ],
+      [
+        900.0,
+        427.6
+      ],
+      [
+        980.9,
+        429.6
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": "nwn",
+    "blaze_color": null,
+    "counties": [
+      "lincoln"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -89.88899387781109,
+      45.29230948036694
+    ],
+    "bbox": [
+      -89.8890906,
+      45.2878983,
+      -89.888957,
+      45.2967172
+    ],
+    "drive_minutes_from_wausau": 41,
+    "trailhead_coords": null
+  }
+}

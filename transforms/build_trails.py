@@ -1,0 +1,326 @@
+"""Build schema-shaped Trail records from raw OSM + DNR sources.
+
+Source precedence: DNR State Trails > DNR Ice Age Trail > OSM hiking routes.
+OSM relations that duplicate DNR-authoritative trails are dropped.
+
+Outputs one JSON per trail to data/processed/trails/{id}.json
+plus a slim index at data/processed/index.json.
+"""
+
+import json
+import math
+import re
+from pathlib import Path
+from typing import Iterable
+
+from shapely.geometry import LineString, mapping, shape
+from shapely.ops import linemerge, unary_union
+
+from transforms.county_filter import counties_for
+from transforms.build_index import write_index
+
+OSM_RAW = Path("data/raw/osm_hiking_routes.json")
+DNR_IAT_RAW = Path("data/raw/dnr_ice_age.geojson")
+DNR_STATE_RAW = Path("data/raw/dnr_state_trails.geojson")
+TRAILS_DIR = Path("data/processed/trails")
+INDEX_PATH = Path("data/processed/index.json")
+
+WAUSAU_LAT, WAUSAU_LNG = 44.9591, -89.6301
+SINUOSITY = 1.3
+AVG_SPEED_MPH = 50
+
+
+# --- helpers ---------------------------------------------------------------
+
+def slugify(name: str) -> str:
+    s = re.sub(r"[^\w\s-]", "", name.lower())
+    s = re.sub(r"[\s_]+", "-", s).strip("-")
+    return s
+
+
+def haversine_miles(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    r = 3958.8
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dp = math.radians(lat2 - lat1)
+    dl = math.radians(lng2 - lng1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def drive_minutes(lng: float, lat: float) -> int:
+    miles = haversine_miles(WAUSAU_LAT, WAUSAU_LNG, lat, lng) * SINUOSITY
+    return round(miles / AVG_SPEED_MPH * 60)
+
+
+def length_m(geom) -> float:
+    if geom.geom_type == "LineString":
+        parts = [list(geom.coords)]
+    elif geom.geom_type == "MultiLineString":
+        parts = [list(part.coords) for part in geom.geoms]
+    else:
+        raise ValueError(f"Unexpected geometry type: {geom.geom_type}")
+
+    total = 0.0
+    for line in parts:
+        for (x1, y1), (x2, y2) in zip(line, line[1:]):
+            mid_lat = (y1 + y2) / 2
+            dx_m = (x2 - x1) * 111000 * math.cos(math.radians(mid_lat))
+            dy_m = (y2 - y1) * 111000
+            total += math.hypot(dx_m, dy_m)
+    return total
+
+
+def merge_lines(lines: list):
+    """Union + linemerge that handles the single-line case shapely chokes on."""
+    unioned = unary_union(lines)
+    return linemerge(unioned) if unioned.geom_type == "MultiLineString" else unioned
+
+
+def derive_state_trail_activities(props: dict) -> list:
+    """Map DNR Y/N/U activity flags to our canonical activities list."""
+    activities = []
+    if props.get("WALK_HIKE_CODE") == "Y":
+        activities.append("hiking")
+    if props.get("SNOWSHOE_CODE") == "Y":
+        activities.append("snowshoe")
+    if any(props.get(f) == "Y" for f in
+           ("XSKI_GRMCL_CODE", "XSKI_GRMSK_CODE", "XSKI_UNGRM_CODE")):
+        activities.append("xc_ski")
+    return activities
+
+
+def is_osm_duplicate(osm_name: str, state_trail_names: set) -> bool:
+    """Drop OSM relations that duplicate DNR-authoritative records.
+
+    - Exact (case-insensitive) match against State Trail PROP_NAMEs
+    - IAT 'Segment' relations duplicate DNR IAT layer entries
+    - IAT 'connector' relations are kept (DNR doesn't track between-segment gaps)
+    """
+    n = osm_name.lower()
+    if n in {s.lower() for s in state_trail_names}:
+        return True
+    if ("ice age" in n or n.startswith("iat -") or n.startswith("iat-")) and "segment" in n:
+        return True
+    return False
+
+
+# --- DNR State Trail -> Trail (group by PROP_NAME) -------------------------
+
+def build_from_dnr_state_trails(fc: dict) -> Iterable[dict]:
+    by_trail: dict = {}
+    for feat in fc["features"]:
+        name = (feat["properties"].get("PROP_NAME") or "").strip()
+        if not name:
+            continue
+        by_trail.setdefault(name, []).append(feat)
+
+    for name, feats in by_trail.items():
+        lines = [shape(f["geometry"]) for f in feats]
+        merged = merge_lines(lines)
+        centroid = merged.centroid
+        geom_mapping = mapping(merged)
+
+        # Activity codes are typically uniform per trail; sample the first feature
+        props_sample = feats[0]["properties"]
+        activities = derive_state_trail_activities(props_sample)
+        if not activities:
+            continue  # if no activity is 'Y', this trail isn't relevant to our app
+
+        yield {
+            "id": f"state-{slugify(name)}",
+            "name": name,
+            "activities": activities,
+            "sources": {
+                "dnr": {
+                    "object_ids": [f["properties"]["OBJECTID"] for f in feats],
+                    "layer": "state_trail",
+                    "last_fetched": "",
+                }
+            },
+            "geometry": geom_mapping,
+            "attributes": {
+                "length_m": round(length_m(merged), 1),
+                "elevation_gain_m": None,
+                "elevation_max_m": None,
+                "elevation_min_m": None,
+                "elevation_profile": None,
+                "difficulty_estimated": None,
+                "surface": [],   # SURFACE_TYPE empty in current DNR data; editorial fills
+                "is_loop": False,  # state trails are linear rail-to-trails
+                "osm_network_class": None,
+                "blaze_color": None,
+                "counties": counties_for(geom_mapping),
+                "park": None,
+                "managing_authority": "WI DNR",
+            },
+            "editorial": {},
+            "derived": {
+                "centroid": [centroid.x, centroid.y],
+                "bbox": list(merged.bounds),
+                "drive_minutes_from_wausau": drive_minutes(centroid.x, centroid.y),
+                "trailhead_coords": None,
+            },
+        }
+
+
+# --- DNR IAT -> Trail (group by SEGMENT_NAME_TEXT) -------------------------
+
+def build_from_dnr_iat(fc: dict) -> Iterable[dict]:
+    by_segment: dict = {}
+    for feat in fc["features"]:
+        name = (feat["properties"].get("SEGMENT_NAME_TEXT") or "").strip()
+        if not name:
+            continue
+        by_segment.setdefault(name, []).append(feat)
+
+    for name, feats in by_segment.items():
+        lines = [shape(f["geometry"]) for f in feats]
+        merged = merge_lines(lines)
+        centroid = merged.centroid
+        geom_mapping = mapping(merged)
+
+        yield {
+            "id": f"iat-{slugify(name)}",
+            "name": f"Ice Age Trail - {name}",
+            "activities": ["hiking", "snowshoe"],
+            "sources": {
+                "dnr": {
+                    "object_ids": [f["properties"]["OBJECTID"] for f in feats],
+                    "layer": "ice_age",
+                    "last_fetched": "",
+                }
+            },
+            "geometry": geom_mapping,
+            "attributes": {
+                "length_m": round(
+                    sum(f["properties"].get("LENGTH_METER_AMT", 0) for f in feats), 1
+                ),
+                "elevation_gain_m": None,
+                "elevation_max_m": None,
+                "elevation_min_m": None,
+                "elevation_profile": None,
+                "difficulty_estimated": None,
+                "surface": [],
+                "is_loop": False,
+                "osm_network_class": "nwn",
+                "blaze_color": "yellow",
+                "counties": counties_for(geom_mapping),
+                "park": None,
+                "managing_authority": "IATA / WI DNR",
+            },
+            "editorial": {},
+            "derived": {
+                "centroid": [centroid.x, centroid.y],
+                "bbox": list(merged.bounds),
+                "drive_minutes_from_wausau": drive_minutes(centroid.x, centroid.y),
+                "trailhead_coords": None,
+            },
+        }
+
+
+# --- OSM relations -> Trail (after dedup against DNR sources) --------------
+
+def build_from_osm(elements: list, state_trail_names: set) -> Iterable[dict]:
+    for rel in (e for e in elements if e["type"] == "relation"):
+        tags = rel.get("tags", {})
+        name = tags.get("name")
+        if not name:
+            continue
+        if is_osm_duplicate(name, state_trail_names):
+            continue
+
+        lines = []
+        for member in rel.get("members", []):
+            if member.get("type") != "way":
+                continue
+            geom = member.get("geometry") or []
+            if len(geom) >= 2:
+                lines.append(LineString([(pt["lon"], pt["lat"]) for pt in geom]))
+        if not lines:
+            continue
+
+        merged = merge_lines(lines)
+        centroid = merged.centroid
+        geom_mapping = mapping(merged)
+
+        yield {
+            "id": f"osm-{slugify(name)}",
+            "name": name,
+            "activities": ["hiking"],
+            "sources": {
+                "osm": {"relation_id": rel["id"], "last_fetched": ""}
+            },
+            "geometry": geom_mapping,
+            "attributes": {
+                "length_m": round(length_m(merged), 1),
+                "elevation_gain_m": None,
+                "elevation_max_m": None,
+                "elevation_min_m": None,
+                "elevation_profile": None,
+                "difficulty_estimated": None,
+                "surface": [],
+                "is_loop": tags.get("roundtrip") == "yes",
+                "osm_network_class": tags.get("network"),
+                "blaze_color": tags.get("colour") or tags.get("color"),
+                "counties": counties_for(geom_mapping),
+                "park": None,
+                "managing_authority": tags.get("operator") or "Unknown",
+            },
+            "editorial": {},
+            "derived": {
+                "centroid": [centroid.x, centroid.y],
+                "bbox": list(merged.bounds),
+                "drive_minutes_from_wausau": drive_minutes(centroid.x, centroid.y),
+                "trailhead_coords": None,
+            },
+        }
+
+
+# --- Main -------------------------------------------------------------------
+
+def main() -> None:
+    for path in (OSM_RAW, DNR_IAT_RAW, DNR_STATE_RAW):
+        if not path.exists():
+            raise FileNotFoundError(f"{path} missing - run the corresponding scraper")
+
+    osm_data = json.loads(OSM_RAW.read_text())
+    dnr_iat = json.loads(DNR_IAT_RAW.read_text())
+    dnr_state = json.loads(DNR_STATE_RAW.read_text())
+
+    # State Trail names feed the OSM dedup pass
+    state_trail_names = {
+        f["properties"]["PROP_NAME"]
+        for f in dnr_state["features"]
+        if f["properties"].get("PROP_NAME")
+    }
+
+    trails: list = []
+    trails.extend(build_from_dnr_state_trails(dnr_state))
+    trails.extend(build_from_dnr_iat(dnr_iat))
+    trails.extend(build_from_osm(osm_data.get("elements", []), state_trail_names))
+
+    # Drop trails whose geometry doesn't intersect any of the 6 counties
+    trails = [t for t in trails if t["attributes"]["counties"]]
+
+    TRAILS_DIR.mkdir(parents=True, exist_ok=True)
+    # Clear stale records first so renamed/dropped trails don't linger
+    for old in TRAILS_DIR.glob("*.json"):
+        old.unlink()
+    for t in trails:
+        (TRAILS_DIR / f"{t['id']}.json").write_text(json.dumps(t, indent=2))
+
+    write_index(TRAILS_DIR, INDEX_PATH)
+
+    # Summary
+    by_source = {"state": 0, "iat": 0, "osm": 0}
+    for t in trails:
+        prefix = t["id"].split("-")[0]
+        by_source[prefix] = by_source.get(prefix, 0) + 1
+    print(f"Built {len(trails)} trails -> {TRAILS_DIR}")
+    print(f"  State Trails: {by_source['state']}")
+    print(f"  IAT segments: {by_source['iat']}")
+    print(f"  OSM (post-dedup): {by_source['osm']}")
+
+
+if __name__ == "__main__":
+    main()

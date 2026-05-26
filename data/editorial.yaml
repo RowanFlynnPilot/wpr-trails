@@ -1,0 +1,153 @@
+# Seed editorial layer. Each key matches a trail.id from data/processed/index.json.
+# Fields here override the empty `editorial` block emitted by transforms/build_trails.py.
+# Adding/updating a trail here is the primary way to surface it in scored rankings.
+
+osm-yellow-trail:
+  difficulty: moderate
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: none
+  scenery_tags: [overlook, rocky_outcrop]
+  seasonality: [fall_color, winter_snowshoe]
+  mud_susceptibility: low
+  exposure: exposed
+  drainage: sandy
+  notes: "Granite ridge loop at Rib Mountain SP. Vistas; parking fills early on summer weekends."
+  last_field_check: 2026-04-15
+
+osm-homestead-loop-trail:
+  difficulty: easy
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: stroller
+  scenery_tags: [old_growth]
+  seasonality: [fall_color]
+  mud_susceptibility: low
+  exposure: sheltered
+  drainage: sandy
+  notes: "Short loop at Rib Mountain. Good family or warm-up option."
+  last_field_check: 2026-04-15
+
+osm-quarry-trail:
+  difficulty: easy
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: none
+  scenery_tags: [rocky_outcrop]
+  seasonality: []
+  mud_susceptibility: low
+  exposure: mixed
+  drainage: sandy
+  notes: "Connects to former Rib Mtn quarry. Short."
+  last_field_check: 2026-04-15
+
+osm-turkey-vulture-trail:
+  difficulty: moderate
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: none
+  scenery_tags: [overlook, rocky_outcrop]
+  seasonality: [fall_color]
+  mud_susceptibility: low
+  exposure: exposed
+  drainage: sandy
+  notes: "South-facing Rib Mtn route."
+  last_field_check: 2026-04-15
+
+osm-red-trail:
+  difficulty: moderate
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: none
+  scenery_tags: [rocky_outcrop]
+  seasonality: []
+  mud_susceptibility: low
+  exposure: mixed
+  drainage: sandy
+  notes: "Steeper Rib Mtn ascent."
+  last_field_check: 2026-04-15
+
+iat-dells-of-the-eau-claire:
+  difficulty: easy
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: small
+  accessibility: none
+  scenery_tags: [water, glacial, rocky_outcrop]
+  seasonality: [fall_color, wildflower]
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: "Eau Claire River rapids and falls. River crossings can flood in spring."
+  last_field_check: 2026-04-22
+
+iat-plover-river:
+  difficulty: moderate
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: roadside
+  accessibility: none
+  scenery_tags: [water, wetland]
+  seasonality: [fall_color, wildflower]
+  mud_susceptibility: high
+  exposure: sheltered
+  drainage: clay
+  notes: "River and wetland crossings. Mud-prone after rain."
+  last_field_check: 2026-04-22
+
+iat-grandfather-falls:
+  difficulty: difficult
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: small
+  accessibility: none
+  scenery_tags: [water, rocky_outcrop, overlook]
+  seasonality: [fall_color]
+  mud_susceptibility: low
+  exposure: mixed
+  drainage: sandy
+  notes: "Wisconsin River cascade. Rocky, technical sections."
+  last_field_check: 2026-04-30
+
+iat-harrison-hills:
+  difficulty: moderate
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: small
+  accessibility: none
+  scenery_tags: [glacial, overlook, old_growth]
+  seasonality: [fall_color]
+  mud_susceptibility: low
+  exposure: sheltered
+  drainage: sandy
+  notes: "Kettle moraine landscape. Long, hilly, well-drained."
+  last_field_check: 2026-04-30
+
+iat-hartman-creek:
+  difficulty: easy
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: stroller
+  scenery_tags: [water, glacial]
+  seasonality: [fall_color, wildflower]
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: "Chain of glacial lakes at Hartman Creek State Park."
+  last_field_check: 2026-05-01

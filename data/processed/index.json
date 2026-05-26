@@ -1,0 +1,1453 @@
+[
+  {
+    "id": "iat-alta-junction",
+    "name": "Ice Age Trail - Alta Junction",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 1965.8,
+    "elevation_gain_m": 13.7,
+    "elevation_max_m": 449.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.55344133104148,
+      45.34421754061699
+    ],
+    "drive_minutes_from_wausau": 42
+  },
+  {
+    "id": "iat-antigo-heights",
+    "name": "Ice Age Trail - Antigo Heights",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 4252.2,
+    "elevation_gain_m": 71.8,
+    "elevation_max_m": 506.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.030730734233,
+      45.15961838971753
+    ],
+    "drive_minutes_from_wausau": 50
+  },
+  {
+    "id": "iat-averill-kelly-creek-wilderness",
+    "name": "Ice Age Trail - Averill-Kelly Creek Wilderness",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 7476.6,
+    "elevation_gain_m": 73.7,
+    "elevation_max_m": 465.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.85904441669048,
+      45.3005220566146
+    ],
+    "drive_minutes_from_wausau": 41
+  },
+  {
+    "id": "iat-camp-27",
+    "name": "Ice Age Trail - Camp 27",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 4706.5,
+    "elevation_gain_m": 54.2,
+    "elevation_max_m": 464.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.9873349362504,
+      45.3028935721042
+    ],
+    "drive_minutes_from_wausau": 46
+  },
+  {
+    "id": "iat-dells-of-the-eau-claire",
+    "name": "Ice Age Trail - Dells of the Eau Claire",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 4259.1,
+    "elevation_gain_m": 39.1,
+    "elevation_max_m": 425.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.34882083704682,
+      44.999204670503104
+    ],
+    "drive_minutes_from_wausau": 22
+  },
+  {
+    "id": "iat-east-lake",
+    "name": "Ice Age Trail - East Lake",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 11186.6,
+    "elevation_gain_m": 264.8,
+    "elevation_max_m": 545.6,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.2494360477473,
+      45.33063688044064
+    ],
+    "drive_minutes_from_wausau": 62
+  },
+  {
+    "id": "iat-emmons-creek",
+    "name": "Ice Age Trail - Emmons Creek",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 4153.7,
+    "elevation_gain_m": 55.0,
+    "elevation_max_m": 320.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.24366749983561,
+      44.29556789706459
+    ],
+    "drive_minutes_from_wausau": 77
+  },
+  {
+    "id": "iat-grandfather-falls",
+    "name": "Ice Age Trail - Grandfather Falls",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 6402.8,
+    "elevation_gain_m": 75.9,
+    "elevation_max_m": 438.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.7851026396718,
+      45.29717608156681
+    ],
+    "drive_minutes_from_wausau": 38
+  },
+  {
+    "id": "iat-harrison-hills",
+    "name": "Ice Age Trail - Harrison Hills",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 23232.5,
+    "elevation_gain_m": 488.6,
+    "elevation_max_m": 586.0,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.49420323932948,
+      45.39295514580187
+    ],
+    "drive_minutes_from_wausau": 48
+  },
+  {
+    "id": "iat-hartman-creek",
+    "name": "Ice Age Trail - Hartman Creek",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 8774.8,
+    "elevation_gain_m": 137.8,
+    "elevation_max_m": 317.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.2254744806719,
+      44.326812815021896
+    ],
+    "drive_minutes_from_wausau": 75
+  },
+  {
+    "id": "iat-highland-lakes",
+    "name": "Ice Age Trail - Highland Lakes",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 13266.4,
+    "elevation_gain_m": 183.2,
+    "elevation_max_m": 547.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.25450095144599,
+      45.347370186678845
+    ],
+    "drive_minutes_from_wausau": 51
+  },
+  {
+    "id": "iat-ice-override",
+    "name": "Ice Age Trail - Ice Override",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 1220.0,
+    "elevation_gain_m": 24.6,
+    "elevation_max_m": 463.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.16640552435001,
+      45.08216086359093
+    ],
+    "drive_minutes_from_wausau": 38
+  },
+  {
+    "id": "iat-iola-ski-hill",
+    "name": "Ice Age Trail - Iola Ski Hill",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 4031.9,
+    "elevation_gain_m": 80.6,
+    "elevation_max_m": 348.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.21978999139786,
+      44.541807375969626
+    ],
+    "drive_minutes_from_wausau": 55
+  },
+  {
+    "id": "iat-jerry-lake",
+    "name": "Ice Age Trail - Jerry Lake",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 24445.2,
+    "elevation_gain_m": 223.8,
+    "elevation_max_m": 456.6,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.54653067716248,
+      45.26724171666988
+    ],
+    "drive_minutes_from_wausau": 77
+  },
+  {
+    "id": "iat-kettlebowl",
+    "name": "Ice Age Trail - Kettlebowl",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 16385.6,
+    "elevation_gain_m": 261.3,
+    "elevation_max_m": 553.9,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -88.90361074956436,
+      45.22543961200026
+    ],
+    "drive_minutes_from_wausau": 62
+  },
+  {
+    "id": "iat-lake-eleven",
+    "name": "Ice Age Trail - Lake Eleven",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 25053.8,
+    "elevation_gain_m": 410.1,
+    "elevation_max_m": 466.0,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.62777418167748,
+      45.17041820457072
+    ],
+    "drive_minutes_from_wausau": 79
+  },
+  {
+    "id": "iat-lumbercamp",
+    "name": "Ice Age Trail - Lumbercamp",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 19323.2,
+    "elevation_gain_m": 186.0,
+    "elevation_max_m": 533.9,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -88.98919848526403,
+      45.283397674321606
+    ],
+    "drive_minutes_from_wausau": 60
+  },
+  {
+    "id": "iat-mondeaux-esker",
+    "name": "Ice Age Trail - Mondeaux Esker",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 18791.9,
+    "elevation_gain_m": 262.1,
+    "elevation_max_m": 487.5,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.43099801266827,
+      45.312633484843744
+    ],
+    "drive_minutes_from_wausau": 72
+  },
+  {
+    "id": "iat-new-hope",
+    "name": "Ice Age Trail - New Hope",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 5872.6,
+    "elevation_gain_m": 118.1,
+    "elevation_max_m": 361.6,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.24902863513877,
+      44.5566862885885
+    ],
+    "drive_minutes_from_wausau": 52
+  },
+  {
+    "id": "iat-new-wood",
+    "name": "Ice Age Trail - New Wood",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 11144.0,
+    "elevation_gain_m": 75.8,
+    "elevation_max_m": 455.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.92760936766386,
+      45.301528958326195
+    ],
+    "drive_minutes_from_wausau": 43
+  },
+  {
+    "id": "iat-parrish-hills",
+    "name": "Ice Age Trail - Parrish Hills",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade",
+      "lincoln"
+    ],
+    "length_m": 19405.3,
+    "elevation_gain_m": 261.4,
+    "elevation_max_m": 552.8,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.3570945743435,
+      45.40761412463798
+    ],
+    "drive_minutes_from_wausau": 53
+  },
+  {
+    "id": "iat-pine-line",
+    "name": "Ice Age Trail - Pine Line",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1432.5,
+    "elevation_gain_m": 5.8,
+    "elevation_max_m": 481.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.2980614300377,
+      45.3108841964531
+    ],
+    "drive_minutes_from_wausau": 63
+  },
+  {
+    "id": "iat-plover-river",
+    "name": "Ice Age Trail - Plover River",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 9428.2,
+    "elevation_gain_m": 78.9,
+    "elevation_max_m": 466.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.24637198021395,
+      45.029028031058495
+    ],
+    "drive_minutes_from_wausau": 30
+  },
+  {
+    "id": "iat-rib-lake",
+    "name": "Ice Age Trail - Rib Lake",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 10408.6,
+    "elevation_gain_m": 103.4,
+    "elevation_max_m": 521.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.17524001812338,
+      45.35148776922219
+    ],
+    "drive_minutes_from_wausau": 59
+  },
+  {
+    "id": "iat-ringle",
+    "name": "Ice Age Trail - Ringle",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 15395.8,
+    "elevation_gain_m": 139.7,
+    "elevation_max_m": 439.9,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.36515124123476,
+      44.9086394337625
+    ],
+    "drive_minutes_from_wausau": 21
+  },
+  {
+    "id": "iat-summit-moraine",
+    "name": "Ice Age Trail - Summit Moraine",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 19894.9,
+    "elevation_gain_m": 193.1,
+    "elevation_max_m": 524.7,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.10069182236899,
+      45.333299204088064
+    ],
+    "drive_minutes_from_wausau": 57
+  },
+  {
+    "id": "iat-thornapple-creek",
+    "name": "Ice Age Trail - Thornapple Creek",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 4869.7,
+    "elevation_gain_m": 29.2,
+    "elevation_max_m": 446.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.35087629837219,
+      44.96364255103614
+    ],
+    "drive_minutes_from_wausau": 21
+  },
+  {
+    "id": "iat-timberland-wilderness",
+    "name": "Ice Age Trail - Timberland Wilderness",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 6347.8,
+    "elevation_gain_m": 83.9,
+    "elevation_max_m": 519.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.02812303170231,
+      45.32590398088192
+    ],
+    "drive_minutes_from_wausau": 50
+  },
+  {
+    "id": "iat-turtle-rock",
+    "name": "Ice Age Trail - Turtle Rock",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 8228.7,
+    "elevation_gain_m": 90.0,
+    "elevation_max_m": 461.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.80023352303908,
+      45.31241755200203
+    ],
+    "drive_minutes_from_wausau": 40
+  },
+  {
+    "id": "iat-underdown",
+    "name": "Ice Age Trail - Underdown",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 10098.3,
+    "elevation_gain_m": 186.2,
+    "elevation_max_m": 488.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.59691783008995,
+      45.31381667238284
+    ],
+    "drive_minutes_from_wausau": 38
+  },
+  {
+    "id": "iat-white-cedar",
+    "name": "Ice Age Trail - White Cedar",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 995.5,
+    "elevation_gain_m": 2.9,
+    "elevation_max_m": 381.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.34864574935513,
+      44.83296421520474
+    ],
+    "drive_minutes_from_wausau": 25
+  },
+  {
+    "id": "iat-wood-lake",
+    "name": "Ice Age Trail - Wood Lake",
+    "activities": [
+      "hiking",
+      "snowshoe"
+    ],
+    "counties": [
+      "lincoln",
+      "taylor"
+    ],
+    "length_m": 21510.1,
+    "elevation_gain_m": 312.3,
+    "elevation_max_m": 533.6,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.09166165530915,
+      45.35159122817309
+    ],
+    "drive_minutes_from_wausau": 55
+  },
+  {
+    "id": "osm-big-eau-pleine-bridle-trail",
+    "name": "Big Eau Pleine Bridle Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 12463.8,
+    "elevation_gain_m": 115.2,
+    "elevation_max_m": 367.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.8458314489234,
+      44.75040589451342
+    ],
+    "drive_minutes_from_wausau": 28
+  },
+  {
+    "id": "osm-dynamite-trail",
+    "name": "Dynamite Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 537.6,
+    "elevation_gain_m": 6.9,
+    "elevation_max_m": 433.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.69971519944195,
+      44.926680479372564
+    ],
+    "drive_minutes_from_wausau": 6
+  },
+  {
+    "id": "osm-frog-chorus-trail",
+    "name": "Frog Chorus Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 357.5,
+    "elevation_gain_m": 0.0,
+    "elevation_max_m": 334.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.56558293835556,
+      44.538934632502254
+    ],
+    "drive_minutes_from_wausau": 46
+  },
+  {
+    "id": "osm-giant-hardwoods-nature-trail",
+    "name": "Giant Hardwoods Nature Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1168.0,
+    "elevation_gain_m": 8.8,
+    "elevation_max_m": 367.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.84093925611676,
+      44.736993921138534
+    ],
+    "drive_minutes_from_wausau": 29
+  },
+  {
+    "id": "osm-heritage-trail",
+    "name": "Heritage Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1145.5,
+    "elevation_gain_m": 1.9,
+    "elevation_max_m": 380.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.07140368191992,
+      44.807795955329816
+    ],
+    "drive_minutes_from_wausau": 37
+  },
+  {
+    "id": "osm-homestead-loop-trail",
+    "name": "Homestead Loop Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2068.7,
+    "elevation_gain_m": 125.8,
+    "elevation_max_m": 528.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.70057054864172,
+      44.92415941928236
+    ],
+    "drive_minutes_from_wausau": 7
+  },
+  {
+    "id": "osm-iat---alta-junction-underdown-connection",
+    "name": "IAT - Alta Junction-Underdown connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 1899.8,
+    "elevation_gain_m": 8.7,
+    "elevation_max_m": 459.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.55290617606153,
+      45.33150178380035
+    ],
+    "drive_minutes_from_wausau": 41
+  },
+  {
+    "id": "osm-iat---antigo-heights-connector",
+    "name": "IAT - Antigo Heights connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 7374.5,
+    "elevation_gain_m": 64.3,
+    "elevation_max_m": 487.8,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.01918389946199,
+      45.162555610638776
+    ],
+    "drive_minutes_from_wausau": 51
+  },
+  {
+    "id": "osm-iat---antigo-heights-kettlebowl-connector",
+    "name": "IAT - Antigo Heights-Kettlebowl connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 7416.0,
+    "elevation_gain_m": 71.3,
+    "elevation_max_m": 493.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.95695958511317,
+      45.183403383223535
+    ],
+    "drive_minutes_from_wausau": 57
+  },
+  {
+    "id": "osm-iat---averill-kelly-creek-wilderness-new-wood-connection",
+    "name": "IAT - Averill-Kelly Creek Wilderness-New Wood connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 979.2,
+    "elevation_gain_m": 7.1,
+    "elevation_max_m": 432.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.88899387781109,
+      45.29230948036694
+    ],
+    "drive_minutes_from_wausau": 41
+  },
+  {
+    "id": "osm-iat---camp-27-tiberland-wilderness-connection",
+    "name": "IAT - Camp 27-Tiberland Wilderness connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 2990.4,
+    "elevation_gain_m": 8.7,
+    "elevation_max_m": 495.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.01906173963836,
+      45.30083629418212
+    ],
+    "drive_minutes_from_wausau": 47
+  },
+  {
+    "id": "osm-iat---deerfield-emmons-creek-connection",
+    "name": "IAT - Deerfield-Emmons Creek connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 23525.0,
+    "elevation_gain_m": 191.9,
+    "elevation_max_m": 366.4,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.3092247865787,
+      44.21797389407002
+    ],
+    "drive_minutes_from_wausau": 84
+  },
+  {
+    "id": "osm-iat---dells-of-the-eau-claire-plover-river-connector",
+    "name": "IAT - Dells of the Eau Claire-Plover River connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 5605.3,
+    "elevation_gain_m": 47.2,
+    "elevation_max_m": 439.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.29927237900272,
+      45.00095561208067
+    ],
+    "drive_minutes_from_wausau": 26
+  },
+  {
+    "id": "osm-iat---east-lake-pine-line-connection",
+    "name": "IAT - East Lake-Pine Line connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 963.7,
+    "elevation_gain_m": 11.2,
+    "elevation_max_m": 482.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.29121439656112,
+      45.31576828127737
+    ],
+    "drive_minutes_from_wausau": 63
+  },
+  {
+    "id": "osm-iat---grandfather-falls-turtle-rock-connection",
+    "name": "IAT - Grandfather Falls-Turtle Rock connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 3353.2,
+    "elevation_gain_m": 14.6,
+    "elevation_max_m": 457.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.78548196356306,
+      45.322062501337534
+    ],
+    "drive_minutes_from_wausau": 41
+  },
+  {
+    "id": "osm-iat---highland-lakes-connection",
+    "name": "IAT - Highland Lakes connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 7365.6,
+    "elevation_gain_m": 74.7,
+    "elevation_max_m": 519.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.23399231770748,
+      45.32716544945816
+    ],
+    "drive_minutes_from_wausau": 50
+  },
+  {
+    "id": "osm-iat---ice-override-antigo-heights-connector",
+    "name": "IAT - Ice Override-Antigo Heights connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 16400.4,
+    "elevation_gain_m": 122.2,
+    "elevation_max_m": 492.3,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.10844712076876,
+      45.120025269071604
+    ],
+    "drive_minutes_from_wausau": 43
+  },
+  {
+    "id": "osm-iat---lake-eleven-cornell-connection",
+    "name": "IAT - Lake Eleven-Cornell connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 61958.0,
+    "elevation_gain_m": 531.0,
+    "elevation_max_m": 414.3,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -90.9377631410011,
+      45.07904260139429
+    ],
+    "drive_minutes_from_wausau": 100
+  },
+  {
+    "id": "osm-iat---new-hope-white-cedar-connector",
+    "name": "IAT - New Hope-White Cedar connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon",
+      "portage"
+    ],
+    "length_m": 39436.6,
+    "elevation_gain_m": 267.1,
+    "elevation_max_m": 384.8,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.32295659410966,
+      44.71274262926039
+    ],
+    "drive_minutes_from_wausau": 35
+  },
+  {
+    "id": "osm-iat---pine-line-mondeaux-esker-connection",
+    "name": "IAT - Pine Line-Mondeaux Esker connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 5402.7,
+    "elevation_gain_m": 53.9,
+    "elevation_max_m": 501.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.33838544231331,
+      45.307999882098784
+    ],
+    "drive_minutes_from_wausau": 66
+  },
+  {
+    "id": "osm-iat---plover-river-ice-override-connector",
+    "name": "IAT - Plover River-Ice Override connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade",
+      "marathon"
+    ],
+    "length_m": 7572.6,
+    "elevation_gain_m": 56.3,
+    "elevation_max_m": 460.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.19097959648032,
+      45.062018657550475
+    ],
+    "drive_minutes_from_wausau": 35
+  },
+  {
+    "id": "osm-iat---rib-lake-connection",
+    "name": "IAT - Rib Lake connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1080.6,
+    "elevation_gain_m": 8.9,
+    "elevation_max_m": 500.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.19390333071763,
+      45.338041823272285
+    ],
+    "drive_minutes_from_wausau": 59
+  },
+  {
+    "id": "osm-iat---thornapple-creek-dells-of-the-eau-claire-connector",
+    "name": "IAT - Thornapple Creek-Dells of the Eau Claire connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1495.0,
+    "elevation_gain_m": 18.6,
+    "elevation_max_m": 408.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.36114393869452,
+      44.98258288024284
+    ],
+    "drive_minutes_from_wausau": 21
+  },
+  {
+    "id": "osm-iat---underdown-grandfather-falls-connection",
+    "name": "IAT - Underdown-Grandfather Falls connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 16645.9,
+    "elevation_gain_m": 225.2,
+    "elevation_max_m": 486.0,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.71125339019581,
+      45.309571938939335
+    ],
+    "drive_minutes_from_wausau": 38
+  },
+  {
+    "id": "osm-iat---waupaca-river-connection",
+    "name": "IAT - Waupaca River connection",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 3198.1,
+    "elevation_gain_m": 36.8,
+    "elevation_max_m": 317.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.22273406018927,
+      44.36980618903337
+    ],
+    "drive_minutes_from_wausau": 71
+  },
+  {
+    "id": "osm-iat---white-cedar-ringle-connector",
+    "name": "IAT - White Cedar-Ringle connector",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 5217.3,
+    "elevation_gain_m": 26.4,
+    "elevation_max_m": 391.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.34901661677728,
+      44.85598082164107
+    ],
+    "drive_minutes_from_wausau": 24
+  },
+  {
+    "id": "osm-moses-creek-trail",
+    "name": "Moses Creek Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 45.8,
+    "elevation_gain_m": 0.0,
+    "elevation_max_m": 334.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.5532620077045,
+      44.54054191280022
+    ],
+    "drive_minutes_from_wausau": 45
+  },
+  {
+    "id": "osm-north-wiouwash-state-recreation-trail",
+    "name": "North Wiouwash State Recreation Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "shawano"
+    ],
+    "length_m": 28120.8,
+    "elevation_gain_m": 21.5,
+    "elevation_max_m": 391.5,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.13412059474487,
+      44.80390481890912
+    ],
+    "drive_minutes_from_wausau": 41
+  },
+  {
+    "id": "osm-pine-meadows-trail",
+    "name": "Pine Meadows Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 205.6,
+    "elevation_gain_m": 0.4,
+    "elevation_max_m": 335.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.56841319028547,
+      44.53914161031825
+    ],
+    "drive_minutes_from_wausau": 46
+  },
+  {
+    "id": "osm-plank-trail",
+    "name": "Plank Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 254.2,
+    "elevation_gain_m": 0.0,
+    "elevation_max_m": 335.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.55992635532142,
+      44.5384250698431
+    ],
+    "drive_minutes_from_wausau": 46
+  },
+  {
+    "id": "osm-quarry-trail",
+    "name": "Quarry Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1310.0,
+    "elevation_gain_m": 38.5,
+    "elevation_max_m": 546.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.7019293072438,
+      44.92149234573704
+    ],
+    "drive_minutes_from_wausau": 7
+  },
+  {
+    "id": "osm-red-trail",
+    "name": "Red Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2185.4,
+    "elevation_gain_m": 99.4,
+    "elevation_max_m": 581.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.69508706045525,
+      44.91999279637223
+    ],
+    "drive_minutes_from_wausau": 7
+  },
+  {
+    "id": "osm-south-unit-trail",
+    "name": "South Unit Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1052.7,
+    "elevation_gain_m": 4.3,
+    "elevation_max_m": 356.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.83564242920954,
+      44.73737164586699
+    ],
+    "drive_minutes_from_wausau": 29
+  },
+  {
+    "id": "osm-trail-of-reflections",
+    "name": "Trail of Reflections",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 692.2,
+    "elevation_gain_m": 2.6,
+    "elevation_max_m": 337.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.56415716494752,
+      44.539456944752416
+    ],
+    "drive_minutes_from_wausau": 46
+  },
+  {
+    "id": "osm-turkey-vulture-trail",
+    "name": "Turkey Vulture Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2207.5,
+    "elevation_gain_m": 143.9,
+    "elevation_max_m": 524.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.70457785724241,
+      44.92478657222596
+    ],
+    "drive_minutes_from_wausau": 7
+  },
+  {
+    "id": "osm-west-unit-trail",
+    "name": "West Unit Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2152.9,
+    "elevation_gain_m": 25.3,
+    "elevation_max_m": 360.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.84987250559672,
+      44.74297276242263
+    ],
+    "drive_minutes_from_wausau": 29
+  },
+  {
+    "id": "osm-yellow-trail",
+    "name": "Yellow Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 7664.0,
+    "elevation_gain_m": 375.0,
+    "elevation_max_m": 581.4,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.68064599993026,
+      44.91617154376776
+    ],
+    "drive_minutes_from_wausau": 6
+  },
+  {
+    "id": "state-green-circle-state-trail",
+    "name": "Green Circle State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 49625.5,
+    "elevation_gain_m": 192.9,
+    "elevation_max_m": 344.3,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.55751337696496,
+      44.520906648197276
+    ],
+    "drive_minutes_from_wausau": 48
+  },
+  {
+    "id": "state-mountain-bay-state-trail",
+    "name": "Mountain-Bay State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "marathon",
+      "shawano"
+    ],
+    "length_m": 123165.1,
+    "elevation_gain_m": 403.0,
+    "elevation_max_m": 412.5,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -88.82709056281446,
+      44.80780916385072
+    ],
+    "drive_minutes_from_wausau": 63
+  },
+  {
+    "id": "state-tomorrow-river-state-trail",
+    "name": "Tomorrow River State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 46446.0,
+    "elevation_gain_m": 149.2,
+    "elevation_max_m": 363.4,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.22924948800382,
+      44.45999245886752
+    ],
+    "drive_minutes_from_wausau": 62
+  },
+  {
+    "id": "state-wiouwash-state-trail",
+    "name": "Wiouwash State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "shawano"
+    ],
+    "length_m": 80534.0,
+    "elevation_gain_m": 123.5,
+    "elevation_max_m": 427.9,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -88.92644111882909,
+      44.56326469811654
+    ],
+    "drive_minutes_from_wausau": 69
+  },
+  {
+    "id": "state-wolf-river-state-trail",
+    "name": "Wolf River State Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 60385.6,
+    "elevation_gain_m": 315.3,
+    "elevation_max_m": 498.2,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -88.82254363818427,
+      45.324008166739326
+    ],
+    "drive_minutes_from_wausau": 73
+  }
+]

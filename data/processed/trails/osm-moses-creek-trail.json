@@ -1,0 +1,99 @@
+{
+  "id": "osm-moses-creek-trail",
+  "name": "Moses Creek Trail",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "relation_id": 7003334,
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -89.553247,
+        44.5407463
+      ],
+      [
+        -89.5532558,
+        44.5407208
+      ],
+      [
+        -89.5532641,
+        44.5406902
+      ],
+      [
+        -89.5532648,
+        44.5406224
+      ],
+      [
+        -89.5532659,
+        44.5405469
+      ],
+      [
+        -89.553265,
+        44.5404599
+      ],
+      [
+        -89.5532598,
+        44.5404169
+      ],
+      [
+        -89.5532559,
+        44.5403787
+      ],
+      [
+        -89.553257,
+        44.5403528
+      ],
+      [
+        -89.5532578,
+        44.5403356
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 45.8,
+    "elevation_gain_m": 0.0,
+    "elevation_max_m": 334.9,
+    "elevation_min_m": 334.2,
+    "elevation_profile": [
+      [
+        0.0,
+        334.9
+      ],
+      [
+        45.7,
+        334.2
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": "lwn",
+    "blaze_color": null,
+    "counties": [
+      "portage"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -89.5532620077045,
+      44.54054191280022
+    ],
+    "bbox": [
+      -89.5532659,
+      44.5403356,
+      -89.553247,
+      44.5407463
+    ],
+    "drive_minutes_from_wausau": 45,
+    "trailhead_coords": null
+  }
+}

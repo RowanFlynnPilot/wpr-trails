@@ -1,0 +1,107 @@
+{
+  "id": "osm-pine-meadows-trail",
+  "name": "Pine Meadows Trail",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "relation_id": 7003338,
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -89.5696573,
+        44.5391688
+      ],
+      [
+        -89.5694927,
+        44.5391716
+      ],
+      [
+        -89.5693055,
+        44.5392069
+      ],
+      [
+        -89.5687721,
+        44.5392105
+      ],
+      [
+        -89.5685919,
+        44.5391787
+      ],
+      [
+        -89.5683164,
+        44.5390586
+      ],
+      [
+        -89.5679384,
+        44.5390303
+      ],
+      [
+        -89.5676134,
+        44.5391257
+      ],
+      [
+        -89.5673944,
+        44.5391292
+      ],
+      [
+        -89.5671965,
+        44.5392352
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 205.6,
+    "elevation_gain_m": 0.4,
+    "elevation_max_m": 335.6,
+    "elevation_min_m": 335.0,
+    "elevation_profile": [
+      [
+        0.0,
+        335.2
+      ],
+      [
+        97.1,
+        335.6
+      ],
+      [
+        191.1,
+        335.1
+      ],
+      [
+        197.0,
+        335.0
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": "lwn",
+    "blaze_color": null,
+    "counties": [
+      "portage"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -89.56841319028547,
+      44.53914161031825
+    ],
+    "bbox": [
+      -89.5696573,
+      44.5390303,
+      -89.5671965,
+      44.5392352
+    ],
+    "drive_minutes_from_wausau": 46,
+    "trailhead_coords": null
+  }
+}
