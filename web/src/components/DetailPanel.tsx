@@ -24,7 +24,15 @@ const FACTOR_LABELS: Record<string, string> = {
 
 export default function DetailPanel({ trailId, trailState, ranked, onClose }: Props) {
   return (
-    <aside className="absolute right-0 top-0 z-[1000] flex h-full w-96 flex-col border-l border-gray-200 bg-white shadow-lg">
+    <aside
+      className={
+        "absolute z-[1000] flex flex-col border-gray-200 bg-white shadow-lg " +
+        // Desktop: right-anchored full-height drawer
+        "sm:right-0 sm:top-0 sm:h-full sm:w-96 sm:border-l sm:rounded-none " +
+        // Mobile: bottom-anchored sheet, max ~75% viewport height
+        "inset-x-0 bottom-0 max-h-[75vh] rounded-t-xl border-t"
+      }
+    >
       <header className="flex items-start justify-between gap-2 border-b border-gray-200 p-4">
         <div className="min-w-0">
           {trailState.status === "ready" ? (
@@ -106,6 +114,26 @@ function TrailBody({
           label="Counties"
           value={a.counties.map(titleCase).join(", ")}
         />
+        {d.trailhead_coords && (
+          <div className="border-b border-gray-100 py-1.5 text-sm last:border-b-0">
+            <div className="flex justify-between">
+              <span className="text-gray-500">Trailhead</span>
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${d.trailhead_coords[1]},${d.trailhead_coords[0]}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-right text-emerald-700 hover:underline"
+              >
+                Directions →
+              </a>
+            </div>
+            {d.parking_distance_m !== null && d.parking_distance_m !== undefined && (
+              <div className="mt-0.5 text-right text-xs text-gray-400">
+                {d.parking_distance_m}m to nearest parking
+              </div>
+            )}
+          </div>
+        )}
       </Section>
 
       {ranked && (

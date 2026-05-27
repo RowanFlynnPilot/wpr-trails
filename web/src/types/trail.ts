@@ -28,6 +28,8 @@ export interface TrailIndexEntry {
   /** [longitude, latitude] — GeoJSON convention */
   centroid: [number, number];
   drive_minutes_from_wausau: number;
+  /** [longitude, latitude] of snapped trailhead, or null if no parking found */
+  trailhead_coords: [number, number] | null;
 }
 
 export interface TrailAttributes {
@@ -53,6 +55,7 @@ export interface TrailDerived {
   bbox: [number, number, number, number];
   drive_minutes_from_wausau: number;
   trailhead_coords: [number, number] | null;
+  parking_distance_m?: number | null;
 }
 
 export interface Trail {

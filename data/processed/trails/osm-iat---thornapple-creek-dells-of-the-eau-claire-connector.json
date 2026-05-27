@@ -210,6 +210,10 @@
       44.986543
     ],
     "drive_minutes_from_wausau": 21,
-    "trailhead_coords": null
+    "trailhead_coords": [
+      -89.3569957,
+      44.9865242
+    ],
+    "parking_distance_m": 23
   }
 }

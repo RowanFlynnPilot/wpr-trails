@@ -20,6 +20,7 @@ export default function App() {
   const scoresState = useScores();
   const [filters, setFilters] = useState<FilterState>(INITIAL_FILTERS);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const trailState = useTrail(selectedId);
 
   const allTrails = indexState.status === "ready" ? indexState.trails : [];
@@ -62,8 +63,21 @@ export default function App() {
         onChange={setFilters}
         trailCount={filtered.length}
         totalCount={allTrails.length}
+        open={sidebarOpen}
+        onClose={() => setSidebarOpen(false)}
       />
       <main className="relative flex-1">
+        <button
+          type="button"
+          onClick={() => setSidebarOpen(true)}
+          aria-label="Open filters"
+          className="absolute left-3 top-3 z-[450] flex h-9 w-9 items-center justify-center rounded-md border border-gray-200 bg-white shadow-sm hover:bg-gray-50 sm:hidden"
+        >
+          <span className="sr-only">Open filters</span>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
+            <path d="M2 4h14M2 9h14M2 14h14" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+          </svg>
+        </button>
         {indexState.status === "loading" && (
           <div className="flex h-full items-center justify-center text-sm text-gray-500">
             Loading trails…

@@ -51,6 +51,11 @@ jobs:
         # ~7 min total at 5s rate-limit between Overpass calls.
         run: python -m transforms.enrich_editorial_auto
 
+      - name: Snap trailhead coords
+        # One Overpass query per trail for nearby amenity=parking, snapped
+        # to the trail endpoint closest to the parking. ~6 min total.
+        run: python -m transforms.enrich_trailheads
+
       - name: Commit refreshed outputs
         run: |
           git config user.name "github-actions[bot]"

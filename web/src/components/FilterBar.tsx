@@ -66,6 +66,8 @@ interface Props {
   onChange: (next: FilterState) => void;
   trailCount: number;
   totalCount: number;
+  open: boolean;
+  onClose: () => void;
 }
 
 export default function FilterBar({
@@ -73,6 +75,8 @@ export default function FilterBar({
   onChange,
   trailCount,
   totalCount,
+  open,
+  onClose,
 }: Props) {
   const toggle = <T,>(set: Set<T>, value: T): Set<T> => {
     const next = new Set(set);
@@ -82,11 +86,38 @@ export default function FilterBar({
   };
 
   return (
-    <aside className="w-72 shrink-0 overflow-y-auto border-r border-gray-200 bg-white p-4">
-      <h1 className="text-lg font-semibold text-gray-900">WPR Trails</h1>
-      <p className="mt-1 text-xs text-gray-500">
-        Hiking conditions in north-central Wisconsin
-      </p>
+    <>
+      {/* Mobile backdrop */}
+      {open && (
+        <div
+          onClick={onClose}
+          className="fixed inset-0 z-[1099] bg-black/40 sm:hidden"
+          aria-hidden
+        />
+      )}
+      <aside
+        className={
+          "z-[1100] flex flex-col overflow-y-auto border-gray-200 bg-white p-4 transition-transform sm:relative sm:z-auto sm:w-72 sm:shrink-0 sm:translate-x-0 sm:border-r " +
+          "fixed inset-y-0 left-0 w-80 border-r shadow-xl sm:shadow-none " +
+          (open ? "translate-x-0" : "-translate-x-full sm:translate-x-0")
+        }
+      >
+      <div className="flex items-start justify-between">
+        <div>
+          <h1 className="text-lg font-semibold text-gray-900">WPR Trails</h1>
+          <p className="mt-1 text-xs text-gray-500">
+            Hiking conditions in north-central Wisconsin
+          </p>
+        </div>
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label="Close filters"
+          className="rounded p-1 text-gray-500 hover:bg-gray-100 sm:hidden"
+        >
+          ✕
+        </button>
+      </div>
 
       <ChipSection title="Activity">
         {ALL_ACTIVITIES.map((a) => (
@@ -147,6 +178,7 @@ export default function FilterBar({
         Showing {trailCount} of {totalCount} trails
       </div>
     </aside>
+    </>
   );
 }
 

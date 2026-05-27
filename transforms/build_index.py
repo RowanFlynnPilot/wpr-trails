@@ -24,5 +24,6 @@ def write_index(trails_dir: Path, index_path: Path) -> None:
             "difficulty_estimated": attrs["difficulty_estimated"],
             "centroid": t["derived"]["centroid"],
             "drive_minutes_from_wausau": t["derived"]["drive_minutes_from_wausau"],
+            "trailhead_coords": t["derived"].get("trailhead_coords"),
         })
     index_path.write_text(json.dumps(index, indent=2))

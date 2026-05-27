@@ -12,7 +12,7 @@ export default function WeatherBanner({ conditions, alertCount, computedAt }: Pr
   const wet = precip !== null && precip >= 0.5;
 
   return (
-    <div className="pointer-events-none absolute left-4 top-4 z-[400] flex max-w-md flex-wrap items-center gap-x-4 gap-y-1 rounded-md border border-gray-200 bg-white/95 px-3 py-2 text-xs shadow-sm backdrop-blur">
+    <div className="pointer-events-none absolute right-3 top-3 z-[400] flex max-w-[60vw] flex-wrap items-center gap-x-3 gap-y-1 rounded-md border border-gray-200 bg-white/95 px-3 py-2 text-xs shadow-sm backdrop-blur sm:left-4 sm:right-auto sm:top-4 sm:max-w-md sm:gap-x-4">
       {c.forecast_temp_f !== null && (
         <Stat label="Temp" value={`${Math.round(c.forecast_temp_f)}°F`} />
       )}
