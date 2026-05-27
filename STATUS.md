@@ -305,6 +305,129 @@ What's actually next now:
 - Bigger picture: a search box (filter by name) would help
   navigate 74 trails on mobile when the pins overlap at low zoom.
 
+## Session 2026-05-27 (the marathon)
+
+5-hour follow-up session. Brought the tool from "data layer + bare
+map" to "fully branded WPR widget with 341 trails across 11 counties,
+real soil-driven scoring, color-coded difficulty, mobile-friendly
+chrome, favorites, random trail picker, and a sponsorship CTA."
+
+### Commits this session (chronological, 14 of them)
+
+  76c2617  Filters: drive-time slider, difficulty, length range
+  64c9404  Polyline render + auto-fit when a trail is selected
+  3038bb7  Weather conditions banner overlaid on map
+  ab479e8  Trailhead snap + mobile layout polish
+  0c5de82  Bake editorial filters into index.json: scenery/family/dogs
+  540b6c1  Editorial: WI-default dog policy + derived accessibility
+  f89ba38  Color-code pins and polyline by difficulty
+  370f486  Mobile: drag-to-resize bottom sheet + harden FitToTrail
+  53f7ceb  STATUS update
+  922dacc  Search box + marker clustering + drop dogs filter
+  7d3398d  WPR brand theme: chrome bar + sponsor strip + email CTA
+  99b6791  Expand to 11 counties: Clark, Wood, Oneida, Forest, Price
+  e6cdc26  Favorites + "Surprise me" random pick
+  b9078be  Named OSM ways scraper: fills Clark/Wood + grows 81→341
+  7d1e5ce  Fix: mobile hamburger blocked by Leaflet zoom control
+
+### Where the tool now stands
+
+Live at https://rowanflynnpilot.github.io/wpr-trails/
+
+Data: 341 trails across 11 counties (was 74 across 6). Sources:
+- WI DNR State Trails (8)
+- WI DNR IAT segments (32)
+- OSM route=hiking relations (41)
+- OSM named highway=path/track/footway ways, ≥1km, deduped (260)
+
+Per-trail enrichment:
+- USGS 3DEP elevation profiles + auto-difficulty
+- OSM nearby features → scenery_tags, parking, exposure
+- SSURGO soil drainage → mud_susceptibility (low/moderate/high)
+- SSURGO hydrologic group → drainage texture (sandy/loamy/clay)
+- managing_authority + WI default → dog_policy (all leashed)
+- difficulty + length + gain → accessibility (easy/varied/rugged)
+- Overpass amenity=parking near endpoints → trailhead_coords
+
+Frontend features:
+- Search by name (top of sidebar)
+- Filters: activity, county, difficulty (with color swatches),
+  scenery, length range, drive-time, family-friendly, favorites
+- 🎲 Surprise me picks random from current filters
+- Color-coded pins (easy=green, moderate=blue, difficult=orange,
+  strenuous=red) clustered at low zoom via leaflet.markercluster
+- Click a pin → green polyline draws the trail, map flies to bbox,
+  detail panel slides in with score, attributes, factor breakdown,
+  Google Maps directions link if trailhead known
+- Star toggle in detail panel header, localStorage-backed favorites
+  with gold border on the map
+- Weather banner top-left: temp, wind, rain%, 72h precip, alert count
+- WPR brand chrome bar with logo + Playfair Display wordmark and a
+  hamburger button on mobile (lives in the bar, not floating, to
+  avoid the Leaflet zoom-control overlap that broke iOS taps)
+- Cream sponsor strip with inline EmailCTA — "Interested in
+  sponsoring this content? Reach out →" reveals
+  rowan.flynn@wausaupilotandreview.com with Copy + mailto
+
+Mobile:
+- Chrome bar hamburger opens the FilterBar as a slide-in drawer
+- Detail panel becomes a bottom sheet, drag-to-resize 25-90 vh
+- Weather banner reflows to top-right to clear the hamburger
+- Map padding adapts so the polyline never hides under the sheet
+
+CI:
+- Hourly Conditions: weather refresh + score rebuild
+- Weekly Pipeline: full re-scrape + enrich. Run time grew to
+  ~85 min after the named-ways expansion (260 new trails through
+  Overpass enrichment + trailhead snap).
+- Deploy Pages: triggers on every push to main; site is live
+  within ~1 min of any data refresh.
+
+### Known limitations + carry-over
+
+- Clark and Wood show 23 + 12 trails (up from 0 + 0 pre-named-ways).
+  Coverage is biased toward MTB networks (Levis-Trow Mounds in
+  Clark, Ahdawagam in Wood) because those are where OSM mappers
+  invest. General hiking trails in Clark County Forest are
+  unnamed in OSM today.
+- Many of the new osmway-* trails are short MTB segments (62
+  under 1 mile). Real signal, but a different mental model from
+  the long IAT segments and rail-trails.
+- 260 new trails had their trailheads cut short in the local
+  enrichment (~85 min run). The post-session weekly-pipeline
+  workflow_dispatch (run 26490857725) is finishing trailheads
+  in CI as of session close — those land within ~1.5 hours of
+  push time and surface automatically via the data-bundled
+  Pages deploy.
+- The Weekly Pipeline runtime is approaching 90 min. If we keep
+  expanding counties (or named-ways accept short trails), this
+  becomes the next bottleneck. Either trim by adding a stricter
+  minimum length (1.6km instead of 1km) or parallelize the
+  Overpass enrichment per-county into separate jobs.
+- Surface tags are still empty across the dataset — accessibility
+  derivation can't honestly classify "wheelchair_easy" without
+  them. A dedicated OSM surface scrape would unlock that.
+
+### Patterns worth knowing for the next session
+
+- React StrictMode + leaflet.markercluster's mount/unmount race:
+  the bug pattern that ate ~30 min in commit 922dacc. We stripped
+  StrictMode entirely, then ended up combining create-group +
+  populate-markers into a single effect to dodge the cleanup race.
+  See ClusteredTrailMarkers in MapView.tsx for the comment.
+- Preview env (Claude Preview headless browser) has a persistent
+  0×0 viewport for Leaflet, and React synthetic events don't
+  reach handlers from preview_click. Visual verification works
+  via DOM snapshot + computed styles; state-update verification
+  requires walking the React fiber's hook queue and dispatching
+  directly. Don't be misled by clicks that "succeed" without
+  triggering state.
+- Resume logic in editorial / SSURGO / trailheads enrichers: all
+  skip trails that already have the target field set. build_trails
+  wipes derived.trailhead_coords back to null on every full
+  rebuild, so trailheads always re-runs on the full set unless
+  you restore from git first (see commit b9078be note).
+
 ## How to add an entry to this file
 
 End of session: append a dated section with what changed.
