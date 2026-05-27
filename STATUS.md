@@ -204,6 +204,107 @@ What's actually next now:
   amenity=parking and snapping to the trail endpoint is the natural
   next data-side enhancement
 
+### Same session: filter UX, trailheads, dog/access derivation, color-coded UI
+
+Marathon session continued well past commits 1–5 of the night. Where
+the live site now sits (https://rowanflynnpilot.github.io/wpr-trails/):
+
+**Filters (76c2617):** drive-time slider 15–120 min, length range
+0–80 mi, difficulty multi-select. All operate against fields already
+in index.json — no backend changes.
+
+**Polyline + map fit (64c9404):** pin click draws the trail geometry
+as a green polyline and flies the map to the trail's bbox with
+padding to clear the detail panel.
+
+**Weather banner (3038bb7):** top-left overlay on the map shows
+temp/wind/rain/72h precip/alert count from scores.json's
+conditions_summary; refreshed hourly by the existing cron.
+
+**Trailheads (ab479e8, part 1 of 2):** new transforms/enrich_trailheads.py
+queries Overpass for amenity=parking near each trail line, picks the
+closest, snaps the trailhead to the trail endpoint nearest the parking.
+47/74 trails got real trailheads (median ~60m to parking); 27 had no
+parking within the 500m radius or had only far-away parking that
+exceeded the 1500m sanity threshold (mostly inter-segment IAT
+connectors and remote wilderness segments). build_index surfaces
+trailhead_coords; DetailPanel renders a "Trailhead" row with a
+Google Maps directions link.
+
+**Mobile layout (ab479e8, part 2 of 2):** FilterBar becomes
+off-canvas below 640px with a hamburger toggle; DetailPanel
+becomes a bottom sheet (max 75vh, rounded top corners); weather
+banner reflows to clear the hamburger; FitToTrail padding adapts.
+
+**Editorial filters in index.json (0c5de82):** build_index.py applies
+the editorial cascade and surfaces scenery_tags, dog_policy,
+family_friendly, exposure, mud_susceptibility per entry. FilterBar
+adds scenery chips (7 tags), family-friendly toggle, dogs-allowed
+toggle.
+
+**Editorial backend improvements (540b6c1):** dog_policy now defaults
+to "leashed" for any public-land trail in our 6-county region (WI
+state law on public hiking trails) — was leaving 32 OSM-only trails
+as "unknown" because their managing_authority field was empty. Also
+fixed a substring-match miss on "Wisconsin Department of Natural
+Resources" (was only matching the abbreviation "DNR"). Net: 74/74
+leashed dogs (was 42/74).
+
+Also added derive_accessibility: 3-tier (easy_terrain / varied /
+rugged) derived from difficulty + length + gain. Distribution:
+19 / 32 / 23. Not wheelchair-accessibility-grade (we don't have
+surface tags), but useful as a terrain class for less-mobile
+visitors. Surfaced in index.json + DetailPanel.
+
+**Color-coded pins + polyline (f89ba38):** replaced Leaflet's
+default PNG marker with divIcon circles colored by difficulty
+(easy=green-600, moderate=blue-600, difficult=orange-600,
+strenuous=red-600). Polyline matches. Difficulty chips in FilterBar
+gain a color swatch doubling as a legend. divIcons cached so they
+don't re-allocate on filter re-renders.
+
+**Drag-to-resize bottom sheet (370f486):** mobile sheet gains a drag
+handle at the top; pointer drag adjusts height 25vh–90vh. Also
+hardens FitToTrail with a try/catch — under StrictMode's
+mount/unmount/remount, the flyToBounds effect can fire against a
+disposed map and would otherwise kill the entire MapContainer
+subtree (saw 0 markers rendered before this guard landed; 74 after).
+
+What I learned during this batch:
+- Surface tagging is empty across our 6-county region (both DNR
+  and OSM are sparse). Without it, "wheelchair_easy" accessibility
+  derivation would be guesswork — kept it honest at 3-tier terrain
+  difficulty instead. If/when surface tagging improves, a paved
+  /boardwalk tier can be added on top.
+- React StrictMode double-mounts make preview-environment state
+  inspection unreliable (we can dispatch state via fiber.queue
+  but the live tree might be the alternate fiber). Visual
+  verification via DOM/snapshot is the workable path; click events
+  through Leaflet's delegation don't propagate from synthesized
+  DOM events even though they work for real users.
+- Wisconsin counties' SSURGO areasymbols are sequential odd numbers
+  starting WI001 (Adams). Our 6 counties: WI067 (Langlade),
+  WI069 (Lincoln), WI073 (Marathon), WI097 (Portage),
+  WI115 (Shawano), WI119 (Taylor). Documented in scrapers/usda_ssurgo
+  via a comment, useful if we ever extend to other Wisconsin
+  counties.
+
+What's actually next now:
+- All 12 frontend/data commits landed. Live site reflects everything
+  within ~1 min per deploy.
+- Polyline color-by-score (vs by-difficulty) is a logical follow-up
+  — would dynamically reflect today's hourly score, but is less
+  intuitive than the static difficulty mapping. Probably skip
+  unless a user requests.
+- Snowmobile/XC winter mode (conditions-only per central WI clubs)
+  is the biggest remaining feature gap — but a deliberate
+  non-feature for now.
+- The 27 trails without trailhead_coords could use a human pass
+  in editorial.yaml for inter-segment access notes ("park at the
+  Pine Line trailhead and walk south 0.4mi to the connector").
+- Bigger picture: a search box (filter by name) would help
+  navigate 74 trails on mobile when the pins overlap at low zoom.
+
 ## How to add an entry to this file
 
 End of session: append a dated section with what changed.
