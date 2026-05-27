@@ -1,0 +1,34 @@
+﻿{
+  "permissions": {
+    "allow": [
+      "Bash(python -m scrapers.*)",
+      "Bash(python -m transforms.*)",
+      "Bash(pip install*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(ls*)",
+      "Bash(cat*)",
+      "Bash(head*)",
+      "Bash(tail*)",
+      "Bash(find*)",
+      "Bash(grep*)",
+      "Bash(wc*)",
+      "Bash(du*)",
+      "WebFetch(domain:overpass-api.de)",
+      "WebFetch(domain:dnrmaps.wi.gov)",
+      "WebFetch(domain:api.weather.gov)",
+      "WebFetch(domain:api.opentopodata.org)",
+      "WebFetch(domain:tigerweb.geo.census.gov)",
+      "WebFetch(domain:rowanflynnpilot.github.io)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)"
+    ]
+  }
+}
