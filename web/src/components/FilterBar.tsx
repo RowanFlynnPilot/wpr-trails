@@ -1,4 +1,4 @@
-import type { Activity, County, Difficulty } from "../types/trail";
+import type { Activity, County, Difficulty, SceneryTag } from "../types/trail";
 
 const ALL_ACTIVITIES: Activity[] = [
   "hiking",
@@ -23,6 +23,26 @@ const ALL_DIFFICULTIES: Difficulty[] = [
   "difficult",
   "strenuous",
 ];
+
+const ALL_SCENERY: SceneryTag[] = [
+  "water",
+  "wetland",
+  "overlook",
+  "prairie",
+  "rocky_outcrop",
+  "old_growth",
+  "glacial",
+];
+
+const SCENERY_LABELS: Record<SceneryTag, string> = {
+  water: "Water",
+  wetland: "Wetland",
+  overlook: "Overlook",
+  prairie: "Prairie",
+  rocky_outcrop: "Rocky outcrop",
+  old_growth: "Old growth",
+  glacial: "Glacial",
+};
 
 const COUNTY_LABELS: Record<County, string> = {
   marathon: "Marathon",
@@ -53,6 +73,9 @@ export interface FilterState {
   activities: Set<Activity>;
   counties: Set<County>;
   difficulties: Set<Difficulty>;
+  scenery: Set<SceneryTag>;
+  familyOnly: boolean;
+  dogsAllowed: boolean;
   /** Max drive minutes from Wausau; null = no limit */
   maxDriveMin: number | null;
   /** Length range in miles [min, max] */
@@ -152,6 +175,30 @@ export default function FilterBar({
         ))}
       </ChipSection>
 
+      <ChipSection title="Scenery">
+        {ALL_SCENERY.map((s) => (
+          <Chip
+            key={s}
+            label={SCENERY_LABELS[s]}
+            active={state.scenery.has(s)}
+            onClick={() => onChange({ ...state, scenery: toggle(state.scenery, s) })}
+          />
+        ))}
+      </ChipSection>
+
+      <div className="mt-5 space-y-1.5">
+        <ToggleRow
+          label="Family-friendly only"
+          checked={state.familyOnly}
+          onChange={(v) => onChange({ ...state, familyOnly: v })}
+        />
+        <ToggleRow
+          label="Dogs allowed"
+          checked={state.dogsAllowed}
+          onChange={(v) => onChange({ ...state, dogsAllowed: v })}
+        />
+      </div>
+
       <SliderSection
         title="Max drive from Wausau"
         value={state.maxDriveMin ?? 120}
@@ -179,6 +226,28 @@ export default function FilterBar({
       </div>
     </aside>
     </>
+  );
+}
+
+function ToggleRow({
+  label,
+  checked,
+  onChange,
+}: {
+  label: string;
+  checked: boolean;
+  onChange: (v: boolean) => void;
+}) {
+  return (
+    <label className="flex cursor-pointer items-center justify-between rounded px-2 py-1 text-sm hover:bg-gray-50">
+      <span className="text-gray-700">{label}</span>
+      <input
+        type="checkbox"
+        checked={checked}
+        onChange={(e) => onChange(e.target.checked)}
+        className="h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
+      />
+    </label>
   );
 }
 

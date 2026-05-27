@@ -11,6 +11,9 @@ const INITIAL_FILTERS: FilterState = {
   activities: new Set(),
   counties: new Set(),
   difficulties: new Set(),
+  scenery: new Set(),
+  familyOnly: false,
+  dogsAllowed: false,
   maxDriveMin: null,
   lengthMi: [0, LENGTH_MAX_MI],
 };
@@ -44,6 +47,18 @@ export default function App() {
       }
       if (t.length_m < loM || t.length_m > hiM) {
         return false;
+      }
+      if (filters.scenery.size > 0) {
+        const tags = t.editorial.scenery_tags ?? [];
+        if (!tags.some((s) => filters.scenery.has(s))) return false;
+      }
+      if (filters.familyOnly && t.editorial.family_friendly !== true) {
+        return false;
+      }
+      if (filters.dogsAllowed) {
+        const policy = t.editorial.dog_policy;
+        // "leashed" and "off_leash" count as yes; "unknown"/"prohibited" don't.
+        if (policy !== "leashed" && policy !== "off_leash") return false;
       }
       return true;
     });

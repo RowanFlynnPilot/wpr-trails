@@ -16,6 +16,27 @@ export type County =
 
 export type Difficulty = "easy" | "moderate" | "difficult" | "strenuous";
 
+export type SceneryTag =
+  | "water"
+  | "wetland"
+  | "overlook"
+  | "prairie"
+  | "rocky_outcrop"
+  | "old_growth"
+  | "glacial";
+
+export type DogPolicy = "leashed" | "off_leash" | "prohibited" | "unknown";
+export type Exposure = "sheltered" | "mixed" | "exposed";
+export type MudSusceptibility = "low" | "moderate" | "high";
+
+export interface IndexEditorial {
+  scenery_tags: SceneryTag[] | null;
+  dog_policy: DogPolicy | null;
+  family_friendly: boolean | null;
+  exposure: Exposure | null;
+  mud_susceptibility: MudSusceptibility | null;
+}
+
 export interface TrailIndexEntry {
   id: string;
   name: string;
@@ -30,6 +51,7 @@ export interface TrailIndexEntry {
   drive_minutes_from_wausau: number;
   /** [longitude, latitude] of snapped trailhead, or null if no parking found */
   trailhead_coords: [number, number] | null;
+  editorial: IndexEditorial;
 }
 
 export interface TrailAttributes {

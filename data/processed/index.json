@@ -21,7 +21,16 @@
     "trailhead_coords": [
       -89.55826744015798,
       45.35170339154951
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-antigo-heights",
@@ -45,7 +54,16 @@
     "trailhead_coords": [
       -89.06298052591721,
       45.16178514862958
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-averill-kelly-creek-wilderness",
@@ -69,7 +87,16 @@
     "trailhead_coords": [
       -89.82710590511428,
       45.308496466397294
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-camp-27",
@@ -90,7 +117,16 @@
       45.3028935721042
     ],
     "drive_minutes_from_wausau": 46,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-dells-of-the-eau-claire",
@@ -114,7 +150,18 @@
     "trailhead_coords": [
       -89.35703606289282,
       44.98655006023382
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "glacial",
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-east-lake",
@@ -138,7 +185,16 @@
     "trailhead_coords": [
       -90.20806924183273,
       45.341328559305836
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-emmons-creek",
@@ -162,7 +218,16 @@
     "trailhead_coords": [
       -89.24975996899339,
       44.27996433711855
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-grandfather-falls",
@@ -186,7 +251,18 @@
     "trailhead_coords": [
       -89.78309340465582,
       45.31416561281332
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "rocky_outcrop",
+        "overlook"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "mixed",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-harrison-hills",
@@ -210,7 +286,18 @@
     "trailhead_coords": [
       -89.55826744015798,
       45.35170339154951
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "glacial",
+        "overlook",
+        "old_growth"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-hartman-creek",
@@ -234,7 +321,17 @@
     "trailhead_coords": [
       -89.21364295851687,
       44.352433191560515
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "glacial"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-highland-lakes",
@@ -258,7 +355,16 @@
     "trailhead_coords": [
       -89.29476879801442,
       45.37569488582417
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-ice-override",
@@ -279,7 +385,14 @@
       45.08216086359093
     ],
     "drive_minutes_from_wausau": 38,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-iola-ski-hill",
@@ -300,7 +413,14 @@
       44.541807375969626
     ],
     "drive_minutes_from_wausau": 55,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-jerry-lake",
@@ -324,7 +444,16 @@
     "trailhead_coords": [
       -90.47440890047635,
       45.29965100177654
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-kettlebowl",
@@ -345,7 +474,14 @@
       45.22543961200026
     ],
     "drive_minutes_from_wausau": 62,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "iat-lake-eleven",
@@ -369,7 +505,17 @@
     "trailhead_coords": [
       -90.7015295664829,
       45.11908196590664
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-lumbercamp",
@@ -390,7 +536,16 @@
       45.283397674321606
     ],
     "drive_minutes_from_wausau": 60,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-mondeaux-esker",
@@ -414,7 +569,16 @@
     "trailhead_coords": [
       -90.47440890047635,
       45.29965100177654
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-new-hope",
@@ -435,7 +599,14 @@
       44.5566862885885
     ],
     "drive_minutes_from_wausau": 52,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-new-wood",
@@ -456,7 +627,16 @@
       45.301528958326195
     ],
     "drive_minutes_from_wausau": 43,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-parrish-hills",
@@ -481,7 +661,16 @@
     "trailhead_coords": [
       -89.29476879801442,
       45.37569488582417
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-pine-line",
@@ -502,7 +691,14 @@
       45.3108841964531
     ],
     "drive_minutes_from_wausau": 63,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-plover-river",
@@ -526,7 +722,17 @@
     "trailhead_coords": [
       -89.22394144865014,
       45.05088893689811
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-rib-lake",
@@ -547,7 +753,16 @@
       45.35148776922219
     ],
     "drive_minutes_from_wausau": 59,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-ringle",
@@ -571,7 +786,16 @@
     "trailhead_coords": [
       -89.3468577672311,
       44.942923804589114
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-summit-moraine",
@@ -595,7 +819,18 @@
     "trailhead_coords": [
       -89.05073380783435,
       45.307613187713635
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "iat-thornapple-creek",
@@ -616,7 +851,16 @@
       44.96364255103614
     ],
     "drive_minutes_from_wausau": 21,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-timberland-wilderness",
@@ -640,7 +884,16 @@
     "trailhead_coords": [
       -90.04002902626932,
       45.340579244197336
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-turtle-rock",
@@ -664,7 +917,16 @@
     "trailhead_coords": [
       -89.80089424220832,
       45.32312744253637
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-underdown",
@@ -688,7 +950,16 @@
     "trailhead_coords": [
       -89.63079327393046,
       45.3022532185189
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-white-cedar",
@@ -712,7 +983,14 @@
     "trailhead_coords": [
       -89.3465574582185,
       44.83537316497173
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "iat-wood-lake",
@@ -737,7 +1015,16 @@
     "trailhead_coords": [
       -90.14713451419739,
       45.36089802760804
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "osm-big-eau-pleine-bridle-trail",
@@ -760,7 +1047,17 @@
     "trailhead_coords": [
       -89.8436447,
       44.7447215
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-dynamite-trail",
@@ -780,7 +1077,16 @@
       44.926680479372564
     ],
     "drive_minutes_from_wausau": 6,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-frog-chorus-trail",
@@ -803,7 +1109,19 @@
     "trailhead_coords": [
       -89.5654212,
       44.5403697
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-giant-hardwoods-nature-trail",
@@ -826,7 +1144,14 @@
     "trailhead_coords": [
       -89.8396405,
       44.7383231
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-heritage-trail",
@@ -849,7 +1174,16 @@
     "trailhead_coords": [
       -90.0749075,
       44.8040934
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-homestead-loop-trail",
@@ -872,7 +1206,16 @@
     "trailhead_coords": [
       -89.6977784,
       44.9244153
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "old_growth"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-iat---alta-junction-underdown-connection",
@@ -895,7 +1238,16 @@
     "trailhead_coords": [
       -89.5486938,
       45.3378106
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---antigo-heights-connector",
@@ -915,7 +1267,16 @@
       45.162555610638776
     ],
     "drive_minutes_from_wausau": 51,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-iat---antigo-heights-kettlebowl-connector",
@@ -938,7 +1299,16 @@
     "trailhead_coords": [
       -88.976367,
       45.161364
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "osm-iat---averill-kelly-creek-wilderness-new-wood-connection",
@@ -961,7 +1331,16 @@
     "trailhead_coords": [
       -89.8890906,
       45.2967172
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---camp-27-tiberland-wilderness-connection",
@@ -981,7 +1360,14 @@
       45.30083629418212
     ],
     "drive_minutes_from_wausau": 47,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---deerfield-emmons-creek-connection",
@@ -1001,7 +1387,16 @@
       44.21797389407002
     ],
     "drive_minutes_from_wausau": 84,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-iat---dells-of-the-eau-claire-plover-river-connector",
@@ -1024,7 +1419,16 @@
     "trailhead_coords": [
       -89.2635673,
       45.0009736
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---east-lake-pine-line-connection",
@@ -1044,7 +1448,14 @@
       45.31576828127737
     ],
     "drive_minutes_from_wausau": 63,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "osm-iat---grandfather-falls-turtle-rock-connection",
@@ -1067,7 +1478,16 @@
     "trailhead_coords": [
       -89.8010293,
       45.3231871
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---highland-lakes-connection",
@@ -1087,7 +1507,17 @@
       45.32716544945816
     ],
     "drive_minutes_from_wausau": 50,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "osm-iat---ice-override-antigo-heights-connector",
@@ -1107,7 +1537,14 @@
       45.120025269071604
     ],
     "drive_minutes_from_wausau": 43,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-iat---lake-eleven-cornell-connection",
@@ -1127,7 +1564,17 @@
       45.07904260139429
     ],
     "drive_minutes_from_wausau": 100,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---new-hope-white-cedar-connector",
@@ -1148,7 +1595,16 @@
       44.71274262926039
     ],
     "drive_minutes_from_wausau": 35,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---pine-line-mondeaux-esker-connection",
@@ -1168,7 +1624,16 @@
       45.307999882098784
     ],
     "drive_minutes_from_wausau": 66,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---plover-river-ice-override-connector",
@@ -1192,7 +1657,14 @@
     "trailhead_coords": [
       -89.223935,
       45.0508429
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-iat---rib-lake-connection",
@@ -1212,7 +1684,16 @@
       45.338041823272285
     ],
     "drive_minutes_from_wausau": 59,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "osm-iat---thornapple-creek-dells-of-the-eau-claire-connector",
@@ -1235,7 +1716,16 @@
     "trailhead_coords": [
       -89.3569957,
       44.9865242
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---underdown-grandfather-falls-connection",
@@ -1255,7 +1745,16 @@
       45.309571938939335
     ],
     "drive_minutes_from_wausau": 38,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-iat---waupaca-river-connection",
@@ -1278,7 +1777,16 @@
     "trailhead_coords": [
       -89.215655,
       44.375086
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-iat---white-cedar-ringle-connector",
@@ -1301,7 +1809,14 @@
     "trailhead_coords": [
       -89.3465094,
       44.8358525
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-moses-creek-trail",
@@ -1321,7 +1836,17 @@
       44.54054191280022
     ],
     "drive_minutes_from_wausau": 45,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-north-wiouwash-state-recreation-trail",
@@ -1344,7 +1869,16 @@
     "trailhead_coords": [
       -89.1648833,
       44.8231017
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "osm-pine-meadows-trail",
@@ -1367,7 +1901,18 @@
     "trailhead_coords": [
       -89.5696573,
       44.5391688
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-plank-trail",
@@ -1390,7 +1935,14 @@
     "trailhead_coords": [
       -89.5600724,
       44.5394993
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-quarry-trail",
@@ -1413,7 +1965,16 @@
     "trailhead_coords": [
       -89.6982074,
       44.9204796
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "mixed",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-red-trail",
@@ -1436,7 +1997,16 @@
     "trailhead_coords": [
       -89.6934595,
       44.9201242
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "mixed",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-south-unit-trail",
@@ -1459,7 +2029,14 @@
     "trailhead_coords": [
       -89.8364781,
       44.7402103
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-trail-of-reflections",
@@ -1482,7 +2059,19 @@
     "trailhead_coords": [
       -89.5654212,
       44.5403697
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-turkey-vulture-trail",
@@ -1502,7 +2091,17 @@
       44.92478657222596
     ],
     "drive_minutes_from_wausau": 7,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "exposed",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "osm-west-unit-trail",
@@ -1522,7 +2121,14 @@
       44.74297276242263
     ],
     "drive_minutes_from_wausau": 29,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "unknown",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "osm-yellow-trail",
@@ -1545,7 +2151,17 @@
     "trailhead_coords": [
       -89.6840015,
       44.9202515
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "exposed",
+      "mud_susceptibility": "low"
+    }
   },
   {
     "id": "state-green-circle-state-trail",
@@ -1570,7 +2186,19 @@
     "trailhead_coords": [
       -89.58755077231848,
       44.52250708426321
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "state-mountain-bay-state-trail",
@@ -1596,7 +2224,16 @@
     "trailhead_coords": [
       -89.55693424305323,
       44.90964035473647
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "state-tomorrow-river-state-trail",
@@ -1621,7 +2258,17 @@
     "trailhead_coords": [
       -89.52848154829911,
       44.4571889113698
-    ]
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   },
   {
     "id": "state-wiouwash-state-trail",
@@ -1643,7 +2290,19 @@
       44.56326469811654
     ],
     "drive_minutes_from_wausau": 69,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high"
+    }
   },
   {
     "id": "state-wolf-river-state-trail",
@@ -1663,6 +2322,15 @@
       45.324008166739326
     ],
     "drive_minutes_from_wausau": 73,
-    "trailhead_coords": null
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate"
+    }
   }
 ]
