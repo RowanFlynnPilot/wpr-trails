@@ -26,6 +26,7 @@ INDEX_EDITORIAL_FIELDS = (
     "family_friendly",
     "exposure",
     "mud_susceptibility",
+    "accessibility",
 )
 
 

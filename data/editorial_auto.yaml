@@ -3,7 +3,7 @@ iat-alta-junction:
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -18,7 +18,7 @@ iat-alta-junction:
   _provenance:
     scenery_tags: 'OSM: {''water'': 6} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=1.2mi
     seasonality: derived from activities + scenery_tags
@@ -26,12 +26,13 @@ iat-alta-junction:
     mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 2 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 1.2mi / 45ft gain \u2014 gentle walking"
 iat-antigo-heights:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -46,7 +47,7 @@ iat-antigo-heights:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 70% of sample points in OSM forest polygons
     family_friendly: difficulty=moderate, length=2.6mi
     seasonality: derived from activities + scenery_tags
@@ -54,12 +55,13 @@ iat-antigo-heights:
     mud_susceptibility: 'SSURGO: 6 mukeys, 0 poorly-drained / 6 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 2.6mi / 236ft gain
 iat-averill-kelly-creek-wilderness:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -74,7 +76,7 @@ iat-averill-kelly-creek-wilderness:
   _provenance:
     scenery_tags: 'OSM: {''water'': 20} features within 80m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
@@ -82,12 +84,13 @@ iat-averill-kelly-creek-wilderness:
     mud_susceptibility: 'SSURGO: 12 mukeys, 4 poorly-drained / 2 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 4.6mi / 242ft gain
 iat-camp-27:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -102,7 +105,7 @@ iat-camp-27:
   _provenance:
     scenery_tags: 'OSM: {''water'': 2} features within 80m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=2.9mi
     seasonality: derived from activities + scenery_tags
@@ -110,12 +113,13 @@ iat-camp-27:
     mud_susceptibility: 'SSURGO: 12 mukeys, 7 poorly-drained / 2 well-drained (top
       class: Somewhat poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 2.9mi / 178ft gain
 iat-dells-of-the-eau-claire:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - rocky_outcrop
   - water
@@ -132,7 +136,7 @@ iat-dells-of-the-eau-claire:
   _provenance:
     scenery_tags: 'OSM: {''water'': 6, ''rocky_outcrop'': 4} features within 80m'
     parking: 'OSM: 7 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (20%)
     family_friendly: difficulty=moderate, length=2.6mi
     seasonality: derived from activities + scenery_tags
@@ -140,12 +144,13 @@ iat-dells-of-the-eau-claire:
     mud_susceptibility: 'SSURGO: 8 mukeys, 4 poorly-drained / 3 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 2.6mi / 128ft gain
 iat-east-lake:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -160,7 +165,7 @@ iat-east-lake:
   _provenance:
     scenery_tags: 'OSM: {''water'': 4} features within 80m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=7.0mi
     seasonality: derived from activities + scenery_tags
@@ -168,12 +173,13 @@ iat-east-lake:
     mud_susceptibility: 'SSURGO: 11 mukeys, 2 poorly-drained / 3 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 869ft gain
 iat-emmons-creek:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -188,7 +194,7 @@ iat-emmons-creek:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=2.6mi
     seasonality: derived from activities + scenery_tags
@@ -196,12 +202,13 @@ iat-emmons-creek:
     mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 8 well-drained (top
       class: Somewhat excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 2.6mi / 180ft gain
 iat-grandfather-falls:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -216,7 +223,7 @@ iat-grandfather-falls:
   _provenance:
     scenery_tags: 'OSM: {''water'': 16} features within 80m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 40% of sample points in OSM forest polygons
     family_friendly: difficulty=moderate, length=4.0mi
     seasonality: derived from activities + scenery_tags
@@ -224,12 +231,13 @@ iat-grandfather-falls:
     mud_susceptibility: 'SSURGO: 9 mukeys, 4 poorly-drained / 1 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 4.0mi / 249ft gain
 iat-harrison-hills:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -244,7 +252,7 @@ iat-harrison-hills:
   _provenance:
     scenery_tags: 'OSM: {''water'': 5} features within 80m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: max elev 586m suggests prominent ridge (forest coverage 0%)
     family_friendly: difficulty=difficult, length=14.4mi
     seasonality: derived from activities + scenery_tags
@@ -252,12 +260,13 @@ iat-harrison-hills:
     mud_susceptibility: 'SSURGO: 13 mukeys, 3 poorly-drained / 8 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 1603ft gain
 iat-hartman-creek:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -272,7 +281,7 @@ iat-hartman-creek:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=5.5mi
     seasonality: derived from activities + scenery_tags
@@ -280,12 +289,13 @@ iat-hartman-creek:
     mud_susceptibility: 'SSURGO: 15 mukeys, 1 poorly-drained / 14 well-drained (top
       class: Somewhat excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 5.5mi / 452ft gain
 iat-highland-lakes:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -300,7 +310,7 @@ iat-highland-lakes:
   _provenance:
     scenery_tags: 'OSM: {''water'': 12} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=8.2mi
     seasonality: derived from activities + scenery_tags
@@ -308,12 +318,13 @@ iat-highland-lakes:
     mud_susceptibility: 'SSURGO: 13 mukeys, 3 poorly-drained / 8 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 8.2mi / 601ft gain
 iat-ice-override:
   family_friendly: true
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality:
   - winter_snowshoe
@@ -326,7 +337,7 @@ iat-ice-override:
   _provenance:
     scenery_tags: 'OSM: {} features within 80m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.8mi
     seasonality: derived from activities + scenery_tags
@@ -334,12 +345,13 @@ iat-ice-override:
     mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 1 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.8mi / 81ft gain \u2014 gentle walking"
 iat-iola-ski-hill:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags: []
   seasonality:
   - winter_snowshoe
@@ -352,7 +364,7 @@ iat-iola-ski-hill:
   _provenance:
     scenery_tags: 'OSM: {} features within 80m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 90% of sample points in OSM forest polygons
     family_friendly: difficulty=moderate, length=2.5mi
     seasonality: derived from activities + scenery_tags
@@ -360,12 +372,13 @@ iat-iola-ski-hill:
     mud_susceptibility: 'SSURGO: 14 mukeys, 0 poorly-drained / 14 well-drained (top
       class: Excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 2.5mi / 264ft gain
 iat-jerry-lake:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -380,7 +393,7 @@ iat-jerry-lake:
   _provenance:
     scenery_tags: 'OSM: {''water'': 5} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=15.2mi
     seasonality: derived from activities + scenery_tags
@@ -388,12 +401,13 @@ iat-jerry-lake:
     mud_susceptibility: 'SSURGO: 23 mukeys, 10 poorly-drained / 4 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 734ft gain
 iat-kettlebowl:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags: []
   seasonality:
   - winter_snowshoe
@@ -406,7 +420,7 @@ iat-kettlebowl:
   _provenance:
     scenery_tags: 'OSM: {} features within 80m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=difficult, length=10.2mi
     seasonality: derived from activities + scenery_tags
@@ -414,12 +428,13 @@ iat-kettlebowl:
     mud_susceptibility: 'SSURGO: 5 mukeys, 0 poorly-drained / 4 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 857ft gain
 iat-lake-eleven:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: roadside
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   - wetland
@@ -435,7 +450,7 @@ iat-lake-eleven:
   _provenance:
     scenery_tags: 'OSM: {''water'': 13, ''wetland'': 2} features within 80m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 80% of sample points in OSM forest polygons
     family_friendly: difficulty=difficult, length=15.6mi
     seasonality: derived from activities + scenery_tags
@@ -443,12 +458,13 @@ iat-lake-eleven:
     mud_susceptibility: 'SSURGO: 16 mukeys, 6 poorly-drained / 3 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 1346ft gain
 iat-lumbercamp:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -463,7 +479,7 @@ iat-lumbercamp:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 80m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 60% of sample points in OSM forest polygons
     family_friendly: difficulty=difficult, length=12.0mi
     seasonality: derived from activities + scenery_tags
@@ -471,12 +487,13 @@ iat-lumbercamp:
     mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 6 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 610ft gain
 iat-mondeaux-esker:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -491,7 +508,7 @@ iat-mondeaux-esker:
   _provenance:
     scenery_tags: 'OSM: {''water'': 5} features within 80m'
     parking: 'OSM: 4 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=11.7mi
     seasonality: derived from activities + scenery_tags
@@ -499,12 +516,13 @@ iat-mondeaux-esker:
     mud_susceptibility: 'SSURGO: 15 mukeys, 7 poorly-drained / 3 well-drained (top
       class: Very poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 860ft gain
 iat-new-hope:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags: []
   seasonality:
   - winter_snowshoe
@@ -517,7 +535,7 @@ iat-new-hope:
   _provenance:
     scenery_tags: 'OSM: {} features within 80m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=3.6mi
     seasonality: derived from activities + scenery_tags
@@ -525,12 +543,13 @@ iat-new-hope:
     mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 4 well-drained (top
       class: Very poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 3.6mi / 387ft gain
 iat-new-wood:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -545,7 +564,7 @@ iat-new-wood:
   _provenance:
     scenery_tags: 'OSM: {''water'': 2} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=6.9mi
     seasonality: derived from activities + scenery_tags
@@ -553,12 +572,13 @@ iat-new-wood:
     mud_susceptibility: 'SSURGO: 16 mukeys, 6 poorly-drained / 4 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 6.9mi / 249ft gain
 iat-parrish-hills:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -573,7 +593,7 @@ iat-parrish-hills:
   _provenance:
     scenery_tags: 'OSM: {''water'': 4} features within 80m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=12.1mi
     seasonality: derived from activities + scenery_tags
@@ -581,12 +601,13 @@ iat-parrish-hills:
     mud_susceptibility: 'SSURGO: 14 mukeys, 5 poorly-drained / 7 well-drained (top
       class: Somewhat poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 858ft gain
 iat-pine-line:
   family_friendly: true
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality:
   - winter_snowshoe
@@ -599,7 +620,7 @@ iat-pine-line:
   _provenance:
     scenery_tags: 'OSM: {} features within 80m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.9mi
     seasonality: derived from activities + scenery_tags
@@ -607,12 +628,13 @@ iat-pine-line:
     mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 0 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.9mi / 19ft gain \u2014 gentle walking"
 iat-plover-river:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -627,7 +649,7 @@ iat-plover-river:
   _provenance:
     scenery_tags: 'OSM: {''water'': 3} features within 100m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 60% of sample points in OSM forest polygons
     family_friendly: difficulty=moderate, length=5.9mi
     seasonality: derived from activities + scenery_tags
@@ -635,12 +657,13 @@ iat-plover-river:
     mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 3 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 5.9mi / 259ft gain
 iat-rib-lake:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -655,7 +678,7 @@ iat-rib-lake:
   _provenance:
     scenery_tags: 'OSM: {''water'': 7} features within 100m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (10%)
     family_friendly: difficulty=moderate, length=6.5mi
     seasonality: derived from activities + scenery_tags
@@ -663,12 +686,13 @@ iat-rib-lake:
     mud_susceptibility: 'SSURGO: 13 mukeys, 3 poorly-drained / 7 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 6.5mi / 339ft gain
 iat-ringle:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -683,7 +707,7 @@ iat-ringle:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 100m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=9.6mi
     seasonality: derived from activities + scenery_tags
@@ -691,12 +715,13 @@ iat-ringle:
     mud_susceptibility: 'SSURGO: 14 mukeys, 5 poorly-drained / 8 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 458ft gain
 iat-summit-moraine:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - prairie
   - water
@@ -714,7 +739,7 @@ iat-summit-moraine:
     scenery_tags: 'OSM: {''water'': 10, ''wetland'': 7, ''prairie'': 1} features within
       100m'
     parking: 'OSM: 3 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: 80% of sample points in OSM forest polygons
     family_friendly: difficulty=difficult, length=12.4mi
     seasonality: derived from activities + scenery_tags
@@ -722,12 +747,13 @@ iat-summit-moraine:
     mud_susceptibility: 'SSURGO: 14 mukeys, 3 poorly-drained / 8 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 634ft gain
 iat-thornapple-creek:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -742,7 +768,7 @@ iat-thornapple-creek:
   _provenance:
     scenery_tags: 'OSM: {''water'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=3.0mi
     seasonality: derived from activities + scenery_tags
@@ -750,12 +776,13 @@ iat-thornapple-creek:
     mud_susceptibility: 'SSURGO: 9 mukeys, 5 poorly-drained / 4 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 3.0mi / 96ft gain
 iat-timberland-wilderness:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -770,7 +797,7 @@ iat-timberland-wilderness:
   _provenance:
     scenery_tags: 'OSM: {''water'': 4} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=3.9mi
     seasonality: derived from activities + scenery_tags
@@ -778,12 +805,13 @@ iat-timberland-wilderness:
     mud_susceptibility: 'SSURGO: 11 mukeys, 4 poorly-drained / 2 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 3.9mi / 275ft gain
 iat-turtle-rock:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -798,7 +826,7 @@ iat-turtle-rock:
   _provenance:
     scenery_tags: 'OSM: {''water'': 8} features within 100m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=5.1mi
     seasonality: derived from activities + scenery_tags
@@ -806,12 +834,13 @@ iat-turtle-rock:
     mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 1 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 5.1mi / 295ft gain
 iat-underdown:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -826,7 +855,7 @@ iat-underdown:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=6.3mi
     seasonality: derived from activities + scenery_tags
@@ -834,12 +863,13 @@ iat-underdown:
     mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 6.3mi / 611ft gain
 iat-white-cedar:
   family_friendly: true
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality:
   - winter_snowshoe
@@ -852,7 +882,7 @@ iat-white-cedar:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.6mi
     seasonality: derived from activities + scenery_tags
@@ -860,12 +890,13 @@ iat-white-cedar:
     mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
       class: Somewhat excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.6mi / 10ft gain \u2014 gentle walking"
 iat-wood-lake:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -880,7 +911,7 @@ iat-wood-lake:
   _provenance:
     scenery_tags: 'OSM: {''water'': 10} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='IATA / WI DNR'
+    dog_policy: WI public-land default; authority='IATA / WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=13.4mi
     seasonality: derived from activities + scenery_tags
@@ -888,12 +919,13 @@ iat-wood-lake:
     mud_susceptibility: 'SSURGO: 12 mukeys, 2 poorly-drained / 4 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 1025ft gain
 osm-big-eau-pleine-bridle-trail:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - overlook
   - water
@@ -909,7 +941,8 @@ osm-big-eau-pleine-bridle-trail:
   _provenance:
     scenery_tags: 'OSM: {''overlook'': 1, ''water'': 1} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=7.7mi
     seasonality: derived from activities + scenery_tags
@@ -917,12 +950,13 @@ osm-big-eau-pleine-bridle-trail:
     mud_susceptibility: 'SSURGO: 15 mukeys, 6 poorly-drained / 9 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 7.7mi / 378ft gain
 osm-dynamite-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -936,7 +970,8 @@ osm-dynamite-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.3mi
     seasonality: derived from activities + scenery_tags
@@ -944,12 +979,13 @@ osm-dynamite-trail:
     mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 1 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.3mi / 23ft gain \u2014 gentle walking"
 osm-frog-chorus-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - overlook
   - prairie
@@ -968,7 +1004,8 @@ osm-frog-chorus-trail:
     scenery_tags: 'OSM: {''overlook'': 1, ''water'': 1, ''wetland'': 2, ''prairie'':
       1} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.2mi
     seasonality: derived from activities + scenery_tags
@@ -976,12 +1013,13 @@ osm-frog-chorus-trail:
     mud_susceptibility: 'SSURGO: 2 mukeys, 2 poorly-drained / 0 well-drained (top
       class: Poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.2mi / 0ft gain \u2014 gentle walking"
 osm-giant-hardwoods-nature-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality: []
   mud_susceptibility: low
@@ -993,7 +1031,8 @@ osm-giant-hardwoods-nature-trail:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
@@ -1001,12 +1040,13 @@ osm-giant-hardwoods-nature-trail:
     mud_susceptibility: 'SSURGO: 3 mukeys, 0 poorly-drained / 3 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.7mi / 29ft gain \u2014 gentle walking"
 osm-heritage-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -1020,7 +1060,8 @@ osm-heritage-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 4} features within 100m'
     parking: 'OSM: 5 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
@@ -1028,12 +1069,13 @@ osm-heritage-trail:
     mud_susceptibility: 'SSURGO: 6 mukeys, 3 poorly-drained / 3 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.7mi / 6ft gain \u2014 gentle walking"
 osm-homestead-loop-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - rocky_outcrop
   - water
@@ -1049,7 +1091,8 @@ osm-homestead-loop-trail:
   _provenance:
     scenery_tags: 'OSM: {''rocky_outcrop'': 1, ''water'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=1.3mi
     seasonality: derived from activities + scenery_tags
@@ -1057,12 +1100,13 @@ osm-homestead-loop-trail:
     mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 1.3mi / 413ft gain
 osm-iat---alta-junction-underdown-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -1076,7 +1120,8 @@ osm-iat---alta-junction-underdown-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 5} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=1.2mi
     seasonality: derived from activities + scenery_tags
@@ -1084,12 +1129,13 @@ osm-iat---alta-junction-underdown-connection:
     mud_susceptibility: 'SSURGO: 8 mukeys, 3 poorly-drained / 3 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 1.2mi / 29ft gain \u2014 gentle walking"
 osm-iat---antigo-heights-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -1103,7 +1149,8 @@ osm-iat---antigo-heights-connector:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (10%)
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
@@ -1111,12 +1158,13 @@ osm-iat---antigo-heights-connector:
     mud_susceptibility: 'SSURGO: 7 mukeys, 0 poorly-drained / 7 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 4.6mi / 211ft gain
 osm-iat---antigo-heights-kettlebowl-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: roadside
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -1130,7 +1178,8 @@ osm-iat---antigo-heights-kettlebowl-connector:
   _provenance:
     scenery_tags: 'OSM: {''water'': 3} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 40% of sample points in OSM forest polygons
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
@@ -1138,12 +1187,13 @@ osm-iat---antigo-heights-kettlebowl-connector:
     mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 6 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 4.6mi / 234ft gain
 osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -1157,7 +1207,8 @@ osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 3} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.6mi
     seasonality: derived from activities + scenery_tags
@@ -1165,12 +1216,13 @@ osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
     mud_susceptibility: 'SSURGO: 6 mukeys, 3 poorly-drained / 0 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.6mi / 23ft gain \u2014 gentle walking"
 osm-iat---camp-27-tiberland-wilderness-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags: []
   seasonality: []
   mud_susceptibility: high
@@ -1182,7 +1234,8 @@ osm-iat---camp-27-tiberland-wilderness-connection:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=1.9mi
     seasonality: derived from activities + scenery_tags
@@ -1190,12 +1243,13 @@ osm-iat---camp-27-tiberland-wilderness-connection:
     mud_susceptibility: 'SSURGO: 8 mukeys, 5 poorly-drained / 0 well-drained (top
       class: Somewhat poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 1.9mi / 29ft gain
 osm-iat---deerfield-emmons-creek-connection:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -1209,7 +1263,8 @@ osm-iat---deerfield-emmons-creek-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=14.6mi
     seasonality: derived from activities + scenery_tags
@@ -1217,12 +1272,13 @@ osm-iat---deerfield-emmons-creek-connection:
     mud_susceptibility: 'SSURGO: 23 mukeys, 1 poorly-drained / 22 well-drained (top
       class: Somewhat excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 630ft gain
 osm-iat---dells-of-the-eau-claire-plover-river-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -1236,7 +1292,8 @@ osm-iat---dells-of-the-eau-claire-plover-river-connector:
   _provenance:
     scenery_tags: 'OSM: {''water'': 3} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=3.5mi
     seasonality: derived from activities + scenery_tags
@@ -1244,12 +1301,13 @@ osm-iat---dells-of-the-eau-claire-plover-river-connector:
     mud_susceptibility: 'SSURGO: 13 mukeys, 7 poorly-drained / 5 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 3.5mi / 155ft gain
 osm-iat---east-lake-pine-line-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality: []
   mud_susceptibility: moderate
@@ -1261,7 +1319,8 @@ osm-iat---east-lake-pine-line-connection:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.6mi
     seasonality: derived from activities + scenery_tags
@@ -1269,12 +1328,13 @@ osm-iat---east-lake-pine-line-connection:
     mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 0 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.6mi / 37ft gain \u2014 gentle walking"
 osm-iat---grandfather-falls-turtle-rock-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -1288,7 +1348,8 @@ osm-iat---grandfather-falls-turtle-rock-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 11} features within 100m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=2.1mi
     seasonality: derived from activities + scenery_tags
@@ -1296,12 +1357,13 @@ osm-iat---grandfather-falls-turtle-rock-connection:
     mud_susceptibility: 'SSURGO: 8 mukeys, 4 poorly-drained / 1 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 2.1mi / 48ft gain
 osm-iat---highland-lakes-connection:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   - wetland
@@ -1316,7 +1378,8 @@ osm-iat---highland-lakes-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 10, ''wetland'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
@@ -1324,12 +1387,13 @@ osm-iat---highland-lakes-connection:
     mud_susceptibility: 'SSURGO: 14 mukeys, 4 poorly-drained / 8 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 4.6mi / 245ft gain
 osm-iat---ice-override-antigo-heights-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags: []
   seasonality: []
   mud_susceptibility: low
@@ -1341,7 +1405,8 @@ osm-iat---ice-override-antigo-heights-connector:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=10.2mi
     seasonality: derived from activities + scenery_tags
@@ -1349,12 +1414,13 @@ osm-iat---ice-override-antigo-heights-connector:
     mud_susceptibility: 'SSURGO: 11 mukeys, 1 poorly-drained / 10 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 401ft gain
 osm-iat---lake-eleven-cornell-connection:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - prairie
   - water
@@ -1369,7 +1435,8 @@ osm-iat---lake-eleven-cornell-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 23, ''prairie'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=strenuous, length=38.5mi
     seasonality: derived from activities + scenery_tags
@@ -1377,12 +1444,13 @@ osm-iat---lake-eleven-cornell-connection:
     mud_susceptibility: 'SSURGO: 51 mukeys, 22 poorly-drained / 10 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=strenuous / 1742ft gain
 osm-iat---new-hope-white-cedar-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -1396,7 +1464,8 @@ osm-iat---new-hope-white-cedar-connector:
   _provenance:
     scenery_tags: 'OSM: {''water'': 3} features within 100m'
     parking: 'OSM: 5 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=24.5mi
     seasonality: derived from activities + scenery_tags
@@ -1404,12 +1473,13 @@ osm-iat---new-hope-white-cedar-connector:
     mud_susceptibility: 'SSURGO: 35 mukeys, 12 poorly-drained / 21 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 876ft gain
 osm-iat---pine-line-mondeaux-esker-connection:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -1423,7 +1493,8 @@ osm-iat---pine-line-mondeaux-esker-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 10} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=3.4mi
     seasonality: derived from activities + scenery_tags
@@ -1431,12 +1502,13 @@ osm-iat---pine-line-mondeaux-esker-connection:
     mud_susceptibility: 'SSURGO: 12 mukeys, 5 poorly-drained / 3 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 3.4mi / 177ft gain
 osm-iat---plover-river-ice-override-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags: []
   seasonality: []
   mud_susceptibility: low
@@ -1448,7 +1520,8 @@ osm-iat---plover-river-ice-override-connector:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=4.7mi
     seasonality: derived from activities + scenery_tags
@@ -1456,12 +1529,13 @@ osm-iat---plover-river-ice-override-connector:
     mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 8 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 4.7mi / 185ft gain
 osm-iat---rib-lake-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -1475,7 +1549,8 @@ osm-iat---rib-lake-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 4} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
@@ -1483,12 +1558,13 @@ osm-iat---rib-lake-connection:
     mud_susceptibility: 'SSURGO: 2 mukeys, 0 poorly-drained / 1 well-drained (top
       class: Moderately well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.7mi / 29ft gain \u2014 gentle walking"
 osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   seasonality:
@@ -1502,7 +1578,8 @@ osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
   _provenance:
     scenery_tags: 'OSM: {''water'': 5} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.9mi
     seasonality: derived from activities + scenery_tags
@@ -1510,12 +1587,13 @@ osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
     mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 3 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.9mi / 61ft gain \u2014 gentle walking"
 osm-iat---underdown-grandfather-falls-connection:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -1529,7 +1607,8 @@ osm-iat---underdown-grandfather-falls-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 15} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (10%)
     family_friendly: difficulty=difficult, length=10.3mi
     seasonality: derived from activities + scenery_tags
@@ -1537,12 +1616,13 @@ osm-iat---underdown-grandfather-falls-connection:
     mud_susceptibility: 'SSURGO: 20 mukeys, 8 poorly-drained / 7 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 739ft gain
 osm-iat---waupaca-river-connection:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - water
   seasonality:
@@ -1556,7 +1636,8 @@ osm-iat---waupaca-river-connection:
   _provenance:
     scenery_tags: 'OSM: {''water'': 1} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=2.0mi
     seasonality: derived from activities + scenery_tags
@@ -1564,12 +1645,13 @@ osm-iat---waupaca-river-connection:
     mud_susceptibility: 'SSURGO: 14 mukeys, 1 poorly-drained / 13 well-drained (top
       class: Excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 2.0mi / 121ft gain
 osm-iat---white-cedar-ringle-connector:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags: []
   seasonality: []
   mud_susceptibility: low
@@ -1581,7 +1663,8 @@ osm-iat---white-cedar-ringle-connector:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=moderate, length=3.2mi
     seasonality: derived from activities + scenery_tags
@@ -1589,12 +1672,13 @@ osm-iat---white-cedar-ringle-connector:
     mud_susceptibility: 'SSURGO: 8 mukeys, 1 poorly-drained / 6 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 3.2mi / 87ft gain
 osm-moses-creek-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - water
   - wetland
@@ -1609,7 +1693,8 @@ osm-moses-creek-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 5, ''wetland'': 1} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 30% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.0mi
     seasonality: derived from activities + scenery_tags
@@ -1617,12 +1702,13 @@ osm-moses-creek-trail:
     mud_susceptibility: 'SSURGO: 2 mukeys, 1 poorly-drained / 0 well-drained (top
       class: Somewhat poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.0mi / 0ft gain \u2014 gentle walking"
 osm-north-wiouwash-state-recreation-trail:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -1636,7 +1722,8 @@ osm-north-wiouwash-state-recreation-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 10} features within 100m'
     parking: 'OSM: 3 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Wisconsin Department of Natural Resources'
+    dog_policy: WI public-land default; authority='Wisconsin Department of Natural
+      Resources'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=difficult, length=17.5mi
     seasonality: derived from activities + scenery_tags
@@ -1644,12 +1731,13 @@ osm-north-wiouwash-state-recreation-trail:
     mud_susceptibility: 'SSURGO: 18 mukeys, 5 poorly-drained / 11 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 71ft gain
 osm-pine-meadows-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - prairie
   - water
@@ -1666,7 +1754,8 @@ osm-pine-meadows-trail:
     scenery_tags: 'OSM: {''wetland'': 3, ''prairie'': 2, ''water'': 2} features within
       100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.1mi
     seasonality: derived from activities + scenery_tags
@@ -1674,12 +1763,13 @@ osm-pine-meadows-trail:
     mud_susceptibility: 'SSURGO: 3 mukeys, 2 poorly-drained / 1 well-drained (top
       class: Poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.1mi / 1ft gain \u2014 gentle walking"
 osm-plank-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality: []
   mud_susceptibility: high
@@ -1691,7 +1781,8 @@ osm-plank-trail:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.2mi
     seasonality: derived from activities + scenery_tags
@@ -1699,12 +1790,13 @@ osm-plank-trail:
     mud_susceptibility: 'SSURGO: 3 mukeys, 2 poorly-drained / 1 well-drained (top
       class: Poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.2mi / 0ft gain \u2014 gentle walking"
 osm-quarry-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - rocky_outcrop
   seasonality:
@@ -1718,7 +1810,8 @@ osm-quarry-trail:
   _provenance:
     scenery_tags: 'OSM: {''rocky_outcrop'': 2} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.8mi
     seasonality: derived from activities + scenery_tags
@@ -1726,12 +1819,13 @@ osm-quarry-trail:
     mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 1 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 0.8mi / 126ft gain
 osm-red-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - overlook
   seasonality:
@@ -1745,7 +1839,8 @@ osm-red-trail:
   _provenance:
     scenery_tags: 'OSM: {''overlook'': 1} features within 100m'
     parking: 'OSM: 2 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=1.4mi
     seasonality: derived from activities + scenery_tags
@@ -1753,12 +1848,13 @@ osm-red-trail:
     mud_susceptibility: 'SSURGO: 2 mukeys, 0 poorly-drained / 2 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 1.4mi / 326ft gain
 osm-south-unit-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality: []
   mud_susceptibility: low
@@ -1770,7 +1866,8 @@ osm-south-unit-trail:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
@@ -1778,12 +1875,13 @@ osm-south-unit-trail:
     mud_susceptibility: 'SSURGO: 5 mukeys, 1 poorly-drained / 4 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.7mi / 14ft gain \u2014 gentle walking"
 osm-trail-of-reflections:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags:
   - overlook
   - prairie
@@ -1802,7 +1900,8 @@ osm-trail-of-reflections:
     scenery_tags: 'OSM: {''overlook'': 1, ''water'': 1, ''wetland'': 2, ''prairie'':
       2} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 70% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=0.4mi
     seasonality: derived from activities + scenery_tags
@@ -1810,12 +1909,13 @@ osm-trail-of-reflections:
     mud_susceptibility: 'SSURGO: 3 mukeys, 2 poorly-drained / 1 well-drained (top
       class: Poorly drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 0.4mi / 9ft gain \u2014 gentle walking"
 osm-turkey-vulture-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: varied
   scenery_tags:
   - rocky_outcrop
   - water
@@ -1831,7 +1931,8 @@ osm-turkey-vulture-trail:
   _provenance:
     scenery_tags: 'OSM: {''rocky_outcrop'': 7, ''water'': 1} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=easy, length=1.4mi
     seasonality: derived from activities + scenery_tags
@@ -1839,12 +1940,13 @@ osm-turkey-vulture-trail:
     mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=easy / 1.4mi / 472ft gain
 osm-west-unit-trail:
   family_friendly: true
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: none
-  accessibility: unknown
+  accessibility: easy_terrain
   scenery_tags: []
   seasonality: []
   mud_susceptibility: high
@@ -1856,7 +1958,8 @@ osm-west-unit-trail:
   _provenance:
     scenery_tags: 'OSM: {} features within 100m'
     parking: 'OSM: 0 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=easy, length=1.3mi
     seasonality: derived from activities + scenery_tags
@@ -1864,12 +1967,13 @@ osm-west-unit-trail:
     mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 4 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: "easy / 1.3mi / 83ft gain \u2014 gentle walking"
 osm-yellow-trail:
   family_friendly: false
-  dog_policy: unknown
+  dog_policy: leashed
   bike_allowed: false
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - overlook
   - water
@@ -1885,7 +1989,8 @@ osm-yellow-trail:
   _provenance:
     scenery_tags: 'OSM: {''overlook'': 1, ''water'': 3} features within 100m'
     parking: 'OSM: 9 amenity=parking within 300m'
-    dog_policy: default for managing_authority='Unknown'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
     exposure: 100% of sample points in OSM forest polygons
     family_friendly: difficulty=moderate, length=4.8mi
     seasonality: derived from activities + scenery_tags
@@ -1893,12 +1998,13 @@ osm-yellow-trail:
     mud_susceptibility: 'SSURGO: 2 mukeys, 0 poorly-drained / 2 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=moderate / 1230ft gain
 state-green-circle-state-trail:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: true
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - overlook
   - prairie
@@ -1919,7 +2025,7 @@ state-green-circle-state-trail:
     scenery_tags: 'OSM: {''overlook'': 2, ''water'': 31, ''wetland'': 4, ''prairie'':
       2} features within 100m'
     parking: 'OSM: 84 amenity=parking within 300m'
-    dog_policy: default for managing_authority='WI DNR'
+    dog_policy: WI public-land default; authority='WI DNR'
     exposure: default for central WI; OSM forest data sparse (10%)
     family_friendly: difficulty=difficult, length=30.8mi
     seasonality: derived from activities + scenery_tags
@@ -1927,12 +2033,13 @@ state-green-circle-state-trail:
     mud_susceptibility: 'SSURGO: 23 mukeys, 10 poorly-drained / 9 well-drained (top
       class: Excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 633ft gain
 state-mountain-bay-state-trail:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: true
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -1948,7 +2055,7 @@ state-mountain-bay-state-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 75} features within 100m'
     parking: 'OSM: 13 amenity=parking within 300m'
-    dog_policy: default for managing_authority='WI DNR'
+    dog_policy: WI public-land default; authority='WI DNR'
     exposure: default for central WI; OSM forest data sparse (10%)
     family_friendly: difficulty=strenuous, length=76.5mi
     seasonality: derived from activities + scenery_tags
@@ -1956,12 +2063,13 @@ state-mountain-bay-state-trail:
     mud_susceptibility: 'SSURGO: 110 mukeys, 47 poorly-drained / 52 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=strenuous / 1322ft gain
 state-tomorrow-river-state-trail:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: true
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - prairie
   - water
@@ -1978,7 +2086,7 @@ state-tomorrow-river-state-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 11, ''prairie'': 7} features within 100m'
     parking: 'OSM: 5 amenity=parking within 300m'
-    dog_policy: default for managing_authority='WI DNR'
+    dog_policy: WI public-land default; authority='WI DNR'
     exposure: default for central WI; OSM forest data sparse (20%)
     family_friendly: difficulty=difficult, length=28.9mi
     seasonality: derived from activities + scenery_tags
@@ -1986,12 +2094,13 @@ state-tomorrow-river-state-trail:
     mud_susceptibility: 'SSURGO: 48 mukeys, 13 poorly-drained / 32 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=difficult / 490ft gain
 state-wiouwash-state-trail:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: true
   parking: large
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - overlook
   - prairie
@@ -2012,7 +2121,7 @@ state-wiouwash-state-trail:
     scenery_tags: 'OSM: {''overlook'': 1, ''water'': 39, ''wetland'': 13, ''prairie'':
       5} features within 100m'
     parking: 'OSM: 6 amenity=parking within 300m'
-    dog_policy: default for managing_authority='WI DNR'
+    dog_policy: WI public-land default; authority='WI DNR'
     exposure: default for central WI; OSM forest data sparse (0%)
     family_friendly: difficulty=strenuous, length=50.0mi
     seasonality: derived from activities + scenery_tags
@@ -2020,12 +2129,13 @@ state-wiouwash-state-trail:
     mud_susceptibility: 'SSURGO: 68 mukeys, 36 poorly-drained / 26 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=strenuous / 405ft gain
 state-wolf-river-state-trail:
   family_friendly: false
   dog_policy: leashed
   bike_allowed: true
   parking: roadside
-  accessibility: unknown
+  accessibility: rugged
   scenery_tags:
   - water
   seasonality:
@@ -2039,7 +2149,7 @@ state-wolf-river-state-trail:
   _provenance:
     scenery_tags: 'OSM: {''water'': 25} features within 100m'
     parking: 'OSM: 1 amenity=parking within 300m'
-    dog_policy: default for managing_authority='WI DNR'
+    dog_policy: WI public-land default; authority='WI DNR'
     exposure: 60% of sample points in OSM forest polygons
     family_friendly: difficulty=strenuous, length=37.5mi
     seasonality: derived from activities + scenery_tags
@@ -2047,3 +2157,4 @@ state-wolf-river-state-trail:
     mud_susceptibility: 'SSURGO: 45 mukeys, 11 poorly-drained / 28 well-drained (top
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+    accessibility: diff=strenuous / 1034ft gain

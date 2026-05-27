@@ -29,7 +29,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -62,7 +63,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -95,7 +97,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -125,7 +128,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -160,7 +164,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "none"
     }
   },
   {
@@ -193,7 +198,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   },
   {
@@ -226,7 +232,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -261,7 +268,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "mixed",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "none"
     }
   },
   {
@@ -296,7 +304,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "none"
     }
   },
   {
@@ -330,7 +339,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "stroller"
     }
   },
   {
@@ -363,7 +373,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
     }
   },
   {
@@ -391,7 +402,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -419,7 +431,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -452,7 +465,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -480,7 +494,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "rugged"
     }
   },
   {
@@ -514,7 +529,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -544,7 +560,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   },
   {
@@ -577,7 +594,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -605,7 +623,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -635,7 +654,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -669,7 +689,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -697,7 +718,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -731,7 +753,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "none"
     }
   },
   {
@@ -761,7 +784,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
     }
   },
   {
@@ -794,7 +818,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -829,7 +854,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   },
   {
@@ -859,7 +885,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -892,7 +919,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -925,7 +953,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -958,7 +987,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -989,7 +1019,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1023,7 +1054,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1053,10 +1085,11 @@
         "overlook",
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -1082,10 +1115,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1117,10 +1151,11 @@
         "water",
         "wetland"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1147,10 +1182,11 @@
     ],
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1179,10 +1215,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1214,7 +1251,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "stroller"
     }
   },
   {
@@ -1243,10 +1281,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1272,10 +1311,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -1304,10 +1344,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
     }
   },
   {
@@ -1336,10 +1377,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1363,10 +1405,11 @@
     "trailhead_coords": null,
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -1392,10 +1435,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1424,10 +1468,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -1451,10 +1496,11 @@
     "trailhead_coords": null,
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1483,10 +1529,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -1513,10 +1560,11 @@
         "water",
         "wetland"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
     }
   },
   {
@@ -1540,10 +1588,11 @@
     "trailhead_coords": null,
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1570,10 +1619,11 @@
         "prairie",
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1600,10 +1650,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1629,10 +1680,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
     }
   },
   {
@@ -1660,10 +1712,11 @@
     ],
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -1689,10 +1742,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1721,10 +1775,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1750,10 +1805,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1782,10 +1838,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -1812,10 +1869,11 @@
     ],
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -1842,10 +1900,11 @@
         "water",
         "wetland"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1874,10 +1933,11 @@
       "scenery_tags": [
         "water"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   },
   {
@@ -1908,10 +1968,11 @@
         "water",
         "wetland"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1938,10 +1999,11 @@
     ],
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -1973,7 +2035,8 @@
       "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "mixed",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "none"
     }
   },
   {
@@ -2005,7 +2068,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "mixed",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "none"
     }
   },
   {
@@ -2032,10 +2096,11 @@
     ],
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -2067,10 +2132,11 @@
         "water",
         "wetland"
       ],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -2100,7 +2166,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "exposed",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "none"
     }
   },
   {
@@ -2124,10 +2191,11 @@
     "trailhead_coords": null,
     "editorial": {
       "scenery_tags": [],
-      "dog_policy": "unknown",
+      "dog_policy": "leashed",
       "family_friendly": true,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
     }
   },
   {
@@ -2160,7 +2228,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "exposed",
-      "mud_susceptibility": "low"
+      "mud_susceptibility": "low",
+      "accessibility": "none"
     }
   },
   {
@@ -2197,7 +2266,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -2232,7 +2302,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -2267,7 +2338,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   },
   {
@@ -2301,7 +2373,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "high"
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
     }
   },
   {
@@ -2330,7 +2403,8 @@
       "dog_policy": "leashed",
       "family_friendly": false,
       "exposure": "sheltered",
-      "mud_susceptibility": "moderate"
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
     }
   }
 ]

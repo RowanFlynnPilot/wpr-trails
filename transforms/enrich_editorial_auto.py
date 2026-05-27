@@ -145,12 +145,68 @@ def derive_parking(features: list) -> tuple:
     return "roadside", len(parking)
 
 
-def derive_dog_policy(trail: dict) -> str:
-    """WI state/county lands default to leashed."""
-    auth = (trail["attributes"].get("managing_authority") or "").lower()
-    if "dnr" in auth or "iata" in auth or "county" in auth:
-        return "leashed"
-    return "unknown"
+def derive_dog_policy(trail: dict) -> tuple:
+    """Wisconsin defaults: leashed dogs allowed on public hiking trails.
+
+    Trail-managing authority drives the decision:
+    - DNR / IATA / county-managed → leashed (matches by abbreviation OR full name)
+    - "Unknown" authority → leashed too. In our 6-county scope, OSM trails
+      without a DNR/IATA/county match are almost all on public land (state/
+      county/town parks, NF land), and WI state law defaults to "leashed
+      allowed unless signed otherwise" on public trails. The editorial
+      override path catches the rare private-land exception.
+    - Any other named authority we don't recognize → unknown (conservative)
+
+    Returns (policy, provenance_note).
+    """
+    auth_raw = trail["attributes"].get("managing_authority") or "Unknown"
+    auth = auth_raw.lower()
+
+    leashed_markers = (
+        "dnr",
+        "department of natural resources",
+        "iata",
+        "ice age trail alliance",
+        "county",
+        "national forest",
+        "us forest",
+    )
+    if any(m in auth for m in leashed_markers):
+        return "leashed", f"WI public-land default; authority='{auth_raw}'"
+    if auth == "unknown":
+        return "leashed", (
+            "WI public-land default; trail has no managing authority "
+            "(OSM-only), assumed public per regional pattern"
+        )
+    return "unknown", f"unrecognized authority='{auth_raw}'"
+
+
+def derive_accessibility(trail: dict) -> tuple:
+    """Coarse terrain class — best we can do without OSM surface tags.
+
+    Surface data is currently empty across all trails (DNR doesn't tag it,
+    OSM is sparse), so 'wheelchair_easy' would be guesswork. Instead we
+    classify terrain difficulty:
+
+    - easy_terrain: easy difficulty + length < 1.5 mi + gain < 100 ft —
+      suitable for less mobile visitors, walkers with strollers
+    - rugged: difficult/strenuous OR gain > 1000 ft — needs sturdy boots
+    - varied: everything else
+
+    Returns (value, provenance_note). If/when surface tagging improves,
+    a 'wheelchair_easy' tier can be added that requires paved/boardwalk.
+    """
+    diff = trail["attributes"].get("difficulty_estimated")
+    miles = trail["attributes"]["length_m"] / 1609.34
+    gain_ft = trail["attributes"]["elevation_gain_m"] * 3.281
+
+    if diff == "easy" and miles < 1.5 and gain_ft < 100:
+        return "easy_terrain", (
+            f"easy / {miles:.1f}mi / {gain_ft:.0f}ft gain — gentle walking"
+        )
+    if diff in ("difficult", "strenuous") or gain_ft > 1000:
+        return "rugged", f"diff={diff} / {gain_ft:.0f}ft gain"
+    return "varied", f"diff={diff} / {miles:.1f}mi / {gain_ft:.0f}ft gain"
 
 
 def derive_exposure(trail: dict, forest_coverage: float) -> tuple:
@@ -299,11 +355,12 @@ def enrich_trail(trail: dict, forest_index: ForestIndex, ssurgo: dict) -> dict:
 
     scenery, scenery_counts = derive_scenery_tags(features)
     parking, n_parking = derive_parking(features)
-    dog_policy = derive_dog_policy(trail)
+    dog_policy, dog_note = derive_dog_policy(trail)
     exposure, exposure_note = derive_exposure(trail, forest_cov)
     family_friendly = derive_family_friendly(trail)
     seasonality = derive_seasonality(trail, scenery)
     bike_allowed = derive_bike_allowed(trail)
+    accessibility, access_note = derive_accessibility(trail)
 
     trail_mukeys = ssurgo["trail_mukeys"].get(trail["id"], [])
     mud, drainage, soil_note = derive_soil_fields(trail_mukeys, ssurgo["mukey_info"])
@@ -313,7 +370,7 @@ def enrich_trail(trail: dict, forest_index: ForestIndex, ssurgo: dict) -> dict:
         "dog_policy": dog_policy,
         "bike_allowed": bike_allowed,
         "parking": parking,
-        "accessibility": "unknown",
+        "accessibility": accessibility,
         "scenery_tags": scenery,
         "seasonality": seasonality,
         "mud_susceptibility": mud,
@@ -325,7 +382,8 @@ def enrich_trail(trail: dict, forest_index: ForestIndex, ssurgo: dict) -> dict:
         "_provenance": {
             "scenery_tags": f"OSM: {dict(scenery_counts)} features within {SEARCH_RADIUS_M}m",
             "parking": f"OSM: {n_parking} amenity=parking within {PARKING_RADIUS_M}m",
-            "dog_policy": f"default for managing_authority='{trail['attributes'].get('managing_authority')}'",
+            "dog_policy": dog_note,
+            "accessibility": access_note,
             "exposure": exposure_note,
             "family_friendly": (
                 f"difficulty={trail['attributes'].get('difficulty_estimated')}, "

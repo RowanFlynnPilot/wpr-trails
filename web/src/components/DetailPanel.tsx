@@ -114,6 +114,9 @@ function TrailBody({
           label="Counties"
           value={a.counties.map(titleCase).join(", ")}
         />
+        {trail.editorial && Object.keys(trail.editorial).length > 0 && (
+          <EditorialStats editorial={trail.editorial as Record<string, unknown>} />
+        )}
         {d.trailhead_coords && (
           <div className="border-b border-gray-100 py-1.5 text-sm last:border-b-0">
             <div className="flex justify-between">
@@ -163,6 +166,34 @@ function TrailBody({
               ))}
           </ul>
         </Section>
+      )}
+    </>
+  );
+}
+
+function EditorialStats({ editorial }: { editorial: Record<string, unknown> }) {
+  const access = editorial.accessibility as string | undefined;
+  const dog = editorial.dog_policy as string | undefined;
+  const scenery = editorial.scenery_tags as string[] | undefined;
+  const mud = editorial.mud_susceptibility as string | undefined;
+  const exposure = editorial.exposure as string | undefined;
+  const family = editorial.family_friendly as boolean | undefined;
+
+  return (
+    <>
+      {access && access !== "unknown" && (
+        <Stat label="Terrain" value={titleCase(access)} />
+      )}
+      {dog && dog !== "unknown" && (
+        <Stat label="Dogs" value={titleCase(dog)} />
+      )}
+      {scenery && scenery.length > 0 && (
+        <Stat label="Scenery" value={scenery.map(titleCase).join(", ")} />
+      )}
+      {mud && <Stat label="Mud risk" value={titleCase(mud)} />}
+      {exposure && <Stat label="Exposure" value={titleCase(exposure)} />}
+      {family !== undefined && family !== null && (
+        <Stat label="Family-friendly" value={family ? "Yes" : "No"} />
       )}
     </>
   );

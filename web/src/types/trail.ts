@@ -29,12 +29,15 @@ export type DogPolicy = "leashed" | "off_leash" | "prohibited" | "unknown";
 export type Exposure = "sheltered" | "mixed" | "exposed";
 export type MudSusceptibility = "low" | "moderate" | "high";
 
+export type Accessibility = "easy_terrain" | "varied" | "rugged" | "unknown";
+
 export interface IndexEditorial {
   scenery_tags: SceneryTag[] | null;
   dog_policy: DogPolicy | null;
   family_friendly: boolean | null;
   exposure: Exposure | null;
   mud_susceptibility: MudSusceptibility | null;
+  accessibility: Accessibility | null;
 }
 
 export interface TrailIndexEntry {
