@@ -106,6 +106,52 @@ What's actually next now:
 - Then SSURGO soil integration (Path B) can land in parallel since
   it's pure data-side work.
 
+### Later same session: commits 2 + 3 landed
+
+Commit 2 (b72b2b4): trail detail panel. Pin click opens a 384px
+right-anchored slide-out showing trail name, today's score, factual
+attributes (length, elevation gain, difficulty, loop, drive time,
+managing authority, blaze, surface, counties), and the six factor
+scores with inline bars + notes from scores.json. Added Trail,
+Scores, ScoreFactor types; fetchScores + fetchTrail data helpers
+with module-level cache for per-trail responses; useScores + useTrail
+hooks. Replaced popup with `eventHandlers.click` + selected-icon
+hue-rotate variant.
+
+Commit 3 (df53fa9): GitHub Pages deploy workflow. Builds the Vite
+app on every push to main, bundles `data/processed/` into the
+artifact, deploys via `actions/deploy-pages`. Vite `base` set to
+`/wpr-trails/`. Data fetches still use the absolute Pages URL so
+local `npm run dev` works without a local data copy.
+
+**REQUIRED MANUAL STEP**: in repo Settings → Pages, switch source
+from "Deploy from a branch" to "GitHub Actions". Until that flips,
+the deploy workflow runs but the live site stays branch-served.
+
+What I learned during commits 2+3:
+- `editorial: {}` is empty in every per-trail JSON. The cascade
+  (editorial.yaml + editorial_auto.yaml) is merged Python-side only
+  at score time. So the frontend can't surface editorial fields
+  directly — it leans on the factor `note` strings in scores.json
+  ("Trail should be dry", "Sheltered from weather") which encode the
+  editorial nuance indirectly. If we want a richer detail panel
+  later, the cleanest fix is a new transform that publishes
+  `data/processed/editorial_merged.json`.
+- `Difficulty` enum is `easy | moderate | strenuous` (not "difficult"
+  — that was a guess in commit 1, fixed in commit 2).
+- Claude Preview's headless browser runs at 0×0 viewport, which
+  prevents Leaflet from registering visible markers or delivering
+  clicks. Pin-click → panel verified by code inspection only;
+  human verification needed in real `npm run dev`.
+
+What's actually next now:
+- Push these three commits (86a13d8..df53fa9) to origin/main.
+- Flip Pages source to "GitHub Actions" in repo settings.
+- Wait for first deploy to confirm site is live at
+  `https://rowanflynnpilot.github.io/wpr-trails/`.
+- Then SSURGO soil integration (Path B) is the highest-leverage
+  next chunk of work. Independent from the frontend.
+
 ## How to add an entry to this file
 
 End of session: append a dated section with what changed.
