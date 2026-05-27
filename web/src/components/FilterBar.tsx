@@ -1,4 +1,4 @@
-import type { Activity, County } from "../types/trail";
+import type { Activity, County, Difficulty } from "../types/trail";
 
 const ALL_ACTIVITIES: Activity[] = [
   "hiking",
@@ -15,6 +15,13 @@ const ALL_COUNTIES: County[] = [
   "taylor",
   "shawano",
   "portage",
+];
+
+const ALL_DIFFICULTIES: Difficulty[] = [
+  "easy",
+  "moderate",
+  "difficult",
+  "strenuous",
 ];
 
 const COUNTY_LABELS: Record<County, string> = {
@@ -35,23 +42,45 @@ const ACTIVITY_LABELS: Record<Activity, string> = {
   snowmobile: "Snowmobile",
 };
 
-interface Props {
+const DIFFICULTY_LABELS: Record<Difficulty, string> = {
+  easy: "Easy",
+  moderate: "Moderate",
+  difficult: "Difficult",
+  strenuous: "Strenuous",
+};
+
+export interface FilterState {
   activities: Set<Activity>;
   counties: Set<County>;
-  onToggleActivity: (a: Activity) => void;
-  onToggleCounty: (c: County) => void;
+  difficulties: Set<Difficulty>;
+  /** Max drive minutes from Wausau; null = no limit */
+  maxDriveMin: number | null;
+  /** Length range in miles [min, max] */
+  lengthMi: [number, number];
+}
+
+export const LENGTH_MAX_MI = 80;
+
+interface Props {
+  state: FilterState;
+  onChange: (next: FilterState) => void;
   trailCount: number;
   totalCount: number;
 }
 
 export default function FilterBar({
-  activities,
-  counties,
-  onToggleActivity,
-  onToggleCounty,
+  state,
+  onChange,
   trailCount,
   totalCount,
 }: Props) {
+  const toggle = <T,>(set: Set<T>, value: T): Set<T> => {
+    const next = new Set(set);
+    if (next.has(value)) next.delete(value);
+    else next.add(value);
+    return next;
+  };
+
   return (
     <aside className="w-72 shrink-0 overflow-y-auto border-r border-gray-200 bg-white p-4">
       <h1 className="text-lg font-semibold text-gray-900">WPR Trails</h1>
@@ -59,27 +88,60 @@ export default function FilterBar({
         Hiking conditions in north-central Wisconsin
       </p>
 
-      <Section title="Activity">
+      <ChipSection title="Activity">
         {ALL_ACTIVITIES.map((a) => (
           <Chip
             key={a}
             label={ACTIVITY_LABELS[a]}
-            active={activities.has(a)}
-            onClick={() => onToggleActivity(a)}
+            active={state.activities.has(a)}
+            onClick={() => onChange({ ...state, activities: toggle(state.activities, a) })}
           />
         ))}
-      </Section>
+      </ChipSection>
 
-      <Section title="County">
+      <ChipSection title="County">
         {ALL_COUNTIES.map((c) => (
           <Chip
             key={c}
             label={COUNTY_LABELS[c]}
-            active={counties.has(c)}
-            onClick={() => onToggleCounty(c)}
+            active={state.counties.has(c)}
+            onClick={() => onChange({ ...state, counties: toggle(state.counties, c) })}
           />
         ))}
-      </Section>
+      </ChipSection>
+
+      <ChipSection title="Difficulty">
+        {ALL_DIFFICULTIES.map((d) => (
+          <Chip
+            key={d}
+            label={DIFFICULTY_LABELS[d]}
+            active={state.difficulties.has(d)}
+            onClick={() => onChange({ ...state, difficulties: toggle(state.difficulties, d) })}
+          />
+        ))}
+      </ChipSection>
+
+      <SliderSection
+        title="Max drive from Wausau"
+        value={state.maxDriveMin ?? 120}
+        min={15}
+        max={120}
+        step={15}
+        unit="min"
+        unsetLabel="No limit"
+        unset={state.maxDriveMin === null}
+        onChange={(v) => onChange({ ...state, maxDriveMin: v })}
+      />
+
+      <RangeSection
+        title="Length"
+        value={state.lengthMi}
+        min={0}
+        max={LENGTH_MAX_MI}
+        step={1}
+        unit="mi"
+        onChange={(v) => onChange({ ...state, lengthMi: v })}
+      />
 
       <div className="mt-6 text-xs text-gray-500">
         Showing {trailCount} of {totalCount} trails
@@ -88,7 +150,7 @@ export default function FilterBar({
   );
 }
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+function ChipSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mt-5">
       <h2 className="text-xs font-semibold uppercase tracking-wide text-gray-500">
@@ -121,5 +183,110 @@ function Chip({
     >
       {label}
     </button>
+  );
+}
+
+function SliderSection({
+  title,
+  value,
+  min,
+  max,
+  step,
+  unit,
+  unsetLabel,
+  unset,
+  onChange,
+}: {
+  title: string;
+  value: number;
+  min: number;
+  max: number;
+  step: number;
+  unit: string;
+  unsetLabel: string;
+  unset: boolean;
+  onChange: (v: number | null) => void;
+}) {
+  return (
+    <div className="mt-5">
+      <div className="flex items-baseline justify-between">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-gray-500">
+          {title}
+        </h2>
+        <span className="text-xs tabular-nums text-gray-700">
+          {unset ? unsetLabel : `≤ ${value} ${unit}`}
+        </span>
+      </div>
+      <input
+        type="range"
+        min={min}
+        max={max}
+        step={step}
+        value={value}
+        onChange={(e) => {
+          const v = Number(e.target.value);
+          onChange(v >= max ? null : v);
+        }}
+        className="mt-2 w-full accent-emerald-600"
+      />
+    </div>
+  );
+}
+
+function RangeSection({
+  title,
+  value,
+  min,
+  max,
+  step,
+  unit,
+  onChange,
+}: {
+  title: string;
+  value: [number, number];
+  min: number;
+  max: number;
+  step: number;
+  unit: string;
+  onChange: (v: [number, number]) => void;
+}) {
+  const [lo, hi] = value;
+  return (
+    <div className="mt-5">
+      <div className="flex items-baseline justify-between">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-gray-500">
+          {title}
+        </h2>
+        <span className="text-xs tabular-nums text-gray-700">
+          {lo}–{hi} {unit}
+        </span>
+      </div>
+      <div className="mt-2 flex items-center gap-2">
+        <input
+          type="range"
+          min={min}
+          max={max}
+          step={step}
+          value={lo}
+          onChange={(e) => {
+            const v = Math.min(Number(e.target.value), hi);
+            onChange([v, hi]);
+          }}
+          className="w-1/2 accent-emerald-600"
+        />
+        <input
+          type="range"
+          min={min}
+          max={max}
+          step={step}
+          value={hi}
+          onChange={(e) => {
+            const v = Math.max(Number(e.target.value), lo);
+            onChange([lo, v]);
+          }}
+          className="w-1/2 accent-emerald-600"
+        />
+      </div>
+    </div>
   );
 }

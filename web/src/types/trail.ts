@@ -14,7 +14,7 @@ export type County =
   | "shawano"
   | "portage";
 
-export type Difficulty = "easy" | "moderate" | "strenuous";
+export type Difficulty = "easy" | "moderate" | "difficult" | "strenuous";
 
 export interface TrailIndexEntry {
   id: string;
