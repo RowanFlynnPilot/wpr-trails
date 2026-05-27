@@ -1,0 +1,76 @@
+name: Deploy Pages
+
+# Builds the Vite app from web/, bundles the data pipeline outputs
+# alongside it, and publishes to GitHub Pages on every push to main.
+#
+# Pages source must be set to "GitHub Actions" in repo settings.
+# Site URL after first deploy: https://rowanflynnpilot.github.io/wpr-trails/
+#
+# Triggers:
+# - push to main (covers human edits AND hourly/weekly data refresh commits)
+# - manual dispatch from the Actions tab
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time; queue the next, cancel the in-flight if stale.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install
+        run: npm ci
+        working-directory: web
+
+      - name: Build
+        run: npm run build
+        working-directory: web
+
+      - name: Bundle data outputs into dist
+        # data/processed/ continues to be served at the same Pages URLs
+        # consumers already use, just from the Actions artifact instead of
+        # the main branch root.
+        run: |
+          mkdir -p web/dist/data
+          cp -r data/processed web/dist/data/processed
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
