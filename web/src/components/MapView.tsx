@@ -1,14 +1,17 @@
-import { MapContainer, TileLayer } from "react-leaflet";
-import type { TrailIndexEntry } from "../types/trail";
+import { useEffect } from "react";
+import { MapContainer, Polyline, TileLayer, useMap } from "react-leaflet";
+import L from "leaflet";
+import type { Trail, TrailIndexEntry } from "../types/trail";
 import TrailPin from "./TrailPin";
 
 interface Props {
   trails: TrailIndexEntry[];
   selectedId: string | null;
+  selectedTrail: Trail | null;
   onSelect: (id: string) => void;
 }
 
-export default function MapView({ trails, selectedId, onSelect }: Props) {
+export default function MapView({ trails, selectedId, selectedTrail, onSelect }: Props) {
   return (
     <MapContainer
       center={[44.9, -89.7]}
@@ -28,6 +31,48 @@ export default function MapView({ trails, selectedId, onSelect }: Props) {
           onSelect={onSelect}
         />
       ))}
+      {selectedTrail && (
+        <>
+          <TrailPolyline trail={selectedTrail} />
+          <FitToTrail trail={selectedTrail} />
+        </>
+      )}
     </MapContainer>
   );
+}
+
+function TrailPolyline({ trail }: { trail: Trail }) {
+  const lines: [number, number][][] =
+    trail.geometry.type === "LineString"
+      ? [trail.geometry.coordinates.map(([lng, lat]) => [lat, lng])]
+      : trail.geometry.coordinates.map((line) =>
+          line.map(([lng, lat]) => [lat, lng]),
+        );
+  return (
+    <>
+      {lines.map((line, i) => (
+        <Polyline
+          key={i}
+          positions={line}
+          pathOptions={{ color: "#059669", weight: 4, opacity: 0.85 }}
+        />
+      ))}
+    </>
+  );
+}
+
+function FitToTrail({ trail }: { trail: Trail }) {
+  const map = useMap();
+  useEffect(() => {
+    const [minLng, minLat, maxLng, maxLat] = trail.derived.bbox;
+    const bounds = L.latLngBounds([minLat, minLng], [maxLat, maxLng]);
+    // Pad the right side to leave room for the 384px detail panel.
+    map.flyToBounds(bounds, {
+      paddingTopLeft: [40, 40],
+      paddingBottomRight: [420, 40],
+      duration: 0.6,
+      maxZoom: 14,
+    });
+  }, [trail.id, map]);
+  return null;
 }

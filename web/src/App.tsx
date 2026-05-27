@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { useTrailIndex } from "./hooks/useTrailIndex";
 import { useScores } from "./hooks/useScores";
+import { useTrail } from "./hooks/useTrail";
 import FilterBar, { LENGTH_MAX_MI, type FilterState } from "./components/FilterBar";
 import MapView from "./components/MapView";
 import DetailPanel from "./components/DetailPanel";
@@ -18,6 +19,7 @@ export default function App() {
   const scoresState = useScores();
   const [filters, setFilters] = useState<FilterState>(INITIAL_FILTERS);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const trailState = useTrail(selectedId);
 
   const allTrails = indexState.status === "ready" ? indexState.trails : [];
 
@@ -50,6 +52,8 @@ export default function App() {
     return new Map(scoresState.scores.ranked.map((r) => [r.trail_id, r]));
   }, [scoresState]);
 
+  const selectedTrail = trailState.status === "ready" ? trailState.trail : null;
+
   return (
     <div className="flex h-full w-full">
       <FilterBar
@@ -74,11 +78,13 @@ export default function App() {
             <MapView
               trails={filtered}
               selectedId={selectedId}
+              selectedTrail={selectedTrail}
               onSelect={setSelectedId}
             />
             {selectedId && (
               <DetailPanel
                 trailId={selectedId}
+                trailState={trailState}
                 ranked={rankedById.get(selectedId)}
                 onClose={() => setSelectedId(null)}
               />

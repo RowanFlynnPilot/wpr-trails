@@ -1,8 +1,14 @@
-import { useTrail } from "../hooks/useTrail";
-import type { RankedTrail } from "../types/trail";
+import type { RankedTrail, Trail } from "../types/trail";
+
+type TrailState =
+  | { status: "idle" }
+  | { status: "loading"; id: string }
+  | { status: "ready"; trail: Trail }
+  | { status: "error"; id: string; message: string };
 
 interface Props {
   trailId: string;
+  trailState: TrailState;
   ranked: RankedTrail | undefined;
   onClose: () => void;
 }
@@ -16,16 +22,14 @@ const FACTOR_LABELS: Record<string, string> = {
   freshness: "Freshness",
 };
 
-export default function DetailPanel({ trailId, ranked, onClose }: Props) {
-  const state = useTrail(trailId);
-
+export default function DetailPanel({ trailId, trailState, ranked, onClose }: Props) {
   return (
     <aside className="absolute right-0 top-0 z-[1000] flex h-full w-96 flex-col border-l border-gray-200 bg-white shadow-lg">
       <header className="flex items-start justify-between gap-2 border-b border-gray-200 p-4">
         <div className="min-w-0">
-          {state.status === "ready" ? (
+          {trailState.status === "ready" ? (
             <h2 className="truncate text-base font-semibold text-gray-900">
-              {state.trail.name}
+              {trailState.trail.name}
             </h2>
           ) : (
             <h2 className="truncate text-base font-semibold text-gray-400">
@@ -52,14 +56,14 @@ export default function DetailPanel({ trailId, ranked, onClose }: Props) {
       </header>
 
       <div className="flex-1 overflow-y-auto p-4">
-        {state.status === "loading" && (
+        {trailState.status === "loading" && (
           <div className="text-sm text-gray-500">Loading trail…</div>
         )}
-        {state.status === "error" && (
-          <div className="text-sm text-red-600">Failed to load: {state.message}</div>
+        {trailState.status === "error" && (
+          <div className="text-sm text-red-600">Failed to load: {trailState.message}</div>
         )}
-        {state.status === "ready" && (
-          <TrailBody trail={state.trail} ranked={ranked} />
+        {trailState.status === "ready" && (
+          <TrailBody trail={trailState.trail} ranked={ranked} />
         )}
       </div>
     </aside>
@@ -70,7 +74,7 @@ function TrailBody({
   trail,
   ranked,
 }: {
-  trail: import("../types/trail").Trail;
+  trail: Trail;
   ranked: RankedTrail | undefined;
 }) {
   const a = trail.attributes;
