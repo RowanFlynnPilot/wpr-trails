@@ -95,6 +95,8 @@ export interface ConditionsSummary {
   forecast_temp_f: number | null;
   forecast_wind_mph: number | null;
   forecast_precip_chance: number | null;
+  daylight_remaining_minutes?: number | null;
+  active_closure_ids?: string[];
 }
 
 export interface Scores {

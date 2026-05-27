@@ -5,6 +5,7 @@ import { useTrail } from "./hooks/useTrail";
 import FilterBar, { LENGTH_MAX_MI, type FilterState } from "./components/FilterBar";
 import MapView from "./components/MapView";
 import DetailPanel from "./components/DetailPanel";
+import WeatherBanner from "./components/WeatherBanner";
 
 const INITIAL_FILTERS: FilterState = {
   activities: new Set(),
@@ -81,6 +82,13 @@ export default function App() {
               selectedTrail={selectedTrail}
               onSelect={setSelectedId}
             />
+            {scoresState.status === "ready" && (
+              <WeatherBanner
+                conditions={scoresState.scores.conditions_summary}
+                alertCount={scoresState.scores.active_alerts.length}
+                computedAt={scoresState.scores.computed_at}
+              />
+            )}
             {selectedId && (
               <DetailPanel
                 trailId={selectedId}
