@@ -9,10 +9,17 @@ interface Props {
   trails: TrailIndexEntry[];
   selectedId: string | null;
   selectedTrail: Trail | null;
+  favorites: Set<string>;
   onSelect: (id: string) => void;
 }
 
-export default function MapView({ trails, selectedId, selectedTrail, onSelect }: Props) {
+export default function MapView({
+  trails,
+  selectedId,
+  selectedTrail,
+  favorites,
+  onSelect,
+}: Props) {
   return (
     <MapContainer
       center={[44.9, -89.7]}
@@ -27,6 +34,7 @@ export default function MapView({ trails, selectedId, selectedTrail, onSelect }:
       <ClusteredTrailMarkers
         trails={trails}
         selectedId={selectedId}
+        favorites={favorites}
         onSelect={onSelect}
       />
       {selectedTrail && (
@@ -48,10 +56,12 @@ export default function MapView({ trails, selectedId, selectedTrail, onSelect }:
 function ClusteredTrailMarkers({
   trails,
   selectedId,
+  favorites,
   onSelect,
 }: {
   trails: TrailIndexEntry[];
   selectedId: string | null;
+  favorites: Set<string>;
   onSelect: (id: string) => void;
 }) {
   const map = useMap();
@@ -77,11 +87,13 @@ function ClusteredTrailMarkers({
       const [lon, lat] = trail.centroid;
       const color = DIFFICULTY_COLORS[trail.difficulty_estimated];
       const isSelected = trail.id === selectedId;
+      const isFav = favorites.has(trail.id);
       const size = isSelected ? 20 : 14;
       const border = isSelected ? 3 : 2;
+      const borderColor = isFav ? "#eab308" : "white";
       const html = `<div style="
         width:${size}px;height:${size}px;border-radius:9999px;
-        background:${color};border:${border}px solid white;
+        background:${color};border:${border}px solid ${borderColor};
         box-shadow:0 1px 3px rgba(0,0,0,0.45);
       "></div>`;
       const marker = L.marker([lat, lon], {
@@ -103,7 +115,7 @@ function ClusteredTrailMarkers({
     return () => {
       map.removeLayer(group);
     };
-  }, [map, trails, selectedId]);
+  }, [map, trails, selectedId, favorites]);
 
   return null;
 }

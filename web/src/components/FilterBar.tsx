@@ -87,6 +87,7 @@ export interface FilterState {
   difficulties: Set<Difficulty>;
   scenery: Set<SceneryTag>;
   familyOnly: boolean;
+  favoritesOnly: boolean;
   /** Max drive minutes from Wausau; null = no limit */
   maxDriveMin: number | null;
   /** Length range in miles [min, max] */
@@ -100,8 +101,11 @@ interface Props {
   onChange: (next: FilterState) => void;
   trailCount: number;
   totalCount: number;
+  favoriteCount: number;
   open: boolean;
   onClose: () => void;
+  onPickRandom: () => void;
+  randomDisabled: boolean;
 }
 
 export default function FilterBar({
@@ -109,8 +113,11 @@ export default function FilterBar({
   onChange,
   trailCount,
   totalCount,
+  favoriteCount,
   open,
   onClose,
+  onPickRandom,
+  randomDisabled,
 }: Props) {
   const toggle = <T,>(set: Set<T>, value: T): Set<T> => {
     const next = new Set(set);
@@ -158,6 +165,16 @@ export default function FilterBar({
         />
       </div>
 
+      <button
+        type="button"
+        onClick={onPickRandom}
+        disabled={randomDisabled}
+        className="mt-2 flex w-full items-center justify-center gap-1.5 rounded-md border border-wpr-teal bg-wpr-teal px-3 py-1.5 font-body text-sm font-semibold text-white transition hover:bg-wpr-teal-dark disabled:cursor-not-allowed disabled:border-wpr-rule disabled:bg-wpr-cream-dark disabled:text-wpr-ink-muted"
+        title={randomDisabled ? "No trails match the current filters" : "Pick a random trail from your filtered results"}
+      >
+        <span aria-hidden>🎲</span> Surprise me
+      </button>
+
       <ChipSection title="Activity">
         {ALL_ACTIVITIES.map((a) => (
           <Chip
@@ -203,11 +220,17 @@ export default function FilterBar({
         ))}
       </ChipSection>
 
-      <div className="mt-5">
+      <div className="mt-5 space-y-1">
         <ToggleRow
           label="Family-friendly only"
           checked={state.familyOnly}
           onChange={(v) => onChange({ ...state, familyOnly: v })}
+        />
+        <ToggleRow
+          label={`Favorites only${favoriteCount > 0 ? ` (${favoriteCount})` : ""}`}
+          checked={state.favoritesOnly}
+          onChange={(v) => onChange({ ...state, favoritesOnly: v })}
+          disabled={favoriteCount === 0}
         />
       </div>
 
@@ -245,19 +268,29 @@ function ToggleRow({
   label,
   checked,
   onChange,
+  disabled = false,
 }: {
   label: string;
   checked: boolean;
   onChange: (v: boolean) => void;
+  disabled?: boolean;
 }) {
   return (
-    <label className="flex cursor-pointer items-center justify-between rounded px-2 py-1 text-sm hover:bg-gray-50">
-      <span className="text-gray-700">{label}</span>
+    <label
+      className={
+        "flex items-center justify-between rounded px-2 py-1 text-sm " +
+        (disabled
+          ? "cursor-not-allowed text-wpr-ink-muted"
+          : "cursor-pointer text-gray-700 hover:bg-gray-50")
+      }
+    >
+      <span>{label}</span>
       <input
         type="checkbox"
         checked={checked}
+        disabled={disabled}
         onChange={(e) => onChange(e.target.checked)}
-        className="h-4 w-4 rounded border-gray-300 text-wpr-teal focus:ring-wpr-teal"
+        className="h-4 w-4 rounded border-gray-300 text-wpr-teal focus:ring-wpr-teal disabled:cursor-not-allowed"
       />
     </label>
   );

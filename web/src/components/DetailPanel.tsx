@@ -12,6 +12,8 @@ interface Props {
   trailState: TrailState;
   ranked: RankedTrail | undefined;
   onClose: () => void;
+  isFavorite: boolean;
+  onToggleFavorite: () => void;
 }
 
 const FACTOR_LABELS: Record<string, string> = {
@@ -23,7 +25,14 @@ const FACTOR_LABELS: Record<string, string> = {
   freshness: "Freshness",
 };
 
-export default function DetailPanel({ trailId, trailState, ranked, onClose }: Props) {
+export default function DetailPanel({
+  trailId,
+  trailState,
+  ranked,
+  onClose,
+  isFavorite,
+  onToggleFavorite,
+}: Props) {
   const [isMobile, setIsMobile] = useState(
     typeof window !== "undefined" && window.matchMedia("(max-width: 639px)").matches,
   );
@@ -102,14 +111,28 @@ export default function DetailPanel({ trailId, trailState, ranked, onClose }: Pr
             </div>
           )}
         </div>
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label="Close"
-          className="rounded p-1 text-gray-500 hover:bg-gray-100 hover:text-gray-900"
-        >
-          ✕
-        </button>
+        <div className="flex items-center gap-1">
+          <button
+            type="button"
+            onClick={onToggleFavorite}
+            aria-label={isFavorite ? "Remove from favorites" : "Save to favorites"}
+            aria-pressed={isFavorite}
+            title={isFavorite ? "Remove from favorites" : "Save to favorites"}
+            className="rounded p-1 text-lg leading-none transition hover:bg-gray-100"
+          >
+            <span aria-hidden style={{ color: isFavorite ? "#eab308" : "#9ca3af" }}>
+              {isFavorite ? "★" : "☆"}
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close"
+            className="rounded p-1 text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+          >
+            ✕
+          </button>
+        </div>
       </header>
 
       <div className="flex-1 overflow-y-auto p-4">
