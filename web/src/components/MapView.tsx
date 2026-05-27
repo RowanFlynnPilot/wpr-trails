@@ -4,9 +4,11 @@ import TrailPin from "./TrailPin";
 
 interface Props {
   trails: TrailIndexEntry[];
+  selectedId: string | null;
+  onSelect: (id: string) => void;
 }
 
-export default function MapView({ trails }: Props) {
+export default function MapView({ trails, selectedId, onSelect }: Props) {
   return (
     <MapContainer
       center={[44.9, -89.7]}
@@ -19,7 +21,12 @@ export default function MapView({ trails }: Props) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {trails.map((trail) => (
-        <TrailPin key={trail.id} trail={trail} />
+        <TrailPin
+          key={trail.id}
+          trail={trail}
+          selected={trail.id === selectedId}
+          onSelect={onSelect}
+        />
       ))}
     </MapContainer>
   );

@@ -1,4 +1,4 @@
-import { Marker, Popup } from "react-leaflet";
+import { Marker } from "react-leaflet";
 import L from "leaflet";
 import type { TrailIndexEntry } from "../types/trail";
 
@@ -16,28 +16,33 @@ const DefaultIcon = L.icon({
   shadowSize: [41, 41],
 });
 
+const SelectedIcon = L.icon({
+  iconUrl: markerIcon,
+  iconRetinaUrl: markerIcon2x,
+  shadowUrl: markerShadow,
+  iconSize: [33, 54],
+  iconAnchor: [16, 54],
+  popupAnchor: [1, -45],
+  shadowSize: [54, 54],
+  className: "trail-pin-selected",
+});
+
 interface Props {
   trail: TrailIndexEntry;
+  selected: boolean;
+  onSelect: (id: string) => void;
 }
 
-export default function TrailPin({ trail }: Props) {
+export default function TrailPin({ trail, selected, onSelect }: Props) {
   const [lon, lat] = trail.centroid;
-  const lengthMi = (trail.length_m / 1609.34).toFixed(1);
 
   return (
-    <Marker position={[lat, lon]} icon={DefaultIcon}>
-      <Popup>
-        <div className="text-sm">
-          <div className="font-semibold">{trail.name}</div>
-          <div className="text-gray-600">
-            {lengthMi} mi · {trail.difficulty_estimated} ·{" "}
-            {trail.drive_minutes_from_wausau} min from Wausau
-          </div>
-          <div className="text-gray-500 text-xs mt-1">
-            {trail.activities.join(", ")}
-          </div>
-        </div>
-      </Popup>
-    </Marker>
+    <Marker
+      position={[lat, lon]}
+      icon={selected ? SelectedIcon : DefaultIcon}
+      eventHandlers={{
+        click: () => onSelect(trail.id),
+      }}
+    />
   );
 }

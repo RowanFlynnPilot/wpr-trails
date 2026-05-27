@@ -8,3 +8,7 @@ body,
   height: 100%;
   margin: 0;
 }
+
+.trail-pin-selected {
+  filter: hue-rotate(140deg) saturate(2);
+}

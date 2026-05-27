@@ -1,15 +1,19 @@
 import { useMemo, useState } from "react";
 import type { Activity, County } from "./types/trail";
 import { useTrailIndex } from "./hooks/useTrailIndex";
+import { useScores } from "./hooks/useScores";
 import FilterBar from "./components/FilterBar";
 import MapView from "./components/MapView";
+import DetailPanel from "./components/DetailPanel";
 
 export default function App() {
-  const state = useTrailIndex();
+  const indexState = useTrailIndex();
+  const scoresState = useScores();
   const [activities, setActivities] = useState<Set<Activity>>(new Set());
   const [counties, setCounties] = useState<Set<County>>(new Set());
+  const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const allTrails = state.status === "ready" ? state.trails : [];
+  const allTrails = indexState.status === "ready" ? indexState.trails : [];
 
   const filtered = useMemo(() => {
     return allTrails.filter((t) => {
@@ -22,6 +26,11 @@ export default function App() {
       return true;
     });
   }, [allTrails, activities, counties]);
+
+  const rankedById = useMemo(() => {
+    if (scoresState.status !== "ready") return new Map();
+    return new Map(scoresState.scores.ranked.map((r) => [r.trail_id, r]));
+  }, [scoresState]);
 
   const toggle = <T,>(set: Set<T>, value: T): Set<T> => {
     const next = new Set(set);
@@ -41,17 +50,32 @@ export default function App() {
         totalCount={allTrails.length}
       />
       <main className="relative flex-1">
-        {state.status === "loading" && (
+        {indexState.status === "loading" && (
           <div className="flex h-full items-center justify-center text-sm text-gray-500">
             Loading trails…
           </div>
         )}
-        {state.status === "error" && (
+        {indexState.status === "error" && (
           <div className="flex h-full items-center justify-center text-sm text-red-600">
-            Failed to load: {state.message}
+            Failed to load: {indexState.message}
           </div>
         )}
-        {state.status === "ready" && <MapView trails={filtered} />}
+        {indexState.status === "ready" && (
+          <>
+            <MapView
+              trails={filtered}
+              selectedId={selectedId}
+              onSelect={setSelectedId}
+            />
+            {selectedId && (
+              <DetailPanel
+                trailId={selectedId}
+                ranked={rankedById.get(selectedId)}
+                onClose={() => setSelectedId(null)}
+              />
+            )}
+          </>
+        )}
       </main>
     </div>
   );
