@@ -1,0 +1,154 @@
+{
+  "id": "osmway-chicago-and-north-western-transportation-company",
+  "name": "Chicago and North Western Transportation Company",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "way_ids": [
+        316193207
+      ],
+      "kind": "named_way",
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -88.97184,
+        44.6830717
+      ],
+      [
+        -88.9752086,
+        44.6845404
+      ],
+      [
+        -88.9760612,
+        44.6848974
+      ],
+      [
+        -88.9790962,
+        44.6861683
+      ],
+      [
+        -88.9809957,
+        44.6867669
+      ],
+      [
+        -88.9830079,
+        44.6872494
+      ],
+      [
+        -88.9858433,
+        44.6876794
+      ],
+      [
+        -88.986912,
+        44.6877311
+      ],
+      [
+        -88.9885403,
+        44.6877331
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 1441.3,
+    "elevation_gain_m": 7.6,
+    "elevation_max_m": 288.0,
+    "elevation_min_m": 280.5,
+    "elevation_profile": [
+      [
+        0.0,
+        285.3
+      ],
+      [
+        100.0,
+        284.2
+      ],
+      [
+        200.0,
+        283.2
+      ],
+      [
+        300.0,
+        282.9
+      ],
+      [
+        400.0,
+        282.3
+      ],
+      [
+        500.0,
+        281.9
+      ],
+      [
+        600.0,
+        281.2
+      ],
+      [
+        699.9,
+        280.5
+      ],
+      [
+        799.9,
+        280.6
+      ],
+      [
+        899.8,
+        280.5
+      ],
+      [
+        999.8,
+        280.6
+      ],
+      [
+        1099.8,
+        282.6
+      ],
+      [
+        1199.8,
+        283.6
+      ],
+      [
+        1299.5,
+        286.3
+      ],
+      [
+        1399.5,
+        287.3
+      ],
+      [
+        1443.3,
+        288.0
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": null,
+    "blaze_color": null,
+    "counties": [
+      "shawano"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -88.98003030674133,
+      44.686061555682755
+    ],
+    "bbox": [
+      -88.9885403,
+      44.6830717,
+      -88.97184,
+      44.6877331
+    ],
+    "drive_minutes_from_wausau": 58,
+    "trailhead_coords": null
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "osmway-forest-road-265",
+  "name": "Forest Road 265",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "way_ids": [
+        21562000
+      ],
+      "kind": "named_way",
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -90.054051,
+        45.710901
+      ],
+      [
+        -90.052454,
+        45.710664
+      ],
+      [
+        -90.05197,
+        45.710386
+      ],
+      [
+        -90.051365,
+        45.709642
+      ],
+      [
+        -90.049898,
+        45.706899
+      ],
+      [
+        -90.049785,
+        45.70245
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 1089.0,
+    "elevation_gain_m": 2.8,
+    "elevation_max_m": 527.9,
+    "elevation_min_m": 510.9,
+    "elevation_profile": [
+      [
+        0.0,
+        525.7
+      ],
+      [
+        100.0,
+        525.1
+      ],
+      [
+        195.4,
+        525.4
+      ],
+      [
+        295.2,
+        526.8
+      ],
+      [
+        395.2,
+        527.9
+      ],
+      [
+        495.2,
+        527.8
+      ],
+      [
+        595.0,
+        524.0
+      ],
+      [
+        695.0,
+        521.6
+      ],
+      [
+        795.0,
+        517.4
+      ],
+      [
+        895.0,
+        514.5
+      ],
+      [
+        995.0,
+        512.1
+      ],
+      [
+        1085.9,
+        510.9
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": null,
+    "blaze_color": null,
+    "counties": [
+      "price"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -90.05087384942703,
+      45.707427128649286
+    ],
+    "bbox": [
+      -90.054051,
+      45.70245,
+      -90.049785,
+      45.710901
+    ],
+    "drive_minutes_from_wausau": 87,
+    "trailhead_coords": null
+  }
+}

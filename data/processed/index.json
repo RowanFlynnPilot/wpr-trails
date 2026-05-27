@@ -2362,6 +2362,7754 @@
     }
   },
   {
+    "id": "osmway-a-loop",
+    "name": "A Loop",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2848.9,
+    "elevation_gain_m": 43.6,
+    "elevation_max_m": 493.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.1917715739985,
+      45.952032115849796
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-ahdawagam-green-trail",
+    "name": "Ahdawagam Green Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 5284.1,
+    "elevation_gain_m": 14.5,
+    "elevation_max_m": 315.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.80233355321393,
+      44.37847660193343
+    ],
+    "drive_minutes_from_wausau": 64,
+    "trailhead_coords": [
+      -89.8170061,
+      44.3806133
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-ahdawagam-red-trail",
+    "name": "Ahdawagam Red Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 2124.8,
+    "elevation_gain_m": 14.9,
+    "elevation_max_m": 308.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.82460391623104,
+      44.393752889843206
+    ],
+    "drive_minutes_from_wausau": 63,
+    "trailhead_coords": [
+      -89.827385,
+      44.3922661
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-aldo-leopold-commemorative-trail",
+    "name": "Aldo Leopold Commemorative Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1278.5,
+    "elevation_gain_m": 4.2,
+    "elevation_max_m": 430.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.45758668909734,
+      45.33545772446257
+    ],
+    "drive_minutes_from_wausau": 75,
+    "trailhead_coords": [
+      -90.4538467,
+      45.3323918
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-anvil-butternut-trail",
+    "name": "Anvil Butternut Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1877.8,
+    "elevation_gain_m": 26.6,
+    "elevation_max_m": 523.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.03685031146114,
+      45.91758293913324
+    ],
+    "drive_minutes_from_wausau": 113,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-anvil-ninemile-trail",
+    "name": "Anvil Ninemile Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3688.8,
+    "elevation_gain_m": 67.7,
+    "elevation_max_m": 549.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.05031017776113,
+      45.92677405010127
+    ],
+    "drive_minutes_from_wausau": 113,
+    "trailhead_coords": [
+      -89.0597626,
+      45.9354704
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-atv-route",
+    "name": "ATV Route",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1127.4,
+    "elevation_gain_m": 22.7,
+    "elevation_max_m": 493.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.66751343821247,
+      45.439178680826465
+    ],
+    "drive_minutes_from_wausau": 90,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-b-loop",
+    "name": "B Loop",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1111.7,
+    "elevation_gain_m": 28.3,
+    "elevation_max_m": 496.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.18500833353397,
+      45.951989050804265
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-bad-bear",
+    "name": "Bad Bear",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2163.6,
+    "elevation_gain_m": 18.0,
+    "elevation_max_m": 305.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72775393760955,
+      44.48486202996629
+    ],
+    "drive_minutes_from_wausau": 98,
+    "trailhead_coords": [
+      -90.7240625,
+      44.4799463
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-bakerville-snow-rovers-snowmobile-trail",
+    "name": "Bakerville Snow Rovers Snowmobile Trail",
+    "activities": [
+      "hiking",
+      "snowmobile"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1226.2,
+    "elevation_gain_m": 3.2,
+    "elevation_max_m": 392.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.06687170579028,
+      44.5354167115702
+    ],
+    "drive_minutes_from_wausau": 57,
+    "trailhead_coords": [
+      -90.071108,
+      44.5333227
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-beaver-meadow-loop",
+    "name": "Beaver Meadow Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 1330.9,
+    "elevation_gain_m": 8.2,
+    "elevation_max_m": 462.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.55754986130904,
+      45.49897506224129
+    ],
+    "drive_minutes_from_wausau": 58,
+    "trailhead_coords": [
+      -89.5539203,
+      45.4992431
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-bluejay-loop",
+    "name": "Bluejay Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 3729.7,
+    "elevation_gain_m": 58.7,
+    "elevation_max_m": 444.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.77755424148738,
+      45.28970993443202
+    ],
+    "drive_minutes_from_wausau": 37,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-boundary-trail",
+    "name": "Boundary Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 1929.4,
+    "elevation_gain_m": 24.8,
+    "elevation_max_m": 494.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.96187644260183,
+      45.369058741385246
+    ],
+    "drive_minutes_from_wausau": 67,
+    "trailhead_coords": [
+      -88.9524095,
+      45.370895
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-brickyard",
+    "name": "Brickyard",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1727.1,
+    "elevation_gain_m": 11.0,
+    "elevation_max_m": 411.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.38581856232479,
+      44.89845408171507
+    ],
+    "drive_minutes_from_wausau": 20,
+    "trailhead_coords": [
+      -89.3853376,
+      44.8972529
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-brown-landing",
+    "name": "Brown Landing",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2530.0,
+    "elevation_gain_m": 15.5,
+    "elevation_max_m": 519.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.02929876071784,
+      45.71672981338904
+    ],
+    "drive_minutes_from_wausau": 93,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-buck-hill",
+    "name": "Buck Hill",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1021.9,
+    "elevation_gain_m": 35.4,
+    "elevation_max_m": 344.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.75789202797124,
+      44.489253615473615
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-canoe-portage",
+    "name": "Canoe Portage",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1048.8,
+    "elevation_gain_m": 6.5,
+    "elevation_max_m": 448.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.32693713650937,
+      45.317907780136395
+    ],
+    "drive_minutes_from_wausau": 106,
+    "trailhead_coords": [
+      -90.4480512,
+      45.9141499
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-championship-trail",
+    "name": "Championship Trail",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2392.7,
+    "elevation_gain_m": 60.8,
+    "elevation_max_m": 518.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.22110934294552,
+      45.3368450887645
+    ],
+    "drive_minutes_from_wausau": 61,
+    "trailhead_coords": [
+      -90.2159151,
+      45.3442172
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-cherry-hill-north",
+    "name": "Cherry Hill North",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1534.9,
+    "elevation_gain_m": 15.6,
+    "elevation_max_m": 378.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.41453189521282,
+      44.43996293400652
+    ],
+    "drive_minutes_from_wausau": 58,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-cherry-hill-south",
+    "name": "Cherry Hill South",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1625.1,
+    "elevation_gain_m": 21.4,
+    "elevation_max_m": 378.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.41466686133202,
+      44.43844077977092
+    ],
+    "drive_minutes_from_wausau": 58,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-chicago-and-north-western-transportation-company",
+    "name": "Chicago and North Western Transportation Company",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "shawano"
+    ],
+    "length_m": 1441.3,
+    "elevation_gain_m": 7.6,
+    "elevation_max_m": 288.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.98003030674133,
+      44.686061555682755
+    ],
+    "drive_minutes_from_wausau": 58,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-cliffhanger",
+    "name": "Cliffhanger",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1766.1,
+    "elevation_gain_m": 121.2,
+    "elevation_max_m": 419.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.07976115272463,
+      44.807933827691556
+    ],
+    "drive_minutes_from_wausau": 38,
+    "trailhead_coords": [
+      -88.0916266,
+      45.8366658
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-connectordisconnector",
+    "name": "Connector/Disconnector",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 8125.3,
+    "elevation_gain_m": 175.1,
+    "elevation_max_m": 484.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.5907179322185,
+      45.284324295819175
+    ],
+    "drive_minutes_from_wausau": 35,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-connor-flanner-railroad",
+    "name": "Connor-Flanner Railroad",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3237.9,
+    "elevation_gain_m": 16.8,
+    "elevation_max_m": 487.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.7075884851526,
+      45.616313075530456
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-crandon---pelican-lake",
+    "name": "Crandon - Pelican Lake",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2128.4,
+    "elevation_gain_m": 2.8,
+    "elevation_max_m": 555.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.99129155942359,
+      45.55517323645786
+    ],
+    "drive_minutes_from_wausau": 80,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-dalrymple-east-hunter-hiking-trail",
+    "name": "Dalrymple East Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1652.6,
+    "elevation_gain_m": 5.8,
+    "elevation_max_m": 469.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.29441906466265,
+      45.87969841872819
+    ],
+    "drive_minutes_from_wausau": 111,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-dalrymple-west-hunter-hiking-trail",
+    "name": "Dalrymple West Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1159.4,
+    "elevation_gain_m": 7.2,
+    "elevation_max_m": 468.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.31324051753704,
+      45.88053995830672
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-dragonfly-trail",
+    "name": "Dragonfly Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 1026.3,
+    "elevation_gain_m": 14.2,
+    "elevation_max_m": 470.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.55065616071772,
+      45.501244084583156
+    ],
+    "drive_minutes_from_wausau": 59,
+    "trailhead_coords": [
+      -89.5499934,
+      45.5000559
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-east-levis",
+    "name": "East Levis",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1195.2,
+    "elevation_gain_m": 5.4,
+    "elevation_max_m": 325.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72631918695316,
+      44.472073460746095
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": [
+      -90.728214,
+      44.475274
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-east-mtb-loop",
+    "name": "East MTB Loop",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 5288.4,
+    "elevation_gain_m": 42.4,
+    "elevation_max_m": 310.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.80799951471455,
+      44.34656376317143
+    ],
+    "drive_minutes_from_wausau": 67,
+    "trailhead_coords": [
+      -89.8096329,
+      44.3445719
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-eau-claire-river-trail",
+    "name": "Eau Claire River Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2182.1,
+    "elevation_gain_m": 7.2,
+    "elevation_max_m": 367.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.54098692556867,
+      44.91099871460968
+    ],
+    "drive_minutes_from_wausau": 9,
+    "trailhead_coords": [
+      -89.5458132,
+      44.9155809
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-edgar-fenwood-trail",
+    "name": "Edgar-Fenwood Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 15157.1,
+    "elevation_gain_m": 99.8,
+    "elevation_max_m": 411.5,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.01359182356774,
+      44.8710448944321
+    ],
+    "drive_minutes_from_wausau": 31,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-field-multi-use-loop",
+    "name": "Field Multi-Use Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1950.6,
+    "elevation_gain_m": 11.6,
+    "elevation_max_m": 379.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.06971075331961,
+      44.53852081281136
+    ],
+    "drive_minutes_from_wausau": 56,
+    "trailhead_coords": [
+      -90.073876,
+      44.5399956
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-fitness-trail",
+    "name": "Fitness Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1998.9,
+    "elevation_gain_m": 4.6,
+    "elevation_max_m": 343.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.49771937072714,
+      44.584197958991155
+    ],
+    "drive_minutes_from_wausau": 42,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-flambeau-atv-trail-101",
+    "name": "Flambeau ATV Trail 101",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 17522.5,
+    "elevation_gain_m": 103.1,
+    "elevation_max_m": 478.7,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.18510578294608,
+      45.89944126252833
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-flambeau-atv-trail-102",
+    "name": "Flambeau ATV Trail 102",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 12568.9,
+    "elevation_gain_m": 86.2,
+    "elevation_max_m": 474.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.31873806113914,
+      45.84402180968745
+    ],
+    "drive_minutes_from_wausau": 109,
+    "trailhead_coords": [
+      -90.3294743,
+      45.8858318
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-flambeau-atv-trail-103-north",
+    "name": "Flambeau ATV Trail 103 North",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3302.3,
+    "elevation_gain_m": 46.0,
+    "elevation_max_m": 482.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.30622490480333,
+      45.91385490210921
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-flambeau-atv-trail-104",
+    "name": "Flambeau ATV Trail 104",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3465.7,
+    "elevation_gain_m": 28.9,
+    "elevation_max_m": 473.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.29365401750036,
+      45.91053706504934
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-flambeau-atv-trail-121",
+    "name": "Flambeau ATV Trail 121",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 19929.7,
+    "elevation_gain_m": 108.6,
+    "elevation_max_m": 484.9,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.2219113687743,
+      45.86375428161965
+    ],
+    "drive_minutes_from_wausau": 107,
+    "trailhead_coords": [
+      -90.2734255,
+      45.8485183
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-flatlander",
+    "name": "Flatlander",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2014.3,
+    "elevation_gain_m": 154.3,
+    "elevation_max_m": 456.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.34675468212804,
+      44.68839880262342
+    ],
+    "drive_minutes_from_wausau": 62,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-rd-2419",
+    "name": "Forest Rd 2419",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2605.6,
+    "elevation_gain_m": 16.5,
+    "elevation_max_m": 489.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.7574034230744,
+      45.88359100675167
+    ],
+    "drive_minutes_from_wausau": 120,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-rd-2493",
+    "name": "Forest Rd 2493",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1746.0,
+    "elevation_gain_m": 12.1,
+    "elevation_max_m": 538.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.99418673420857,
+      45.964934972377065
+    ],
+    "drive_minutes_from_wausau": 119,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-100",
+    "name": "Forest Road 100",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 4061.9,
+    "elevation_gain_m": 31.4,
+    "elevation_max_m": 451.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.45295610925582,
+      45.30691727688855
+    ],
+    "drive_minutes_from_wausau": 73,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-110",
+    "name": "Forest Road 110",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2138.0,
+    "elevation_gain_m": 5.6,
+    "elevation_max_m": 415.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.68850757173972,
+      45.30897430938286
+    ],
+    "drive_minutes_from_wausau": 89,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1125a",
+    "name": "Forest Road 1125A",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1963.1,
+    "elevation_gain_m": 23.3,
+    "elevation_max_m": 474.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.34363362313896,
+      45.93270566793671
+    ],
+    "drive_minutes_from_wausau": 118,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1131",
+    "name": "Forest Road 1131",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1623.1,
+    "elevation_gain_m": 7.1,
+    "elevation_max_m": 474.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.2778818941565,
+      45.9132548685413
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1133",
+    "name": "Forest Road 1133",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3077.0,
+    "elevation_gain_m": 31.7,
+    "elevation_max_m": 481.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.27023801960647,
+      45.939032094825166
+    ],
+    "drive_minutes_from_wausau": 116,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1153",
+    "name": "Forest Road 1153",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1270.3,
+    "elevation_gain_m": 10.1,
+    "elevation_max_m": 481.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.24597493245237,
+      45.9690188108098
+    ],
+    "drive_minutes_from_wausau": 118,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-118-101a",
+    "name": "Forest Road 118-101A",
+    "activities": [
+      "snowmobile"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2209.9,
+    "elevation_gain_m": 12.5,
+    "elevation_max_m": 471.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.3401792851504,
+      45.88757557646803
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": [
+      -90.3297275,
+      45.8858231
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-118-121a",
+    "name": "Forest Road 118-121A",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3502.8,
+    "elevation_gain_m": 35.5,
+    "elevation_max_m": 467.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.33745261067475,
+      45.85506759789034
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-118k",
+    "name": "Forest Road 118K",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1597.3,
+    "elevation_gain_m": 3.4,
+    "elevation_max_m": 476.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.17929093975873,
+      45.90498430469627
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-120",
+    "name": "Forest Road 120",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3584.1,
+    "elevation_gain_m": 21.6,
+    "elevation_max_m": 480.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.2661638144516,
+      45.80476339838818
+    ],
+    "drive_minutes_from_wausau": 103,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-129",
+    "name": "Forest Road 129",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2266.1,
+    "elevation_gain_m": 15.9,
+    "elevation_max_m": 488.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.09073999906688,
+      45.97237337284617
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-130",
+    "name": "Forest Road 130",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 8151.1,
+    "elevation_gain_m": 41.3,
+    "elevation_max_m": 528.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.05544504034191,
+      45.7224973980948
+    ],
+    "drive_minutes_from_wausau": 88,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-136",
+    "name": "Forest Road 136",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 6481.2,
+    "elevation_gain_m": 38.5,
+    "elevation_max_m": 505.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.1567026307354,
+      45.78633631859863
+    ],
+    "drive_minutes_from_wausau": 98,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-136a",
+    "name": "Forest Road 136A",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2977.2,
+    "elevation_gain_m": 19.3,
+    "elevation_max_m": 466.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.34100592799518,
+      45.87134363150004
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-136e",
+    "name": "Forest Road 136E",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3854.9,
+    "elevation_gain_m": 13.4,
+    "elevation_max_m": 479.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.2470835641618,
+      45.83735655949091
+    ],
+    "drive_minutes_from_wausau": 106,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-136i",
+    "name": "Forest Road 136I",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1192.4,
+    "elevation_gain_m": 4.7,
+    "elevation_max_m": 467.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.33417254258954,
+      45.842222288650305
+    ],
+    "drive_minutes_from_wausau": 109,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-139b",
+    "name": "Forest Road 139B",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1240.8,
+    "elevation_gain_m": 2.1,
+    "elevation_max_m": 470.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.27497912871878,
+      45.87662491460709
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1419",
+    "name": "Forest Road 1419",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1300.0,
+    "elevation_gain_m": 30.4,
+    "elevation_max_m": 420.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.65832303153607,
+      45.218997266755096
+    ],
+    "drive_minutes_from_wausau": 83,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1476",
+    "name": "Forest Road 1476",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3183.3,
+    "elevation_gain_m": 15.0,
+    "elevation_max_m": 402.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.64392052946828,
+      45.27574052023616
+    ],
+    "drive_minutes_from_wausau": 84,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1502",
+    "name": "Forest Road 1502",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3219.7,
+    "elevation_gain_m": 18.4,
+    "elevation_max_m": 396.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.73161319301357,
+      45.223870790484284
+    ],
+    "drive_minutes_from_wausau": 89,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1521",
+    "name": "Forest Road 1521",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3899.3,
+    "elevation_gain_m": 17.6,
+    "elevation_max_m": 414.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72498581486354,
+      45.30025715275286
+    ],
+    "drive_minutes_from_wausau": 91,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1521a",
+    "name": "Forest Road 1521A",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1905.6,
+    "elevation_gain_m": 13.5,
+    "elevation_max_m": 414.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.73282065352362,
+      45.286161760832336
+    ],
+    "drive_minutes_from_wausau": 91,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1523",
+    "name": "Forest Road 1523",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3526.7,
+    "elevation_gain_m": 14.0,
+    "elevation_max_m": 409.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.65941966286454,
+      45.36410519684812
+    ],
+    "drive_minutes_from_wausau": 90,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1528",
+    "name": "Forest Road 1528",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3115.7,
+    "elevation_gain_m": 20.8,
+    "elevation_max_m": 407.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.68165292934152,
+      45.36432704718202
+    ],
+    "drive_minutes_from_wausau": 91,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1529",
+    "name": "Forest Road 1529",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3324.5,
+    "elevation_gain_m": 43.8,
+    "elevation_max_m": 412.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.69380304987276,
+      45.35953451777441
+    ],
+    "drive_minutes_from_wausau": 92,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-152a",
+    "name": "Forest Road 152A",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1281.2,
+    "elevation_gain_m": 9.4,
+    "elevation_max_m": 469.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.34988802888175,
+      45.90538521579441
+    ],
+    "drive_minutes_from_wausau": 116,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1531",
+    "name": "Forest Road 1531",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2518.0,
+    "elevation_gain_m": 12.0,
+    "elevation_max_m": 402.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.71947768795887,
+      45.26759956294636
+    ],
+    "drive_minutes_from_wausau": 89,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1550",
+    "name": "Forest Road 1550",
+    "activities": [
+      "biking",
+      "hiking",
+      "horseback"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1938.9,
+    "elevation_gain_m": 11.3,
+    "elevation_max_m": 420.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.5541626638056,
+      45.29308925217112
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1553",
+    "name": "Forest Road 1553",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1486.7,
+    "elevation_gain_m": 2.4,
+    "elevation_max_m": 418.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.58845697635059,
+      45.362185805287446
+    ],
+    "drive_minutes_from_wausau": 85,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1555",
+    "name": "Forest Road 1555",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1933.4,
+    "elevation_gain_m": 4.8,
+    "elevation_max_m": 421.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.58192673428711,
+      45.37333902935437
+    ],
+    "drive_minutes_from_wausau": 85,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1557",
+    "name": "Forest Road 1557",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1921.9,
+    "elevation_gain_m": 9.1,
+    "elevation_max_m": 438.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.51246630803863,
+      45.3103058970144
+    ],
+    "drive_minutes_from_wausau": 77,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1588",
+    "name": "Forest Road 1588",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1420.5,
+    "elevation_gain_m": 13.2,
+    "elevation_max_m": 453.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.42376521882933,
+      45.31819527227029
+    ],
+    "drive_minutes_from_wausau": 72,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-1597",
+    "name": "Forest Road 1597",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3476.3,
+    "elevation_gain_m": 11.6,
+    "elevation_max_m": 463.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.38334341715927,
+      45.342713981929364
+    ],
+    "drive_minutes_from_wausau": 71,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2039",
+    "name": "Forest Road 2039",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1648.5,
+    "elevation_gain_m": 35.3,
+    "elevation_max_m": 534.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.88770631352777,
+      45.88673668366038
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2142",
+    "name": "Forest Road 2142",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3268.4,
+    "elevation_gain_m": 34.4,
+    "elevation_max_m": 431.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.43970557054291,
+      45.46123896194634
+    ],
+    "drive_minutes_from_wausau": 105,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2170",
+    "name": "Forest Road 2170",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1959.7,
+    "elevation_gain_m": 18.1,
+    "elevation_max_m": 526.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.81136138358917,
+      45.87210364423119
+    ],
+    "drive_minutes_from_wausau": 116,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2189",
+    "name": "Forest Road 2189",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2158.9,
+    "elevation_gain_m": 23.9,
+    "elevation_max_m": 486.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.7061909191984,
+      45.84211438070855
+    ],
+    "drive_minutes_from_wausau": 118,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-233",
+    "name": "Forest Road 233",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2694.5,
+    "elevation_gain_m": 7.9,
+    "elevation_max_m": 525.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.06378142796756,
+      45.711464985406224
+    ],
+    "drive_minutes_from_wausau": 87,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2354",
+    "name": "Forest Road 2354",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 3171.9,
+    "elevation_gain_m": 63.9,
+    "elevation_max_m": 473.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.67766276411422,
+      45.351790854408115
+    ],
+    "drive_minutes_from_wausau": 84,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2358",
+    "name": "Forest Road 2358",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1673.7,
+    "elevation_gain_m": 42.2,
+    "elevation_max_m": 515.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.67227381605214,
+      45.39420459320584
+    ],
+    "drive_minutes_from_wausau": 87,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2359",
+    "name": "Forest Road 2359",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 5484.4,
+    "elevation_gain_m": 36.5,
+    "elevation_max_m": 507.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.66918603332168,
+      45.412055650889094
+    ],
+    "drive_minutes_from_wausau": 88,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2389",
+    "name": "Forest Road 2389",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1478.7,
+    "elevation_gain_m": 10.4,
+    "elevation_max_m": 533.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.88427952610623,
+      45.74771668864955
+    ],
+    "drive_minutes_from_wausau": 102,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2411",
+    "name": "Forest Road 2411",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 4376.3,
+    "elevation_gain_m": 21.2,
+    "elevation_max_m": 509.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.8438012002657,
+      45.812525950813715
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2413",
+    "name": "Forest Road 2413",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2992.3,
+    "elevation_gain_m": 14.1,
+    "elevation_max_m": 518.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.97070186044945,
+      45.775674881917205
+    ],
+    "drive_minutes_from_wausau": 101,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2421",
+    "name": "Forest Road 2421",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1194.3,
+    "elevation_gain_m": 1.0,
+    "elevation_max_m": 507.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.7815835845709,
+      45.91193949068454
+    ],
+    "drive_minutes_from_wausau": 121,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2422",
+    "name": "Forest Road 2422",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1816.6,
+    "elevation_gain_m": 8.4,
+    "elevation_max_m": 509.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.75593851005101,
+      45.91701067291216
+    ],
+    "drive_minutes_from_wausau": 123,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2433",
+    "name": "Forest Road 2433",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3501.5,
+    "elevation_gain_m": 35.3,
+    "elevation_max_m": 527.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.89295661685946,
+      45.90856976548062
+    ],
+    "drive_minutes_from_wausau": 117,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2494",
+    "name": "Forest Road 2494",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2134.2,
+    "elevation_gain_m": 20.9,
+    "elevation_max_m": 532.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.94056162388424,
+      45.972292848364226
+    ],
+    "drive_minutes_from_wausau": 121,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2506",
+    "name": "Forest Road 2506",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1923.8,
+    "elevation_gain_m": 25.8,
+    "elevation_max_m": 516.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.80945966436596,
+      45.94172679687122
+    ],
+    "drive_minutes_from_wausau": 123,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2519",
+    "name": "Forest Road 2519",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3664.6,
+    "elevation_gain_m": 30.5,
+    "elevation_max_m": 522.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.90194004396365,
+      45.92279605337084
+    ],
+    "drive_minutes_from_wausau": 118,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2558",
+    "name": "Forest Road 2558",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2304.9,
+    "elevation_gain_m": 31.9,
+    "elevation_max_m": 508.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.81353181871255,
+      45.818564663292385
+    ],
+    "drive_minutes_from_wausau": 111,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-265",
+    "name": "Forest Road 265",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1089.0,
+    "elevation_gain_m": 2.8,
+    "elevation_max_m": 527.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.05087384942703,
+      45.707427128649286
+    ],
+    "drive_minutes_from_wausau": 87,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2668",
+    "name": "Forest Road 2668",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1229.3,
+    "elevation_gain_m": 7.1,
+    "elevation_max_m": 411.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.5216699931283,
+      45.399535695900134
+    ],
+    "drive_minutes_from_wausau": 97,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2700",
+    "name": "Forest Road 2700",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2300.6,
+    "elevation_gain_m": 19.9,
+    "elevation_max_m": 437.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.4890183745843,
+      45.534831802478806
+    ],
+    "drive_minutes_from_wausau": 107,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-2864",
+    "name": "Forest Road 2864",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1073.0,
+    "elevation_gain_m": 7.1,
+    "elevation_max_m": 502.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.81473225919711,
+      45.784077790750906
+    ],
+    "drive_minutes_from_wausau": 108,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-3724",
+    "name": "Forest Road 3724",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2908.2,
+    "elevation_gain_m": 29.7,
+    "elevation_max_m": 479.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.5912046836126,
+      45.480770949360476
+    ],
+    "drive_minutes_from_wausau": 97,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-3861",
+    "name": "Forest Road 3861",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest",
+      "oneida"
+    ],
+    "length_m": 1327.7,
+    "elevation_gain_m": 11.8,
+    "elevation_max_m": 518.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.03978737704365,
+      45.81774341904272
+    ],
+    "drive_minutes_from_wausau": 103,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-430",
+    "name": "Forest Road 430",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1991.2,
+    "elevation_gain_m": 3.4,
+    "elevation_max_m": 518.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.0988740037205,
+      45.80985431124828
+    ],
+    "drive_minutes_from_wausau": 98,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-473",
+    "name": "Forest Road 473",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1926.5,
+    "elevation_gain_m": 12.9,
+    "elevation_max_m": 479.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.2492417506049,
+      45.894838509685236
+    ],
+    "drive_minutes_from_wausau": 111,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-498",
+    "name": "Forest Road 498",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2297.3,
+    "elevation_gain_m": 2.4,
+    "elevation_max_m": 481.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.22301710077221,
+      45.76738988738232
+    ],
+    "drive_minutes_from_wausau": 98,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-504",
+    "name": "Forest Road 504",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2622.6,
+    "elevation_gain_m": 28.8,
+    "elevation_max_m": 526.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.31364669176443,
+      45.67851339265166
+    ],
+    "drive_minutes_from_wausau": 81,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-505b",
+    "name": "Forest Road 505B",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1922.3,
+    "elevation_gain_m": 5.3,
+    "elevation_max_m": 475.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.12950540165785,
+      45.88569716952937
+    ],
+    "drive_minutes_from_wausau": 107,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-508l",
+    "name": "Forest Road 508L",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1289.3,
+    "elevation_gain_m": 4.0,
+    "elevation_max_m": 473.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.3072471400739,
+      45.81175951960356
+    ],
+    "drive_minutes_from_wausau": 105,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-510",
+    "name": "Forest Road 510",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3218.0,
+    "elevation_gain_m": 7.4,
+    "elevation_max_m": 473.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.31967813083266,
+      45.77952093123204
+    ],
+    "drive_minutes_from_wausau": 103,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-511",
+    "name": "Forest Road 511",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 4707.7,
+    "elevation_gain_m": 45.3,
+    "elevation_max_m": 493.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.22848495417384,
+      45.96022893770345
+    ],
+    "drive_minutes_from_wausau": 117,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-512",
+    "name": "Forest Road 512",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 6149.6,
+    "elevation_gain_m": 46.4,
+    "elevation_max_m": 482.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.97148695366442,
+      45.907243229429845
+    ],
+    "drive_minutes_from_wausau": 105,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-513",
+    "name": "Forest Road 513",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 4448.3,
+    "elevation_gain_m": 37.8,
+    "elevation_max_m": 484.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.77211403771535,
+      45.804201913001585
+    ],
+    "drive_minutes_from_wausau": 92,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-515",
+    "name": "Forest Road 515",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 5192.8,
+    "elevation_gain_m": 20.4,
+    "elevation_max_m": 482.6,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.2293008948296,
+      45.84603404073378
+    ],
+    "drive_minutes_from_wausau": 106,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-518",
+    "name": "Forest Road 518",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1549.8,
+    "elevation_gain_m": 15.2,
+    "elevation_max_m": 466.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.34444382567506,
+      45.797694424775145
+    ],
+    "drive_minutes_from_wausau": 105,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-521",
+    "name": "Forest Road 521",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2295.6,
+    "elevation_gain_m": 9.6,
+    "elevation_max_m": 492.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.06114781504832,
+      45.843295260017385
+    ],
+    "drive_minutes_from_wausau": 101,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-522",
+    "name": "Forest Road 522",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1579.6,
+    "elevation_gain_m": 18.6,
+    "elevation_max_m": 489.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.06524946497817,
+      45.8629885842644
+    ],
+    "drive_minutes_from_wausau": 103,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-528",
+    "name": "Forest Road 528",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1673.6,
+    "elevation_gain_m": 9.7,
+    "elevation_max_m": 481.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.1910082576582,
+      45.88185575343178
+    ],
+    "drive_minutes_from_wausau": 108,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-534",
+    "name": "Forest Road 534",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2762.0,
+    "elevation_gain_m": 6.8,
+    "elevation_max_m": 473.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.29643433904594,
+      45.799045519325134
+    ],
+    "drive_minutes_from_wausau": 104,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-536",
+    "name": "Forest Road 536",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2039.7,
+    "elevation_gain_m": 2.4,
+    "elevation_max_m": 484.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.14738969842813,
+      45.85605599502094
+    ],
+    "drive_minutes_from_wausau": 104,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-537",
+    "name": "Forest Road 537",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3986.5,
+    "elevation_gain_m": 25.0,
+    "elevation_max_m": 482.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.18917788730936,
+      45.76999534146157
+    ],
+    "drive_minutes_from_wausau": 97,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-538",
+    "name": "Forest Road 538",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2899.8,
+    "elevation_gain_m": 13.3,
+    "elevation_max_m": 411.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.58334451175244,
+      45.30893974504982
+    ],
+    "drive_minutes_from_wausau": 82,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-543",
+    "name": "Forest Road 543",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2228.1,
+    "elevation_gain_m": 35.3,
+    "elevation_max_m": 418.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.57961425657318,
+      45.286209241915785
+    ],
+    "drive_minutes_from_wausau": 80,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-547",
+    "name": "Forest Road 547",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 4754.7,
+    "elevation_gain_m": 83.0,
+    "elevation_max_m": 425.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.68570205181575,
+      45.26784828368386
+    ],
+    "drive_minutes_from_wausau": 87,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-548",
+    "name": "Forest Road 548",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1074.8,
+    "elevation_gain_m": 9.7,
+    "elevation_max_m": 405.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.69555448743182,
+      45.26835353406619
+    ],
+    "drive_minutes_from_wausau": 88,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-565",
+    "name": "Forest Road 565",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3214.0,
+    "elevation_gain_m": 11.8,
+    "elevation_max_m": 408.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.69209130894151,
+      45.33533386066264
+    ],
+    "drive_minutes_from_wausau": 90,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-567",
+    "name": "Forest Road 567",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1935.2,
+    "elevation_gain_m": 24.2,
+    "elevation_max_m": 445.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.51277338062314,
+      45.283668464098525
+    ],
+    "drive_minutes_from_wausau": 76,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-569",
+    "name": "Forest Road 569",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1265.9,
+    "elevation_gain_m": 22.6,
+    "elevation_max_m": 475.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.48053491476031,
+      45.327831856217614
+    ],
+    "drive_minutes_from_wausau": 76,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-574",
+    "name": "Forest Road 574",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 4969.2,
+    "elevation_gain_m": 22.0,
+    "elevation_max_m": 412.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.64072968017054,
+      45.29026690687528
+    ],
+    "drive_minutes_from_wausau": 85,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-578",
+    "name": "Forest Road 578",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2411.8,
+    "elevation_gain_m": 14.1,
+    "elevation_max_m": 405.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.7072067998218,
+      45.28552482153157
+    ],
+    "drive_minutes_from_wausau": 89,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-581",
+    "name": "Forest Road 581",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1995.7,
+    "elevation_gain_m": 6.7,
+    "elevation_max_m": 445.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.46042508908262,
+      45.35965461124451
+    ],
+    "drive_minutes_from_wausau": 76,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-591",
+    "name": "Forest Road 591",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 4793.3,
+    "elevation_gain_m": 24.6,
+    "elevation_max_m": 417.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.54608101757893,
+      45.308679448463565
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-599",
+    "name": "Forest Road 599",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1087.7,
+    "elevation_gain_m": 4.1,
+    "elevation_max_m": 423.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.55363589657041,
+      45.16707510453094
+    ],
+    "drive_minutes_from_wausau": 74,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-605",
+    "name": "Forest Road 605",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3140.3,
+    "elevation_gain_m": 23.3,
+    "elevation_max_m": 437.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.54410943526923,
+      45.27007561868384
+    ],
+    "drive_minutes_from_wausau": 77,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-607",
+    "name": "Forest Road 607",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2178.3,
+    "elevation_gain_m": 9.2,
+    "elevation_max_m": 431.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.58339599442905,
+      45.139843123200244
+    ],
+    "drive_minutes_from_wausau": 75,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-643",
+    "name": "Forest Road 643",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1654.4,
+    "elevation_gain_m": 9.3,
+    "elevation_max_m": 470.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.30359609685118,
+      45.974818751568684
+    ],
+    "drive_minutes_from_wausau": 121,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-645",
+    "name": "Forest Road 645",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 5976.9,
+    "elevation_gain_m": 78.2,
+    "elevation_max_m": 490.5,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.21654891259101,
+      45.93146021104611
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-652",
+    "name": "Forest Road 652",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1900.4,
+    "elevation_gain_m": 8.4,
+    "elevation_max_m": 469.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.30190495402819,
+      45.88069717385662
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-road-653",
+    "name": "Forest Road 653",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3497.5,
+    "elevation_gain_m": 32.4,
+    "elevation_max_m": 466.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.31240749375635,
+      45.856149766307695
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-road-911",
+    "name": "Forest Road 911",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1017.5,
+    "elevation_gain_m": 1.4,
+    "elevation_max_m": 471.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.29663481296967,
+      45.88724653375589
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-300",
+    "name": "Forest Trail 300",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 17823.4,
+    "elevation_gain_m": 318.9,
+    "elevation_max_m": 463.6,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.60691330520918,
+      45.18423219823379
+    ],
+    "drive_minutes_from_wausau": 78,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-301",
+    "name": "Forest Trail 301",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 11515.1,
+    "elevation_gain_m": 165.8,
+    "elevation_max_m": 452.5,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.62674643105966,
+      45.168859406109206
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-302",
+    "name": "Forest Trail 302",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 19371.1,
+    "elevation_gain_m": 189.5,
+    "elevation_max_m": 464.5,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.57180474939621,
+      45.271367642074
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-304",
+    "name": "Forest Trail 304",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3722.7,
+    "elevation_gain_m": 48.0,
+    "elevation_max_m": 411.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.67435648307536,
+      45.25622887938208
+    ],
+    "drive_minutes_from_wausau": 86,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-306",
+    "name": "Forest Trail 306",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3731.1,
+    "elevation_gain_m": 72.7,
+    "elevation_max_m": 472.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.58354914668259,
+      45.17131879840477
+    ],
+    "drive_minutes_from_wausau": 76,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-308",
+    "name": "Forest Trail 308",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1867.2,
+    "elevation_gain_m": 46.9,
+    "elevation_max_m": 466.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.6208272411532,
+      45.173277060442565
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-316",
+    "name": "Forest Trail 316",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 3944.4,
+    "elevation_gain_m": 24.7,
+    "elevation_max_m": 434.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.52293244083103,
+      45.248119104773544
+    ],
+    "drive_minutes_from_wausau": 75,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-317",
+    "name": "Forest Trail 317",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2881.1,
+    "elevation_gain_m": 54.1,
+    "elevation_max_m": 457.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.6415952106894,
+      45.196954896813736
+    ],
+    "drive_minutes_from_wausau": 81,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-318",
+    "name": "Forest Trail 318",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 2934.4,
+    "elevation_gain_m": 42.6,
+    "elevation_max_m": 433.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.65075671614943,
+      45.17332827990291
+    ],
+    "drive_minutes_from_wausau": 81,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-319",
+    "name": "Forest Trail 319",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 4896.3,
+    "elevation_gain_m": 12.2,
+    "elevation_max_m": 415.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.62015477568389,
+      45.32810241557289
+    ],
+    "drive_minutes_from_wausau": 85,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-326",
+    "name": "Forest Trail 326",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 8208.5,
+    "elevation_gain_m": 79.0,
+    "elevation_max_m": 439.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.61028108319358,
+      45.14374582338132
+    ],
+    "drive_minutes_from_wausau": 77,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-333",
+    "name": "Forest Trail 333",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 10575.8,
+    "elevation_gain_m": 170.2,
+    "elevation_max_m": 465.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.64995612279439,
+      45.1608553400052
+    ],
+    "drive_minutes_from_wausau": 81,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-334",
+    "name": "Forest Trail 334",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 11044.4,
+    "elevation_gain_m": 141.6,
+    "elevation_max_m": 469.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.39773180621525,
+      45.26415620488205
+    ],
+    "drive_minutes_from_wausau": 67,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-3510",
+    "name": "Forest Trail 3510",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 18186.5,
+    "elevation_gain_m": 159.8,
+    "elevation_max_m": 535.3,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -88.97206644467474,
+      45.87144992358698
+    ],
+    "drive_minutes_from_wausau": 110,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-3522",
+    "name": "Forest Trail 3522",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3649.8,
+    "elevation_gain_m": 28.8,
+    "elevation_max_m": 545.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.94990254735279,
+      45.95683898643399
+    ],
+    "drive_minutes_from_wausau": 119,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-3541",
+    "name": "Forest Trail 3541",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 5088.0,
+    "elevation_gain_m": 38.3,
+    "elevation_max_m": 382.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.6737840288081,
+      45.18395934456924
+    ],
+    "drive_minutes_from_wausau": 77,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-3543",
+    "name": "Forest Trail 3543",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 1442.1,
+    "elevation_gain_m": 24.9,
+    "elevation_max_m": 424.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.71040073686996,
+      45.22287889222278
+    ],
+    "drive_minutes_from_wausau": 76,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-forest-trail-3544",
+    "name": "Forest Trail 3544",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 1890.1,
+    "elevation_gain_m": 18.4,
+    "elevation_max_m": 407.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.6690548221075,
+      45.25362432477468
+    ],
+    "drive_minutes_from_wausau": 80,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-franklin-nature-trail",
+    "name": "Franklin Nature Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1844.1,
+    "elevation_gain_m": 20.5,
+    "elevation_max_m": 532.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.99266736965973,
+      45.92676304218139
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-galvin-avenue-trail",
+    "name": "Galvin Avenue Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1540.3,
+    "elevation_gain_m": 10.2,
+    "elevation_max_m": 390.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.14021047599923,
+      44.66264808390127
+    ],
+    "drive_minutes_from_wausau": 50,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-giant-hardwoods-trail",
+    "name": "Giant Hardwoods Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1168.0,
+    "elevation_gain_m": 8.8,
+    "elevation_max_m": 367.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.84093925611676,
+      44.736993921138534
+    ],
+    "drive_minutes_from_wausau": 29,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-giant-white-pine-trail",
+    "name": "Giant White Pine Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2891.3,
+    "elevation_gain_m": 14.0,
+    "elevation_max_m": 516.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.98498938057361,
+      45.7918361644948
+    ],
+    "drive_minutes_from_wausau": 102,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-goat-dance",
+    "name": "Goat Dance",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 5963.5,
+    "elevation_gain_m": 129.2,
+    "elevation_max_m": 370.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.76460679634934,
+      44.494601275163
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-green-circle-trail---paper-mill-trail",
+    "name": "Green Circle Trail - Paper Mill Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1453.7,
+    "elevation_gain_m": 3.2,
+    "elevation_max_m": 329.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.57350851413885,
+      44.48982726915091
+    ],
+    "drive_minutes_from_wausau": 51,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-green-circle-trail---shraeder-connection",
+    "name": "Green Circle Trail - Shraeder Connection",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1537.8,
+    "elevation_gain_m": 1.2,
+    "elevation_max_m": 334.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.56957760942302,
+      44.49455879061019
+    ],
+    "drive_minutes_from_wausau": 50,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-green-circle-trail-pet-detour",
+    "name": "Green Circle Trail (Pet Detour)",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1912.9,
+    "elevation_gain_m": 5.6,
+    "elevation_max_m": 341.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.56285482912429,
+      44.54128508099933
+    ],
+    "drive_minutes_from_wausau": 45,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-green-circle-trail",
+    "name": "Green Circle Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 7398.7,
+    "elevation_gain_m": 57.9,
+    "elevation_max_m": 341.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.56228507041075,
+      44.53158650678634
+    ],
+    "drive_minutes_from_wausau": 46,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-green-hollow-trail",
+    "name": "Green Hollow Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1075.8,
+    "elevation_gain_m": 3.4,
+    "elevation_max_m": 338.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.52053300500663,
+      44.54881813412725
+    ],
+    "drive_minutes_from_wausau": 45,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-heinemania",
+    "name": "Heinemania",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 4495.5,
+    "elevation_gain_m": 49.5,
+    "elevation_max_m": 448.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.57954705160792,
+      45.2763918610023
+    ],
+    "drive_minutes_from_wausau": 34,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-hidden-lakes-trail",
+    "name": "Hidden Lakes Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 21726.0,
+    "elevation_gain_m": 340.2,
+    "elevation_max_m": 538.4,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.00165260624297,
+      45.907814328361695
+    ],
+    "drive_minutes_from_wausau": 113,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-hogsback-trail",
+    "name": "Hogsback Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2734.2,
+    "elevation_gain_m": 61.6,
+    "elevation_max_m": 477.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.3291016538223,
+      45.874605047260594
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-homestead-loop",
+    "name": "Homestead Loop",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 2303.2,
+    "elevation_gain_m": 42.4,
+    "elevation_max_m": 481.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.57192087680623,
+      45.324346029494016
+    ],
+    "drive_minutes_from_wausau": 40,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-homestead-trail",
+    "name": "Homestead Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2068.7,
+    "elevation_gain_m": 125.8,
+    "elevation_max_m": 528.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.70057054864172,
+      44.92415941928236
+    ],
+    "drive_minutes_from_wausau": 7,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "rocky_outcrop",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-horseshoe-trail",
+    "name": "Horseshoe Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 1350.9,
+    "elevation_gain_m": 8.8,
+    "elevation_max_m": 477.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.96982288971098,
+      45.35880579257948
+    ],
+    "drive_minutes_from_wausau": 66,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-iat---emmons-creek-segment-faraway-valley-loop",
+    "name": "IAT - Emmons Creek Segment Faraway Valley Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 2184.1,
+    "elevation_gain_m": 41.1,
+    "elevation_max_m": 309.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.2501492814652,
+      44.29700530751476
+    ],
+    "drive_minutes_from_wausau": 77,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-iat---murry-creek-trail",
+    "name": "IAT - Murry Creek Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 2572.7,
+    "elevation_gain_m": 38.9,
+    "elevation_max_m": 325.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.24860671333647,
+      44.2746309010781
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-jeep-trail",
+    "name": "Jeep Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3485.4,
+    "elevation_gain_m": 33.5,
+    "elevation_max_m": 540.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.59990746285409,
+      45.51064090740758
+    ],
+    "drive_minutes_from_wausau": 98,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-kahquados-trail",
+    "name": "Kahquados Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1241.8,
+    "elevation_gain_m": 27.1,
+    "elevation_max_m": 540.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.82512651873385,
+      45.579238945408605
+    ],
+    "drive_minutes_from_wausau": 91,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-kalinke-to-doering",
+    "name": "Kalinke to Doering",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 3314.7,
+    "elevation_gain_m": 4.0,
+    "elevation_max_m": 457.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.40901286394673,
+      45.13340144053084
+    ],
+    "drive_minutes_from_wausau": 25,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-killian-trail",
+    "name": "Killian Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 2765.6,
+    "elevation_gain_m": 23.4,
+    "elevation_max_m": 472.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.96239962735889,
+      45.36717073108746
+    ],
+    "drive_minutes_from_wausau": 67,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-lake-loop-trail",
+    "name": "Lake Loop Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1433.8,
+    "elevation_gain_m": 1.6,
+    "elevation_max_m": 334.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.56153252295141,
+      44.535864879873465
+    ],
+    "drive_minutes_from_wausau": 46,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-lily-mill-fl",
+    "name": "Lily Mill Fl",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 3502.4,
+    "elevation_gain_m": 31.9,
+    "elevation_max_m": 510.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.32315362402952,
+      45.43605444431563
+    ],
+    "drive_minutes_from_wausau": 56,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-loop-d",
+    "name": "Loop D",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1514.4,
+    "elevation_gain_m": 9.8,
+    "elevation_max_m": 482.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.1983549938527,
+      45.944719126952634
+    ],
+    "drive_minutes_from_wausau": 115,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-lost-40",
+    "name": "Lost 40",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2559.3,
+    "elevation_gain_m": 13.7,
+    "elevation_max_m": 416.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.38588737967184,
+      44.89826996530133
+    ],
+    "drive_minutes_from_wausau": 20,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-lost-creek-wetland-hiking-trail",
+    "name": "Lost Creek Wetland Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 2017.7,
+    "elevation_gain_m": 1.5,
+    "elevation_max_m": 341.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.47368878288074,
+      44.533669049951264
+    ],
+    "drive_minutes_from_wausau": 47,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-lost-lake-hunter-hiking-trail",
+    "name": "Lost Lake Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 4958.6,
+    "elevation_gain_m": 75.5,
+    "elevation_max_m": 477.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.25411928773707,
+      45.91895064532546
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-lost-lake-loop",
+    "name": "Lost Lake Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 6585.8,
+    "elevation_gain_m": 33.3,
+    "elevation_max_m": 493.8,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.99741549021999,
+      45.8305923805811
+    ],
+    "drive_minutes_from_wausau": 98,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-lower-glen",
+    "name": "Lower Glen",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1669.2,
+    "elevation_gain_m": 8.3,
+    "elevation_max_m": 310.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72917484082336,
+      44.478591925445826
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-luna-lake-trail",
+    "name": "Luna Lake Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3108.0,
+    "elevation_gain_m": 28.8,
+    "elevation_max_m": 525.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.9594596439062,
+      45.905490705868125
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-main-course",
+    "name": "Main Course",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 13286.7,
+    "elevation_gain_m": 269.5,
+    "elevation_max_m": 503.1,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.58730989960198,
+      45.31686667697383
+    ],
+    "drive_minutes_from_wausau": 39,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-merrilian-to-marshfield",
+    "name": "Merrilian to Marshfield",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark",
+      "wood"
+    ],
+    "length_m": 56504.4,
+    "elevation_gain_m": 369.5,
+    "elevation_max_m": 389.0,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -90.52523861358502,
+      44.57114776588642
+    ],
+    "drive_minutes_from_wausau": 80,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-moundbounder",
+    "name": "Moundbounder",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2668.2,
+    "elevation_gain_m": 67.4,
+    "elevation_max_m": 343.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.74987622960971,
+      44.48516977966039
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-muskrat-trail",
+    "name": "Muskrat Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 1946.7,
+    "elevation_gain_m": 56.3,
+    "elevation_max_m": 499.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.96303546398109,
+      45.36060758373803
+    ],
+    "drive_minutes_from_wausau": 67,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-national-forest-road-2357",
+    "name": "National Forest Road 2357",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 2131.3,
+    "elevation_gain_m": 32.4,
+    "elevation_max_m": 448.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.67691120323292,
+      45.299652131048106
+    ],
+    "drive_minutes_from_wausau": 81,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-national-forest-road-2386",
+    "name": "National Forest Road 2386",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 4324.4,
+    "elevation_gain_m": 26.0,
+    "elevation_max_m": 465.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.59332862529382,
+      45.71327441525191
+    ],
+    "drive_minutes_from_wausau": 113,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-national-forest-road-2430",
+    "name": "National Forest Road 2430",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 3148.7,
+    "elevation_gain_m": 47.5,
+    "elevation_max_m": 526.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.94548450460323,
+      45.93733850653258
+    ],
+    "drive_minutes_from_wausau": 117,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-national-forest-road-3198a",
+    "name": "National Forest Road 3198A",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 4883.3,
+    "elevation_gain_m": 59.1,
+    "elevation_max_m": 430.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.73669969474994,
+      45.22351991631685
+    ],
+    "drive_minutes_from_wausau": 74,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-nelson-fl",
+    "name": "Nelson Fl",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 4344.8,
+    "elevation_gain_m": 78.1,
+    "elevation_max_m": 524.4,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.34103931106091,
+      45.39016144799618
+    ],
+    "drive_minutes_from_wausau": 51,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-nelson-landing",
+    "name": "Nelson Landing",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2049.4,
+    "elevation_gain_m": 7.5,
+    "elevation_max_m": 509.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.0384144620922,
+      45.7207995588057
+    ],
+    "drive_minutes_from_wausau": 94,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-nf-2387",
+    "name": "NF-2387",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 6086.9,
+    "elevation_gain_m": 61.2,
+    "elevation_max_m": 491.3,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.76897082223303,
+      45.70872901811283
+    ],
+    "drive_minutes_from_wausau": 104,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-nf-3522",
+    "name": "NF-3522",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1851.0,
+    "elevation_gain_m": 39.8,
+    "elevation_max_m": 526.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.90028980163946,
+      45.966945910644675
+    ],
+    "drive_minutes_from_wausau": 122,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-nf-road-2133",
+    "name": "Nf Road 2133",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 4574.8,
+    "elevation_gain_m": 32.1,
+    "elevation_max_m": 492.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.63031732908479,
+      45.581314766700885
+    ],
+    "drive_minutes_from_wausau": 101,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-nf-road-2376",
+    "name": "Nf Road 2376",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1237.2,
+    "elevation_gain_m": 7.9,
+    "elevation_max_m": 503.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.71299799267977,
+      45.58793242031783
+    ],
+    "drive_minutes_from_wausau": 97,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-nordic-trail",
+    "name": "Nordic Trail",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 4878.1,
+    "elevation_gain_m": 78.5,
+    "elevation_max_m": 525.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.21509788695265,
+      45.34330020747434
+    ],
+    "drive_minutes_from_wausau": 61,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-northwest-passage",
+    "name": "Northwest Passage",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 3974.7,
+    "elevation_gain_m": 40.6,
+    "elevation_max_m": 374.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.41400224812423,
+      44.43903100257938
+    ],
+    "drive_minutes_from_wausau": 58,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-oktoberfest",
+    "name": "Oktoberfest",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 4850.9,
+    "elevation_gain_m": 97.7,
+    "elevation_max_m": 499.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.5875340683565,
+      45.299207665629005
+    ],
+    "drive_minutes_from_wausau": 37,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-old-county-road-b",
+    "name": "Old County Road B",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 1075.3,
+    "elevation_gain_m": 3.6,
+    "elevation_max_m": 488.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.15625042476182,
+      45.504617185073734
+    ],
+    "drive_minutes_from_wausau": 69,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-old-highway-18-alignment",
+    "name": "Old Highway 18 alignment",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 2568.3,
+    "elevation_gain_m": 15.9,
+    "elevation_max_m": 373.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.4014410724609,
+      44.49834220089353
+    ],
+    "drive_minutes_from_wausau": 53,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-old-school",
+    "name": "Old School",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 4267.1,
+    "elevation_gain_m": 63.2,
+    "elevation_max_m": 493.1,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.58326724733907,
+      45.3056846206053
+    ],
+    "drive_minutes_from_wausau": 38,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-oneida-cty-snowmobile-route-15",
+    "name": "Oneida Cty Snowmobile Route 15",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 3928.6,
+    "elevation_gain_m": 20.2,
+    "elevation_max_m": 488.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.3210285404685,
+      45.67387553349837
+    ],
+    "drive_minutes_from_wausau": 81,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-oscar",
+    "name": "Oscar",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 1765.7,
+    "elevation_gain_m": 16.3,
+    "elevation_max_m": 412.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.38608867485564,
+      44.8847114702098
+    ],
+    "drive_minutes_from_wausau": 20,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-pembine-subdivision",
+    "name": "Pembine subdivision",
+    "activities": [
+      "biking",
+      "hiking",
+      "horseback"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 10247.7,
+    "elevation_gain_m": 35.6,
+    "elevation_max_m": 499.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.90561438833674,
+      45.60536517166967
+    ],
+    "drive_minutes_from_wausau": 89,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-pine-line-trail",
+    "name": "Pine Line Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price",
+      "taylor"
+    ],
+    "length_m": 41566.8,
+    "elevation_gain_m": 207.4,
+    "elevation_max_m": 486.9,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.31349315695,
+      45.32870390248351
+    ],
+    "drive_minutes_from_wausau": 65,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-pine-run",
+    "name": "Pine Run",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1462.2,
+    "elevation_gain_m": 16.7,
+    "elevation_max_m": 320.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72752291042573,
+      44.478023202555626
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-pond-road-no-1",
+    "name": "Pond Road No 1",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "taylor"
+    ],
+    "length_m": 1064.3,
+    "elevation_gain_m": 2.2,
+    "elevation_max_m": 378.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.84859274522186,
+      45.227462093148446
+    ],
+    "drive_minutes_from_wausau": 97,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-porky-point",
+    "name": "Porky Point",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1163.9,
+    "elevation_gain_m": 17.3,
+    "elevation_max_m": 349.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72763003158384,
+      44.476108571774866
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-potawatomi-nature-trail",
+    "name": "Potawatomi Nature Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1740.2,
+    "elevation_gain_m": 61.4,
+    "elevation_max_m": 434.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.06870367118103,
+      44.529081927477826
+    ],
+    "drive_minutes_from_wausau": 57,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-prairie-dells-loop",
+    "name": "Prairie Dells Loop",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 8199.6,
+    "elevation_gain_m": 88.6,
+    "elevation_max_m": 449.4,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.57342217627374,
+      45.26388832156865
+    ],
+    "drive_minutes_from_wausau": 33,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-rat-river-recreation-trail",
+    "name": "Rat River Recreation Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 9896.2,
+    "elevation_gain_m": 37.0,
+    "elevation_max_m": 464.6,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.59709883211606,
+      45.51557140314661
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-rgs",
+    "name": "RGS",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2041.1,
+    "elevation_gain_m": 12.9,
+    "elevation_max_m": 315.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.74037336415654,
+      44.47280244943666
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-riley-creek-hunter-hiking-trail",
+    "name": "Riley Creek Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 3120.8,
+    "elevation_gain_m": 23.6,
+    "elevation_max_m": 481.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.13948465614854,
+      45.8812421439275
+    ],
+    "drive_minutes_from_wausau": 107,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-river-bend-trail",
+    "name": "River Bend Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 4182.0,
+    "elevation_gain_m": 22.9,
+    "elevation_max_m": 389.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.69403674745854,
+      45.17839592043295
+    ],
+    "drive_minutes_from_wausau": 24,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-road-2360",
+    "name": "Road 2360",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 1043.4,
+    "elevation_gain_m": 4.7,
+    "elevation_max_m": 471.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.67206703497249,
+      45.70108995570283
+    ],
+    "drive_minutes_from_wausau": 108,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-rock-the-wierzba",
+    "name": "Rock the Wierzba",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 2990.9,
+    "elevation_gain_m": 38.8,
+    "elevation_max_m": 421.8,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.39029532003849,
+      44.88604771584093
+    ],
+    "drive_minutes_from_wausau": 20,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-rookery",
+    "name": "Rookery",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 3381.1,
+    "elevation_gain_m": 36.7,
+    "elevation_max_m": 419.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.38131085028962,
+      44.89207211397176
+    ],
+    "drive_minutes_from_wausau": 20,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-rosholt-track-cross-counrtiy-tralis",
+    "name": "Rosholt Track / Cross Counrtiy tralis",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 4516.0,
+    "elevation_gain_m": 54.4,
+    "elevation_max_m": 354.7,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -89.29271592304613,
+      44.646156766592
+    ],
+    "drive_minutes_from_wausau": 42,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-rosholt-track-cross-country-trails",
+    "name": "Rosholt Track / Cross Country Trails",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1841.5,
+    "elevation_gain_m": 7.6,
+    "elevation_max_m": 350.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.30488475805329,
+      44.63440865401096
+    ],
+    "drive_minutes_from_wausau": 43,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-ruby-ridge",
+    "name": "Ruby Ridge",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "marathon"
+    ],
+    "length_m": 3504.4,
+    "elevation_gain_m": 26.4,
+    "elevation_max_m": 418.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.39083974061909,
+      44.8885302874242
+    ],
+    "drive_minutes_from_wausau": 20,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-schmuland-hunter-hiking-trail",
+    "name": "Schmuland Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 2943.7,
+    "elevation_gain_m": 4.5,
+    "elevation_max_m": 477.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.24304521107307,
+      45.816030776518026
+    ],
+    "drive_minutes_from_wausau": 103,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-section-19-loop",
+    "name": "Section 19 Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 5787.6,
+    "elevation_gain_m": 35.1,
+    "elevation_max_m": 491.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.03097207919897,
+      45.85813609756401
+    ],
+    "drive_minutes_from_wausau": 102,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-select-cut",
+    "name": "Select Cut",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1948.7,
+    "elevation_gain_m": 16.1,
+    "elevation_max_m": 311.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.7326396306711,
+      44.469105999263675
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-shawano---crandon-line",
+    "name": "Shawano - Crandon Line",
+    "activities": [
+      "biking",
+      "hiking",
+      "horseback"
+    ],
+    "counties": [
+      "forest",
+      "langlade",
+      "shawano"
+    ],
+    "length_m": 103017.5,
+    "elevation_gain_m": 561.8,
+    "elevation_max_m": 497.1,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -88.80972015064967,
+      45.16229284481622
+    ],
+    "drive_minutes_from_wausau": 66,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-sidewinder",
+    "name": "Sidewinder",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1667.0,
+    "elevation_gain_m": 36.1,
+    "elevation_max_m": 359.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.75737324243671,
+      44.48796702497951
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-snodgrass",
+    "name": "Snodgrass",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1543.0,
+    "elevation_gain_m": 20.6,
+    "elevation_max_m": 311.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72369267316877,
+      44.47103052522218
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-snowmobile-trail",
+    "name": "snowmobile trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "langlade"
+    ],
+    "length_m": 5085.9,
+    "elevation_gain_m": 103.6,
+    "elevation_max_m": 510.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.96984694657121,
+      45.49509755310249
+    ],
+    "drive_minutes_from_wausau": 76,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-switchback",
+    "name": "Switchback",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2251.2,
+    "elevation_gain_m": 69.6,
+    "elevation_max_m": 353.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.73073991099209,
+      44.47170179178393
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-test-track",
+    "name": "Test Track",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1868.5,
+    "elevation_gain_m": 13.6,
+    "elevation_max_m": 315.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72800340688542,
+      44.478570717560615
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-the-hollow",
+    "name": "The Hollow",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 2802.0,
+    "elevation_gain_m": 76.2,
+    "elevation_max_m": 492.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.58500092887799,
+      45.31424293476161
+    ],
+    "drive_minutes_from_wausau": 38,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-timms-hill-trail",
+    "name": "Timm's Hill Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price",
+      "taylor"
+    ],
+    "length_m": 14079.8,
+    "elevation_gain_m": 210.6,
+    "elevation_max_m": 570.8,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -90.17821550101195,
+      45.40691596159222
+    ],
+    "drive_minutes_from_wausau": 64,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "exposed",
+      "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-tomorrow-river-trail",
+    "name": "Tomorrow River Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 2386.4,
+    "elevation_gain_m": 13.7,
+    "elevation_max_m": 342.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.30325475356169,
+      44.466477553961646
+    ],
+    "drive_minutes_from_wausau": 59,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-towering-pines-loop",
+    "name": "Towering Pines Loop",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 1112.6,
+    "elevation_gain_m": 16.8,
+    "elevation_max_m": 512.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.35034431360071,
+      45.62391985211293
+    ],
+    "drive_minutes_from_wausau": 75,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-tracy-creek-hunter-hiking-trail",
+    "name": "Tracy Creek Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1287.4,
+    "elevation_gain_m": 17.9,
+    "elevation_max_m": 469.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.33089257942736,
+      45.93148038608309
+    ],
+    "drive_minutes_from_wausau": 117,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-trail-101",
+    "name": "Trail 101",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 7275.5,
+    "elevation_gain_m": 96.4,
+    "elevation_max_m": 485.6,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.30186783374475,
+      45.89248207407263
+    ],
+    "drive_minutes_from_wausau": 113,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-trail-103-south",
+    "name": "Trail 103 South",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1369.4,
+    "elevation_gain_m": 3.4,
+    "elevation_max_m": 477.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.32035507600636,
+      45.88190791580147
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-tucker-lake-trail",
+    "name": "Tucker Lake Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 1214.8,
+    "elevation_gain_m": 11.1,
+    "elevation_max_m": 491.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.05539155985447,
+      45.952745557637314
+    ],
+    "drive_minutes_from_wausau": 112,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-upper-glen",
+    "name": "Upper Glen",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1088.8,
+    "elevation_gain_m": 32.7,
+    "elevation_max_m": 340.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.72795458354533,
+      44.4772416384441
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-upper-hermosa",
+    "name": "Upper Hermosa",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2313.2,
+    "elevation_gain_m": 45.0,
+    "elevation_max_m": 354.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.75210968196427,
+      44.48552835025202
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-west-levis",
+    "name": "West Levis",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 2105.4,
+    "elevation_gain_m": 42.1,
+    "elevation_max_m": 323.1,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.73484574029604,
+      44.47139694173138
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-west-mtb-loop",
+    "name": "West MTB Loop",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1815.3,
+    "elevation_gain_m": 3.8,
+    "elevation_max_m": 311.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.81073875236869,
+      44.34893796183576
+    ],
+    "drive_minutes_from_wausau": 67,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-west-multi-use-trail",
+    "name": "West Multi-Use Trail",
+    "activities": [
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1434.3,
+    "elevation_gain_m": 27.7,
+    "elevation_max_m": 391.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.07598404924028,
+      44.53658579052604
+    ],
+    "drive_minutes_from_wausau": 57,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-white-deer-lake-trail",
+    "name": "White Deer Lake Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2256.4,
+    "elevation_gain_m": 13.5,
+    "elevation_max_m": 521.0,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.96666954361137,
+      45.900277177920856
+    ],
+    "drive_minutes_from_wausau": 113,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-whiting-trail-loop",
+    "name": "Whiting Trail Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1274.1,
+    "elevation_gain_m": 19.1,
+    "elevation_max_m": 329.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.55595909733627,
+      44.48939159591493
+    ],
+    "drive_minutes_from_wausau": 51,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-whitney-trail",
+    "name": "Whitney Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 1104.4,
+    "elevation_gain_m": 5.0,
+    "elevation_max_m": 418.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.49634912535292,
+      45.21531304987621
+    ],
+    "drive_minutes_from_wausau": 29,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-wildcat-loop",
+    "name": "Wildcat Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 1117.1,
+    "elevation_gain_m": 21.4,
+    "elevation_max_m": 370.5,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.8052570181097,
+      44.52564257671896
+    ],
+    "drive_minutes_from_wausau": 101,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "rocky_outcrop"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-wilderness-trail",
+    "name": "Wilderness Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 4856.4,
+    "elevation_gain_m": 7.7,
+    "elevation_max_m": 342.0,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.61026926584783,
+      44.37097830518405
+    ],
+    "drive_minutes_from_wausau": 101,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-wildwood-station-trail",
+    "name": "Wildwood Station Trail",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1824.3,
+    "elevation_gain_m": 5.0,
+    "elevation_max_m": 399.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.1927567025463,
+      44.67070134381903
+    ],
+    "drive_minutes_from_wausau": 53,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-wilson-flowage-hunter-hiking-trail",
+    "name": "Wilson Flowage Hunter Hiking Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 9270.2,
+    "elevation_gain_m": 71.9,
+    "elevation_max_m": 481.9,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.2045086491358,
+      45.795630163429095
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-winter-trail",
+    "name": "Winter Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "wood"
+    ],
+    "length_m": 1709.6,
+    "elevation_gain_m": 0.0,
+    "elevation_max_m": 301.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.30347731821084,
+      44.40430893906994
+    ],
+    "drive_minutes_from_wausau": 79,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-wiouwash-state-recreation-trail",
+    "name": "Wiouwash State Recreation Trail",
+    "activities": [
+      "biking",
+      "hiking",
+      "snowmobile"
+    ],
+    "counties": [
+      "shawano"
+    ],
+    "length_m": 36906.7,
+    "elevation_gain_m": 72.9,
+    "elevation_max_m": 391.5,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.00585141015868,
+      44.67222246264397
+    ],
+    "drive_minutes_from_wausau": 57,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "osmway-wolf-run",
+    "name": "Wolf Run",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark",
+      "oneida"
+    ],
+    "length_m": 2193.4,
+    "elevation_gain_m": 220.6,
+    "elevation_max_m": 511.6,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -90.53987949498065,
+      44.656845885094995
+    ],
+    "drive_minutes_from_wausau": 77,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "overlook",
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-xc-medium-loop",
+    "name": "XC Medium Loop",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1418.5,
+    "elevation_gain_m": 31.0,
+    "elevation_max_m": 366.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.40377394447233,
+      44.434687350594956
+    ],
+    "drive_minutes_from_wausau": 59,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-xc-short-loop",
+    "name": "XC Short Loop",
+    "activities": [
+      "biking",
+      "hiking",
+      "xc_ski"
+    ],
+    "counties": [
+      "portage"
+    ],
+    "length_m": 1364.6,
+    "elevation_gain_m": 11.8,
+    "elevation_max_m": 371.9,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.40344379281699,
+      44.433094847897365
+    ],
+    "drive_minutes_from_wausau": 59,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-xtra-credit",
+    "name": "Xtra Credit",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "lincoln"
+    ],
+    "length_m": 1327.3,
+    "elevation_gain_m": 30.8,
+    "elevation_max_m": 482.7,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.58761727207114,
+      45.30886785097266
+    ],
+    "drive_minutes_from_wausau": 38,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osmway-yellow-jacket",
+    "name": "Yellow Jacket",
+    "activities": [
+      "biking",
+      "hiking"
+    ],
+    "counties": [
+      "clark"
+    ],
+    "length_m": 3888.5,
+    "elevation_gain_m": 35.3,
+    "elevation_max_m": 341.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -90.74691851069673,
+      44.48655443152873
+    ],
+    "drive_minutes_from_wausau": 100,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
     "id": "state-bearskin-state-trail",
     "name": "Bearskin State Trail",
     "activities": [

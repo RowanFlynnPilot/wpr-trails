@@ -1,0 +1,148 @@
+{
+  "id": "osmway-forest-road-1419",
+  "name": "Forest Road 1419",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "way_ids": [
+        14886642
+      ],
+      "kind": "named_way",
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -90.6638273,
+        45.2144963
+      ],
+      [
+        -90.662953,
+        45.215664
+      ],
+      [
+        -90.662051,
+        45.216965
+      ],
+      [
+        -90.660943,
+        45.218065
+      ],
+      [
+        -90.65904,
+        45.219321
+      ],
+      [
+        -90.656954,
+        45.220207
+      ],
+      [
+        -90.654378,
+        45.221061
+      ],
+      [
+        -90.651676,
+        45.221787
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 1300.0,
+    "elevation_gain_m": 30.4,
+    "elevation_max_m": 420.0,
+    "elevation_min_m": 399.4,
+    "elevation_profile": [
+      [
+        0.0,
+        399.4
+      ],
+      [
+        100.0,
+        405.1
+      ],
+      [
+        200.0,
+        407.1
+      ],
+      [
+        300.0,
+        414.2
+      ],
+      [
+        399.9,
+        412.5
+      ],
+      [
+        499.4,
+        411.6
+      ],
+      [
+        599.4,
+        418.0
+      ],
+      [
+        698.9,
+        413.7
+      ],
+      [
+        798.9,
+        415.9
+      ],
+      [
+        898.8,
+        415.9
+      ],
+      [
+        998.8,
+        413.1
+      ],
+      [
+        1098.7,
+        420.0
+      ],
+      [
+        1198.7,
+        415.7
+      ],
+      [
+        1298.7,
+        412.0
+      ],
+      [
+        1301.0,
+        411.9
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [
+      "ground"
+    ],
+    "is_loop": false,
+    "osm_network_class": null,
+    "blaze_color": null,
+    "counties": [
+      "taylor"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -90.65832303153607,
+      45.218997266755096
+    ],
+    "bbox": [
+      -90.6638273,
+      45.2144963,
+      -90.651676,
+      45.221787
+    ],
+    "drive_minutes_from_wausau": 83,
+    "trailhead_coords": null
+  }
+}

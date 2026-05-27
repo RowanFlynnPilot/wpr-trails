@@ -1,0 +1,135 @@
+{
+  "id": "osmway-bakerville-snow-rovers-snowmobile-trail",
+  "name": "Bakerville Snow Rovers Snowmobile Trail",
+  "activities": [
+    "hiking",
+    "snowmobile"
+  ],
+  "sources": {
+    "osm": {
+      "way_ids": [
+        1213953586
+      ],
+      "kind": "named_way",
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -90.071108,
+        44.5333227
+      ],
+      [
+        -90.0686871,
+        44.5333534
+      ],
+      [
+        -90.0656729,
+        44.5333916
+      ],
+      [
+        -90.0657004,
+        44.5370126
+      ],
+      [
+        -90.0658108,
+        44.5405625
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 1226.2,
+    "elevation_gain_m": 3.2,
+    "elevation_max_m": 392.2,
+    "elevation_min_m": 377.0,
+    "elevation_profile": [
+      [
+        0.0,
+        392.2
+      ],
+      [
+        100.0,
+        391.9
+      ],
+      [
+        200.0,
+        390.4
+      ],
+      [
+        300.0,
+        387.0
+      ],
+      [
+        400.0,
+        383.7
+      ],
+      [
+        476.1,
+        380.6
+      ],
+      [
+        576.1,
+        377.7
+      ],
+      [
+        676.1,
+        377.0
+      ],
+      [
+        776.1,
+        378.8
+      ],
+      [
+        876.0,
+        380.2
+      ],
+      [
+        976.0,
+        380.1
+      ],
+      [
+        1076.0,
+        379.3
+      ],
+      [
+        1176.0,
+        378.9
+      ],
+      [
+        1204.4,
+        378.4
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [],
+    "is_loop": false,
+    "osm_network_class": null,
+    "blaze_color": null,
+    "counties": [
+      "wood"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -90.06687170579028,
+      44.5354167115702
+    ],
+    "bbox": [
+      -90.071108,
+      44.5333227,
+      -90.0656729,
+      44.5405625
+    ],
+    "drive_minutes_from_wausau": 57,
+    "trailhead_coords": [
+      -90.071108,
+      44.5333227
+    ],
+    "parking_distance_m": 355
+  }
+}

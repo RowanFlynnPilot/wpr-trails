@@ -1,0 +1,144 @@
+{
+  "id": "osmway-forest-road-548",
+  "name": "Forest Road 548",
+  "activities": [
+    "hiking"
+  ],
+  "sources": {
+    "osm": {
+      "way_ids": [
+        14887062
+      ],
+      "kind": "named_way",
+      "last_fetched": ""
+    }
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -90.692344,
+        45.264498
+      ],
+      [
+        -90.694147,
+        45.269132
+      ],
+      [
+        -90.694312,
+        45.269368
+      ],
+      [
+        -90.694615,
+        45.269597
+      ],
+      [
+        -90.695251,
+        45.269749
+      ],
+      [
+        -90.69589,
+        45.269733
+      ],
+      [
+        -90.697158,
+        45.269683
+      ],
+      [
+        -90.69835,
+        45.269487
+      ],
+      [
+        -90.699911,
+        45.269143
+      ],
+      [
+        -90.700551,
+        45.268997
+      ]
+    ]
+  },
+  "attributes": {
+    "length_m": 1074.8,
+    "elevation_gain_m": 9.7,
+    "elevation_max_m": 405.9,
+    "elevation_min_m": 392.7,
+    "elevation_profile": [
+      [
+        0.0,
+        396.2
+      ],
+      [
+        100.0,
+        396.2
+      ],
+      [
+        200.0,
+        398.7
+      ],
+      [
+        300.0,
+        399.9
+      ],
+      [
+        400.0,
+        402.5
+      ],
+      [
+        500.0,
+        404.9
+      ],
+      [
+        597.5,
+        405.9
+      ],
+      [
+        695.9,
+        403.4
+      ],
+      [
+        795.9,
+        400.8
+      ],
+      [
+        895.9,
+        399.3
+      ],
+      [
+        995.9,
+        395.0
+      ],
+      [
+        1072.6,
+        392.7
+      ]
+    ],
+    "difficulty_estimated": "easy",
+    "surface": [
+      "ground"
+    ],
+    "is_loop": false,
+    "osm_network_class": null,
+    "blaze_color": null,
+    "counties": [
+      "taylor"
+    ],
+    "park": null,
+    "managing_authority": "Unknown"
+  },
+  "editorial": {},
+  "derived": {
+    "centroid": [
+      -90.69555448743182,
+      45.26835353406619
+    ],
+    "bbox": [
+      -90.700551,
+      45.264498,
+      -90.692344,
+      45.269749
+    ],
+    "drive_minutes_from_wausau": 88,
+    "trailhead_coords": null
+  }
+}

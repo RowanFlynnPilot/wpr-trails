@@ -32,6 +32,7 @@ jobs:
         run: |
           python -m scrapers.county_boundaries
           python -m scrapers.osm_trails
+          python -m scrapers.osm_named_paths
           python -m scrapers.dnr_ice_age
           python -m scrapers.dnr_state_trails
           python -m scrapers.osm_landcover

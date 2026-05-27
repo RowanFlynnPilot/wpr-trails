@@ -276,6 +276,140 @@ def build_from_osm(elements: list, state_trail_names: set) -> Iterable[dict]:
         }
 
 
+# --- OSM named ways -> Trail -----------------------------------------------
+# Catches trails that are mapped in OSM as individual named ways rather than
+# as a `route=hiking` relation. Common pattern in county forests (Clark,
+# Wood, Northwoods) where local mappers tag the way with a name but never
+# bundled it into a route relation.
+
+OSM_NAMED_PATHS_RAW = Path("data/raw/osm_named_paths.json")
+
+# Names ending in any of these strings are road segments tagged
+# highway=track, not hiking trails.
+ROAD_NAME_SUFFIXES = (
+    " road", " rd", " rd.",
+    " street", " st", " st.",
+    " avenue", " ave", " ave.",
+    " boulevard", " blvd",
+    " lane", " ln", " ln.",
+    " drive", " dr", " dr.",
+    " highway", " hwy",
+    " court", " ct", " ct.",
+    " way",   # avenues-and-ways pattern; "trail" / "loop" still pass
+)
+
+MIN_WAY_LENGTH_M = 1000  # below this, more likely a sidewalk / connector than a trail
+
+
+def _looks_like_road(name: str) -> bool:
+    """Quick heuristic: name suffixed with a road-class word."""
+    n = name.lower().rstrip()
+    return any(n.endswith(suf) for suf in ROAD_NAME_SUFFIXES)
+
+
+def derive_named_way_activities(tags: dict) -> list:
+    """Activity list for a single OSM way based on access tags."""
+    activities = []
+    highway = tags.get("highway")
+    if highway in ("path", "footway") or tags.get("foot") in ("yes", "designated"):
+        activities.append("hiking")
+    if tags.get("bicycle") in ("yes", "designated"):
+        activities.append("biking")
+    if tags.get("horse") in ("yes", "designated"):
+        activities.append("horseback")
+    if tags.get("ski") in ("yes", "designated") or tags.get("piste:type") == "nordic":
+        activities.append("xc_ski")
+    if tags.get("snowmobile") in ("yes", "designated"):
+        activities.append("snowmobile")
+    if not activities and highway == "track" and tags.get("foot") != "no":
+        # Generic tracks default to hiking if foot isn't explicitly excluded.
+        activities.append("hiking")
+    return activities
+
+
+def build_from_osm_named_ways(
+    elements: list,
+    excluded_names: set,
+) -> Iterable[dict]:
+    """Group ways by name, merge geometry, yield trail records.
+
+    excluded_names: lowercased names already covered by State Trail or OSM
+    relation sources, to avoid double-counting popular trails that exist in
+    both forms.
+    """
+    by_name: dict = {}
+    for el in elements:
+        if el.get("type") != "way":
+            continue
+        tags = el.get("tags") or {}
+        name = tags.get("name")
+        if not name:
+            continue
+        if name.lower() in excluded_names:
+            continue
+        if _looks_like_road(name):
+            continue
+        geom = el.get("geometry") or []
+        if len(geom) < 2:
+            continue
+        by_name.setdefault(name, []).append(el)
+
+    for name, ways in by_name.items():
+        lines = [
+            LineString([(pt["lon"], pt["lat"]) for pt in w["geometry"]])
+            for w in ways
+        ]
+        merged = merge_lines(lines)
+        total_len = length_m(merged)
+        if total_len < MIN_WAY_LENGTH_M:
+            continue
+        centroid = merged.centroid
+        geom_mapping = mapping(merged)
+
+        # Sample tags from the first way for activity derivation. Multiple
+        # ways with the same name nearly always share access tags.
+        sample_tags = ways[0].get("tags") or {}
+        activities = derive_named_way_activities(sample_tags)
+        if not activities:
+            continue
+
+        yield {
+            "id": f"osmway-{slugify(name)}",
+            "name": name,
+            "activities": sorted(set(activities)),
+            "sources": {
+                "osm": {
+                    "way_ids": [w["id"] for w in ways],
+                    "kind": "named_way",
+                    "last_fetched": "",
+                }
+            },
+            "geometry": geom_mapping,
+            "attributes": {
+                "length_m": round(total_len, 1),
+                "elevation_gain_m": None,
+                "elevation_max_m": None,
+                "elevation_min_m": None,
+                "elevation_profile": None,
+                "difficulty_estimated": None,
+                "surface": [sample_tags["surface"]] if sample_tags.get("surface") else [],
+                "is_loop": False,
+                "osm_network_class": sample_tags.get("network"),
+                "blaze_color": sample_tags.get("colour") or sample_tags.get("color"),
+                "counties": counties_for(geom_mapping),
+                "park": None,
+                "managing_authority": sample_tags.get("operator") or "Unknown",
+            },
+            "editorial": {},
+            "derived": {
+                "centroid": [centroid.x, centroid.y],
+                "bbox": list(merged.bounds),
+                "drive_minutes_from_wausau": drive_minutes(centroid.x, centroid.y),
+                "trailhead_coords": None,
+            },
+        }
+
+
 # --- Main -------------------------------------------------------------------
 
 def main() -> None:
@@ -286,8 +420,13 @@ def main() -> None:
     osm_data = json.loads(OSM_RAW.read_text())
     dnr_iat = json.loads(DNR_IAT_RAW.read_text())
     dnr_state = json.loads(DNR_STATE_RAW.read_text())
+    named_paths = (
+        json.loads(OSM_NAMED_PATHS_RAW.read_text())
+        if OSM_NAMED_PATHS_RAW.exists()
+        else {"elements": []}
+    )
 
-    # State Trail names feed the OSM dedup pass
+    # State Trail names feed the OSM relation dedup pass
     state_trail_names = {
         f["properties"]["PROP_NAME"]
         for f in dnr_state["features"]
@@ -299,7 +438,16 @@ def main() -> None:
     trails.extend(build_from_dnr_iat(dnr_iat))
     trails.extend(build_from_osm(osm_data.get("elements", []), state_trail_names))
 
-    # Drop trails whose geometry doesn't intersect any of the 6 counties
+    # Named-way pass: exclude anything already represented above by name
+    excluded_for_ways = {t["name"].lower() for t in trails}
+    # Also exclude IAT prefixed names — every IAT segment way also has the
+    # full route name "Ice Age Trail" set, which we don't want a second time
+    excluded_for_ways.add("ice age trail")
+    trails.extend(
+        build_from_osm_named_ways(named_paths.get("elements", []), excluded_for_ways)
+    )
+
+    # Drop trails whose geometry doesn't intersect any target county
     trails = [t for t in trails if t["attributes"]["counties"]]
 
     TRAILS_DIR.mkdir(parents=True, exist_ok=True)
@@ -312,14 +460,15 @@ def main() -> None:
     write_index(TRAILS_DIR, INDEX_PATH)
 
     # Summary
-    by_source = {"state": 0, "iat": 0, "osm": 0}
+    by_source = {"state": 0, "iat": 0, "osm": 0, "osmway": 0}
     for t in trails:
         prefix = t["id"].split("-")[0]
         by_source[prefix] = by_source.get(prefix, 0) + 1
     print(f"Built {len(trails)} trails -> {TRAILS_DIR}")
-    print(f"  State Trails: {by_source['state']}")
-    print(f"  IAT segments: {by_source['iat']}")
-    print(f"  OSM (post-dedup): {by_source['osm']}")
+    print(f"  State Trails:        {by_source['state']}")
+    print(f"  IAT segments:        {by_source['iat']}")
+    print(f"  OSM relations:       {by_source['osm']}")
+    print(f"  OSM named ways:      {by_source['osmway']}")
 
 
 if __name__ == "__main__":

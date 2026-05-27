@@ -65,6 +65,8 @@ Weekly (slow data):
 ```
 python -m scrapers.county_boundaries     # one-time
 python -m scrapers.osm_trails
+python -m scrapers.osm_named_paths       # catches county-forest trails OSM
+                                         # mappers tagged as ways, not relations
 python -m scrapers.dnr_ice_age
 python -m scrapers.dnr_state_trails
 python -m scrapers.osm_landcover
