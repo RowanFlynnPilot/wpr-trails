@@ -2,12 +2,283 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ==========================================================================
+   WPR brand palette + typography (mirrors wpr-river-conditions)
+   ========================================================================== */
+
+:root {
+  --wpr-teal: #0d7377;
+  --wpr-teal-dark: #095456;
+  --wpr-teal-light: #e6f3f3;
+  --wpr-cream: #f5f0e8;
+  --wpr-cream-dark: #ebe4d8;
+  --wpr-ink: #1c1917;
+  --wpr-ink-light: #44403c;
+  --wpr-ink-muted: #78716c;
+  --wpr-rule: #d6d0c4;
+
+  --accent: var(--wpr-teal);
+  --accent-dark: var(--wpr-teal-dark);
+  --accent-light: var(--wpr-teal-light);
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  --radius: 4px;
+  --radius-lg: 8px;
+}
+
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
 }
+
+body {
+  font-family: var(--font-body);
+  color: var(--wpr-ink);
+  background: var(--wpr-cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Chrome bar
+   ========================================================================== */
+
+.chrome-bar {
+  background: var(--wpr-teal);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  flex-shrink: 0;
+}
+
+.chrome-bar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  text-decoration: none;
+  color: white;
+}
+
+.chrome-bar__logo-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  flex-shrink: 0;
+}
+
+.chrome-bar__logo {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.chrome-bar__divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.chrome-bar__section-name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.chrome-bar__updated {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+  .chrome-bar {
+    padding: var(--space-xs) var(--space-sm);
+    flex-wrap: wrap;
+  }
+  .chrome-bar__updated {
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+  }
+}
+
+/* ==========================================================================
+   Sponsor strip
+   ========================================================================== */
+
+.sponsor-strip {
+  background: var(--wpr-cream-dark);
+  border-bottom: 1px solid var(--wpr-rule);
+  padding: var(--space-xs) var(--space-md);
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--wpr-ink-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.sponsor-strip strong {
+  color: var(--wpr-ink-light);
+}
+
+.sponsor-strip--cta {
+  background: var(--wpr-cream);
+}
+
+.sponsor-strip__cta-link {
+  color: var(--wpr-teal);
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 0.25em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding: 0;
+}
+
+.sponsor-strip__cta-link:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Inline email-CTA panel
+   ========================================================================== */
+
+.email-cta {
+  display: inline-block;
+  margin: var(--space-xs) auto;
+  padding: var(--space-sm) var(--space-md);
+  background: white;
+  border: 1px solid var(--wpr-rule);
+  border-radius: var(--radius);
+  text-align: left;
+  max-width: 480px;
+  font-family: var(--font-body);
+}
+
+.email-cta__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.email-cta__label {
+  font-weight: 600;
+  color: var(--wpr-ink-light);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.email-cta__address {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--wpr-ink);
+  background: var(--wpr-cream);
+  padding: 0.2rem 0.45rem;
+  border-radius: var(--radius);
+  user-select: all;
+  word-break: break-all;
+}
+
+.email-cta__btn {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid transparent;
+  line-height: 1.2;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.email-cta__btn--copy {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+.email-cta__btn--copy:hover {
+  background: var(--accent-dark);
+}
+
+.email-cta__btn--open {
+  background: white;
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.email-cta__btn--open:hover {
+  background: var(--accent-light);
+}
+
+.email-cta__btn--close {
+  background: transparent;
+  color: var(--wpr-ink-muted);
+  border-color: var(--wpr-rule);
+}
+.email-cta__btn--close:hover {
+  background: var(--wpr-cream-dark);
+  color: var(--wpr-ink);
+}
+
+.email-cta__actions {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: var(--space-sm);
+}
+
+.email-cta__hint {
+  margin-top: var(--space-sm);
+  font-size: 0.75rem;
+  color: var(--wpr-ink-muted);
+  line-height: 1.4;
+}
+
+.email-cta__hint em {
+  font-style: normal;
+  color: var(--wpr-ink-light);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Trail pin selected state (legacy hue-rotate kept harmless for any
+   non-clustered fallback marker — clustering replaces this in practice)
+   ========================================================================== */
 
 .trail-pin-selected {
   filter: hue-rotate(140deg) saturate(2);

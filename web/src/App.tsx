@@ -6,6 +6,8 @@ import FilterBar, { LENGTH_MAX_MI, type FilterState } from "./components/FilterB
 import MapView from "./components/MapView";
 import DetailPanel from "./components/DetailPanel";
 import WeatherBanner from "./components/WeatherBanner";
+import ChromeBar from "./components/ChromeBar";
+import SponsorStrip from "./components/SponsorStrip";
 
 const INITIAL_FILTERS: FilterState = {
   search: "",
@@ -69,65 +71,71 @@ export default function App() {
   }, [scoresState]);
 
   const selectedTrail = trailState.status === "ready" ? trailState.trail : null;
+  const computedAt =
+    scoresState.status === "ready" ? scoresState.scores.computed_at : null;
 
   return (
-    <div className="flex h-full w-full">
-      <FilterBar
-        state={filters}
-        onChange={setFilters}
-        trailCount={filtered.length}
-        totalCount={allTrails.length}
-        open={sidebarOpen}
-        onClose={() => setSidebarOpen(false)}
-      />
-      <main className="relative flex-1">
-        <button
-          type="button"
-          onClick={() => setSidebarOpen(true)}
-          aria-label="Open filters"
-          className="absolute left-3 top-3 z-[450] flex h-9 w-9 items-center justify-center rounded-md border border-gray-200 bg-white shadow-sm hover:bg-gray-50 sm:hidden"
-        >
-          <span className="sr-only">Open filters</span>
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
-            <path d="M2 4h14M2 9h14M2 14h14" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
-          </svg>
-        </button>
-        {indexState.status === "loading" && (
-          <div className="flex h-full items-center justify-center text-sm text-gray-500">
-            Loading trails…
-          </div>
-        )}
-        {indexState.status === "error" && (
-          <div className="flex h-full items-center justify-center text-sm text-red-600">
-            Failed to load: {indexState.message}
-          </div>
-        )}
-        {indexState.status === "ready" && (
-          <>
-            <MapView
-              trails={filtered}
-              selectedId={selectedId}
-              selectedTrail={selectedTrail}
-              onSelect={setSelectedId}
-            />
-            {scoresState.status === "ready" && (
-              <WeatherBanner
-                conditions={scoresState.scores.conditions_summary}
-                alertCount={scoresState.scores.active_alerts.length}
-                computedAt={scoresState.scores.computed_at}
+    <div className="flex h-full w-full flex-col">
+      <ChromeBar updatedAt={computedAt} />
+      <SponsorStrip />
+      <div className="flex min-h-0 flex-1">
+        <FilterBar
+          state={filters}
+          onChange={setFilters}
+          trailCount={filtered.length}
+          totalCount={allTrails.length}
+          open={sidebarOpen}
+          onClose={() => setSidebarOpen(false)}
+        />
+        <main className="relative flex-1">
+          <button
+            type="button"
+            onClick={() => setSidebarOpen(true)}
+            aria-label="Open filters"
+            className="absolute left-3 top-3 z-[450] flex h-9 w-9 items-center justify-center rounded-md border border-gray-200 bg-white shadow-sm hover:bg-gray-50 sm:hidden"
+          >
+            <span className="sr-only">Open filters</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
+              <path d="M2 4h14M2 9h14M2 14h14" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+            </svg>
+          </button>
+          {indexState.status === "loading" && (
+            <div className="flex h-full items-center justify-center text-sm text-gray-500">
+              Loading trails…
+            </div>
+          )}
+          {indexState.status === "error" && (
+            <div className="flex h-full items-center justify-center text-sm text-red-600">
+              Failed to load: {indexState.message}
+            </div>
+          )}
+          {indexState.status === "ready" && (
+            <>
+              <MapView
+                trails={filtered}
+                selectedId={selectedId}
+                selectedTrail={selectedTrail}
+                onSelect={setSelectedId}
               />
-            )}
-            {selectedId && (
-              <DetailPanel
-                trailId={selectedId}
-                trailState={trailState}
-                ranked={rankedById.get(selectedId)}
-                onClose={() => setSelectedId(null)}
-              />
-            )}
-          </>
-        )}
-      </main>
+              {scoresState.status === "ready" && (
+                <WeatherBanner
+                  conditions={scoresState.scores.conditions_summary}
+                  alertCount={scoresState.scores.active_alerts.length}
+                  computedAt={scoresState.scores.computed_at}
+                />
+              )}
+              {selectedId && (
+                <DetailPanel
+                  trailId={selectedId}
+                  trailState={trailState}
+                  ranked={rankedById.get(selectedId)}
+                  onClose={() => setSelectedId(null)}
+                />
+              )}
+            </>
+          )}
+        </main>
+      </div>
     </div>
   );
 }

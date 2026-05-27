@@ -126,30 +126,25 @@ export default function FilterBar({
           (open ? "translate-x-0" : "-translate-x-full sm:translate-x-0")
         }
       >
-      <div className="flex items-start justify-between">
-        <div>
-          <h1 className="text-lg font-semibold text-gray-900">WPR Trails</h1>
-          <p className="mt-1 text-xs text-gray-500">
-            Hiking conditions in north-central Wisconsin
-          </p>
-        </div>
+      <div className="flex items-center justify-between sm:hidden">
+        <h2 className="font-display text-base font-bold text-wpr-ink">Filters</h2>
         <button
           type="button"
           onClick={onClose}
           aria-label="Close filters"
-          className="rounded p-1 text-gray-500 hover:bg-gray-100 sm:hidden"
+          className="rounded p-1 text-wpr-ink-muted hover:bg-wpr-cream"
         >
           ✕
         </button>
       </div>
 
-      <div className="mt-4">
+      <div className="mt-1 sm:mt-0">
         <input
           type="search"
           value={state.search}
           onChange={(e) => onChange({ ...state, search: e.target.value })}
           placeholder="Search trail name…"
-          className="w-full rounded-md border border-gray-300 px-3 py-1.5 text-sm placeholder:text-gray-400 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+          className="w-full rounded-md border border-wpr-rule bg-white px-3 py-1.5 font-body text-sm placeholder:text-wpr-ink-muted focus:border-wpr-teal focus:outline-none focus:ring-1 focus:ring-wpr-teal"
         />
       </div>
 
@@ -252,7 +247,7 @@ function ToggleRow({
         type="checkbox"
         checked={checked}
         onChange={(e) => onChange(e.target.checked)}
-        className="h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-500"
+        className="h-4 w-4 rounded border-gray-300 text-wpr-teal focus:ring-wpr-teal"
       />
     </label>
   );
@@ -287,7 +282,7 @@ function Chip({
       className={
         "inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition " +
         (active
-          ? "border-emerald-600 bg-emerald-600 text-white"
+          ? "border-wpr-teal bg-wpr-teal text-white"
           : "border-gray-300 bg-white text-gray-700 hover:border-gray-400")
       }
     >
@@ -344,7 +339,7 @@ function SliderSection({
           const v = Number(e.target.value);
           onChange(v >= max ? null : v);
         }}
-        className="mt-2 w-full accent-emerald-600"
+        className="mt-2 w-full accent-wpr-teal"
       />
     </div>
   );
@@ -389,7 +384,7 @@ function RangeSection({
             const v = Math.min(Number(e.target.value), hi);
             onChange([v, hi]);
           }}
-          className="w-1/2 accent-emerald-600"
+          className="w-1/2 accent-wpr-teal"
         />
         <input
           type="range"
@@ -401,7 +396,7 @@ function RangeSection({
             const v = Math.max(Number(e.target.value), lo);
             onChange([lo, v]);
           }}
-          className="w-1/2 accent-emerald-600"
+          className="w-1/2 accent-wpr-teal"
         />
       </div>
     </div>

@@ -95,7 +95,7 @@ export default function DetailPanel({ trailId, trailState, ranked, onClose }: Pr
           )}
           {ranked && (
             <div className="mt-1 flex items-baseline gap-1">
-              <span className="text-2xl font-semibold text-emerald-700">
+              <span className="text-2xl font-semibold text-wpr-teal">
                 {ranked.score.toFixed(0)}
               </span>
               <span className="text-xs text-gray-500">/ 100 today</span>
@@ -174,7 +174,7 @@ function TrailBody({
                 href={`https://www.google.com/maps/dir/?api=1&destination=${d.trailhead_coords[1]},${d.trailhead_coords[0]}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-right text-emerald-700 hover:underline"
+                className="text-right text-wpr-teal hover:underline"
               >
                 Directions →
               </a>
@@ -206,7 +206,7 @@ function TrailBody({
                   </div>
                   <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-gray-100">
                     <div
-                      className="h-full bg-emerald-500"
+                      className="h-full bg-wpr-teal"
                       style={{ width: `${f.value * 100}%` }}
                     />
                   </div>
