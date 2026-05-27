@@ -65,12 +65,46 @@ body {
   flex-shrink: 0;
 }
 
+.chrome-bar__left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-width: 0;
+}
+
+.chrome-bar__menu-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: var(--radius);
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.chrome-bar__menu-btn:hover,
+.chrome-bar__menu-btn:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 639px) {
+  .chrome-bar__menu-btn {
+    display: inline-flex;
+  }
+}
+
 .chrome-bar__brand {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
   text-decoration: none;
   color: white;
+  min-width: 0;
 }
 
 .chrome-bar__logo-img {
