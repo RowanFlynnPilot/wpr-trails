@@ -9,15 +9,7 @@
     "daylight_remaining_minutes": 90,
     "active_closure_ids": []
   },
-  "active_alerts": [
-    {
-      "event": "Special Weather Statement",
-      "severity": "Moderate",
-      "headline": "Special Weather Statement issued May 26 at 6:46PM CDT by NWS La Crosse WI",
-      "area_desc": "Taylor",
-      "ends": null
-    }
-  ],
+  "active_alerts": [],
   "ranked": [
     {
       "trail_id": "iat-alta-junction",

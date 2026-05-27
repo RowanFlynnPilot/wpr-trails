@@ -9,7 +9,7 @@ iat-alta-junction:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -23,8 +23,9 @@ iat-alta-junction:
     family_friendly: difficulty=easy, length=1.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 2 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-antigo-heights:
   family_friendly: false
   dog_policy: leashed
@@ -36,9 +37,9 @@ iat-antigo-heights:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -50,8 +51,9 @@ iat-antigo-heights:
     family_friendly: difficulty=moderate, length=2.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 6 mukeys, 0 poorly-drained / 6 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-averill-kelly-creek-wilderness:
   family_friendly: false
   dog_policy: leashed
@@ -63,7 +65,7 @@ iat-averill-kelly-creek-wilderness:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -77,8 +79,9 @@ iat-averill-kelly-creek-wilderness:
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 12 mukeys, 4 poorly-drained / 2 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-camp-27:
   family_friendly: false
   dog_policy: leashed
@@ -90,7 +93,7 @@ iat-camp-27:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -104,8 +107,9 @@ iat-camp-27:
     family_friendly: difficulty=moderate, length=2.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 12 mukeys, 7 poorly-drained / 2 well-drained (top
+      class: Somewhat poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-dells-of-the-eau-claire:
   family_friendly: false
   dog_policy: leashed
@@ -119,7 +123,7 @@ iat-dells-of-the-eau-claire:
   - fall_color
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -133,8 +137,9 @@ iat-dells-of-the-eau-claire:
     family_friendly: difficulty=moderate, length=2.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 8 mukeys, 4 poorly-drained / 3 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-east-lake:
   family_friendly: false
   dog_policy: leashed
@@ -160,8 +165,9 @@ iat-east-lake:
     family_friendly: difficulty=difficult, length=7.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 11 mukeys, 2 poorly-drained / 3 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-emmons-creek:
   family_friendly: false
   dog_policy: leashed
@@ -173,9 +179,9 @@ iat-emmons-creek:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -187,8 +193,9 @@ iat-emmons-creek:
     family_friendly: difficulty=moderate, length=2.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 8 well-drained (top
+      class: Somewhat excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-grandfather-falls:
   family_friendly: false
   dog_policy: leashed
@@ -200,7 +207,7 @@ iat-grandfather-falls:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -214,8 +221,9 @@ iat-grandfather-falls:
     family_friendly: difficulty=moderate, length=4.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 9 mukeys, 4 poorly-drained / 1 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-harrison-hills:
   family_friendly: false
   dog_policy: leashed
@@ -241,8 +249,9 @@ iat-harrison-hills:
     family_friendly: difficulty=difficult, length=14.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 13 mukeys, 3 poorly-drained / 8 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-hartman-creek:
   family_friendly: false
   dog_policy: leashed
@@ -254,9 +263,9 @@ iat-hartman-creek:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -268,8 +277,9 @@ iat-hartman-creek:
     family_friendly: difficulty=moderate, length=5.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 15 mukeys, 1 poorly-drained / 14 well-drained (top
+      class: Somewhat excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-highland-lakes:
   family_friendly: false
   dog_policy: leashed
@@ -283,7 +293,7 @@ iat-highland-lakes:
   - winter_snowshoe
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -295,8 +305,9 @@ iat-highland-lakes:
     family_friendly: difficulty=moderate, length=8.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 13 mukeys, 3 poorly-drained / 8 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-ice-override:
   family_friendly: true
   dog_policy: leashed
@@ -306,9 +317,9 @@ iat-ice-override:
   scenery_tags: []
   seasonality:
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -320,8 +331,9 @@ iat-ice-override:
     family_friendly: difficulty=easy, length=0.8mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 1 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-iola-ski-hill:
   family_friendly: false
   dog_policy: leashed
@@ -331,9 +343,9 @@ iat-iola-ski-hill:
   scenery_tags: []
   seasonality:
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -345,8 +357,9 @@ iat-iola-ski-hill:
     family_friendly: difficulty=moderate, length=2.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 14 mukeys, 0 poorly-drained / 14 well-drained (top
+      class: Excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-jerry-lake:
   family_friendly: false
   dog_policy: leashed
@@ -358,7 +371,7 @@ iat-jerry-lake:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -372,8 +385,9 @@ iat-jerry-lake:
     family_friendly: difficulty=difficult, length=15.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 23 mukeys, 10 poorly-drained / 4 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-kettlebowl:
   family_friendly: false
   dog_policy: leashed
@@ -383,9 +397,9 @@ iat-kettlebowl:
   scenery_tags: []
   seasonality:
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -397,8 +411,9 @@ iat-kettlebowl:
     family_friendly: difficulty=difficult, length=10.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 5 mukeys, 0 poorly-drained / 4 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-lake-eleven:
   family_friendly: false
   dog_policy: leashed
@@ -411,7 +426,7 @@ iat-lake-eleven:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -425,8 +440,9 @@ iat-lake-eleven:
     family_friendly: difficulty=difficult, length=15.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 16 mukeys, 6 poorly-drained / 3 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-lumbercamp:
   family_friendly: false
   dog_policy: leashed
@@ -440,7 +456,7 @@ iat-lumbercamp:
   - winter_snowshoe
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -452,8 +468,9 @@ iat-lumbercamp:
     family_friendly: difficulty=difficult, length=12.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 6 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-mondeaux-esker:
   family_friendly: false
   dog_policy: leashed
@@ -465,7 +482,7 @@ iat-mondeaux-esker:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -479,8 +496,9 @@ iat-mondeaux-esker:
     family_friendly: difficulty=difficult, length=11.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 15 mukeys, 7 poorly-drained / 3 well-drained (top
+      class: Very poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-new-hope:
   family_friendly: false
   dog_policy: leashed
@@ -490,9 +508,9 @@ iat-new-hope:
   scenery_tags: []
   seasonality:
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -504,8 +522,9 @@ iat-new-hope:
     family_friendly: difficulty=moderate, length=3.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 4 well-drained (top
+      class: Very poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-new-wood:
   family_friendly: false
   dog_policy: leashed
@@ -517,7 +536,7 @@ iat-new-wood:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -531,8 +550,9 @@ iat-new-wood:
     family_friendly: difficulty=moderate, length=6.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 16 mukeys, 6 poorly-drained / 4 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-parrish-hills:
   family_friendly: false
   dog_policy: leashed
@@ -544,9 +564,9 @@ iat-parrish-hills:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -558,8 +578,9 @@ iat-parrish-hills:
     family_friendly: difficulty=difficult, length=12.1mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 14 mukeys, 5 poorly-drained / 7 well-drained (top
+      class: Somewhat poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-pine-line:
   family_friendly: true
   dog_policy: leashed
@@ -569,7 +590,7 @@ iat-pine-line:
   scenery_tags: []
   seasonality:
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -583,8 +604,9 @@ iat-pine-line:
     family_friendly: difficulty=easy, length=0.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 0 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-plover-river:
   family_friendly: false
   dog_policy: leashed
@@ -596,9 +618,9 @@ iat-plover-river:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -610,8 +632,9 @@ iat-plover-river:
     family_friendly: difficulty=moderate, length=5.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 3 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-rib-lake:
   family_friendly: false
   dog_policy: leashed
@@ -637,8 +660,9 @@ iat-rib-lake:
     family_friendly: difficulty=moderate, length=6.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 13 mukeys, 3 poorly-drained / 7 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-ringle:
   family_friendly: false
   dog_policy: leashed
@@ -650,9 +674,9 @@ iat-ringle:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -664,8 +688,9 @@ iat-ringle:
     family_friendly: difficulty=difficult, length=9.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 14 mukeys, 5 poorly-drained / 8 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-summit-moraine:
   family_friendly: false
   dog_policy: leashed
@@ -681,7 +706,7 @@ iat-summit-moraine:
   - winter_snowshoe
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -694,8 +719,9 @@ iat-summit-moraine:
     family_friendly: difficulty=difficult, length=12.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 14 mukeys, 3 poorly-drained / 8 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-thornapple-creek:
   family_friendly: false
   dog_policy: leashed
@@ -707,7 +733,7 @@ iat-thornapple-creek:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -721,8 +747,9 @@ iat-thornapple-creek:
     family_friendly: difficulty=moderate, length=3.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 9 mukeys, 5 poorly-drained / 4 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-timberland-wilderness:
   family_friendly: false
   dog_policy: leashed
@@ -734,7 +761,7 @@ iat-timberland-wilderness:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -748,8 +775,9 @@ iat-timberland-wilderness:
     family_friendly: difficulty=moderate, length=3.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 11 mukeys, 4 poorly-drained / 2 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-turtle-rock:
   family_friendly: false
   dog_policy: leashed
@@ -761,7 +789,7 @@ iat-turtle-rock:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -775,8 +803,9 @@ iat-turtle-rock:
     family_friendly: difficulty=moderate, length=5.1mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 1 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-underdown:
   family_friendly: false
   dog_policy: leashed
@@ -788,7 +817,7 @@ iat-underdown:
   seasonality:
   - wildflower
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -802,8 +831,9 @@ iat-underdown:
     family_friendly: difficulty=moderate, length=6.3mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-white-cedar:
   family_friendly: true
   dog_policy: leashed
@@ -813,9 +843,9 @@ iat-white-cedar:
   scenery_tags: []
   seasonality:
   - winter_snowshoe
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -827,8 +857,9 @@ iat-white-cedar:
     family_friendly: difficulty=easy, length=0.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
+      class: Somewhat excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 iat-wood-lake:
   family_friendly: false
   dog_policy: leashed
@@ -854,8 +885,9 @@ iat-wood-lake:
     family_friendly: difficulty=difficult, length=13.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 12 mukeys, 2 poorly-drained / 4 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-big-eau-pleine-bridle-trail:
   family_friendly: false
   dog_policy: unknown
@@ -868,7 +900,7 @@ osm-big-eau-pleine-bridle-trail:
   seasonality:
   - fall_color
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -882,8 +914,9 @@ osm-big-eau-pleine-bridle-trail:
     family_friendly: difficulty=moderate, length=7.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 15 mukeys, 6 poorly-drained / 9 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-dynamite-trail:
   family_friendly: true
   dog_policy: unknown
@@ -894,7 +927,7 @@ osm-dynamite-trail:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -908,8 +941,9 @@ osm-dynamite-trail:
     family_friendly: difficulty=easy, length=0.3mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 1 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-frog-chorus-trail:
   family_friendly: true
   dog_policy: unknown
@@ -924,9 +958,9 @@ osm-frog-chorus-trail:
   seasonality:
   - fall_color
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -939,8 +973,9 @@ osm-frog-chorus-trail:
     family_friendly: difficulty=easy, length=0.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 2 mukeys, 2 poorly-drained / 0 well-drained (top
+      class: Poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-giant-hardwoods-nature-trail:
   family_friendly: true
   dog_policy: unknown
@@ -949,9 +984,9 @@ osm-giant-hardwoods-nature-trail:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -963,8 +998,9 @@ osm-giant-hardwoods-nature-trail:
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 0 poorly-drained / 3 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-heritage-trail:
   family_friendly: true
   dog_policy: unknown
@@ -975,7 +1011,7 @@ osm-heritage-trail:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -989,8 +1025,9 @@ osm-heritage-trail:
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 6 mukeys, 3 poorly-drained / 3 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-homestead-loop-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1003,7 +1040,7 @@ osm-homestead-loop-trail:
   seasonality:
   - fall_color
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1017,8 +1054,9 @@ osm-homestead-loop-trail:
     family_friendly: difficulty=easy, length=1.3mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---alta-junction-underdown-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1029,7 +1067,7 @@ osm-iat---alta-junction-underdown-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1043,8 +1081,9 @@ osm-iat---alta-junction-underdown-connection:
     family_friendly: difficulty=easy, length=1.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 8 mukeys, 3 poorly-drained / 3 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---antigo-heights-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1055,9 +1094,9 @@ osm-iat---antigo-heights-connector:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1069,8 +1108,9 @@ osm-iat---antigo-heights-connector:
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 7 mukeys, 0 poorly-drained / 7 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---antigo-heights-kettlebowl-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1083,7 +1123,7 @@ osm-iat---antigo-heights-kettlebowl-connector:
   - wildflower
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1095,8 +1135,9 @@ osm-iat---antigo-heights-kettlebowl-connector:
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 6 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1107,7 +1148,7 @@ osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1121,8 +1162,9 @@ osm-iat---averill-kelly-creek-wilderness-new-wood-connection:
     family_friendly: difficulty=easy, length=0.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 6 mukeys, 3 poorly-drained / 0 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---camp-27-tiberland-wilderness-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1131,7 +1173,7 @@ osm-iat---camp-27-tiberland-wilderness-connection:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1145,8 +1187,9 @@ osm-iat---camp-27-tiberland-wilderness-connection:
     family_friendly: difficulty=easy, length=1.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 8 mukeys, 5 poorly-drained / 0 well-drained (top
+      class: Somewhat poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---deerfield-emmons-creek-connection:
   family_friendly: false
   dog_policy: unknown
@@ -1157,9 +1200,9 @@ osm-iat---deerfield-emmons-creek-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1171,8 +1214,9 @@ osm-iat---deerfield-emmons-creek-connection:
     family_friendly: difficulty=difficult, length=14.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 23 mukeys, 1 poorly-drained / 22 well-drained (top
+      class: Somewhat excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---dells-of-the-eau-claire-plover-river-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1183,7 +1227,7 @@ osm-iat---dells-of-the-eau-claire-plover-river-connector:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1197,8 +1241,9 @@ osm-iat---dells-of-the-eau-claire-plover-river-connector:
     family_friendly: difficulty=moderate, length=3.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 13 mukeys, 7 poorly-drained / 5 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---east-lake-pine-line-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1221,8 +1266,9 @@ osm-iat---east-lake-pine-line-connection:
     family_friendly: difficulty=easy, length=0.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 0 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---grandfather-falls-turtle-rock-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1233,7 +1279,7 @@ osm-iat---grandfather-falls-turtle-rock-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1247,8 +1293,9 @@ osm-iat---grandfather-falls-turtle-rock-connection:
     family_friendly: difficulty=easy, length=2.1mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 8 mukeys, 4 poorly-drained / 1 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---highland-lakes-connection:
   family_friendly: false
   dog_policy: unknown
@@ -1262,7 +1309,7 @@ osm-iat---highland-lakes-connection:
   - wildflower
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1274,8 +1321,9 @@ osm-iat---highland-lakes-connection:
     family_friendly: difficulty=moderate, length=4.6mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 14 mukeys, 4 poorly-drained / 8 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---ice-override-antigo-heights-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1284,9 +1332,9 @@ osm-iat---ice-override-antigo-heights-connector:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1298,8 +1346,9 @@ osm-iat---ice-override-antigo-heights-connector:
     family_friendly: difficulty=difficult, length=10.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 11 mukeys, 1 poorly-drained / 10 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---lake-eleven-cornell-connection:
   family_friendly: false
   dog_policy: unknown
@@ -1311,7 +1360,7 @@ osm-iat---lake-eleven-cornell-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1325,8 +1374,9 @@ osm-iat---lake-eleven-cornell-connection:
     family_friendly: difficulty=strenuous, length=38.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 51 mukeys, 22 poorly-drained / 10 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---new-hope-white-cedar-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1337,9 +1387,9 @@ osm-iat---new-hope-white-cedar-connector:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1351,8 +1401,9 @@ osm-iat---new-hope-white-cedar-connector:
     family_friendly: difficulty=difficult, length=24.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 35 mukeys, 12 poorly-drained / 21 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---pine-line-mondeaux-esker-connection:
   family_friendly: false
   dog_policy: unknown
@@ -1363,7 +1414,7 @@ osm-iat---pine-line-mondeaux-esker-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1377,8 +1428,9 @@ osm-iat---pine-line-mondeaux-esker-connection:
     family_friendly: difficulty=moderate, length=3.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 12 mukeys, 5 poorly-drained / 3 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---plover-river-ice-override-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1387,9 +1439,9 @@ osm-iat---plover-river-ice-override-connector:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1401,8 +1453,9 @@ osm-iat---plover-river-ice-override-connector:
     family_friendly: difficulty=moderate, length=4.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 10 mukeys, 2 poorly-drained / 8 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---rib-lake-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1427,8 +1480,9 @@ osm-iat---rib-lake-connection:
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 2 mukeys, 0 poorly-drained / 1 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
   family_friendly: true
   dog_policy: unknown
@@ -1439,7 +1493,7 @@ osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1453,8 +1507,9 @@ osm-iat---thornapple-creek-dells-of-the-eau-claire-connector:
     family_friendly: difficulty=easy, length=0.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 5 mukeys, 2 poorly-drained / 3 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---underdown-grandfather-falls-connection:
   family_friendly: false
   dog_policy: unknown
@@ -1465,7 +1520,7 @@ osm-iat---underdown-grandfather-falls-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1479,8 +1534,9 @@ osm-iat---underdown-grandfather-falls-connection:
     family_friendly: difficulty=difficult, length=10.3mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 20 mukeys, 8 poorly-drained / 7 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---waupaca-river-connection:
   family_friendly: true
   dog_policy: unknown
@@ -1491,9 +1547,9 @@ osm-iat---waupaca-river-connection:
   - water
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1505,8 +1561,9 @@ osm-iat---waupaca-river-connection:
     family_friendly: difficulty=easy, length=2.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 14 mukeys, 1 poorly-drained / 13 well-drained (top
+      class: Excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-iat---white-cedar-ringle-connector:
   family_friendly: false
   dog_policy: unknown
@@ -1515,9 +1572,9 @@ osm-iat---white-cedar-ringle-connector:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1529,8 +1586,9 @@ osm-iat---white-cedar-ringle-connector:
     family_friendly: difficulty=moderate, length=3.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 8 mukeys, 1 poorly-drained / 6 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-moses-creek-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1542,9 +1600,9 @@ osm-moses-creek-trail:
   - wetland
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1556,8 +1614,9 @@ osm-moses-creek-trail:
     family_friendly: difficulty=easy, length=0.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 2 mukeys, 1 poorly-drained / 0 well-drained (top
+      class: Somewhat poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-north-wiouwash-state-recreation-trail:
   family_friendly: false
   dog_policy: unknown
@@ -1570,7 +1629,7 @@ osm-north-wiouwash-state-recreation-trail:
   - wildflower
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1582,8 +1641,9 @@ osm-north-wiouwash-state-recreation-trail:
     family_friendly: difficulty=difficult, length=17.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 18 mukeys, 5 poorly-drained / 11 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-pine-meadows-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1596,9 +1656,9 @@ osm-pine-meadows-trail:
   - wetland
   seasonality:
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1611,8 +1671,9 @@ osm-pine-meadows-trail:
     family_friendly: difficulty=easy, length=0.1mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 2 poorly-drained / 1 well-drained (top
+      class: Poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-plank-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1621,9 +1682,9 @@ osm-plank-trail:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1635,8 +1696,9 @@ osm-plank-trail:
     family_friendly: difficulty=easy, length=0.2mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 2 poorly-drained / 1 well-drained (top
+      class: Poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-quarry-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1647,7 +1709,7 @@ osm-quarry-trail:
   - rocky_outcrop
   seasonality:
   - fall_color
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1661,8 +1723,9 @@ osm-quarry-trail:
     family_friendly: difficulty=easy, length=0.8mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 1 mukeys, 0 poorly-drained / 1 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-red-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1673,7 +1736,7 @@ osm-red-trail:
   - overlook
   seasonality:
   - fall_color
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1687,8 +1750,9 @@ osm-red-trail:
     family_friendly: difficulty=easy, length=1.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 2 mukeys, 0 poorly-drained / 2 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-south-unit-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1697,9 +1761,9 @@ osm-south-unit-trail:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1711,8 +1775,9 @@ osm-south-unit-trail:
     family_friendly: difficulty=easy, length=0.7mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 5 mukeys, 1 poorly-drained / 4 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-trail-of-reflections:
   family_friendly: true
   dog_policy: unknown
@@ -1727,9 +1792,9 @@ osm-trail-of-reflections:
   seasonality:
   - fall_color
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1742,8 +1807,9 @@ osm-trail-of-reflections:
     family_friendly: difficulty=easy, length=0.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 2 poorly-drained / 1 well-drained (top
+      class: Poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-turkey-vulture-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1756,7 +1822,7 @@ osm-turkey-vulture-trail:
   seasonality:
   - fall_color
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1770,8 +1836,9 @@ osm-turkey-vulture-trail:
     family_friendly: difficulty=easy, length=1.4mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 3 mukeys, 1 poorly-drained / 2 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-west-unit-trail:
   family_friendly: true
   dog_policy: unknown
@@ -1780,7 +1847,7 @@ osm-west-unit-trail:
   accessibility: unknown
   scenery_tags: []
   seasonality: []
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1794,8 +1861,9 @@ osm-west-unit-trail:
     family_friendly: difficulty=easy, length=1.3mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 4 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 osm-yellow-trail:
   family_friendly: false
   dog_policy: unknown
@@ -1808,7 +1876,7 @@ osm-yellow-trail:
   seasonality:
   - fall_color
   - wildflower
-  mud_susceptibility: moderate
+  mud_susceptibility: low
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1822,8 +1890,9 @@ osm-yellow-trail:
     family_friendly: difficulty=moderate, length=4.8mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 2 mukeys, 0 poorly-drained / 2 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 state-green-circle-state-trail:
   family_friendly: false
   dog_policy: leashed
@@ -1840,9 +1909,9 @@ state-green-circle-state-trail:
   - wildflower
   - winter_snowshoe
   - winter_xc
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1855,8 +1924,9 @@ state-green-circle-state-trail:
     family_friendly: difficulty=difficult, length=30.8mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 23 mukeys, 10 poorly-drained / 9 well-drained (top
+      class: Excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 state-mountain-bay-state-trail:
   family_friendly: false
   dog_policy: leashed
@@ -1869,7 +1939,7 @@ state-mountain-bay-state-trail:
   - wildflower
   - winter_snowshoe
   - winter_xc
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1883,8 +1953,9 @@ state-mountain-bay-state-trail:
     family_friendly: difficulty=strenuous, length=76.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 110 mukeys, 47 poorly-drained / 52 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 state-tomorrow-river-state-trail:
   family_friendly: false
   dog_policy: leashed
@@ -1900,7 +1971,7 @@ state-tomorrow-river-state-trail:
   - winter_xc
   mud_susceptibility: moderate
   exposure: sheltered
-  drainage: loamy
+  drainage: sandy
   notes: null
   last_field_check: null
   validated: false
@@ -1912,8 +1983,9 @@ state-tomorrow-river-state-trail:
     family_friendly: difficulty=difficult, length=28.9mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 48 mukeys, 13 poorly-drained / 32 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 state-wiouwash-state-trail:
   family_friendly: false
   dog_policy: leashed
@@ -1930,7 +2002,7 @@ state-wiouwash-state-trail:
   - wildflower
   - winter_snowshoe
   - winter_xc
-  mud_susceptibility: moderate
+  mud_susceptibility: high
   exposure: sheltered
   drainage: loamy
   notes: null
@@ -1945,8 +2017,9 @@ state-wiouwash-state-trail:
     family_friendly: difficulty=strenuous, length=50.0mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 68 mukeys, 36 poorly-drained / 26 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
 state-wolf-river-state-trail:
   family_friendly: false
   dog_policy: leashed
@@ -1971,5 +2044,6 @@ state-wolf-river-state-trail:
     family_friendly: difficulty=strenuous, length=37.5mi
     seasonality: derived from activities + scenery_tags
     bike_allowed: state-trail default; others conservative=false
-    mud_susceptibility: default 'moderate' (soil data enrichment is Phase 2)
-    drainage: default 'loamy' (soil data enrichment is Phase 2)
+    mud_susceptibility: 'SSURGO: 45 mukeys, 11 poorly-drained / 28 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group

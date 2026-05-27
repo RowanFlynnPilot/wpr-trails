@@ -26,6 +26,7 @@ from transforms.forest_coverage import ForestIndex
 
 TRAILS_DIR = Path("data/processed/trails")
 OUTPUT_PATH = Path("data/editorial_auto.yaml")
+SSURGO_PATH = Path("data/raw/ssurgo.json")
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 USER_AGENT = "wpr-trails/0.1 (https://github.com/RowanFlynnPilot/wpr-trails)"
@@ -203,6 +204,83 @@ def derive_seasonality(trail: dict, scenery_tags: list) -> list:
     return sorted(tags)
 
 
+def derive_soil_fields(mukey_list: list, mukey_info: dict) -> tuple:
+    """Map a trail's SSURGO mukeys to (mud_susceptibility, drainage, note).
+
+    mud_susceptibility (one of low | moderate | high) drives the 25% mud_risk
+    scoring weight. Threshold-based so a single poorly-drained mukey on a long
+    trail doesn't flip the whole trail to high — but if a meaningful share
+    (>=30%) of the trail crosses Somewhat-poorly-drained-or-worse soils, it
+    does.
+
+    drainage (sandy | loamy | clay) is a soil-texture proxy derived from
+    hydrologic group, modal across the trail. Currently descriptive only —
+    no scoring factor consumes it yet, but it's surfaced in the UI.
+    """
+    if not mukey_list:
+        return "moderate", "loamy", "no SSURGO mukeys for this trail"
+
+    drainage_classes = [
+        mukey_info[mk]["drainage_class"]
+        for mk in mukey_list
+        if mk in mukey_info and mukey_info[mk]["drainage_class"]
+    ]
+    hyd_groups = [
+        mukey_info[mk]["hyd_group"]
+        for mk in mukey_list
+        if mk in mukey_info and mukey_info[mk]["hyd_group"]
+    ]
+
+    if not drainage_classes:
+        return "moderate", "loamy", f"no drainage data for {len(mukey_list)} mukeys"
+
+    n = len(drainage_classes)
+    counts = Counter(drainage_classes)
+    poor = (
+        counts.get("Very poorly drained", 0)
+        + counts.get("Poorly drained", 0)
+        + counts.get("Somewhat poorly drained", 0)
+    )
+    well = (
+        counts.get("Excessively drained", 0)
+        + counts.get("Somewhat excessively drained", 0)
+        + counts.get("Well drained", 0)
+    )
+    if poor / n >= 0.30:
+        mud = "high"
+    elif well / n >= 0.70:
+        mud = "low"
+    else:
+        mud = "moderate"
+
+    drainage = _hyd_to_texture(hyd_groups)
+
+    note = (
+        f"SSURGO: {n} mukeys, "
+        f"{poor} poorly-drained / {well} well-drained "
+        f"(top class: {counts.most_common(1)[0][0]})"
+    )
+    return mud, drainage, note
+
+
+def _hyd_to_texture(hyd_groups: list) -> str:
+    """Modal texture across hydrologic group first-letters.
+
+    Dual classifications (A/D, B/D, C/D) are wetland soils — sandy/loamy
+    when drained, clay-like when waterlogged. We use the first letter for
+    'normal conditions' texture; the mud_susceptibility logic above handles
+    the wet-state behavior via drainage class.
+    """
+    if not hyd_groups:
+        return "loamy"
+    first_letters = [h[0] for h in hyd_groups if h and h[0] in "ABCD"]
+    if not first_letters:
+        return "loamy"
+    letter_to_texture = {"A": "sandy", "B": "loamy", "C": "loamy", "D": "clay"}
+    textures = [letter_to_texture[c] for c in first_letters]
+    return Counter(textures).most_common(1)[0][0]
+
+
 def derive_bike_allowed(trail: dict) -> bool:
     """State Trail layer carries this explicitly via activity codes; everything else conservative."""
     if trail["id"].startswith("state-"):
@@ -215,7 +293,7 @@ def derive_bike_allowed(trail: dict) -> bool:
 
 # --- Main -----------------------------------------------------------------
 
-def enrich_trail(trail: dict, forest_index: ForestIndex) -> dict:
+def enrich_trail(trail: dict, forest_index: ForestIndex, ssurgo: dict) -> dict:
     features = fetch_nearby_features(trail)
     forest_cov = forest_index.coverage(trail_sample_points(trail))
 
@@ -227,6 +305,9 @@ def enrich_trail(trail: dict, forest_index: ForestIndex) -> dict:
     seasonality = derive_seasonality(trail, scenery)
     bike_allowed = derive_bike_allowed(trail)
 
+    trail_mukeys = ssurgo["trail_mukeys"].get(trail["id"], [])
+    mud, drainage, soil_note = derive_soil_fields(trail_mukeys, ssurgo["mukey_info"])
+
     return {
         "family_friendly": family_friendly,
         "dog_policy": dog_policy,
@@ -235,9 +316,9 @@ def enrich_trail(trail: dict, forest_index: ForestIndex) -> dict:
         "accessibility": "unknown",
         "scenery_tags": scenery,
         "seasonality": seasonality,
-        "mud_susceptibility": "moderate",
+        "mud_susceptibility": mud,
         "exposure": exposure,
-        "drainage": "loamy",
+        "drainage": drainage,
         "notes": None,
         "last_field_check": None,
         "validated": False,
@@ -252,8 +333,8 @@ def enrich_trail(trail: dict, forest_index: ForestIndex) -> dict:
             ),
             "seasonality": "derived from activities + scenery_tags",
             "bike_allowed": "state-trail default; others conservative=false",
-            "mud_susceptibility": "default 'moderate' (soil data enrichment is Phase 2)",
-            "drainage": "default 'loamy' (soil data enrichment is Phase 2)",
+            "mud_susceptibility": soil_note,
+            "drainage": "modal soil texture from SSURGO hydrologic group",
         },
     }
 
@@ -266,6 +347,16 @@ def main() -> None:
     print("Loading forest polygon index...")
     forest_index = ForestIndex()
     print(f"  {len(forest_index.polygons)} forest/wood polygons indexed")
+
+    if not SSURGO_PATH.exists():
+        raise FileNotFoundError(
+            f"{SSURGO_PATH} missing - run scrapers/usda_ssurgo.py first"
+        )
+    ssurgo = json.loads(SSURGO_PATH.read_text())
+    print(
+        f"  SSURGO: {len(ssurgo['trail_mukeys'])} trails, "
+        f"{len(ssurgo['mukey_info'])} unique mukeys"
+    )
 
     # Resume: load any prior partial output and skip already-processed trails
     output: dict = {}
@@ -280,7 +371,7 @@ def main() -> None:
         trail = json.loads(tp.read_text())
         if trail["id"] in output:
             continue
-        editorial = enrich_trail(trail, forest_index)
+        editorial = enrich_trail(trail, forest_index, ssurgo)
         output[trail["id"]] = editorial
         # Write after every trail so progress survives crashes / timeouts
         OUTPUT_PATH.write_text(yaml.safe_dump(output, sort_keys=False, default_flow_style=False))

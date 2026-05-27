@@ -152,6 +152,58 @@ What's actually next now:
 - Then SSURGO soil integration (Path B) is the highest-leverage
   next chunk of work. Independent from the frontend.
 
+### Same session: SSURGO soil integration shipped
+
+Path B is done. Real `mud_susceptibility` for all 74 trails replaces
+the hardcoded "moderate" default; trail score spread went from "all
+tied at 91.3" to 12 distinct scores (range 74.8–91.3 on a dry day,
+spreads further after rain).
+
+Architecture chose against bulk-downloading SSURGO polygons (~100k
+across 6 counties, too large) in favor of per-trail line-intersect
+queries via SDA's `SDA_Get_Mukey_from_intersection_with_WktWgs84`
+stored procedure. Each trail query takes ~0.4s + 1s polite delay
+→ 118s for all 74 trails. Plus one bulk drainage-class lookup for
+the 475 unique mukeys. Output cached in `data/raw/ssurgo.json`.
+
+- New `scrapers/usda_ssurgo.py` (queries SDA, writes ssurgo.json)
+- `transforms/enrich_editorial_auto.py` now consumes ssurgo.json and
+  derives `mud_susceptibility` via a 30%-poorly-drained threshold,
+  `drainage` texture via modal hydrologic group first-letter
+- `.github/workflows/weekly-pipeline.yml` runs SSURGO between
+  enrich_elevation and enrich_editorial_auto
+- README + CLAUDE.md updated to remove "Phase 2 soil" note
+
+Validation under simulated 0.8" rain in 72h:
+- Yellow Trail (granite ridge, low mud): 0.94 mud_score
+- Alta Junction (IAT wetland segment, high mud): 0.72 mud_score
+- Same conditions, different soil → different ranking. The whole
+  point of the feature.
+
+What I learned that changes how to think about the project:
+- SDA's spatial intersect queries against bbox/polygon WKTs time
+  out on anything non-trivial (60s+ for a small test polygon). The
+  per-WKT stored procedures (`SDA_Get_Mukey_from_intersection_...`)
+  are pre-optimized and fast (~0.4s per trail line). Use those.
+- SSURGO mupolygon counts in central WI are huge — Marathon County
+  alone has 23,501 polygons. Don't bulk-download.
+- Hydrologic group dual classifications (A/D, B/D, C/D) signal
+  wetland soils: sandy/loamy when drained, clay-like when wet. The
+  first letter captures normal-conditions texture; the drainage
+  class captures wet-state behavior. Two separate fields, both
+  derived from SSURGO, neither redundant.
+
+What's actually next now:
+- Push SSURGO commit, watch the deploy land
+- The next hourly cron will rebuild scores against the updated
+  editorial_auto.yaml, so the live site will reflect real soil-based
+  rankings within ~1 hour
+- Frontend follow-ups (scenery filter, drive-time slider, weather
+  banner) are the next high-leverage UI work
+- Trailhead coordinates remain null everywhere — picking the closest
+  amenity=parking and snapping to the trail endpoint is the natural
+  next data-side enhancement
+
 ## How to add an entry to this file
 
 End of session: append a dated section with what changed.

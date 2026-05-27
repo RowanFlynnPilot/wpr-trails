@@ -36,11 +36,20 @@ jobs:
           python -m scrapers.dnr_state_trails
           python -m scrapers.osm_landcover
 
-      - name: Build trails + enrich
+      - name: Build trails
         run: |
           python -m transforms.build_trails
           python -m transforms.enrich_elevation
-          python -m transforms.enrich_editorial_auto
+
+      - name: Pull SSURGO soil data
+        # Depends on built trails — queries USDA per trail geometry.
+        # ~2 min for 74 trails at 1s rate-limit.
+        run: python -m scrapers.usda_ssurgo
+
+      - name: Auto-derive editorial
+        # Consumes osm_forest.json + ssurgo.json + OSM Overpass per trail.
+        # ~7 min total at 5s rate-limit between Overpass calls.
+        run: python -m transforms.enrich_editorial_auto
 
       - name: Commit refreshed outputs
         run: |

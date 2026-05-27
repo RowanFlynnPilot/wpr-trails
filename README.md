@@ -114,8 +114,11 @@ dog policy, family-friendliness, seasonality) live in two YAML files:
 - Whole-park forest polygons (e.g. Rib Mtn State Park) can't distinguish
   canopy variation, so trails crossing exposed ridges within a "forest"
   polygon get tagged sheltered. Editorial overrides for ridgeline trails.
-- `mud_susceptibility` and `drainage` currently default to "moderate" / "loamy"
-  pending USDA SSURGO soil data integration (Phase 2).
+- `mud_susceptibility` and `drainage` are derived from USDA SSURGO soil data
+  via per-trail line-intersection queries to the Soil Data Access service.
+  Trails crossing wetland soils (poorly drained ≥30% of crossed map units)
+  flag as `high`; granite/sandy soils as `low`. Hydrologic group → texture
+  proxy: A → sandy, B/C → loamy, D → clay.
 
 ## Local setup
 

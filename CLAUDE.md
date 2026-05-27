@@ -70,6 +70,7 @@ python -m scrapers.dnr_state_trails
 python -m scrapers.osm_landcover
 python -m transforms.build_trails
 python -m transforms.enrich_elevation
+python -m scrapers.usda_ssurgo           # depends on built trails
 python -m transforms.enrich_editorial_auto
 ```
 
@@ -84,20 +85,16 @@ python -m transforms.build_scores
 
 ## Known limitations (Phase 2 work)
 
-1. **Soil data missing**. `mud_susceptibility` and `drainage` default to
-   "moderate"/"loamy" for all trails. Real values need USDA SSURGO integration.
-   This is the highest-impact remaining data improvement — mud_risk has the
-   biggest scoring weight (25%).
-
-2. **Exposure is approximate**. OSM forest polygons are coarse-grained (whole
+1. **Exposure is approximate**. OSM forest polygons are coarse-grained (whole
    parks), so trails crossing exposed ridges *within* a tagged forest get
    flagged sheltered. Editorial overrides for the trails that matter.
 
-3. **Frontend not built**. Data layer is product-ready; the planning UI
-   doesn't exist yet. Intended stack: Vite + React + Leaflet, deployed to
-   subdomain, consuming `index.json` + per-trail JSONs + `scores.json`.
+2. **Frontend is scaffolded, not feature-complete**. `web/` has the map view
+   with filter chips and a per-trail detail panel; deployed to GitHub Pages.
+   Missing: scenery-preference filters, drive-time slider, weather banner,
+   mobile layout polish.
 
-4. **Snowmobile is conditions-only**. Winter mode (planned) per central WI
+3. **Snowmobile is conditions-only**. Winter mode (planned) per central WI
    snowmobile clubs' explicit guidance against third-party routing.
 
 ## Conventions
