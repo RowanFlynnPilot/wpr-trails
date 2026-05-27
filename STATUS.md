@@ -75,6 +75,37 @@ pattern (spatial sampling along trail geometry).
 - **OSM activity tags are sparse**. Most non-state trails default to `["hiking"]`
   only, even when locally known to allow biking, horses, or skiing.
 
+## Session 2026-05-26
+
+What I did:
+- Scaffolded the frontend in `web/` — Vite 5 + React 18 + TypeScript +
+  Tailwind 3 + Leaflet via react-leaflet.
+- First commit scope: map view fetches live `index.json` from GitHub Pages,
+  renders 74 trail centroids as pins with name/length/difficulty/drive-time
+  popups. Sidebar has activity + county multi-select filter chips.
+- Added `.claude/launch.json` so `preview_start name=web` boots the dev
+  server in future sessions.
+- Verified in a real browser via Claude Preview: 74 markers render, no
+  console errors, no failed network requests, typecheck clean.
+
+What I learned that changes how to think about the project:
+- `index.json` uses `length_m` (meters) and `centroid: [lon, lat]`
+  (GeoJSON convention). Frontend types and pin rendering both need to
+  respect this — easy to invert lat/lon by accident.
+- Activity enum across the data is: hiking, biking, horseback, xc_ski,
+  snowshoe, snowmobile. Counties: marathon, lincoln, langlade, taylor,
+  shawano, portage. Hard-coded in `web/src/components/FilterBar.tsx` —
+  if scrapers ever emit a new value, the chip won't show until added.
+
+What's actually next now:
+- Commit 2: trail detail panel. Click a pin → fetch
+  `trails/{id}.json` → show editorial summary, attributes, score
+  breakdown from `scores.json`.
+- Commit 3: GitHub Pages deployment workflow for the app itself
+  (currently only the data pipeline publishes to Pages).
+- Then SSURGO soil integration (Path B) can land in parallel since
+  it's pure data-side work.
+
 ## How to add an entry to this file
 
 End of session: append a dated section with what changed.
