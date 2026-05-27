@@ -1,31 +1,36 @@
 import { Marker } from "react-leaflet";
 import L from "leaflet";
-import type { TrailIndexEntry } from "../types/trail";
+import type { Difficulty, TrailIndexEntry } from "../types/trail";
 
-import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
-import markerIcon from "leaflet/dist/images/marker-icon.png";
-import markerShadow from "leaflet/dist/images/marker-shadow.png";
+export const DIFFICULTY_COLORS: Record<Difficulty, string> = {
+  easy: "#16a34a",       // green-600
+  moderate: "#2563eb",   // blue-600
+  difficult: "#ea580c",  // orange-600
+  strenuous: "#dc2626",  // red-600
+};
 
-const DefaultIcon = L.icon({
-  iconUrl: markerIcon,
-  iconRetinaUrl: markerIcon2x,
-  shadowUrl: markerShadow,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
-});
+const iconCache = new Map<string, L.DivIcon>();
 
-const SelectedIcon = L.icon({
-  iconUrl: markerIcon,
-  iconRetinaUrl: markerIcon2x,
-  shadowUrl: markerShadow,
-  iconSize: [33, 54],
-  iconAnchor: [16, 54],
-  popupAnchor: [1, -45],
-  shadowSize: [54, 54],
-  className: "trail-pin-selected",
-});
+function makeIcon(color: string, selected: boolean): L.DivIcon {
+  const key = `${color}|${selected ? "s" : "n"}`;
+  const cached = iconCache.get(key);
+  if (cached) return cached;
+  const size = selected ? 20 : 14;
+  const borderWidth = selected ? 3 : 2;
+  const html = `<div style="
+    width:${size}px;height:${size}px;border-radius:9999px;
+    background:${color};border:${borderWidth}px solid white;
+    box-shadow:0 1px 3px rgba(0,0,0,0.45);
+  "></div>`;
+  const icon = L.divIcon({
+    html,
+    className: "", // suppress leaflet's default div-icon margin/padding
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+  });
+  iconCache.set(key, icon);
+  return icon;
+}
 
 interface Props {
   trail: TrailIndexEntry;
@@ -35,11 +40,11 @@ interface Props {
 
 export default function TrailPin({ trail, selected, onSelect }: Props) {
   const [lon, lat] = trail.centroid;
-
+  const color = DIFFICULTY_COLORS[trail.difficulty_estimated];
   return (
     <Marker
       position={[lat, lon]}
-      icon={selected ? SelectedIcon : DefaultIcon}
+      icon={makeIcon(color, selected)}
       eventHandlers={{
         click: () => onSelect(trail.id),
       }}

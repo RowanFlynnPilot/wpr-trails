@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { MapContainer, Polyline, TileLayer, useMap } from "react-leaflet";
 import L from "leaflet";
 import type { Trail, TrailIndexEntry } from "../types/trail";
-import TrailPin from "./TrailPin";
+import TrailPin, { DIFFICULTY_COLORS } from "./TrailPin";
 
 interface Props {
   trails: TrailIndexEntry[];
@@ -48,13 +48,14 @@ function TrailPolyline({ trail }: { trail: Trail }) {
       : trail.geometry.coordinates.map((line) =>
           line.map(([lng, lat]) => [lat, lng]),
         );
+  const color = DIFFICULTY_COLORS[trail.attributes.difficulty_estimated];
   return (
     <>
       {lines.map((line, i) => (
         <Polyline
           key={i}
           positions={line}
-          pathOptions={{ color: "#059669", weight: 4, opacity: 0.85 }}
+          pathOptions={{ color, weight: 4, opacity: 0.85 }}
         />
       ))}
     </>

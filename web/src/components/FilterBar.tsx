@@ -1,4 +1,5 @@
 import type { Activity, County, Difficulty, SceneryTag } from "../types/trail";
+import { DIFFICULTY_COLORS } from "./TrailPin";
 
 const ALL_ACTIVITIES: Activity[] = [
   "hiking",
@@ -171,6 +172,7 @@ export default function FilterBar({
             label={DIFFICULTY_LABELS[d]}
             active={state.difficulties.has(d)}
             onClick={() => onChange({ ...state, difficulties: toggle(state.difficulties, d) })}
+            swatch={DIFFICULTY_COLORS[d]}
           />
         ))}
       </ChipSection>
@@ -266,22 +268,31 @@ function Chip({
   label,
   active,
   onClick,
+  swatch,
 }: {
   label: string;
   active: boolean;
   onClick: () => void;
+  swatch?: string;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       className={
-        "rounded-full border px-3 py-1 text-xs transition " +
+        "inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition " +
         (active
           ? "border-emerald-600 bg-emerald-600 text-white"
           : "border-gray-300 bg-white text-gray-700 hover:border-gray-400")
       }
     >
+      {swatch && (
+        <span
+          className="inline-block h-2 w-2 rounded-full"
+          style={{ backgroundColor: swatch }}
+          aria-hidden
+        />
+      )}
       {label}
     </button>
   );
