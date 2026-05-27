@@ -8,12 +8,12 @@ import DetailPanel from "./components/DetailPanel";
 import WeatherBanner from "./components/WeatherBanner";
 
 const INITIAL_FILTERS: FilterState = {
+  search: "",
   activities: new Set(),
   counties: new Set(),
   difficulties: new Set(),
   scenery: new Set(),
   familyOnly: false,
-  dogsAllowed: false,
   maxDriveMin: null,
   lengthMi: [0, LENGTH_MAX_MI],
 };
@@ -32,7 +32,11 @@ export default function App() {
     const [loMi, hiMi] = filters.lengthMi;
     const loM = loMi * 1609.34;
     const hiM = hiMi * 1609.34;
+    const q = filters.search.trim().toLowerCase();
     return allTrails.filter((t) => {
+      if (q && !t.name.toLowerCase().includes(q)) {
+        return false;
+      }
       if (filters.activities.size > 0 && !t.activities.some((a) => filters.activities.has(a))) {
         return false;
       }
@@ -54,11 +58,6 @@ export default function App() {
       }
       if (filters.familyOnly && t.editorial.family_friendly !== true) {
         return false;
-      }
-      if (filters.dogsAllowed) {
-        const policy = t.editorial.dog_policy;
-        // "leashed" and "off_leash" count as yes; "unknown"/"prohibited" don't.
-        if (policy !== "leashed" && policy !== "off_leash") return false;
       }
       return true;
     });

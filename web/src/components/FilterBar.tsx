@@ -71,12 +71,12 @@ const DIFFICULTY_LABELS: Record<Difficulty, string> = {
 };
 
 export interface FilterState {
+  search: string;
   activities: Set<Activity>;
   counties: Set<County>;
   difficulties: Set<Difficulty>;
   scenery: Set<SceneryTag>;
   familyOnly: boolean;
-  dogsAllowed: boolean;
   /** Max drive minutes from Wausau; null = no limit */
   maxDriveMin: number | null;
   /** Length range in miles [min, max] */
@@ -143,6 +143,16 @@ export default function FilterBar({
         </button>
       </div>
 
+      <div className="mt-4">
+        <input
+          type="search"
+          value={state.search}
+          onChange={(e) => onChange({ ...state, search: e.target.value })}
+          placeholder="Search trail name…"
+          className="w-full rounded-md border border-gray-300 px-3 py-1.5 text-sm placeholder:text-gray-400 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+        />
+      </div>
+
       <ChipSection title="Activity">
         {ALL_ACTIVITIES.map((a) => (
           <Chip
@@ -188,16 +198,11 @@ export default function FilterBar({
         ))}
       </ChipSection>
 
-      <div className="mt-5 space-y-1.5">
+      <div className="mt-5">
         <ToggleRow
           label="Family-friendly only"
           checked={state.familyOnly}
           onChange={(v) => onChange({ ...state, familyOnly: v })}
-        />
-        <ToggleRow
-          label="Dogs allowed"
-          checked={state.dogsAllowed}
-          onChange={(v) => onChange({ ...state, dogsAllowed: v })}
         />
       </div>
 
