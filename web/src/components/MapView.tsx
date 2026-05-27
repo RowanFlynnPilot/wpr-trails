@@ -65,19 +65,23 @@ function TrailPolyline({ trail }: { trail: Trail }) {
 function FitToTrail({ trail }: { trail: Trail }) {
   const map = useMap();
   useEffect(() => {
-    const [minLng, minLat, maxLng, maxLat] = trail.derived.bbox;
-    const bounds = L.latLngBounds([minLat, minLng], [maxLat, maxLng]);
-    // Pad differently depending on the detail panel position:
-    // desktop = 384px right drawer; mobile = bottom sheet up to ~75vh.
-    const isDesktop = typeof window !== "undefined" && window.innerWidth >= 640;
-    const opts = isDesktop
-      ? { paddingTopLeft: [40, 40] as [number, number], paddingBottomRight: [420, 40] as [number, number] }
-      : { paddingTopLeft: [40, 40] as [number, number], paddingBottomRight: [40, Math.min(window.innerHeight * 0.6, 400)] as [number, number] };
-    map.flyToBounds(bounds, {
-      ...opts,
-      duration: 0.6,
-      maxZoom: 14,
-    });
+    try {
+      const [minLng, minLat, maxLng, maxLat] = trail.derived.bbox;
+      const bounds = L.latLngBounds([minLat, minLng], [maxLat, maxLng]);
+      // Pad differently depending on the detail panel position:
+      // desktop = 384px right drawer; mobile = bottom sheet up to ~75vh.
+      const isDesktop = typeof window !== "undefined" && window.innerWidth >= 640;
+      const opts = isDesktop
+        ? { paddingTopLeft: [40, 40] as [number, number], paddingBottomRight: [420, 40] as [number, number] }
+        : { paddingTopLeft: [40, 40] as [number, number], paddingBottomRight: [40, Math.min(window.innerHeight * 0.6, 400)] as [number, number] };
+      map.flyToBounds(bounds, {
+        ...opts,
+        duration: 0.6,
+        maxZoom: 14,
+      });
+    } catch (err) {
+      console.error("FitToTrail crash:", err, "trail:", trail);
+    }
   }, [trail.id, map]);
   return null;
 }

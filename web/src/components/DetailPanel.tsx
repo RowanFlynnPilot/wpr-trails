@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import type { RankedTrail, Trail } from "../types/trail";
 
 type TrailState =
@@ -23,16 +24,64 @@ const FACTOR_LABELS: Record<string, string> = {
 };
 
 export default function DetailPanel({ trailId, trailState, ranked, onClose }: Props) {
+  const [isMobile, setIsMobile] = useState(
+    typeof window !== "undefined" && window.matchMedia("(max-width: 639px)").matches,
+  );
+  const [sheetHeight, setSheetHeight] = useState<number | null>(null);
+  const dragging = useRef(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const mq = window.matchMedia("(max-width: 639px)");
+    const update = () => setIsMobile(mq.matches);
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!isMobile) return;
+    dragging.current = true;
+    e.currentTarget.setPointerCapture(e.pointerId);
+  };
+  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!dragging.current) return;
+    const vh = window.innerHeight;
+    const next = Math.max(vh * 0.25, Math.min(vh * 0.9, vh - e.clientY));
+    setSheetHeight(next);
+  };
+  const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!dragging.current) return;
+    dragging.current = false;
+    e.currentTarget.releasePointerCapture(e.pointerId);
+  };
+
+  // On mobile: inline height overrides max-h. On desktop: ignore inline.
+  const inlineStyle: React.CSSProperties =
+    isMobile && sheetHeight !== null ? { height: `${sheetHeight}px`, maxHeight: "90vh" } : {};
+
   return (
     <aside
+      style={inlineStyle}
       className={
         "absolute z-[1000] flex flex-col border-gray-200 bg-white shadow-lg " +
         // Desktop: right-anchored full-height drawer
         "sm:right-0 sm:top-0 sm:h-full sm:w-96 sm:border-l sm:rounded-none " +
-        // Mobile: bottom-anchored sheet, max ~75% viewport height
+        // Mobile: bottom-anchored sheet, default max ~75% viewport height
         "inset-x-0 bottom-0 max-h-[75vh] rounded-t-xl border-t"
       }
     >
+      {/* Drag handle: mobile only, captures pointer to resize the sheet */}
+      <div
+        onPointerDown={handlePointerDown}
+        onPointerMove={handlePointerMove}
+        onPointerUp={handlePointerUp}
+        onPointerCancel={handlePointerUp}
+        className="flex h-6 cursor-row-resize items-center justify-center pt-2 sm:hidden"
+        aria-label="Resize panel"
+        role="separator"
+      >
+        <div className="h-1 w-10 rounded-full bg-gray-300" aria-hidden />
+      </div>
       <header className="flex items-start justify-between gap-2 border-b border-gray-200 p-4">
         <div className="min-w-0">
           {trailState.status === "ready" ? (
