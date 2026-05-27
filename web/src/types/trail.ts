@@ -12,7 +12,12 @@ export type County =
   | "langlade"
   | "taylor"
   | "shawano"
-  | "portage";
+  | "portage"
+  | "clark"
+  | "wood"
+  | "oneida"
+  | "forest"
+  | "price";
 
 export type Difficulty = "easy" | "moderate" | "difficult" | "strenuous";
 

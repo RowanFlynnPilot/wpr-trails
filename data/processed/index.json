@@ -1877,6 +1877,40 @@
     }
   },
   {
+    "id": "osm-luna---white-deer-trail",
+    "name": "Luna - White Deer Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 5479.2,
+    "elevation_gain_m": 41.2,
+    "elevation_max_m": 525.2,
+    "difficulty_estimated": "moderate",
+    "centroid": [
+      -88.96251887224453,
+      45.90333013904653
+    ],
+    "drive_minutes_from_wausau": 114,
+    "trailhead_coords": [
+      -88.9637523,
+      45.8976762
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
+      "accessibility": "varied"
+    }
+  },
+  {
     "id": "osm-moses-creek-trail",
     "name": "Moses Creek Trail",
     "activities": [
@@ -1905,6 +1939,40 @@
       "exposure": "sheltered",
       "mud_susceptibility": "high",
       "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osm-nature-trail-loop",
+    "name": "Nature Trail Loop",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 2303.1,
+    "elevation_gain_m": 36.2,
+    "elevation_max_m": 502.3,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.64979674798053,
+      45.872840698223435
+    ],
+    "drive_minutes_from_wausau": 99,
+    "trailhead_coords": [
+      -89.6510873,
+      45.8688464
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
     }
   },
   {
@@ -2073,6 +2141,67 @@
     }
   },
   {
+    "id": "osm-sam-campbell-memorial-trail",
+    "name": "Sam Campbell Memorial Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 2694.0,
+    "elevation_gain_m": 64.3,
+    "elevation_max_m": 526.2,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.08293616030676,
+      45.85333093573605
+    ],
+    "drive_minutes_from_wausau": 105,
+    "trailhead_coords": [
+      -89.0739226,
+      45.8540076
+    ],
+    "editorial": {
+      "scenery_tags": [],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
+      "accessibility": "varied"
+    }
+  },
+  {
+    "id": "osm-sevenmile-trail",
+    "name": "Sevenmile Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2660.1,
+    "elevation_gain_m": 37.3,
+    "elevation_max_m": 525.6,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -89.03590456809845,
+      45.87750317904251
+    ],
+    "drive_minutes_from_wausau": 109,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "varied"
+    }
+  },
+  {
     "id": "osm-south-unit-trail",
     "name": "South Unit Trail",
     "activities": [
@@ -2233,6 +2362,40 @@
     }
   },
   {
+    "id": "state-bearskin-state-trail",
+    "name": "Bearskin State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "oneida"
+    ],
+    "length_m": 31176.0,
+    "elevation_gain_m": 251.6,
+    "elevation_max_m": 501.5,
+    "difficulty_estimated": "difficult",
+    "centroid": [
+      -89.69810286875692,
+      45.745955372802
+    ],
+    "drive_minutes_from_wausau": 85,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "low",
+      "accessibility": "rugged"
+    }
+  },
+  {
     "id": "state-green-circle-state-trail",
     "name": "Green Circle State Trail",
     "activities": [
@@ -2282,18 +2445,18 @@
       "marathon",
       "shawano"
     ],
-    "length_m": 123165.1,
-    "elevation_gain_m": 403.0,
+    "length_m": 129750.5,
+    "elevation_gain_m": 457.4,
     "elevation_max_m": 412.5,
     "difficulty_estimated": "strenuous",
     "centroid": [
-      -88.82709056281446,
-      44.80780916385072
+      -88.79127094122208,
+      44.796543735088626
     ],
-    "drive_minutes_from_wausau": 63,
+    "drive_minutes_from_wausau": 66,
     "trailhead_coords": [
-      -89.55693424305323,
-      44.90964035473647
+      -88.06482991064605,
+      44.56524231687429
     ],
     "editorial": {
       "scenery_tags": [
@@ -2303,6 +2466,43 @@
       "family_friendly": false,
       "exposure": "sheltered",
       "mud_susceptibility": "high",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "state-nicolet-state-trail",
+    "name": "Nicolet State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 143657.6,
+    "elevation_gain_m": 793.6,
+    "elevation_max_m": 493.4,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -88.57069827002985,
+      45.4420078582091
+    ],
+    "drive_minutes_from_wausau": 96,
+    "trailhead_coords": [
+      -88.67112453066656,
+      45.55264704376586
+    ],
+    "editorial": {
+      "scenery_tags": [
+        "prairie",
+        "water",
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "moderate",
       "accessibility": "rugged"
     }
   },
@@ -2339,6 +2539,38 @@
       "family_friendly": false,
       "exposure": "sheltered",
       "mud_susceptibility": "moderate",
+      "accessibility": "rugged"
+    }
+  },
+  {
+    "id": "state-tuscobia-state-trail",
+    "name": "Tuscobia State Trail",
+    "activities": [
+      "hiking",
+      "snowshoe",
+      "xc_ski"
+    ],
+    "counties": [
+      "price"
+    ],
+    "length_m": 99055.9,
+    "elevation_gain_m": 487.8,
+    "elevation_max_m": 461.9,
+    "difficulty_estimated": "strenuous",
+    "centroid": [
+      -91.02068855325405,
+      45.823329757354784
+    ],
+    "drive_minutes_from_wausau": 141,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "water"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": false,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
       "accessibility": "rugged"
     }
   },
@@ -2384,6 +2616,7 @@
       "hiking"
     ],
     "counties": [
+      "forest",
       "langlade"
     ],
     "length_m": 60385.6,

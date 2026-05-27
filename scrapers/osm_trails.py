@@ -8,8 +8,10 @@ import requests
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 USER_AGENT = "wpr-trails/0.1 (https://github.com/RowanFlynnPilot/wpr-trails)"
 
-# (south, west, north, east) — Marathon + Lincoln + Langlade + Taylor + Shawano + Portage
-BBOX = (44.25, -91.00, 45.75, -88.15)
+# (south, west, north, east) — 11-county bbox:
+# Marathon, Lincoln, Langlade, Taylor, Shawano, Portage,
+# Clark, Wood, Oneida, Forest, Price
+BBOX = (44.25, -91.00, 46.00, -88.00)
 
 QUERY = f"""
 [out:json][timeout:120];

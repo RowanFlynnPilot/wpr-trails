@@ -16,6 +16,11 @@ const ALL_COUNTIES: County[] = [
   "taylor",
   "shawano",
   "portage",
+  "clark",
+  "wood",
+  "oneida",
+  "forest",
+  "price",
 ];
 
 const ALL_DIFFICULTIES: Difficulty[] = [
@@ -52,6 +57,11 @@ const COUNTY_LABELS: Record<County, string> = {
   taylor: "Taylor",
   shawano: "Shawano",
   portage: "Portage",
+  clark: "Clark",
+  wood: "Wood",
+  oneida: "Oneida",
+  forest: "Forest",
+  price: "Price",
 };
 
 const ACTIVITY_LABELS: Record<Activity, string> = {

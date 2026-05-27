@@ -2158,3 +2158,215 @@ state-wolf-river-state-trail:
       class: Well drained)'
     drainage: modal soil texture from SSURGO hydrologic group
     accessibility: diff=strenuous / 1034ft gain
+osm-luna---white-deer-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: varied
+  scenery_tags:
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 2, ''wetland'': 1} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
+    accessibility: diff=moderate / 3.4mi / 135ft gain
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=moderate, length=3.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 9 mukeys, 2 poorly-drained / 6 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
+osm-nature-trail-loop:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: varied
+  scenery_tags:
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  mud_susceptibility: low
+  exposure: sheltered
+  drainage: sandy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 1, ''wetland'': 1} features within 100m'
+    parking: 'OSM: 2 amenity=parking within 300m'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
+    accessibility: diff=easy / 1.4mi / 119ft gain
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 5 mukeys, 1 poorly-drained / 4 well-drained (top
+      class: Excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
+osm-sam-campbell-memorial-trail:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: large
+  accessibility: varied
+  scenery_tags: []
+  seasonality: []
+  mud_susceptibility: high
+  exposure: sheltered
+  drainage: sandy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {} features within 100m'
+    parking: 'OSM: 1 amenity=parking within 300m'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
+    accessibility: diff=easy / 1.7mi / 211ft gain
+    exposure: 100% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 6 mukeys, 2 poorly-drained / 4 well-drained (top
+      class: Excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
+osm-sevenmile-trail:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: varied
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  mud_susceptibility: low
+  exposure: sheltered
+  drainage: sandy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 4} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
+    accessibility: diff=easy / 1.7mi / 122ft gain
+    exposure: 90% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.7mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 4 mukeys, 1 poorly-drained / 3 well-drained (top
+      class: Excessively drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
+state-bearskin-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: rugged
+  scenery_tags:
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: low
+  exposure: sheltered
+  drainage: sandy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 43, ''prairie'': 2, ''wetland'': 4} features within
+      100m'
+    parking: 'OSM: 3 amenity=parking within 300m'
+    dog_policy: WI public-land default; authority='WI DNR'
+    accessibility: diff=difficult / 825ft gain
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=difficult, length=19.4mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 16 mukeys, 3 poorly-drained / 13 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
+state-nicolet-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: rugged
+  scenery_tags:
+  - prairie
+  - water
+  - wetland
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: moderate
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 76, ''wetland'': 19, ''prairie'': 1} features
+      within 100m'
+    parking: 'OSM: 5 amenity=parking within 300m'
+    dog_policy: WI public-land default; authority='WI DNR'
+    accessibility: diff=strenuous / 2604ft gain
+    exposure: 70% of sample points in OSM forest polygons
+    family_friendly: difficulty=strenuous, length=89.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 89 mukeys, 26 poorly-drained / 49 well-drained (top
+      class: Well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group
+state-tuscobia-state-trail:
+  family_friendly: false
+  dog_policy: leashed
+  bike_allowed: true
+  parking: large
+  accessibility: rugged
+  scenery_tags:
+  - water
+  seasonality:
+  - wildflower
+  - winter_snowshoe
+  - winter_xc
+  mud_susceptibility: high
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''water'': 17} features within 100m'
+    parking: 'OSM: 7 amenity=parking within 300m'
+    dog_policy: WI public-land default; authority='WI DNR'
+    accessibility: diff=strenuous / 1600ft gain
+    exposure: default for central WI; OSM forest data sparse (0%)
+    family_friendly: difficulty=strenuous, length=61.6mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 84 mukeys, 30 poorly-drained / 25 well-drained (top
+      class: Moderately well drained)'
+    drainage: modal soil texture from SSURGO hydrologic group

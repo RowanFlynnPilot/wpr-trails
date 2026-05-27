@@ -11,8 +11,9 @@ DNR_URL = (
 )
 USER_AGENT = "wpr-trails/0.1 (https://github.com/RowanFlynnPilot/wpr-trails)"
 
-# (west, south, east, north) - ArcGIS envelope order in EPSG:4326
-BBOX = (-91.00, 44.25, -88.15, 45.75)
+# (west, south, east, north) - ArcGIS envelope order in EPSG:4326.
+# 11-county bbox; see scrapers/county_boundaries.py for the full list.
+BBOX = (-91.00, 44.25, -88.00, 46.00)
 
 PARAMS = {
     "geometry": ",".join(str(v) for v in BBOX),

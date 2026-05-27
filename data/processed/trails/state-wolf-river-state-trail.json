@@ -4033,6 +4033,7 @@
     "osm_network_class": null,
     "blaze_color": null,
     "counties": [
+      "forest",
       "langlade"
     ],
     "park": null,
@@ -4051,7 +4052,6 @@
       45.56428844268796
     ],
     "drive_minutes_from_wausau": 73,
-    "trailhead_coords": null,
-    "parking_distance_m": null
+    "trailhead_coords": null
   }
 }

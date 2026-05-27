@@ -1,6 +1,7 @@
-"""Pull 6-county polygon boundaries from Census TIGERweb.
+"""Pull 11-county polygon boundaries from Census TIGERweb.
 
-Run once at repo setup. Output is cached and reused by every transform.
+Run once at repo setup (or after extending TARGET_COUNTIES). Output is
+cached and reused by every transform.
 """
 
 import json
@@ -14,7 +15,16 @@ TIGER_URL = (
 )
 USER_AGENT = "wpr-trails/0.1 (https://github.com/RowanFlynnPilot/wpr-trails)"
 
-TARGET_COUNTIES = ("Marathon", "Lincoln", "Langlade", "Taylor", "Shawano", "Portage")
+TARGET_COUNTIES = (
+    # Original 6-county core: Marathon (WPR home) + 5 contiguous neighbors
+    "Marathon", "Lincoln", "Langlade", "Taylor", "Shawano", "Portage",
+    # Expansion: day-trip + weekend radius from Wausau
+    "Clark",   # west of Marathon — Clark County Forest + IAT
+    "Wood",    # south of Marathon — Wisconsin Rapids, Mead WL Area
+    "Oneida",  # north of Lincoln — Minocqua, Bearskin State Trail
+    "Forest",  # northeast of Langlade — deep Northwoods, NF land
+    "Price",   # west of Taylor — Northwoods extension
+)
 
 PARAMS = {
     "where": (

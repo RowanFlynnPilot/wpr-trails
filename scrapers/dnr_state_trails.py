@@ -14,7 +14,8 @@ DNR_URL = (
     "LF_DNR_MGD_Recreational_Opp_WTM_Ext/MapServer/1/query"
 )
 USER_AGENT = "wpr-trails/0.1 (https://github.com/RowanFlynnPilot/wpr-trails)"
-BBOX = (-91.00, 44.25, -88.15, 45.75)
+# (west, south, east, north) - 11-county bbox.
+BBOX = (-91.00, 44.25, -88.00, 46.00)
 
 PARAMS = {
     "geometry": ",".join(str(v) for v in BBOX),
