@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-27T07:06:47.823356+00:00",
+  "fetched_at": "2026-05-27T11:32:24.825685+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,29 +18,18 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-05-27T02:00:00-05:00",
-        "end_time": "2026-05-27T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 59,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 8,
-        "short_forecast": "Mostly Cloudy"
-      },
-      {
-        "name": "Wednesday",
+        "name": "Today",
         "start_time": "2026-05-27T06:00:00-05:00",
         "end_time": "2026-05-27T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 82,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 5.0,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 7.0,
         "precip_chance": 33,
         "short_forecast": "Patchy Fog then Chance Showers And Thunderstorms"
       },
       {
-        "name": "Wednesday Night",
+        "name": "Tonight",
         "start_time": "2026-05-27T18:00:00-05:00",
         "end_time": "2026-05-28T06:00:00-05:00",
         "is_daytime": false,
@@ -60,6 +49,17 @@
         "wind_mph_high": 6.0,
         "precip_chance": 0,
         "short_forecast": "Sunny"
+      },
+      {
+        "name": "Thursday Night",
+        "start_time": "2026-05-28T18:00:00-05:00",
+        "end_time": "2026-05-29T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 50,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 3.0,
+        "precip_chance": 0,
+        "short_forecast": "Clear"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 82,
-    "forecast_wind_mph": 5.0,
+    "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 33,
-    "daylight_remaining_minutes": 1103,
+    "daylight_remaining_minutes": 837,
     "active_closure_ids": []
   }
 }
