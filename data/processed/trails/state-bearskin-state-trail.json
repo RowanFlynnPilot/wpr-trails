@@ -4,7 +4,8 @@
   "activities": [
     "hiking",
     "snowshoe",
-    "xc_ski"
+    "xc_ski",
+    "snowmobile"
   ],
   "sources": {
     "dnr": {

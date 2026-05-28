@@ -86,6 +86,16 @@ def derive_state_trail_activities(props: dict) -> list:
     if any(props.get(f) == "Y" for f in
            ("XSKI_GRMCL_CODE", "XSKI_GRMSK_CODE", "XSKI_UNGRM_CODE")):
         activities.append("xc_ski")
+    if props.get("SNOWMO_CODE") == "Y":
+        activities.append("snowmobile")
+    if props.get("BIKE_OFFRD_CODE") == "Y":
+        activities.append("biking")
+    if props.get("HORSE_CODE") == "Y":
+        activities.append("horseback")
+    # ATV access on a state trail also permits UTVs by WI 2014 statute
+    # (the legal definitions overlap — most trails open to one open to both).
+    if props.get("ATV_WINTER_CODE") == "Y":
+        activities.extend(["atv", "utv"])
     return activities
 
 
@@ -308,9 +318,40 @@ def _looks_like_road(name: str) -> bool:
 
 
 def derive_named_way_activities(tags: dict) -> list:
-    """Activity list for a single OSM way based on access tags."""
+    """Activity list for a single OSM way based on access tags + name patterns.
+
+    Motorized detection (ATV/UTV/snowmobile) comes from BOTH tags and name
+    because OSM mappers in central WI often mark vehicle access only in the
+    way name (e.g. "Flambeau ATV Trail 101", "Bakerville Snow Rovers
+    Snowmobile Trail") rather than via the formal atv= / snowmobile= tags.
+    """
     activities = []
     highway = tags.get("highway")
+    name_upper = (tags.get("name") or "").upper()
+
+    # Motorized first — these trump the highway=track hiking fallback below.
+    is_atv = (
+        tags.get("atv") in ("yes", "designated")
+        or "ATV TRAIL" in name_upper
+        or " ATV " in f" {name_upper} "
+    )
+    is_snowmobile = (
+        tags.get("snowmobile") in ("yes", "designated")
+        or "SNOWMOBILE" in name_upper
+    )
+    is_utv = "UTV" in name_upper  # OSM has no utv tag; name-only signal
+
+    if is_atv:
+        # WI 2014 statute: ATV trails legally permit UTVs (and vice versa),
+        # so we tag both for filter completeness even when only one side is
+        # mentioned.
+        activities.extend(["atv", "utv"])
+    elif is_utv:
+        activities.extend(["utv", "atv"])
+    if is_snowmobile:
+        activities.append("snowmobile")
+
+    # Non-motorized
     if highway in ("path", "footway") or tags.get("foot") in ("yes", "designated"):
         activities.append("hiking")
     if tags.get("bicycle") in ("yes", "designated"):
@@ -319,12 +360,19 @@ def derive_named_way_activities(tags: dict) -> list:
         activities.append("horseback")
     if tags.get("ski") in ("yes", "designated") or tags.get("piste:type") == "nordic":
         activities.append("xc_ski")
-    if tags.get("snowmobile") in ("yes", "designated"):
-        activities.append("snowmobile")
-    if not activities and highway == "track" and tags.get("foot") != "no":
-        # Generic tracks default to hiking if foot isn't explicitly excluded.
+
+    # Fallback: generic tracks default to hiking ONLY when no motorized
+    # indicator was found and foot isn't explicitly excluded. Previously
+    # this fired even for ATV-named tracks, which mistakenly surfaced
+    # motorized routes in the hiking filter.
+    if (
+        not activities
+        and highway == "track"
+        and tags.get("foot") != "no"
+    ):
         activities.append("hiking")
-    return activities
+
+    return sorted(set(activities))
 
 
 def build_from_osm_named_ways(

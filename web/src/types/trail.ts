@@ -4,7 +4,9 @@ export type Activity =
   | "horseback"
   | "xc_ski"
   | "snowshoe"
-  | "snowmobile";
+  | "snowmobile"
+  | "atv"
+  | "utv";
 
 export type County =
   | "marathon"

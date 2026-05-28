@@ -3,7 +3,8 @@
   "name": "Oneida Cty Snowmobile Route 15",
   "activities": [
     "biking",
-    "hiking"
+    "hiking",
+    "snowmobile"
   ],
   "sources": {
     "osm": {

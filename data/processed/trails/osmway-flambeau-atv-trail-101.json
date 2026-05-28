@@ -2,7 +2,8 @@
   "id": "osmway-flambeau-atv-trail-101",
   "name": "Flambeau ATV Trail 101",
   "activities": [
-    "hiking"
+    "atv",
+    "utv"
   ],
   "sources": {
     "osm": {

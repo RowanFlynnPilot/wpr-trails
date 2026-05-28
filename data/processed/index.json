@@ -2561,7 +2561,9 @@
     "id": "osmway-atv-route",
     "name": "ATV Route",
     "activities": [
-      "hiking"
+      "atv",
+      "hiking",
+      "utv"
     ],
     "counties": [
       "forest"
@@ -3347,7 +3349,9 @@
     "id": "osmway-edgar-fenwood-trail",
     "name": "Edgar-Fenwood Trail",
     "activities": [
-      "hiking"
+      "atv",
+      "hiking",
+      "utv"
     ],
     "counties": [
       "marathon"
@@ -3436,7 +3440,8 @@
     "id": "osmway-flambeau-atv-trail-101",
     "name": "Flambeau ATV Trail 101",
     "activities": [
-      "hiking"
+      "atv",
+      "utv"
     ],
     "counties": [
       "price"
@@ -3466,7 +3471,8 @@
     "id": "osmway-flambeau-atv-trail-102",
     "name": "Flambeau ATV Trail 102",
     "activities": [
-      "hiking"
+      "atv",
+      "utv"
     ],
     "counties": [
       "price"
@@ -3499,7 +3505,8 @@
     "id": "osmway-flambeau-atv-trail-103-north",
     "name": "Flambeau ATV Trail 103 North",
     "activities": [
-      "hiking"
+      "atv",
+      "utv"
     ],
     "counties": [
       "price"
@@ -3527,7 +3534,8 @@
     "id": "osmway-flambeau-atv-trail-104",
     "name": "Flambeau ATV Trail 104",
     "activities": [
-      "hiking"
+      "atv",
+      "utv"
     ],
     "counties": [
       "price"
@@ -3555,7 +3563,8 @@
     "id": "osmway-flambeau-atv-trail-121",
     "name": "Flambeau ATV Trail 121",
     "activities": [
-      "hiking"
+      "atv",
+      "utv"
     ],
     "counties": [
       "price"
@@ -8458,7 +8467,8 @@
     "name": "Oneida Cty Snowmobile Route 15",
     "activities": [
       "biking",
-      "hiking"
+      "hiking",
+      "snowmobile"
     ],
     "counties": [
       "oneida"
@@ -9207,7 +9217,7 @@
     "id": "osmway-snowmobile-trail",
     "name": "snowmobile trail",
     "activities": [
-      "hiking"
+      "snowmobile"
     ],
     "counties": [
       "langlade"
@@ -10115,7 +10125,8 @@
     "activities": [
       "hiking",
       "snowshoe",
-      "xc_ski"
+      "xc_ski",
+      "snowmobile"
     ],
     "counties": [
       "oneida"
@@ -10187,7 +10198,9 @@
     "activities": [
       "hiking",
       "snowshoe",
-      "xc_ski"
+      "xc_ski",
+      "snowmobile",
+      "horseback"
     ],
     "counties": [
       "marathon",
@@ -10223,7 +10236,10 @@
     "activities": [
       "hiking",
       "snowshoe",
-      "xc_ski"
+      "xc_ski",
+      "snowmobile",
+      "biking",
+      "horseback"
     ],
     "counties": [
       "forest"
@@ -10260,7 +10276,9 @@
     "activities": [
       "hiking",
       "snowshoe",
-      "xc_ski"
+      "xc_ski",
+      "snowmobile",
+      "horseback"
     ],
     "counties": [
       "portage"
@@ -10296,7 +10314,10 @@
     "activities": [
       "hiking",
       "snowshoe",
-      "xc_ski"
+      "xc_ski",
+      "snowmobile",
+      "biking",
+      "horseback"
     ],
     "counties": [
       "price"
@@ -10328,7 +10349,9 @@
     "activities": [
       "hiking",
       "snowshoe",
-      "xc_ski"
+      "xc_ski",
+      "snowmobile",
+      "horseback"
     ],
     "counties": [
       "shawano"

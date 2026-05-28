@@ -2,7 +2,9 @@
   "id": "osmway-atv-route",
   "name": "ATV Route",
   "activities": [
-    "hiking"
+    "atv",
+    "hiking",
+    "utv"
   ],
   "sources": {
     "osm": {

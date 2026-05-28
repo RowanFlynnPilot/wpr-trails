@@ -2,7 +2,9 @@
   "id": "osmway-edgar-fenwood-trail",
   "name": "Edgar-Fenwood Trail",
   "activities": [
-    "hiking"
+    "atv",
+    "hiking",
+    "utv"
   ],
   "sources": {
     "osm": {

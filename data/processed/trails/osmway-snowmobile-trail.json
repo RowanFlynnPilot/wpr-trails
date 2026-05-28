@@ -2,7 +2,7 @@
   "id": "osmway-snowmobile-trail",
   "name": "snowmobile trail",
   "activities": [
-    "hiking"
+    "snowmobile"
   ],
   "sources": {
     "osm": {

@@ -7,6 +7,9 @@ const ALL_ACTIVITIES: Activity[] = [
   "horseback",
   "xc_ski",
   "snowshoe",
+  "snowmobile",
+  "atv",
+  "utv",
 ];
 
 const ALL_COUNTIES: County[] = [
@@ -71,6 +74,8 @@ const ACTIVITY_LABELS: Record<Activity, string> = {
   xc_ski: "XC ski",
   snowshoe: "Snowshoe",
   snowmobile: "Snowmobile",
+  atv: "ATV",
+  utv: "UTV",
 };
 
 const DIFFICULTY_LABELS: Record<Difficulty, string> = {
