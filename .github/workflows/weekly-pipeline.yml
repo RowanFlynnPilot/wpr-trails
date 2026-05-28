@@ -14,7 +14,11 @@ permissions:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Overpass-bound enrichment scales with trail count. At 341 trails the
+    # editorial + trailheads passes each take ~28 min at the polite 5s
+    # rate-limit. 120 leaves headroom for future growth and transient
+    # rate-limit backoffs.
+    timeout-minutes: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4
