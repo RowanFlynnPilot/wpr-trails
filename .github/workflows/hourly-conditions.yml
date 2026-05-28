@@ -54,7 +54,26 @@ jobs:
           git add data/processed/conditions.json data/processed/scores.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Hourly refresh: conditions + scores"
-            git push
+            exit 0
           fi
+          git commit -m "Hourly refresh: conditions + scores"
+          # Rebase-on-reject loop in case weekly-pipeline (or a human push)
+          # landed during our ~2 min run. scores.json conflicts go to theirs
+          # — if weekly just regenerated the full pipeline its scores are
+          # already current and ours add nothing meaningful.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt — rebasing onto remote"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Conflict detected — resolving scores.json by taking theirs"
+              git checkout --theirs data/processed/scores.json
+              git add data/processed/scores.json
+              git rebase --continue || { echo "Rebase failed beyond scores.json"; git rebase --abort; exit 1; }
+            fi
+          done
+          echo "Push failed after 3 attempts"
+          exit 1

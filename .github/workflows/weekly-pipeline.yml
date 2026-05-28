@@ -68,7 +68,27 @@ jobs:
           git add data/processed/ data/editorial_auto.yaml
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Weekly pipeline: refresh trails + editorial auto"
-            git push
+            exit 0
           fi
+          git commit -m "Weekly pipeline: refresh trails + editorial auto"
+          # Race with the hourly cron is the failure mode worth handling:
+          # during our ~55 min Overpass crawl the hourly job pushes a
+          # scores.json refresh, leaving our local main behind. Rebase onto
+          # remote — if scores.json conflicts (only file both jobs write),
+          # ours wins because we just regenerated it from the full pipeline.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt — rebasing onto remote"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Conflict detected — resolving scores.json by taking ours"
+              git checkout --ours data/processed/scores.json
+              git add data/processed/scores.json
+              git rebase --continue || { echo "Rebase failed beyond scores.json"; git rebase --abort; exit 1; }
+            fi
+          done
+          echo "Push failed after 3 attempts"
+          exit 1
