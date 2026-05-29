@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-29T09:41:51.302266+00:00",
+  "fetched_at": "2026-05-29T12:44:43.504673+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,19 +18,8 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-05-29T04:00:00-05:00",
-        "end_time": "2026-05-29T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 50,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 0.0,
-        "precip_chance": 0,
-        "short_forecast": "Mostly Cloudy"
-      },
-      {
-        "name": "Friday",
-        "start_time": "2026-05-29T06:00:00-05:00",
+        "name": "Today",
+        "start_time": "2026-05-29T07:00:00-05:00",
         "end_time": "2026-05-29T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 84,
@@ -40,7 +29,7 @@
         "short_forecast": "Mostly Sunny"
       },
       {
-        "name": "Friday Night",
+        "name": "Tonight",
         "start_time": "2026-05-29T18:00:00-05:00",
         "end_time": "2026-05-30T06:00:00-05:00",
         "is_daytime": false,
@@ -60,6 +49,17 @@
         "wind_mph_high": 13.0,
         "precip_chance": 0,
         "short_forecast": "Partly Sunny"
+      },
+      {
+        "name": "Saturday Night",
+        "start_time": "2026-05-30T18:00:00-05:00",
+        "end_time": "2026-05-31T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 48,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 12.0,
+        "precip_chance": 0,
+        "short_forecast": "Partly Cloudy"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 84,
     "forecast_wind_mph": 2.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 949,
+    "daylight_remaining_minutes": 766,
     "active_closure_ids": []
   }
 }
