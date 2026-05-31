@@ -1,6 +1,7 @@
 """Pull Ice Age Trail segments for the 6-county area from WI DNR ArcGIS REST."""
 
 import json
+import time
 from pathlib import Path
 
 import requests
@@ -35,15 +36,47 @@ PARAMS = {
 OUTPUT_PATH = Path("data/raw/dnr_ice_age.geojson")
 
 
+MAX_RETRIES = 4
+BACKOFF_SEC = 15.0  # WI DNR ArcGIS recovers from 500s within seconds; this is generous
+
+
 def fetch() -> dict:
-    response = requests.get(
-        DNR_URL,
-        params=PARAMS,
-        headers={"User-Agent": USER_AGENT},
-        timeout=60,
+    """GET with retry. WI DNR's ArcGIS endpoint returns transient 500s
+    under load — happened once during weekly-pipeline run 26552790443.
+    """
+    last_err = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            response = requests.get(
+                DNR_URL,
+                params=PARAMS,
+                headers={"User-Agent": USER_AGENT},
+                timeout=90,
+            )
+            if response.status_code in (500, 502, 503, 504):
+                last_err = f"HTTP {response.status_code}"
+                print(
+                    f"  WI DNR returned {response.status_code} on attempt "
+                    f"{attempt}/{MAX_RETRIES}; sleeping {BACKOFF_SEC:.0f}s",
+                    flush=True,
+                )
+                time.sleep(BACKOFF_SEC)
+                continue
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.RequestException as exc:
+            last_err = str(exc)
+            if attempt == MAX_RETRIES:
+                break
+            print(
+                f"  WI DNR request errored on attempt {attempt}/{MAX_RETRIES}: "
+                f"{exc}; sleeping {BACKOFF_SEC:.0f}s",
+                flush=True,
+            )
+            time.sleep(BACKOFF_SEC)
+    raise RuntimeError(
+        f"WI DNR Ice Age Trail endpoint failed after {MAX_RETRIES} attempts: {last_err}"
     )
-    response.raise_for_status()
-    return response.json()
 
 
 def main() -> None:
