@@ -1609,8 +1609,8 @@
     "elevation_max_m": 414.3,
     "difficulty_estimated": "strenuous",
     "centroid": [
-      -90.9377631410011,
-      45.07904260139429
+      -90.93776314228876,
+      45.07904260144353
     ],
     "drive_minutes_from_wausau": 100,
     "trailhead_coords": null,
@@ -6440,7 +6440,10 @@
       45.168859406109206
     ],
     "drive_minutes_from_wausau": 79,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.6384819,
+      45.1742535
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -6947,7 +6950,10 @@
       45.92676304218139
     ],
     "drive_minutes_from_wausau": 115,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9951334,
+      45.9250925
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7006,7 +7012,10 @@
       44.736993921138534
     ],
     "drive_minutes_from_wausau": 29,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.8396405,
+      44.7383231
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7034,7 +7043,10 @@
       45.7918361644948
     ],
     "drive_minutes_from_wausau": 102,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9874402,
+      45.7870476
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7094,7 +7106,10 @@
       44.48982726915091
     ],
     "drive_minutes_from_wausau": 51,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5789154,
+      44.4933022
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7123,7 +7138,10 @@
       44.49455879061019
     ],
     "drive_minutes_from_wausau": 50,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5726457,
+      44.5011711
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7152,7 +7170,10 @@
       44.54128508099933
     ],
     "drive_minutes_from_wausau": 45,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.575274,
+      44.5413128
+    ],
     "editorial": {
       "scenery_tags": [
         "prairie",
@@ -7185,7 +7206,10 @@
       44.53158650678634
     ],
     "drive_minutes_from_wausau": 46,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5873453,
+      44.5227908
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook",
@@ -7247,7 +7271,10 @@
       45.2763918610023
     ],
     "drive_minutes_from_wausau": 34,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5849603,
+      45.2763152
+    ],
     "editorial": {
       "scenery_tags": [
         "wetland"
@@ -7278,7 +7305,10 @@
       45.907814328361695
     ],
     "drive_minutes_from_wausau": 113,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9976364,
+      45.925422
+    ],
     "editorial": {
       "scenery_tags": [
         "water",
@@ -7310,7 +7340,10 @@
       45.874605047260594
     ],
     "drive_minutes_from_wausau": 112,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.3305491,
+      45.8855917
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -7369,7 +7402,10 @@
       44.92415941928236
     ],
     "drive_minutes_from_wausau": 7,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.6977784,
+      44.9244153
+    ],
     "editorial": {
       "scenery_tags": [
         "rocky_outcrop",
@@ -7400,7 +7436,10 @@
       45.35880579257948
     ],
     "drive_minutes_from_wausau": 66,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9691767,
+      45.3616124
+    ],
     "editorial": {
       "scenery_tags": [
         "prairie"
@@ -7430,7 +7469,10 @@
       44.29700530751476
     ],
     "drive_minutes_from_wausau": 77,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.243497,
+      44.3007073
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -7460,7 +7502,10 @@
       44.2746309010781
     ],
     "drive_minutes_from_wausau": 79,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.2492298,
+      44.2800269
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -7551,7 +7596,10 @@
       45.13340144053084
     ],
     "drive_minutes_from_wausau": 25,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.4166167,
+      45.1473316
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -7581,7 +7629,10 @@
       45.36717073108746
     ],
     "drive_minutes_from_wausau": 67,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9674514,
+      45.3649043
+    ],
     "editorial": {
       "scenery_tags": [
         "water",
@@ -7612,7 +7663,10 @@
       44.535864879873465
     ],
     "drive_minutes_from_wausau": 46,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5639697,
+      44.5345718
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook",
@@ -7705,7 +7759,10 @@
       44.89826996530133
     ],
     "drive_minutes_from_wausau": 20,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3851338,
+      44.8954574
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7820,7 +7877,10 @@
       44.478591925445826
     ],
     "drive_minutes_from_wausau": 99,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.723712,
+      44.4770385
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -7848,7 +7908,10 @@
       45.905490705868125
     ],
     "drive_minutes_from_wausau": 114,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9601359,
+      45.901872
+    ],
     "editorial": {
       "scenery_tags": [
         "water",
@@ -7880,7 +7943,10 @@
       45.31686667697383
     ],
     "drive_minutes_from_wausau": 39,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.588289,
+      45.329643
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -7912,7 +7978,10 @@
       44.57114776588642
     ],
     "drive_minutes_from_wausau": 80,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.5953263,
+      44.5617991
+    ],
     "editorial": {
       "scenery_tags": [
         "prairie",
@@ -7973,7 +8042,10 @@
       45.36060758373803
     ],
     "drive_minutes_from_wausau": 67,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9637357,
+      45.3633145
+    ],
     "editorial": {
       "scenery_tags": [
         "prairie",
@@ -8514,7 +8586,10 @@
       44.8847114702098
     ],
     "drive_minutes_from_wausau": 20,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3893971,
+      44.8840616
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -8608,7 +8683,10 @@
       44.478023202555626
     ],
     "drive_minutes_from_wausau": 99,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.7237946,
+      44.4772213
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook"
@@ -8667,7 +8745,10 @@
       44.476108571774866
     ],
     "drive_minutes_from_wausau": 99,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.72507,
+      44.476996
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook"
@@ -8697,7 +8778,10 @@
       44.529081927477826
     ],
     "drive_minutes_from_wausau": 57,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.0707175,
+      44.5326712
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -8726,7 +8810,10 @@
       45.26388832156865
     ],
     "drive_minutes_from_wausau": 33,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5835253,
+      45.2699102
+    ],
     "editorial": {
       "scenery_tags": [
         "wetland"
@@ -8846,7 +8933,10 @@
       45.17839592043295
     ],
     "drive_minutes_from_wausau": 24,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.6910802,
+      45.1785171
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -8905,7 +8995,10 @@
       44.88604771584093
     ],
     "drive_minutes_from_wausau": 20,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3927768,
+      44.8843746
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -8934,7 +9027,10 @@
       44.89207211397176
     ],
     "drive_minutes_from_wausau": 20,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3856104,
+      44.8853192
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -8962,7 +9058,10 @@
       44.646156766592
     ],
     "drive_minutes_from_wausau": 42,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.2850952,
+      44.6460441
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -8990,7 +9089,10 @@
       44.63440865401096
     ],
     "drive_minutes_from_wausau": 43,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.312494,
+      44.6313063
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -9021,7 +9123,10 @@
       44.8885302874242
     ],
     "drive_minutes_from_wausau": 20,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3927768,
+      44.8843746
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9106,7 +9211,10 @@
       44.469105999263675
     ],
     "drive_minutes_from_wausau": 100,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.7242191,
+      44.4664838
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -9140,7 +9248,10 @@
       45.16229284481622
     ],
     "drive_minutes_from_wausau": 66,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.8279411,
+      44.9801568
+    ],
     "editorial": {
       "scenery_tags": [
         "water",
@@ -9203,7 +9314,10 @@
       44.47103052522218
     ],
     "drive_minutes_from_wausau": 99,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.7237315,
+      44.4767638
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9231,7 +9345,10 @@
       45.49509755310249
     ],
     "drive_minutes_from_wausau": 76,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5331013,
+      45.9891274
+    ],
     "editorial": {
       "scenery_tags": [
         "prairie",
@@ -9297,7 +9414,10 @@
       44.478570717560615
     ],
     "drive_minutes_from_wausau": 99,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.7261979,
+      44.4761521
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9414,7 +9534,10 @@
       45.62391985211293
     ],
     "drive_minutes_from_wausau": 75,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3517605,
+      45.6253838
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9472,7 +9595,10 @@
       45.89248207407263
     ],
     "drive_minutes_from_wausau": 113,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.3294743,
+      45.8858318
+    ],
     "editorial": {
       "scenery_tags": [
         "wetland"
@@ -9530,7 +9656,10 @@
       45.952745557637314
     ],
     "drive_minutes_from_wausau": 112,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.0574457,
+      45.9576001
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9559,7 +9688,10 @@
       44.4772416384441
     ],
     "drive_minutes_from_wausau": 99,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.72507,
+      44.476996
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook"
@@ -9622,7 +9754,10 @@
       44.47139694173138
     ],
     "drive_minutes_from_wausau": 100,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.728514,
+      44.470456
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -9653,7 +9788,10 @@
       44.34893796183576
     ],
     "drive_minutes_from_wausau": 67,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.808975,
+      44.3481634
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9682,7 +9820,10 @@
       44.53658579052604
     ],
     "drive_minutes_from_wausau": 57,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.0738707,
+      44.5396695
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9710,7 +9851,10 @@
       45.900277177920856
     ],
     "drive_minutes_from_wausau": 113,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.9637523,
+      45.8976762
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -9740,7 +9884,10 @@
       44.48939159591493
     ],
     "drive_minutes_from_wausau": 51,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.5552878,
+      44.4908364
+    ],
     "editorial": {
       "scenery_tags": [
         "water"
@@ -9800,7 +9947,10 @@
       44.52564257671896
     ],
     "drive_minutes_from_wausau": 101,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.8064463,
+      44.5242302
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook",
@@ -9831,7 +9981,10 @@
       44.37097830518405
     ],
     "drive_minutes_from_wausau": 101,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -88.0868754,
+      44.6619543
+    ],
     "editorial": {
       "scenery_tags": [
         "water",
@@ -9863,7 +10016,10 @@
       44.67070134381903
     ],
     "drive_minutes_from_wausau": 53,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -90.2026778,
+      44.6698236
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -9953,7 +10109,10 @@
       44.67222246264397
     ],
     "drive_minutes_from_wausau": 57,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.1648833,
+      44.8231017
+    ],
     "editorial": {
       "scenery_tags": [
         "water",
@@ -9986,7 +10145,10 @@
       44.656845885094995
     ],
     "drive_minutes_from_wausau": 77,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.3493538,
+      45.6287726
+    ],
     "editorial": {
       "scenery_tags": [
         "overlook",
@@ -10021,7 +10183,10 @@
       44.434687350594956
     ],
     "drive_minutes_from_wausau": 59,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.4018088,
+      44.4319461
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
@@ -10051,7 +10216,10 @@
       44.433094847897365
     ],
     "drive_minutes_from_wausau": 59,
-    "trailhead_coords": null,
+    "trailhead_coords": [
+      -89.4058726,
+      44.4342008
+    ],
     "editorial": {
       "scenery_tags": [],
       "dog_policy": "leashed",
