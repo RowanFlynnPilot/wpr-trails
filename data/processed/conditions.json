@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T08:19:51.857827+00:00",
+  "fetched_at": "2026-06-07T11:03:38.760305+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,24 +12,13 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.02,
+    "last_24h_in": 0.01,
     "last_72h_in": 0.11
   },
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-06-07T03:00:00-05:00",
-        "end_time": "2026-06-07T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 56,
-        "wind_mph_low": 8.0,
-        "wind_mph_high": 8.0,
-        "precip_chance": 0,
-        "short_forecast": "Mostly Clear"
-      },
-      {
-        "name": "Sunday",
+        "name": "Today",
         "start_time": "2026-06-07T06:00:00-05:00",
         "end_time": "2026-06-07T18:00:00-05:00",
         "is_daytime": true,
@@ -40,7 +29,7 @@
         "short_forecast": "Sunny"
       },
       {
-        "name": "Sunday Night",
+        "name": "Tonight",
         "start_time": "2026-06-07T18:00:00-05:00",
         "end_time": "2026-06-08T06:00:00-05:00",
         "is_daytime": false,
@@ -60,16 +49,27 @@
         "wind_mph_high": 12.0,
         "precip_chance": 82,
         "short_forecast": "Showers And Thunderstorms"
+      },
+      {
+        "name": "Monday Night",
+        "start_time": "2026-06-08T18:00:00-05:00",
+        "end_time": "2026-06-09T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 62,
+        "wind_mph_low": 2.0,
+        "wind_mph_high": 8.0,
+        "precip_chance": 80,
+        "short_forecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms"
       }
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.02,
+    "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.11,
     "forecast_temp_f": 84,
     "forecast_wind_mph": 12.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1037,
+    "daylight_remaining_minutes": 873,
     "active_closure_ids": []
   }
 }
