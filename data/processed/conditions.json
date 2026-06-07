@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T04:12:49.096827+00:00",
+  "fetched_at": "2026-06-07T08:19:51.857827+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,20 +12,20 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.07,
-    "last_72h_in": 0.14
+    "last_24h_in": 0.02,
+    "last_72h_in": 0.11
   },
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-06-06T23:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-06-07T03:00:00-05:00",
         "end_time": "2026-06-07T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 56,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 7.0,
-        "precip_chance": 3,
+        "wind_mph_low": 8.0,
+        "wind_mph_high": 8.0,
+        "precip_chance": 0,
         "short_forecast": "Mostly Clear"
       },
       {
@@ -47,7 +47,7 @@
         "temp_f": 58,
         "wind_mph_low": 8.0,
         "wind_mph_high": 12.0,
-        "precip_chance": 5,
+        "precip_chance": 11,
         "short_forecast": "Mostly Cloudy"
       },
       {
@@ -55,21 +55,21 @@
         "start_time": "2026-06-08T06:00:00-05:00",
         "end_time": "2026-06-08T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 83,
+        "temp_f": 81,
         "wind_mph_low": 8.0,
         "wind_mph_high": 12.0,
-        "precip_chance": 75,
+        "precip_chance": 82,
         "short_forecast": "Showers And Thunderstorms"
       }
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.07,
-    "recent_precip_in_72h": 0.14,
+    "recent_precip_in_24h": 0.02,
+    "recent_precip_in_72h": 0.11,
     "forecast_temp_f": 84,
     "forecast_wind_mph": 12.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1284,
+    "daylight_remaining_minutes": 1037,
     "active_closure_ids": []
   }
 }
