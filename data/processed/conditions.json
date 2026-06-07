@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T23:58:40.782258+00:00",
+  "fetched_at": "2026-06-07T04:12:49.096827+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,20 +12,20 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.09,
-    "last_72h_in": 0.15
+    "last_24h_in": 0.07,
+    "last_72h_in": 0.14
   },
   "forecast": {
     "periods": [
       {
         "name": "Tonight",
-        "start_time": "2026-06-06T18:00:00-05:00",
+        "start_time": "2026-06-06T23:00:00-05:00",
         "end_time": "2026-06-07T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 56,
-        "wind_mph_low": 0.0,
+        "wind_mph_low": 3.0,
         "wind_mph_high": 7.0,
-        "precip_chance": 4,
+        "precip_chance": 3,
         "short_forecast": "Mostly Clear"
       },
       {
@@ -64,12 +64,12 @@
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.09,
-    "recent_precip_in_72h": 0.15,
+    "recent_precip_in_24h": 0.07,
+    "recent_precip_in_72h": 0.14,
     "forecast_temp_f": 84,
     "forecast_wind_mph": 12.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 98,
+    "daylight_remaining_minutes": 1284,
     "active_closure_ids": []
   }
 }
