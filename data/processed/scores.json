@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-06-07T11:03:38.760305+00:00",
+  "computed_at": "2026-06-07T13:27:32.621141+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.11,
     "forecast_temp_f": 84,
     "forecast_wind_mph": 12.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 873,
+    "daylight_remaining_minutes": 729,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -127,50 +127,6 @@
           "value": 1.0,
           "weight": 0.15,
           "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 1.0,
-          "weight": 0.1,
-          "note": "Recently field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-harrison-hills",
-      "name": "Ice Age Trail - Harrison Hills",
-      "score": 91.5,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.991,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
         },
         {
           "name": "scenery_match",
@@ -1818,50 +1774,6 @@
     {
       "trail_id": "osm-luna---white-deer-trail",
       "name": "Luna - White Deer Trail",
-      "score": 90.7,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.977,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-north-wiouwash-state-recreation-trail",
-      "name": "North Wiouwash State Recreation Trail",
       "score": 90.7,
       "factors": [
         {
@@ -3666,94 +3578,6 @@
     {
       "trail_id": "iat-camp-27",
       "name": "Ice Age Trail - Camp 27",
-      "score": 90.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.954,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-jerry-lake",
-      "name": "Ice Age Trail - Jerry Lake",
-      "score": 90.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.954,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-lake-eleven",
-      "name": "Ice Age Trail - Lake Eleven",
       "score": 90.1,
       "factors": [
         {
@@ -7800,6 +7624,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-harrison-hills",
+      "name": "Ice Age Trail - Harrison Hills",
+      "score": 87.0,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.991,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 1.0,
+          "weight": 0.1,
+          "note": "Recently field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-ice-override",
       "name": "Ice Age Trail - Ice Override",
       "score": 86.5,
@@ -9604,6 +9472,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osm-north-wiouwash-state-recreation-trail",
+      "name": "North Wiouwash State Recreation Trail",
+      "score": 86.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.977,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-brown-landing",
       "name": "Brown Landing",
       "score": 86.2,
@@ -11364,6 +11276,94 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-jerry-lake",
+      "name": "Ice Age Trail - Jerry Lake",
+      "score": 85.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.954,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-lake-eleven",
+      "name": "Ice Age Trail - Lake Eleven",
+      "score": 85.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.954,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-new-hope",
       "name": "Ice Age Trail - New Hope",
       "score": 85.6,
@@ -11523,50 +11523,6 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
-      "score": 85.6,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.954,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -13960,50 +13916,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
-      "score": 85.6,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.954,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-pond-road-no-1",
       "name": "Pond Road No 1",
       "score": 85.6,
@@ -14796,6 +14708,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
+      "score": 78.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.954,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~781 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-merrilian-to-marshfield",
       "name": "Merrilian to Marshfield",
       "score": 78.1,
@@ -14811,6 +14767,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1109 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
+      "score": 78.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.954,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~815 min needed)"
         },
         {
           "name": "exposure",
