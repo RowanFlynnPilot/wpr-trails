@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-06-12T19:59:44.364331+00:00",
+  "computed_at": "2026-06-12T21:53:02.777871+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.02,
     "forecast_temp_f": 75,
     "forecast_wind_mph": 20.0,
     "forecast_precip_chance": 2,
-    "daylight_remaining_minutes": 339,
+    "daylight_remaining_minutes": 226,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -19,94 +19,6 @@
         {
           "name": "mud_risk",
           "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 1.0,
-          "weight": 0.1,
-          "note": "Recently field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-hartman-creek",
-      "name": "Ice Age Trail - Hartman Creek",
-      "score": 96.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 1.0,
-          "weight": 0.1,
-          "note": "Recently field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-plover-river",
-      "name": "Ice Age Trail - Plover River",
-      "score": 95.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -171,6 +83,94 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 1.0,
+          "weight": 0.1,
+          "note": "Recently field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-hartman-creek",
+      "name": "Ice Age Trail - Hartman Creek",
+      "score": 91.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 1.0,
+          "weight": 0.1,
+          "note": "Recently field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-plover-river",
+      "name": "Ice Age Trail - Plover River",
+      "score": 91.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -278,50 +278,6 @@
     {
       "trail_id": "osm-dynamite-trail",
       "name": "Dynamite Trail",
-      "score": 91.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.997,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---antigo-heights-connector",
-      "name": "IAT - Antigo Heights connector",
       "score": 91.2,
       "factors": [
         {
@@ -1332,138 +1288,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-rib-lake",
-      "name": "Ice Age Trail - Rib Lake",
-      "score": 91.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---antigo-heights-kettlebowl-connector",
-      "name": "IAT - Antigo Heights-Kettlebowl connector",
-      "score": 91.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---highland-lakes-connection",
-      "name": "IAT - Highland Lakes connection",
-      "score": 91.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osm-iat---rib-lake-connection",
       "name": "IAT - Rib Lake connection",
       "score": 91.1,
@@ -1642,50 +1466,6 @@
     {
       "trail_id": "osmway-championship-trail",
       "name": "Championship Trail",
-      "score": 91.1,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-connectordisconnector",
-      "name": "Connector/Disconnector",
       "score": 91.1,
       "factors": [
         {
@@ -3004,50 +2784,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-averill-kelly-creek-wilderness",
-      "name": "Ice Age Trail - Averill-Kelly Creek Wilderness",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-camp-27",
       "name": "Ice Age Trail - Camp 27",
       "score": 90.9,
@@ -3138,50 +2874,6 @@
     {
       "trail_id": "iat-timberland-wilderness",
       "name": "Ice Age Trail - Timberland Wilderness",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-turtle-rock",
-      "name": "Ice Age Trail - Turtle Rock",
       "score": 90.9,
       "factors": [
         {
@@ -3974,50 +3666,6 @@
     {
       "trail_id": "osmway-forest-road-118-121a",
       "name": "Forest Road 118-121A",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-forest-road-130",
-      "name": "Forest Road 130",
       "score": 90.9,
       "factors": [
         {
@@ -5248,50 +4896,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-forest-trail-326",
-      "name": "Forest Trail 326",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-forest-trail-3544",
       "name": "Forest Trail 3544",
       "score": 90.9,
@@ -5382,50 +4986,6 @@
     {
       "trail_id": "osmway-green-circle-trail-pet-detour",
       "name": "Green Circle Trail (Pet Detour)",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-green-circle-trail",
-      "name": "Green Circle Trail",
       "score": 90.9,
       "factors": [
         {
@@ -5820,138 +5380,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pembine-subdivision",
-      "name": "Pembine subdivision",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-prairie-dells-loop",
-      "name": "Prairie Dells Loop",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-rat-river-recreation-trail",
-      "name": "Rat River Recreation Trail",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-river-bend-trail",
       "name": "River Bend Trail",
       "score": 90.9,
@@ -6040,50 +5468,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-trail-101",
-      "name": "Trail 101",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-whitney-trail",
       "name": "Whitney Trail",
       "score": 90.9,
@@ -6130,50 +5514,6 @@
     {
       "trail_id": "osmway-wilderness-trail",
       "name": "Wilderness Trail",
-      "score": 90.9,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-wilson-flowage-hunter-hiking-trail",
-      "name": "Wilson Flowage Hunter Hiking Trail",
       "score": 90.9,
       "factors": [
         {
@@ -6436,50 +5776,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-yellow-trail",
-      "name": "Yellow Trail",
-      "score": 88.7,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.997,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 0.85,
-          "weight": 0.2,
-          "note": "Open trail, comfortable today"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 1.0,
-          "weight": 0.1,
-          "note": "Recently field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-ice-override",
       "name": "Ice Age Trail - Ice Override",
       "score": 86.7,
@@ -6612,8 +5908,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---plover-river-ice-override-connector",
-      "name": "IAT - Plover River-Ice Override connector",
+      "trail_id": "osm-iat---antigo-heights-connector",
+      "name": "IAT - Antigo Heights connector",
       "score": 86.7,
       "factors": [
         {
@@ -6624,9 +5920,9 @@
         },
         {
           "name": "daylight",
-          "value": 1.0,
+          "value": 0.7,
           "weight": 0.15,
-          "note": "Plenty of daylight"
+          "note": "Cutting it close - bring a headlamp"
         },
         {
           "name": "exposure",
@@ -6636,9 +5932,9 @@
         },
         {
           "name": "seasonality",
-          "value": 0.7,
+          "value": 1.0,
           "weight": 0.15,
-          "note": "OK time of year"
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -8108,8 +7404,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-east-lake",
-      "name": "Ice Age Trail - East Lake",
+      "trail_id": "iat-rib-lake",
+      "name": "Ice Age Trail - Rib Lake",
       "score": 86.6,
       "factors": [
         {
@@ -8152,8 +7448,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-highland-lakes",
-      "name": "Ice Age Trail - Highland Lakes",
+      "trail_id": "osm-iat---antigo-heights-kettlebowl-connector",
+      "name": "IAT - Antigo Heights-Kettlebowl connector",
       "score": 86.6,
       "factors": [
         {
@@ -8223,6 +7519,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---highland-lakes-connection",
+      "name": "IAT - Highland Lakes connection",
+      "score": 86.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -8355,6 +7695,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-connectordisconnector",
+      "name": "Connector/Disconnector",
+      "score": 86.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -9648,50 +9032,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-main-course",
-      "name": "Main Course",
-      "score": 86.6,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.993,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-moundbounder",
       "name": "Moundbounder",
       "score": 86.6,
@@ -10044,6 +9384,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-averill-kelly-creek-wilderness",
+      "name": "Ice Age Trail - Averill-Kelly Creek Wilderness",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-new-hope",
       "name": "Ice Age Trail - New Hope",
       "score": 86.4,
@@ -10071,50 +9455,6 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-new-wood",
-      "name": "Ice Age Trail - New Wood",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -10176,52 +9516,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-ringle",
-      "name": "Ice Age Trail - Ringle",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-underdown",
-      "name": "Ice Age Trail - Underdown",
+      "trail_id": "iat-turtle-rock",
+      "name": "Ice Age Trail - Turtle Rock",
       "score": 86.4,
       "factors": [
         {
@@ -10291,50 +9587,6 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-big-eau-pleine-bridle-trail",
-      "name": "Big Eau Pleine Bridle Trail",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -10704,50 +9956,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-edgar-fenwood-trail",
-      "name": "Edgar-Fenwood Trail",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-field-multi-use-loop",
       "name": "Field Multi-Use Loop",
       "score": 86.4,
@@ -10819,50 +10027,6 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-flambeau-atv-trail-102",
-      "name": "Flambeau ATV Trail 102",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -11083,6 +10247,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-forest-road-130",
+      "name": "Forest Road 130",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -12420,96 +11628,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-forest-trail-301",
-      "name": "Forest Trail 301",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-forest-trail-333",
-      "name": "Forest Trail 333",
-      "score": 86.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.986,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-forest-trail-334",
-      "name": "Forest Trail 334",
+      "trail_id": "osmway-forest-trail-326",
+      "name": "Forest Trail 326",
       "score": 86.4,
       "factors": [
         {
@@ -12667,6 +11787,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-green-circle-trail",
+      "name": "Green Circle Trail",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -12992,6 +12156,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-pembine-subdivision",
+      "name": "Pembine subdivision",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-pond-road-no-1",
       "name": "Pond Road No 1",
       "score": 86.4,
@@ -13063,6 +12271,94 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-prairie-dells-loop",
+      "name": "Prairie Dells Loop",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-rat-river-recreation-trail",
+      "name": "Rat River Recreation Trail",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -13388,6 +12684,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-trail-101",
+      "name": "Trail 101",
+      "score": 86.4,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-tucker-lake-trail",
       "name": "Tucker Lake Trail",
       "score": 86.4,
@@ -13520,13 +12860,13 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-timms-hill-trail",
-      "name": "Timm's Hill Trail",
-      "score": 83.6,
+      "trail_id": "osmway-wilson-flowage-hunter-hiking-trail",
+      "name": "Wilson Flowage Hunter Hiking Trail",
+      "score": 86.4,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.993,
+          "value": 0.986,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13538,9 +12878,9 @@
         },
         {
           "name": "exposure",
-          "value": 0.85,
+          "value": 1.0,
           "weight": 0.2,
-          "note": "Open trail, comfortable today"
+          "note": "Sheltered from weather"
         },
         {
           "name": "seasonality",
@@ -13564,8 +12904,52 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---ice-override-antigo-heights-connector",
-      "name": "IAT - Ice Override-Antigo Heights connector",
+      "trail_id": "osm-yellow-trail",
+      "name": "Yellow Trail",
+      "score": 84.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.997,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 0.85,
+          "weight": 0.2,
+          "note": "Open trail, comfortable today"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 1.0,
+          "weight": 0.1,
+          "note": "Recently field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---plover-river-ice-override-connector",
+      "name": "IAT - Plover River-Ice Override connector",
       "score": 82.2,
       "factors": [
         {
@@ -13711,6 +13095,94 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~625 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-east-lake",
+      "name": "Ice Age Trail - East Lake",
+      "score": 79.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~254 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-highland-lakes",
+      "name": "Ice Age Trail - Highland Lakes",
+      "score": 79.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~285 min needed)"
         },
         {
           "name": "exposure",
@@ -13975,6 +13447,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~458 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-main-course",
+      "name": "Main Course",
+      "score": 79.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~294 min needed)"
         },
         {
           "name": "exposure",
@@ -14312,6 +13828,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-new-wood",
+      "name": "Ice Age Trail - New Wood",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~235 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-parrish-hills",
       "name": "Ice Age Trail - Parrish Hills",
       "score": 78.9,
@@ -14327,6 +13887,138 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~407 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-ringle",
+      "name": "Ice Age Trail - Ringle",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~320 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-underdown",
+      "name": "Ice Age Trail - Underdown",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~226 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-big-eau-pleine-bridle-trail",
+      "name": "Big Eau Pleine Bridle Trail",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~263 min needed)"
         },
         {
           "name": "exposure",
@@ -14488,6 +14180,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-edgar-fenwood-trail",
+      "name": "Edgar-Fenwood Trail",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~312 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-flambeau-atv-trail-101",
       "name": "Flambeau ATV Trail 101",
       "score": 78.9,
@@ -14503,6 +14239,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~356 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-flambeau-atv-trail-102",
+      "name": "Flambeau ATV Trail 102",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~262 min needed)"
         },
         {
           "name": "exposure",
@@ -14620,6 +14400,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-forest-trail-301",
+      "name": "Forest Trail 301",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~250 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-forest-trail-302",
       "name": "Forest Trail 302",
       "score": 78.9,
@@ -14635,6 +14459,94 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~399 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-forest-trail-333",
+      "name": "Forest Trail 333",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~233 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-forest-trail-334",
+      "name": "Forest Trail 334",
+      "score": 78.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.986,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~239 min needed)"
         },
         {
           "name": "exposure",
@@ -14972,6 +14884,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-timms-hill-trail",
+      "name": "Timm's Hill Trail",
+      "score": 76.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.993,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~303 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 0.85,
+          "weight": 0.2,
+          "note": "Open trail, comfortable today"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-kettlebowl",
       "name": "Ice Age Trail - Kettlebowl",
       "score": 74.7,
@@ -14987,6 +14943,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~351 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---ice-override-antigo-heights-connector",
+      "name": "IAT - Ice Override-Antigo Heights connector",
+      "score": 74.7,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.997,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~337 min needed)"
         },
         {
           "name": "exposure",
