@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T21:03:21.819033+00:00",
+  "fetched_at": "2026-06-19T22:48:55.789156+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,13 +19,13 @@
     "periods": [
       {
         "name": "Juneteenth",
-        "start_time": "2026-06-19T16:00:00-05:00",
+        "start_time": "2026-06-19T17:00:00-05:00",
         "end_time": "2026-06-19T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 70,
-        "wind_mph_low": 9.0,
-        "wind_mph_high": 9.0,
-        "precip_chance": 27,
+        "temp_f": 71,
+        "wind_mph_low": 7.0,
+        "wind_mph_high": 7.0,
+        "precip_chance": 40,
         "short_forecast": "Chance Showers And Thunderstorms"
       },
       {
@@ -36,7 +36,7 @@
         "temp_f": 51,
         "wind_mph_low": 3.0,
         "wind_mph_high": 7.0,
-        "precip_chance": 76,
+        "precip_chance": 77,
         "short_forecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms"
       },
       {
@@ -47,8 +47,8 @@
         "temp_f": 72,
         "wind_mph_low": 7.0,
         "wind_mph_high": 10.0,
-        "precip_chance": 20,
-        "short_forecast": "Partly Sunny then Slight Chance Rain Showers"
+        "precip_chance": 9,
+        "short_forecast": "Partly Sunny"
       },
       {
         "name": "Saturday Night",
@@ -58,18 +58,18 @@
         "temp_f": 48,
         "wind_mph_low": 0.0,
         "wind_mph_high": 9.0,
-        "precip_chance": 17,
-        "short_forecast": "Slight Chance Rain Showers then Partly Cloudy"
+        "precip_chance": 13,
+        "short_forecast": "Partly Cloudy"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 70,
-    "forecast_wind_mph": 9.0,
-    "forecast_precip_chance": 27,
-    "daylight_remaining_minutes": 277,
+    "forecast_temp_f": 71,
+    "forecast_wind_mph": 7.0,
+    "forecast_precip_chance": 40,
+    "daylight_remaining_minutes": 172,
     "active_closure_ids": []
   }
 }
