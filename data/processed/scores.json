@@ -1,15 +1,23 @@
 {
-  "computed_at": "2026-06-21T08:05:02.361760+00:00",
+  "computed_at": "2026-06-21T11:40:25.220713+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 73,
     "forecast_wind_mph": 2.0,
     "forecast_precip_chance": 3,
-    "daylight_remaining_minutes": 1056,
+    "daylight_remaining_minutes": 840,
     "active_closure_ids": []
   },
-  "active_alerts": [],
+  "active_alerts": [
+    {
+      "event": "Special Weather Statement",
+      "severity": "Moderate",
+      "headline": "Special Weather Statement issued June 21 at 5:20AM CDT by NWS Green Bay WI",
+      "area_desc": "Vilas; Oneida; Forest; Florence; Lincoln; Langlade; Marathon; Wood; Portage",
+      "ends": null
+    }
+  ],
   "ranked": [
     {
       "trail_id": "iat-dells-of-the-eau-claire",
@@ -5556,6 +5564,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-halley-creek-bird-trail",
+      "name": "Halley Creek Bird Trail",
+      "score": 91.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Plenty of daylight"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-heinemania",
       "name": "Heinemania",
       "score": 91.3,
@@ -7494,50 +7546,6 @@
     {
       "trail_id": "osmway-wolf-run",
       "name": "Wolf Run",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-bearskin-state-trail",
-      "name": "Bearskin State Trail",
       "score": 91.3,
       "factors": [
         {
@@ -14576,52 +14584,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-green-circle-state-trail",
-      "name": "Green Circle State Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
+      "trail_id": "state-bearskin-state-trail",
+      "name": "Bearskin State Trail",
       "score": 86.8,
       "factors": [
         {
@@ -14796,6 +14760,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "state-green-circle-state-trail",
+      "name": "Green Circle State Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~964 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "state-mountain-bay-state-trail",
       "name": "Mountain-Bay State Trail",
       "score": 79.2,
@@ -14855,6 +14863,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~2776 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~900 min needed)"
         },
         {
           "name": "exposure",
