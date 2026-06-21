@@ -9746,3 +9746,32 @@ osmway-yellow-jacket:
     mud_susceptibility: 'SSURGO: 5 mukeys, 1 poorly-drained / 2 well-drained (top
       class: Excessively drained)'
     drainage: modal soil texture from SSURGO hydrologic group
+osmway-halley-creek-bird-trail:
+  family_friendly: true
+  dog_policy: leashed
+  bike_allowed: false
+  parking: none
+  accessibility: easy_terrain
+  scenery_tags:
+  - wetland
+  seasonality:
+  - wildflower
+  mud_susceptibility: high
+  exposure: sheltered
+  drainage: loamy
+  notes: null
+  last_field_check: null
+  validated: false
+  _provenance:
+    scenery_tags: 'OSM: {''wetland'': 2} features within 100m'
+    parking: 'OSM: 0 amenity=parking within 300m'
+    dog_policy: WI public-land default; trail has no managing authority (OSM-only),
+      assumed public per regional pattern
+    accessibility: "easy / 1.3mi / 37ft gain \u2014 gentle walking"
+    exposure: 90% of sample points in OSM forest polygons
+    family_friendly: difficulty=easy, length=1.3mi
+    seasonality: derived from activities + scenery_tags
+    bike_allowed: state-trail default; others conservative=false
+    mud_susceptibility: 'SSURGO: 5 mukeys, 3 poorly-drained / 0 well-drained (top
+      class: Somewhat poorly drained)'
+    drainage: modal soil texture from SSURGO hydrologic group

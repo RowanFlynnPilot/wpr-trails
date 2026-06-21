@@ -1859,8 +1859,8 @@
     "elevation_max_m": 391.1,
     "difficulty_estimated": "moderate",
     "centroid": [
-      -89.34901661677728,
-      44.85598082164107
+      -89.3490166167774,
+      44.85598082179005
     ],
     "drive_minutes_from_wausau": 24,
     "trailhead_coords": [
@@ -7249,6 +7249,36 @@
       "family_friendly": true,
       "exposure": "sheltered",
       "mud_susceptibility": "moderate",
+      "accessibility": "easy_terrain"
+    }
+  },
+  {
+    "id": "osmway-halley-creek-bird-trail",
+    "name": "Halley Creek Bird Trail",
+    "activities": [
+      "hiking"
+    ],
+    "counties": [
+      "forest"
+    ],
+    "length_m": 2084.9,
+    "elevation_gain_m": 11.2,
+    "elevation_max_m": 429.4,
+    "difficulty_estimated": "easy",
+    "centroid": [
+      -88.50424922518884,
+      45.51678995170242
+    ],
+    "drive_minutes_from_wausau": 104,
+    "trailhead_coords": null,
+    "editorial": {
+      "scenery_tags": [
+        "wetland"
+      ],
+      "dog_policy": "leashed",
+      "family_friendly": true,
+      "exposure": "sheltered",
+      "mud_susceptibility": "high",
       "accessibility": "easy_terrain"
     }
   },
