@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T02:59:52.675200+00:00",
+  "fetched_at": "2026-06-21T08:05:02.361760+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,14 +18,14 @@
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-06-20T21:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-06-21T03:00:00-05:00",
         "end_time": "2026-06-21T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 48,
-        "wind_mph_low": 2.0,
-        "wind_mph_high": 2.0,
-        "precip_chance": 4,
+        "wind_mph_low": 0.0,
+        "wind_mph_high": 0.0,
+        "precip_chance": 0,
         "short_forecast": "Mostly Clear"
       },
       {
@@ -34,9 +34,9 @@
         "end_time": "2026-06-21T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 73,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 5,
+        "wind_mph_low": 2.0,
+        "wind_mph_high": 2.0,
+        "precip_chance": 3,
         "short_forecast": "Partly Sunny"
       },
       {
@@ -44,11 +44,11 @@
         "start_time": "2026-06-21T18:00:00-05:00",
         "end_time": "2026-06-22T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 51,
-        "wind_mph_low": 5.0,
+        "temp_f": 50,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 5.0,
-        "precip_chance": 6,
-        "short_forecast": "Mostly Cloudy"
+        "precip_chance": 7,
+        "short_forecast": "Partly Cloudy"
       },
       {
         "name": "Monday",
@@ -59,7 +59,7 @@
         "wind_mph_low": 6.0,
         "wind_mph_high": 6.0,
         "precip_chance": 0,
-        "short_forecast": "Sunny"
+        "short_forecast": "Mostly Sunny"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 73,
-    "forecast_wind_mph": 3.0,
-    "forecast_precip_chance": 5,
-    "daylight_remaining_minutes": 1361,
+    "forecast_wind_mph": 2.0,
+    "forecast_precip_chance": 3,
+    "daylight_remaining_minutes": 1056,
     "active_closure_ids": []
   }
 }
