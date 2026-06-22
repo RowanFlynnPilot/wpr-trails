@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T15:15:59.750417+00:00",
+  "fetched_at": "2026-06-22T19:19:46.297944+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,13 +18,13 @@
   "forecast": {
     "periods": [
       {
-        "name": "Today",
-        "start_time": "2026-06-22T10:00:00-05:00",
+        "name": "This Afternoon",
+        "start_time": "2026-06-22T14:00:00-05:00",
         "end_time": "2026-06-22T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 75,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
+        "wind_mph_low": 7.0,
+        "wind_mph_high": 7.0,
         "precip_chance": 0,
         "short_forecast": "Sunny"
       },
@@ -33,21 +33,21 @@
         "start_time": "2026-06-22T18:00:00-05:00",
         "end_time": "2026-06-23T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 50,
-        "wind_mph_low": 1.0,
+        "temp_f": 51,
+        "wind_mph_low": 2.0,
         "wind_mph_high": 6.0,
         "precip_chance": 1,
-        "short_forecast": "Mostly Clear"
+        "short_forecast": "Partly Cloudy"
       },
       {
         "name": "Tuesday",
         "start_time": "2026-06-23T06:00:00-05:00",
         "end_time": "2026-06-23T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 75,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 5,
+        "temp_f": 77,
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 2,
         "short_forecast": "Mostly Sunny"
       },
       {
@@ -55,9 +55,9 @@
         "start_time": "2026-06-23T18:00:00-05:00",
         "end_time": "2026-06-24T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 55,
+        "temp_f": 56,
         "wind_mph_low": 2.0,
-        "wind_mph_high": 7.0,
+        "wind_mph_high": 6.0,
         "precip_chance": 96,
         "short_forecast": "Showers And Thunderstorms"
       }
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 75,
-    "forecast_wind_mph": 6.0,
+    "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 625,
+    "daylight_remaining_minutes": 381,
     "active_closure_ids": []
   }
 }
