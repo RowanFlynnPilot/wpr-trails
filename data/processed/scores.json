@@ -1,44 +1,15 @@
 {
-  "computed_at": "2026-06-25T00:02:31.007955+00:00",
+  "computed_at": "2026-06-25T04:58:56.034053+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 73,
-    "forecast_wind_mph": 5.0,
-    "forecast_precip_chance": 37,
-    "daylight_remaining_minutes": 1538,
+    "forecast_wind_mph": 6.0,
+    "forecast_precip_chance": 30,
+    "daylight_remaining_minutes": 1242,
     "active_closure_ids": []
   },
-  "active_alerts": [
-    {
-      "event": "Special Weather Statement",
-      "severity": "Moderate",
-      "headline": "Special Weather Statement issued June 24 at 7:00PM CDT by NWS Green Bay WI",
-      "area_desc": "Portage; Waupaca",
-      "ends": null
-    },
-    {
-      "event": "Flood Advisory",
-      "severity": "Minor",
-      "headline": "Flood Advisory issued June 24 at 6:09PM CDT until June 24 at 9:15PM CDT by NWS Green Bay WI",
-      "area_desc": "Brown, WI; Outagamie, WI; Shawano, WI",
-      "ends": "2026-06-24T21:15:00-05:00"
-    },
-    {
-      "event": "Flood Advisory",
-      "severity": "Minor",
-      "headline": "Flood Advisory issued June 24 at 5:01PM CDT until June 24 at 8:00PM CDT by NWS Green Bay WI",
-      "area_desc": "Oconto, WI; Shawano, WI",
-      "ends": "2026-06-24T20:00:00-05:00"
-    },
-    {
-      "event": "Severe Thunderstorm Watch",
-      "severity": "Severe",
-      "headline": "Severe Thunderstorm Watch issued June 24 at 1:56PM CDT until June 24 at 10:00PM CDT by NWS Green Bay WI",
-      "area_desc": "Brown, WI; Calumet, WI; Forest, WI; Langlade, WI; Lincoln, WI; Manitowoc, WI; Marathon, WI; Marinette, WI; Menominee, WI; Oconto, WI; Oneida, WI; Outagamie, WI; Portage, WI; Shawano, WI; Waupaca, WI; Waushara, WI; Winnebago, WI; Wood, WI",
-      "ends": "2026-06-24T22:00:00-05:00"
-    }
-  ],
+  "active_alerts": [],
   "ranked": [
     {
       "trail_id": "iat-dells-of-the-eau-claire",
@@ -7785,94 +7756,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-green-circle-state-trail",
-      "name": "Green Circle State Trail",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-grandfather-falls",
       "name": "Ice Age Trail - Grandfather Falls",
       "score": 90.8,
@@ -14825,8 +14708,52 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-wiouwash-state-trail",
-      "name": "Wiouwash State Trail",
+      "trail_id": "state-green-circle-state-trail",
+      "name": "Green Circle State Trail",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
       "score": 86.8,
       "factors": [
         {
@@ -15060,6 +14987,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1914 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-wiouwash-state-trail",
+      "name": "Wiouwash State Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1533 min needed)"
         },
         {
           "name": "exposure",
