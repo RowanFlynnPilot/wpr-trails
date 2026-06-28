@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-06-28T09:56:48.135444+00:00",
+  "computed_at": "2026-06-28T11:45:53.518693+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 82,
     "forecast_wind_mph": 15.0,
     "forecast_precip_chance": 13,
-    "daylight_remaining_minutes": 943,
+    "daylight_remaining_minutes": 834,
     "active_closure_ids": []
   },
   "active_alerts": [
@@ -7588,50 +7588,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-bearskin-state-trail",
-      "name": "Bearskin State Trail",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-grandfather-falls",
       "name": "Ice Age Trail - Grandfather Falls",
       "score": 90.8,
@@ -14628,8 +14584,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
+      "trail_id": "state-bearskin-state-trail",
+      "name": "Bearskin State Trail",
       "score": 86.8,
       "factors": [
         {
@@ -14907,6 +14863,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~2776 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~900 min needed)"
         },
         {
           "name": "exposure",
