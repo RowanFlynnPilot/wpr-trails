@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T02:47:48.688456+00:00",
+  "fetched_at": "2026-06-28T06:57:42.812434+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,14 +18,14 @@
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-06-27T21:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-06-28T01:00:00-05:00",
         "end_time": "2026-06-28T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 55,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
-        "precip_chance": 3,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 1,
         "short_forecast": "Mostly Clear"
       },
       {
@@ -34,10 +34,10 @@
         "end_time": "2026-06-28T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 82,
-        "wind_mph_low": 7.0,
-        "wind_mph_high": 17.0,
-        "precip_chance": 8,
-        "short_forecast": "Mostly Sunny"
+        "wind_mph_low": 6.0,
+        "wind_mph_high": 15.0,
+        "precip_chance": 13,
+        "short_forecast": "Partly Sunny"
       },
       {
         "name": "Sunday Night",
@@ -46,20 +46,20 @@
         "is_daytime": false,
         "temp_f": 66,
         "wind_mph_low": 9.0,
-        "wind_mph_high": 16.0,
-        "precip_chance": 61,
-        "short_forecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely"
+        "wind_mph_high": 15.0,
+        "precip_chance": 81,
+        "short_forecast": "Chance Showers And Thunderstorms"
       },
       {
         "name": "Monday",
         "start_time": "2026-06-29T06:00:00-05:00",
         "end_time": "2026-06-29T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 92,
+        "temp_f": 95,
         "wind_mph_low": 8.0,
         "wind_mph_high": 14.0,
-        "precip_chance": 47,
-        "short_forecast": "Chance Showers And Thunderstorms then Slight Chance Showers And Thunderstorms"
+        "precip_chance": 39,
+        "short_forecast": "Chance Showers And Thunderstorms"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 82,
-    "forecast_wind_mph": 17.0,
-    "forecast_precip_chance": 8,
-    "daylight_remaining_minutes": 1372,
+    "forecast_wind_mph": 15.0,
+    "forecast_precip_chance": 13,
+    "daylight_remaining_minutes": 1122,
     "active_closure_ids": []
   }
 }
