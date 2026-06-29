@@ -1,27 +1,27 @@
 {
-  "computed_at": "2026-06-29T07:24:17.071068+00:00",
+  "computed_at": "2026-06-29T12:25:17.360840+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 94,
     "forecast_wind_mph": 13.0,
-    "forecast_precip_chance": 19,
-    "daylight_remaining_minutes": 1095,
+    "forecast_precip_chance": 17,
+    "daylight_remaining_minutes": 794,
     "active_closure_ids": []
   },
   "active_alerts": [
-    {
-      "event": "Heat Advisory",
-      "severity": "Moderate",
-      "headline": "Heat Advisory issued June 29 at 1:33AM CDT until June 30 at 7:00PM CDT by NWS Green Bay WI",
-      "area_desc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Southern Marinette County; Southern Oconto County",
-      "ends": "2026-06-30T19:00:00-05:00"
-    },
     {
       "event": "Extreme Heat Warning",
       "severity": "Severe",
       "headline": "Extreme Heat Warning issued June 29 at 1:33AM CDT until June 30 at 7:00PM CDT by NWS Green Bay WI",
       "area_desc": "Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Waushara; Winnebago; Calumet",
+      "ends": "2026-06-30T19:00:00-05:00"
+    },
+    {
+      "event": "Heat Advisory",
+      "severity": "Moderate",
+      "headline": "Heat Advisory issued June 29 at 1:33AM CDT until June 30 at 7:00PM CDT by NWS Green Bay WI",
+      "area_desc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Southern Marinette County; Southern Oconto County",
       "ends": "2026-06-30T19:00:00-05:00"
     },
     {
@@ -2016,50 +2016,6 @@
     {
       "trail_id": "osm-nature-trail-loop",
       "name": "Nature Trail Loop",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-north-wiouwash-state-recreation-trail",
-      "name": "North Wiouwash State Recreation Trail",
       "score": 91.3,
       "factors": [
         {
@@ -7558,96 +7514,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-wiouwash-state-recreation-trail",
-      "name": "Wiouwash State Recreation Trail",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-wolf-run",
       "name": "Wolf Run",
-      "score": 91.3,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-bearskin-state-trail",
-      "name": "Bearskin State Trail",
       "score": 91.3,
       "factors": [
         {
@@ -8377,6 +8245,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-north-wiouwash-state-recreation-trail",
+      "name": "North Wiouwash State Recreation Trail",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
         },
         {
           "name": "scenery_match",
@@ -13102,50 +13014,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-pine-run",
       "name": "Pine Run",
       "score": 86.8,
@@ -14334,6 +14202,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-wiouwash-state-recreation-trail",
+      "name": "Wiouwash State Recreation Trail",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-xc-medium-loop",
       "name": "XC Medium Loop",
       "score": 86.8,
@@ -14510,52 +14422,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-green-circle-state-trail",
-      "name": "Green Circle State Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Wildflower season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
+      "trail_id": "state-bearskin-state-trail",
+      "name": "Bearskin State Trail",
       "score": 86.8,
       "factors": [
         {
@@ -14818,6 +14686,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~815 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-shawano---crandon-line",
       "name": "Shawano - Crandon Line",
       "score": 79.2,
@@ -14833,6 +14745,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1995 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-green-circle-state-trail",
+      "name": "Green Circle State Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~964 min needed)"
         },
         {
           "name": "exposure",
@@ -14921,6 +14877,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~2776 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Wildflower season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~900 min needed)"
         },
         {
           "name": "exposure",
