@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T09:34:03.633255+00:00",
+  "fetched_at": "2026-07-01T12:29:17.560662+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,19 +18,8 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-07-01T04:00:00-05:00",
-        "end_time": "2026-07-01T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 71,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 10,
-        "short_forecast": "Mostly Cloudy"
-      },
-      {
-        "name": "Wednesday",
-        "start_time": "2026-07-01T06:00:00-05:00",
+        "name": "Today",
+        "start_time": "2026-07-01T07:00:00-05:00",
         "end_time": "2026-07-01T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 87,
@@ -40,7 +29,7 @@
         "short_forecast": "Chance Showers And Thunderstorms"
       },
       {
-        "name": "Wednesday Night",
+        "name": "Tonight",
         "start_time": "2026-07-01T18:00:00-05:00",
         "end_time": "2026-07-02T06:00:00-05:00",
         "is_daytime": false,
@@ -60,6 +49,17 @@
         "wind_mph_high": 8.0,
         "precip_chance": 12,
         "short_forecast": "Partly Sunny"
+      },
+      {
+        "name": "Thursday Night",
+        "start_time": "2026-07-02T18:00:00-05:00",
+        "end_time": "2026-07-03T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 65,
+        "wind_mph_low": 2.0,
+        "wind_mph_high": 6.0,
+        "precip_chance": 53,
+        "short_forecast": "Chance Showers And Thunderstorms"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 87,
     "forecast_wind_mph": 12.0,
     "forecast_precip_chance": 52,
-    "daylight_remaining_minutes": 965,
+    "daylight_remaining_minutes": 790,
     "active_closure_ids": []
   }
 }
