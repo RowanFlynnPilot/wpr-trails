@@ -1,21 +1,42 @@
 {
-  "computed_at": "2026-07-02T02:38:13.978067+00:00",
+  "computed_at": "2026-07-02T06:34:26.588557+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 88,
     "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 21,
-    "daylight_remaining_minutes": 1380,
-    "active_closure_ids": []
+    "daylight_remaining_minutes": 1144,
+    "active_closure_ids": [
+      "iat-emmons-creek",
+      "iat-hartman-creek",
+      "osm-iat---deerfield-emmons-creek-connection",
+      "osm-iat---waupaca-river-connection",
+      "osmway-iat---emmons-creek-segment-faraway-valley-loop",
+      "osmway-iat---murry-creek-trail"
+    ]
   },
   "active_alerts": [
     {
-      "event": "Special Weather Statement",
-      "severity": "Moderate",
-      "headline": "Special Weather Statement issued July 1 at 9:05PM CDT by NWS Green Bay WI",
-      "area_desc": "Wood; Portage; Waupaca; Waushara",
-      "ends": null
+      "event": "Flood Advisory",
+      "severity": "Minor",
+      "headline": "Flood Advisory issued July 2 at 1:02AM CDT until July 2 at 4:00AM CDT by NWS Green Bay WI",
+      "area_desc": "Brown, WI; Marathon, WI; Menominee, WI; Oconto, WI; Outagamie, WI; Portage, WI; Shawano, WI; Waupaca, WI; Wood, WI",
+      "ends": "2026-07-02T04:00:00-05:00"
+    },
+    {
+      "event": "Flash Flood Warning",
+      "severity": "Severe",
+      "headline": "Flash Flood Warning issued July 2 at 12:42AM CDT until July 2 at 2:30AM CDT by NWS Green Bay WI",
+      "area_desc": "Portage, WI; Waupaca, WI; Waushara, WI; Wood, WI",
+      "ends": "2026-07-02T02:30:00-05:00"
+    },
+    {
+      "event": "Flood Advisory",
+      "severity": "Minor",
+      "headline": "Flood Advisory issued July 1 at 10:12PM CDT until July 2 at 4:15AM CDT by NWS Green Bay WI",
+      "area_desc": "Brown, WI; Calumet, WI; Kewaunee, WI; Outagamie, WI; Portage, WI; Waupaca, WI; Waushara, WI; Winnebago, WI; Wood, WI",
+      "ends": "2026-07-02T04:15:00-05:00"
     },
     {
       "event": "Flood Watch",
@@ -23,13 +44,6 @@
       "headline": "Flood Watch issued July 1 at 7:10PM CDT until July 2 at 10:00AM CDT by NWS Green Bay WI",
       "area_desc": "Menominee; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Oconto County",
       "ends": "2026-07-02T10:00:00-05:00"
-    },
-    {
-      "event": "Severe Thunderstorm Watch",
-      "severity": "Severe",
-      "headline": "Severe Thunderstorm Watch issued July 1 at 6:52PM CDT until July 2 at 1:00AM CDT by NWS La Crosse WI",
-      "area_desc": "Allamakee, IA; Chickasaw, IA; Floyd, IA; Howard, IA; Mitchell, IA; Winneshiek, IA; Dodge, MN; Fillmore, MN; Houston, MN; Mower, MN; Olmsted, MN; Wabasha, MN; Winona, MN; Buffalo, WI; Clark, WI; Jackson, WI; La Crosse, WI; Monroe, WI; Taylor, WI; Trempealeau, WI; Vernon, WI",
-      "ends": "2026-07-02T01:00:00-05:00"
     }
   ],
   "ranked": [
@@ -80,50 +94,6 @@
     {
       "trail_id": "iat-harrison-hills",
       "name": "Ice Age Trail - Harrison Hills",
-      "score": 91.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 1.0,
-          "weight": 0.1,
-          "note": "Recently field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-hartman-creek",
-      "name": "Ice Age Trail - Hartman Creek",
       "score": 91.8,
       "factors": [
         {
@@ -564,50 +534,6 @@
     {
       "trail_id": "iat-east-lake",
       "name": "Ice Age Trail - East Lake",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-emmons-creek",
-      "name": "Ice Age Trail - Emmons Creek",
       "score": 86.8,
       "factors": [
         {
@@ -2014,50 +1940,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---deerfield-emmons-creek-connection",
-      "name": "IAT - Deerfield-Emmons Creek connection",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osm-iat---dells-of-the-eau-claire-plover-river-connector",
       "name": "IAT - Dells of the Eau Claire-Plover River connector",
       "score": 86.8,
@@ -2278,50 +2160,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osm-iat---pine-line-mondeaux-esker-connection",
       "name": "IAT - Pine Line-Mondeaux Esker connection",
       "score": 86.8,
@@ -2500,50 +2338,6 @@
     {
       "trail_id": "osm-iat---underdown-grandfather-falls-connection",
       "name": "IAT - Underdown-Grandfather Falls connection",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---waupaca-river-connection",
-      "name": "IAT - Waupaca River connection",
       "score": 86.8,
       "factors": [
         {
@@ -10638,94 +10432,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-iat---emmons-creek-segment-faraway-valley-loop",
-      "name": "IAT - Emmons Creek Segment Faraway Valley Loop",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-iat---murry-creek-trail",
-      "name": "IAT - Murry Creek Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-jeep-trail",
       "name": "Jeep Trail",
       "score": 86.8,
@@ -12224,50 +11930,6 @@
     {
       "trail_id": "osmway-pembine-subdivision",
       "name": "Pembine subdivision",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
       "score": 86.8,
       "factors": [
         {
@@ -14510,52 +14172,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---lake-eleven-cornell-connection",
-      "name": "IAT - Lake Eleven-Cornell connection",
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
       "score": 82.2,
       "factors": [
         {
@@ -14642,6 +14260,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
+      "score": 82.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "state-green-circle-state-trail",
       "name": "Green Circle State Trail",
       "score": 82.2,
@@ -14686,8 +14348,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-wolf-river-state-trail",
-      "name": "Wolf River State Trail",
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
       "score": 82.2,
       "factors": [
         {
@@ -14839,6 +14501,50 @@
           "value": 0.5,
           "weight": 0.2,
           "note": "Exposed and hot (88F) - bring water"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---lake-eleven-cornell-connection",
+      "name": "IAT - Lake Eleven-Cornell connection",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1227 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
         },
         {
           "name": "seasonality",
@@ -15080,7 +14786,94 @@
         }
       ],
       "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-wolf-river-state-trail",
+      "name": "Wolf River State Trail",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1176 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
     }
   ],
-  "filtered_out": []
+  "filtered_out": [
+    {
+      "trail_id": "iat-emmons-creek",
+      "name": "Ice Age Trail - Emmons Creek",
+      "reasons": [
+        "closure"
+      ]
+    },
+    {
+      "trail_id": "iat-hartman-creek",
+      "name": "Ice Age Trail - Hartman Creek",
+      "reasons": [
+        "closure"
+      ]
+    },
+    {
+      "trail_id": "osm-iat---deerfield-emmons-creek-connection",
+      "name": "IAT - Deerfield-Emmons Creek connection",
+      "reasons": [
+        "closure"
+      ]
+    },
+    {
+      "trail_id": "osm-iat---waupaca-river-connection",
+      "name": "IAT - Waupaca River connection",
+      "reasons": [
+        "closure"
+      ]
+    },
+    {
+      "trail_id": "osmway-iat---emmons-creek-segment-faraway-valley-loop",
+      "name": "IAT - Emmons Creek Segment Faraway Valley Loop",
+      "reasons": [
+        "closure"
+      ]
+    },
+    {
+      "trail_id": "osmway-iat---murry-creek-trail",
+      "name": "IAT - Murry Creek Trail",
+      "reasons": [
+        "closure"
+      ]
+    }
+  ]
 }
