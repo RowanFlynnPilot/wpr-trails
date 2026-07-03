@@ -1,15 +1,23 @@
 {
-  "computed_at": "2026-07-03T09:53:09.109672+00:00",
+  "computed_at": "2026-07-03T12:03:59.875887+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 84,
     "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 28,
-    "daylight_remaining_minutes": 945,
+    "daylight_remaining_minutes": 814,
     "active_closure_ids": []
   },
-  "active_alerts": [],
+  "active_alerts": [
+    {
+      "event": "Special Weather Statement",
+      "severity": "Moderate",
+      "headline": "Special Weather Statement issued July 3 at 5:14AM CDT by NWS Green Bay WI",
+      "area_desc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Northern Oconto County",
+      "ends": null
+    }
+  ],
   "ranked": [
     {
       "trail_id": "iat-dells-of-the-eau-claire",
@@ -2742,50 +2750,6 @@
     {
       "trail_id": "osm-nature-trail-loop",
       "name": "Nature Trail Loop",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-north-wiouwash-state-recreation-trail",
-      "name": "North Wiouwash State Recreation Trail",
       "score": 86.8,
       "factors": [
         {
@@ -14400,50 +14364,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-bearskin-state-trail",
-      "name": "Bearskin State Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-timms-hill-trail",
       "name": "Timm's Hill Trail",
       "score": 83.8,
@@ -14532,8 +14452,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
+      "trail_id": "osm-north-wiouwash-state-recreation-trail",
+      "name": "North Wiouwash State Recreation Trail",
       "score": 82.2,
       "factors": [
         {
@@ -14620,8 +14540,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
+      "trail_id": "state-bearskin-state-trail",
+      "name": "Bearskin State Trail",
       "score": 82.2,
       "factors": [
         {
@@ -14723,6 +14643,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1109 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~815 min needed)"
         },
         {
           "name": "exposure",
@@ -14899,6 +14863,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~2776 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~900 min needed)"
         },
         {
           "name": "exposure",
