@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T22:51:39.033205+00:00",
+  "fetched_at": "2026-07-04T23:55:38.526555+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,24 +18,13 @@
   "forecast": {
     "periods": [
       {
-        "name": "Independence Day",
-        "start_time": "2026-07-04T17:00:00-05:00",
-        "end_time": "2026-07-04T18:00:00-05:00",
-        "is_daytime": true,
-        "temp_f": 83,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
-        "precip_chance": 28,
-        "short_forecast": "Chance Showers And Thunderstorms"
-      },
-      {
         "name": "Tonight",
         "start_time": "2026-07-04T18:00:00-05:00",
         "end_time": "2026-07-05T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 59,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 5.0,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 7.0,
         "precip_chance": 31,
         "short_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy"
       },
@@ -60,16 +49,27 @@
         "wind_mph_high": 6.0,
         "precip_chance": 8,
         "short_forecast": "Mostly Clear"
+      },
+      {
+        "name": "Monday",
+        "start_time": "2026-07-06T06:00:00-05:00",
+        "end_time": "2026-07-06T18:00:00-05:00",
+        "is_daytime": true,
+        "temp_f": 83,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 3.0,
+        "precip_chance": 0,
+        "short_forecast": "Sunny"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 83,
+    "forecast_temp_f": 82,
     "forecast_wind_mph": 6.0,
-    "forecast_precip_chance": 28,
-    "daylight_remaining_minutes": 166,
+    "forecast_precip_chance": 9,
+    "daylight_remaining_minutes": 102,
     "active_closure_ids": []
   }
 }
