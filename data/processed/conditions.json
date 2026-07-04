@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T14:59:58.489755+00:00",
+  "fetched_at": "2026-07-04T16:08:18.686441+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,7 +19,7 @@
     "periods": [
       {
         "name": "Independence Day",
-        "start_time": "2026-07-04T09:00:00-05:00",
+        "start_time": "2026-07-04T11:00:00-05:00",
         "end_time": "2026-07-04T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 80,
@@ -69,7 +69,7 @@
     "forecast_temp_f": 80,
     "forecast_wind_mph": 6.0,
     "forecast_precip_chance": 28,
-    "daylight_remaining_minutes": 638,
+    "daylight_remaining_minutes": 569,
     "active_closure_ids": []
   }
 }
