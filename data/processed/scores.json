@@ -1,26 +1,26 @@
 {
-  "computed_at": "2026-07-14T01:51:03.907162+00:00",
+  "computed_at": "2026-07-14T04:45:19.987925+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 94,
     "forecast_wind_mph": 13.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1420,
+    "daylight_remaining_minutes": 1246,
     "active_closure_ids": []
   },
   "active_alerts": [
     {
       "event": "Heat Advisory",
       "severity": "Moderate",
-      "headline": "Heat Advisory issued July 13 at 2:57PM CDT until July 14 at 9:00PM CDT by NWS Green Bay WI",
+      "headline": "Heat Advisory issued July 13 at 9:47PM CDT until July 14 at 9:00PM CDT by NWS Green Bay WI",
       "area_desc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Door; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County",
       "ends": "2026-07-14T21:00:00-05:00"
     },
     {
       "event": "Heat Advisory",
       "severity": "Moderate",
-      "headline": "Heat Advisory issued July 13 at 12:08PM CDT until July 14 at 9:00PM CDT by NWS La Crosse WI",
+      "headline": "Heat Advisory issued July 13 at 9:13PM CDT until July 14 at 9:00PM CDT by NWS La Crosse WI",
       "area_desc": "Taylor; Clark",
       "ends": "2026-07-14T21:00:00-05:00"
     }
@@ -14503,50 +14503,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osm-iat---lake-eleven-cornell-connection",
       "name": "IAT - Lake Eleven-Cornell connection",
       "score": 82.2,
@@ -14637,6 +14593,50 @@
     {
       "trail_id": "state-green-circle-state-trail",
       "name": "Green Circle State Trail",
+      "score": 82.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
       "score": 82.2,
       "factors": [
         {
