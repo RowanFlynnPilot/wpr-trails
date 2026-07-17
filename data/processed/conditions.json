@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T15:08:16.620006+00:00",
+  "fetched_at": "2026-07-17T17:04:46.605464+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,35 +19,35 @@
     "periods": [
       {
         "name": "Today",
-        "start_time": "2026-07-17T10:00:00-05:00",
+        "start_time": "2026-07-17T11:00:00-05:00",
         "end_time": "2026-07-17T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 89,
-        "wind_mph_low": 6.0,
+        "temp_f": 90,
+        "wind_mph_low": 5.0,
         "wind_mph_high": 10.0,
-        "precip_chance": 15,
-        "short_forecast": "Areas Of Smoke then Slight Chance Showers And Thunderstorms"
+        "precip_chance": 10,
+        "short_forecast": "Areas Of Smoke"
       },
       {
         "name": "Tonight",
         "start_time": "2026-07-17T18:00:00-05:00",
         "end_time": "2026-07-18T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 70,
-        "wind_mph_low": 10.0,
-        "wind_mph_high": 10.0,
-        "precip_chance": 34,
-        "short_forecast": "Chance Showers And Thunderstorms"
+        "temp_f": 69,
+        "wind_mph_low": 9.0,
+        "wind_mph_high": 9.0,
+        "precip_chance": 22,
+        "short_forecast": "Slight Chance Showers And Thunderstorms"
       },
       {
         "name": "Saturday",
         "start_time": "2026-07-18T06:00:00-05:00",
         "end_time": "2026-07-18T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 83,
-        "wind_mph_low": 9.0,
-        "wind_mph_high": 13.0,
-        "precip_chance": 1,
+        "temp_f": 84,
+        "wind_mph_low": 10.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 0,
         "short_forecast": "Sunny then Smoke"
       },
       {
@@ -66,10 +66,10 @@
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 89,
+    "forecast_temp_f": 90,
     "forecast_wind_mph": 10.0,
-    "forecast_precip_chance": 15,
-    "daylight_remaining_minutes": 621,
+    "forecast_precip_chance": 10,
+    "daylight_remaining_minutes": 504,
     "active_closure_ids": []
   }
 }
