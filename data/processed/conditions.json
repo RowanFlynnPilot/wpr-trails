@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T21:43:48.981543+00:00",
+  "fetched_at": "2026-07-17T22:41:32.271421+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,14 +19,14 @@
     "periods": [
       {
         "name": "This Afternoon",
-        "start_time": "2026-07-17T16:00:00-05:00",
+        "start_time": "2026-07-17T17:00:00-05:00",
         "end_time": "2026-07-17T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 90,
-        "wind_mph_low": 10.0,
-        "wind_mph_high": 10.0,
+        "wind_mph_low": 9.0,
+        "wind_mph_high": 9.0,
         "precip_chance": 10,
-        "short_forecast": "Mostly Sunny"
+        "short_forecast": "Sunny"
       },
       {
         "name": "Tonight",
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 90,
-    "forecast_wind_mph": 10.0,
+    "forecast_wind_mph": 9.0,
     "forecast_precip_chance": 10,
-    "daylight_remaining_minutes": 225,
+    "daylight_remaining_minutes": 168,
     "active_closure_ids": []
   }
 }
