@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T10:13:00.697297+00:00",
+  "fetched_at": "2026-07-18T11:48:26.499994+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,35 +18,24 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-07-18T03:00:00-05:00",
-        "end_time": "2026-07-18T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 70,
-        "wind_mph_low": 8.0,
-        "wind_mph_high": 8.0,
-        "precip_chance": 11,
-        "short_forecast": "Partly Cloudy"
-      },
-      {
-        "name": "Saturday",
+        "name": "Today",
         "start_time": "2026-07-18T06:00:00-05:00",
         "end_time": "2026-07-18T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 83,
         "wind_mph_low": 8.0,
-        "wind_mph_high": 12.0,
+        "wind_mph_high": 13.0,
         "precip_chance": 0,
         "short_forecast": "Patchy Smoke"
       },
       {
-        "name": "Saturday Night",
+        "name": "Tonight",
         "start_time": "2026-07-18T18:00:00-05:00",
         "end_time": "2026-07-19T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 58,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 9.0,
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 10.0,
         "precip_chance": 0,
         "short_forecast": "Smoke"
       },
@@ -56,10 +45,21 @@
         "end_time": "2026-07-19T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 83,
-        "wind_mph_low": 0.0,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 5.0,
         "precip_chance": 0,
         "short_forecast": "Areas Of Smoke"
+      },
+      {
+        "name": "Sunday Night",
+        "start_time": "2026-07-19T18:00:00-05:00",
+        "end_time": "2026-07-20T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 64,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 8.0,
+        "precip_chance": 21,
+        "short_forecast": "Patchy Smoke then Slight Chance Rain Showers"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 83,
-    "forecast_wind_mph": 12.0,
+    "forecast_wind_mph": 13.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 915,
+    "daylight_remaining_minutes": 820,
     "active_closure_ids": []
   }
 }
