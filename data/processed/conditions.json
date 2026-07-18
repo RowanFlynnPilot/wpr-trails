@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T22:41:21.068723+00:00",
+  "fetched_at": "2026-07-18T23:45:16.114959+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -17,17 +17,6 @@
   },
   "forecast": {
     "periods": [
-      {
-        "name": "This Afternoon",
-        "start_time": "2026-07-18T17:00:00-05:00",
-        "end_time": "2026-07-18T18:00:00-05:00",
-        "is_daytime": true,
-        "temp_f": 84,
-        "wind_mph_low": 10.0,
-        "wind_mph_high": 10.0,
-        "precip_chance": 0,
-        "short_forecast": "Areas Of Smoke"
-      },
       {
         "name": "Tonight",
         "start_time": "2026-07-18T18:00:00-05:00",
@@ -48,7 +37,7 @@
         "wind_mph_low": 1.0,
         "wind_mph_high": 7.0,
         "precip_chance": 0,
-        "short_forecast": "Areas Of Smoke"
+        "short_forecast": "Smoke"
       },
       {
         "name": "Sunday Night",
@@ -60,16 +49,27 @@
         "wind_mph_high": 7.0,
         "precip_chance": 10,
         "short_forecast": "Areas Of Smoke"
+      },
+      {
+        "name": "Monday",
+        "start_time": "2026-07-20T06:00:00-05:00",
+        "end_time": "2026-07-20T18:00:00-05:00",
+        "is_daytime": true,
+        "temp_f": 85,
+        "wind_mph_low": 7.0,
+        "wind_mph_high": 14.0,
+        "precip_chance": 58,
+        "short_forecast": "Patchy Smoke"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 84,
-    "forecast_wind_mph": 10.0,
+    "forecast_temp_f": 83,
+    "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 167,
+    "daylight_remaining_minutes": 103,
     "active_closure_ids": []
   }
 }
