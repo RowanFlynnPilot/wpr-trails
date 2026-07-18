@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-07-18T16:49:03.128476+00:00",
+  "computed_at": "2026-07-18T17:51:11.925894+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 83,
     "forecast_wind_mph": 13.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 519,
+    "daylight_remaining_minutes": 457,
     "active_closure_ids": []
   },
   "active_alerts": [
@@ -330,50 +330,6 @@
           "value": 0.85,
           "weight": 0.1,
           "note": "Verified 94 days ago"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-harrison-hills",
-      "name": "Ice Age Trail - Harrison Hills",
-      "score": 87.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 1.0,
-          "weight": 0.1,
-          "note": "Recently field-checked"
         }
       ],
       "hard_filters_failed": []
@@ -997,50 +953,6 @@
     {
       "trail_id": "iat-rib-lake",
       "name": "Ice Age Trail - Rib Lake",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-ringle",
-      "name": "Ice Age Trail - Ringle",
       "score": 86.8,
       "factors": [
         {
@@ -1877,50 +1789,6 @@
     {
       "trail_id": "osm-iat---highland-lakes-connection",
       "name": "IAT - Highland Lakes connection",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---ice-override-antigo-heights-connector",
-      "name": "IAT - Ice Override-Antigo Heights connector",
       "score": 86.8,
       "factors": [
         {
@@ -3989,50 +3857,6 @@
     {
       "trail_id": "osmway-eau-claire-river-trail",
       "name": "Eau Claire River Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-edgar-fenwood-trail",
-      "name": "Edgar-Fenwood Trail",
       "score": 86.8,
       "factors": [
         {
@@ -13711,50 +13535,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-jerry-lake",
-      "name": "Ice Age Trail - Jerry Lake",
-      "score": 82.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-kettlebowl",
       "name": "Ice Age Trail - Kettlebowl",
       "score": 82.2,
@@ -13931,6 +13711,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-ringle",
+      "name": "Ice Age Trail - Ringle",
+      "score": 82.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-summit-moraine",
       "name": "Ice Age Trail - Summit Moraine",
       "score": 82.2,
@@ -14019,8 +13843,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---deerfield-emmons-creek-connection",
-      "name": "IAT - Deerfield-Emmons Creek connection",
+      "trail_id": "osm-iat---ice-override-antigo-heights-connector",
+      "name": "IAT - Ice Override-Antigo Heights connector",
       "score": 82.2,
       "factors": [
         {
@@ -14065,6 +13889,50 @@
     {
       "trail_id": "osm-iat---underdown-grandfather-falls-connection",
       "name": "IAT - Underdown-Grandfather Falls connection",
+      "score": 82.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-edgar-fenwood-trail",
+      "name": "Edgar-Fenwood Trail",
       "score": 82.2,
       "factors": [
         {
@@ -14327,9 +14195,9 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-hidden-lakes-trail",
-      "name": "Hidden Lakes Trail",
-      "score": 82.2,
+      "trail_id": "iat-harrison-hills",
+      "name": "Ice Age Trail - Harrison Hills",
+      "score": 79.8,
       "factors": [
         {
           "name": "mud_risk",
@@ -14339,9 +14207,53 @@
         },
         {
           "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~501 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
           "value": 0.7,
           "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 1.0,
+          "weight": 0.1,
+          "note": "Recently field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-jerry-lake",
+      "name": "Ice Age Trail - Jerry Lake",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~497 min needed)"
         },
         {
           "name": "exposure",
@@ -14386,6 +14298,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~527 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---deerfield-emmons-creek-connection",
+      "name": "IAT - Deerfield-Emmons Creek connection",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~477 min needed)"
         },
         {
           "name": "exposure",
@@ -14518,6 +14474,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~546 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-hidden-lakes-trail",
+      "name": "Hidden Lakes Trail",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~458 min needed)"
         },
         {
           "name": "exposure",
