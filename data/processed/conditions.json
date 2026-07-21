@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T11:00:26.809728+00:00",
+  "fetched_at": "2026-07-21T13:22:23.556727+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,29 +18,18 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-07-21T04:00:00-05:00",
-        "end_time": "2026-07-21T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 66,
-        "wind_mph_low": 10.0,
-        "wind_mph_high": 10.0,
-        "precip_chance": 2,
-        "short_forecast": "Partly Cloudy"
-      },
-      {
-        "name": "Tuesday",
-        "start_time": "2026-07-21T06:00:00-05:00",
+        "name": "Today",
+        "start_time": "2026-07-21T08:00:00-05:00",
         "end_time": "2026-07-21T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 76,
-        "wind_mph_low": 12.0,
+        "wind_mph_low": 13.0,
         "wind_mph_high": 17.0,
         "precip_chance": 16,
         "short_forecast": "Slight Chance Rain Showers"
       },
       {
-        "name": "Tuesday Night",
+        "name": "Tonight",
         "start_time": "2026-07-21T18:00:00-05:00",
         "end_time": "2026-07-22T06:00:00-05:00",
         "is_daytime": false,
@@ -60,6 +49,17 @@
         "wind_mph_high": 9.0,
         "precip_chance": 1,
         "short_forecast": "Sunny"
+      },
+      {
+        "name": "Wednesday Night",
+        "start_time": "2026-07-22T18:00:00-05:00",
+        "end_time": "2026-07-23T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 52,
+        "wind_mph_low": 0.0,
+        "wind_mph_high": 6.0,
+        "precip_chance": 0,
+        "short_forecast": "Mostly Clear"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 76,
     "forecast_wind_mph": 17.0,
     "forecast_precip_chance": 16,
-    "daylight_remaining_minutes": 865,
+    "daylight_remaining_minutes": 723,
     "active_closure_ids": []
   }
 }
