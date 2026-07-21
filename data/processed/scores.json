@@ -1,37 +1,15 @@
 {
-  "computed_at": "2026-07-21T02:00:19.041110+00:00",
+  "computed_at": "2026-07-21T05:42:38.085741+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 77,
     "forecast_wind_mph": 16.0,
     "forecast_precip_chance": 2,
-    "daylight_remaining_minutes": 1405,
-    "active_closure_ids": [
-      "iat-iola-ski-hill",
-      "iat-new-hope",
-      "osm-iat---new-hope-white-cedar-connector",
-      "osmway-rosholt-track-cross-counrtiy-tralis",
-      "osmway-rosholt-track-cross-country-trails",
-      "state-tomorrow-river-state-trail"
-    ]
+    "daylight_remaining_minutes": 1183,
+    "active_closure_ids": []
   },
-  "active_alerts": [
-    {
-      "event": "Tornado Warning",
-      "severity": "Extreme",
-      "headline": "Tornado Warning issued July 20 at 8:41PM CDT until July 20 at 9:45PM CDT by NWS Green Bay WI",
-      "area_desc": "Portage, WI; Waupaca, WI",
-      "ends": "2026-07-20T21:45:00-05:00"
-    },
-    {
-      "event": "Tornado Watch",
-      "severity": "Extreme",
-      "headline": "Tornado Watch issued July 20 at 3:51PM CDT until July 20 at 11:00PM CDT by NWS Green Bay WI",
-      "area_desc": "Brown, WI; Calumet, WI; Door, WI; Florence, WI; Forest, WI; Kewaunee, WI; Langlade, WI; Lincoln, WI; Manitowoc, WI; Marathon, WI; Marinette, WI; Menominee, WI; Oconto, WI; Oneida, WI; Outagamie, WI; Portage, WI; Shawano, WI; Vilas, WI; Waupaca, WI; Waushara, WI; Winnebago, WI; Wood, WI",
-      "ends": "2026-07-20T23:00:00-05:00"
-    }
-  ],
+  "active_alerts": [],
   "ranked": [
     {
       "trail_id": "iat-harrison-hills",
@@ -826,6 +804,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-iola-ski-hill",
+      "name": "Ice Age Trail - Iola Ski Hill",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Plenty of daylight"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-jerry-lake",
       "name": "Ice Age Trail - Jerry Lake",
       "score": 86.8,
@@ -1004,6 +1026,50 @@
     {
       "trail_id": "iat-mondeaux-esker",
       "name": "Ice Age Trail - Mondeaux Esker",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Plenty of daylight"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-new-hope",
+      "name": "Ice Age Trail - New Hope",
       "score": 86.8,
       "factors": [
         {
@@ -2236,6 +2302,50 @@
     {
       "trail_id": "osm-iat---ice-override-antigo-heights-connector",
       "name": "IAT - Ice Override-Antigo Heights connector",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Plenty of daylight"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
       "score": 86.8,
       "factors": [
         {
@@ -12222,50 +12332,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-pine-run",
       "name": "Pine Run",
       "score": 86.8,
@@ -12752,6 +12818,94 @@
     {
       "trail_id": "osmway-rookery",
       "name": "Rookery",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Plenty of daylight"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-rosholt-track-cross-counrtiy-tralis",
+      "name": "Rosholt Track / Cross Counrtiy tralis",
+      "score": 86.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Plenty of daylight"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-rosholt-track-cross-country-trails",
+      "name": "Rosholt Track / Cross Country Trails",
       "score": 86.8,
       "factors": [
         {
@@ -14422,8 +14576,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---lake-eleven-cornell-connection",
-      "name": "IAT - Lake Eleven-Cornell connection",
+      "trail_id": "osmway-merrilian-to-marshfield",
+      "name": "Merrilian to Marshfield",
       "score": 82.2,
       "factors": [
         {
@@ -14466,8 +14620,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-merrilian-to-marshfield",
-      "name": "Merrilian to Marshfield",
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
       "score": 82.2,
       "factors": [
         {
@@ -14554,6 +14708,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
+      "score": 82.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "state-wolf-river-state-trail",
       "name": "Wolf River State Trail",
       "score": 82.2,
@@ -14569,6 +14767,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---lake-eleven-cornell-connection",
+      "name": "IAT - Lake Eleven-Cornell connection",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1227 min needed)"
         },
         {
           "name": "exposure",
@@ -14818,48 +15060,5 @@
       "hard_filters_failed": []
     }
   ],
-  "filtered_out": [
-    {
-      "trail_id": "iat-iola-ski-hill",
-      "name": "Ice Age Trail - Iola Ski Hill",
-      "reasons": [
-        "closure"
-      ]
-    },
-    {
-      "trail_id": "iat-new-hope",
-      "name": "Ice Age Trail - New Hope",
-      "reasons": [
-        "closure"
-      ]
-    },
-    {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
-      "reasons": [
-        "closure"
-      ]
-    },
-    {
-      "trail_id": "osmway-rosholt-track-cross-counrtiy-tralis",
-      "name": "Rosholt Track / Cross Counrtiy tralis",
-      "reasons": [
-        "closure"
-      ]
-    },
-    {
-      "trail_id": "osmway-rosholt-track-cross-country-trails",
-      "name": "Rosholt Track / Cross Country Trails",
-      "reasons": [
-        "closure"
-      ]
-    },
-    {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
-      "reasons": [
-        "closure"
-      ]
-    }
-  ]
+  "filtered_out": []
 }
