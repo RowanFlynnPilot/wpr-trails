@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-07-21T05:42:38.085741+00:00",
+  "computed_at": "2026-07-21T08:13:00.728202+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 77,
-    "forecast_wind_mph": 16.0,
-    "forecast_precip_chance": 2,
-    "daylight_remaining_minutes": 1183,
+    "forecast_temp_f": 76,
+    "forecast_wind_mph": 17.0,
+    "forecast_precip_chance": 16,
+    "daylight_remaining_minutes": 1032,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -2302,50 +2302,6 @@
     {
       "trail_id": "osm-iat---ice-override-antigo-heights-connector",
       "name": "IAT - Ice Override-Antigo Heights connector",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
       "score": 86.8,
       "factors": [
         {
@@ -14224,50 +14180,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-wiouwash-state-recreation-trail",
-      "name": "Wiouwash State Recreation Trail",
-      "score": 86.8,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 1.0,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-wolf-run",
       "name": "Wolf Run",
       "score": 86.8,
@@ -14576,8 +14488,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-merrilian-to-marshfield",
-      "name": "Merrilian to Marshfield",
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
       "score": 82.2,
       "factors": [
         {
@@ -14622,6 +14534,50 @@
     {
       "trail_id": "osmway-pine-line-trail",
       "name": "Pine Line Trail",
+      "score": 82.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-wiouwash-state-recreation-trail",
+      "name": "Wiouwash State Recreation Trail",
       "score": 82.2,
       "factors": [
         {
@@ -14752,9 +14708,9 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-wolf-river-state-trail",
-      "name": "Wolf River State Trail",
-      "score": 82.2,
+      "trail_id": "osm-iat---lake-eleven-cornell-connection",
+      "name": "IAT - Lake Eleven-Cornell connection",
+      "score": 74.8,
       "factors": [
         {
           "name": "mud_risk",
@@ -14764,9 +14720,9 @@
         },
         {
           "name": "daylight",
-          "value": 0.7,
+          "value": 0.2,
           "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
+          "note": "Not enough daylight (~1227 min needed)"
         },
         {
           "name": "exposure",
@@ -14796,8 +14752,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---lake-eleven-cornell-connection",
-      "name": "IAT - Lake Eleven-Cornell connection",
+      "trail_id": "osmway-merrilian-to-marshfield",
+      "name": "Merrilian to Marshfield",
       "score": 74.8,
       "factors": [
         {
@@ -14810,7 +14766,7 @@
           "name": "daylight",
           "value": 0.2,
           "weight": 0.15,
-          "note": "Not enough daylight (~1227 min needed)"
+          "note": "Not enough daylight (~1109 min needed)"
         },
         {
           "name": "exposure",
@@ -15031,6 +14987,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1533 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-wolf-river-state-trail",
+      "name": "Wolf River State Trail",
+      "score": 74.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 1.0,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1176 min needed)"
         },
         {
           "name": "exposure",
