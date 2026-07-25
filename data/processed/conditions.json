@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T11:03:52.309392+00:00",
+  "fetched_at": "2026-07-25T13:07:54.313881+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,11 +19,11 @@
     "periods": [
       {
         "name": "Today",
-        "start_time": "2026-07-25T06:00:00-05:00",
+        "start_time": "2026-07-25T08:00:00-05:00",
         "end_time": "2026-07-25T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 85,
-        "wind_mph_low": 6.0,
+        "wind_mph_low": 9.0,
         "wind_mph_high": 9.0,
         "precip_chance": 20,
         "short_forecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms"
@@ -69,7 +69,7 @@
     "forecast_temp_f": 85,
     "forecast_wind_mph": 9.0,
     "forecast_precip_chance": 20,
-    "daylight_remaining_minutes": 857,
+    "daylight_remaining_minutes": 733,
     "active_closure_ids": []
   }
 }
