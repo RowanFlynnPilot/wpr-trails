@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T02:01:31.289037+00:00",
+  "fetched_at": "2026-07-25T05:36:40.567622+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,15 +18,15 @@
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-07-24T20:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-07-25T00:00:00-05:00",
         "end_time": "2026-07-25T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 61,
         "wind_mph_low": 7.0,
         "wind_mph_high": 7.0,
-        "precip_chance": 3,
-        "short_forecast": "Partly Cloudy"
+        "precip_chance": 2,
+        "short_forecast": "Mostly Cloudy"
       },
       {
         "name": "Saturday",
@@ -35,9 +35,9 @@
         "is_daytime": true,
         "temp_f": 86,
         "wind_mph_low": 6.0,
-        "wind_mph_high": 10.0,
-        "precip_chance": 21,
-        "short_forecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy"
+        "wind_mph_high": 9.0,
+        "precip_chance": 7,
+        "short_forecast": "Mostly Cloudy"
       },
       {
         "name": "Saturday Night",
@@ -45,10 +45,10 @@
         "end_time": "2026-07-26T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 67,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 8.0,
-        "precip_chance": 22,
-        "short_forecast": "Partly Cloudy then Slight Chance Showers And Thunderstorms"
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 7.0,
+        "precip_chance": 7,
+        "short_forecast": "Partly Cloudy"
       },
       {
         "name": "Sunday",
@@ -56,10 +56,10 @@
         "end_time": "2026-07-26T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 90,
-        "wind_mph_low": 3.0,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 10.0,
         "precip_chance": 27,
-        "short_forecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms"
+        "short_forecast": "Chance Rain Showers then Slight Chance Showers And Thunderstorms"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 86,
-    "forecast_wind_mph": 10.0,
-    "forecast_precip_chance": 21,
-    "daylight_remaining_minutes": 1400,
+    "forecast_wind_mph": 9.0,
+    "forecast_precip_chance": 7,
+    "daylight_remaining_minutes": 1185,
     "active_closure_ids": []
   }
 }
