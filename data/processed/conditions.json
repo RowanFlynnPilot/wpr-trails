@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T10:38:11.658893+00:00",
+  "fetched_at": "2026-07-26T11:57:06.126557+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,18 +18,7 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-07-26T05:00:00-05:00",
-        "end_time": "2026-07-26T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 66,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 0.0,
-        "precip_chance": 3,
-        "short_forecast": "Patchy Fog"
-      },
-      {
-        "name": "Sunday",
+        "name": "Today",
         "start_time": "2026-07-26T06:00:00-05:00",
         "end_time": "2026-07-26T18:00:00-05:00",
         "is_daytime": true,
@@ -40,7 +29,7 @@
         "short_forecast": "Areas Of Fog then Mostly Sunny"
       },
       {
-        "name": "Sunday Night",
+        "name": "Tonight",
         "start_time": "2026-07-26T18:00:00-05:00",
         "end_time": "2026-07-27T06:00:00-05:00",
         "is_daytime": false,
@@ -60,6 +49,17 @@
         "wind_mph_high": 10.0,
         "precip_chance": 31,
         "short_forecast": "Chance Showers And Thunderstorms"
+      },
+      {
+        "name": "Monday Night",
+        "start_time": "2026-07-27T18:00:00-05:00",
+        "end_time": "2026-07-28T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 63,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 9,
+        "short_forecast": "Mostly Clear"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 91,
     "forecast_wind_mph": 8.0,
     "forecast_precip_chance": 8,
-    "daylight_remaining_minutes": 882,
+    "daylight_remaining_minutes": 803,
     "active_closure_ids": []
   }
 }
