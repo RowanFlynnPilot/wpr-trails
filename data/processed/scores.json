@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-08-01T05:48:22.568174+00:00",
+  "computed_at": "2026-08-01T08:08:27.500826+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.01,
-    "forecast_temp_f": 79,
+    "forecast_temp_f": 82,
     "forecast_wind_mph": 10.0,
-    "forecast_precip_chance": 20,
-    "daylight_remaining_minutes": 1165,
+    "forecast_precip_chance": 18,
+    "daylight_remaining_minutes": 1025,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -14444,50 +14444,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-wiouwash-state-recreation-trail",
-      "name": "Wiouwash State Recreation Trail",
-      "score": 86.5,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.989,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-timms-hill-trail",
       "name": "Timm's Hill Trail",
       "score": 83.6,
@@ -14620,8 +14576,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-merrilian-to-marshfield",
-      "name": "Merrilian to Marshfield",
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
       "score": 82.0,
       "factors": [
         {
@@ -14664,8 +14620,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
+      "trail_id": "osmway-wiouwash-state-recreation-trail",
+      "name": "Wiouwash State Recreation Trail",
       "score": 82.0,
       "factors": [
         {
@@ -14899,6 +14855,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1227 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-merrilian-to-marshfield",
+      "name": "Merrilian to Marshfield",
+      "score": 74.5,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.989,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1109 min needed)"
         },
         {
           "name": "exposure",
