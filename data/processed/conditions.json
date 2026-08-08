@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T05:36:58.542449+00:00",
+  "fetched_at": "2026-08-08T06:38:58.245840+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,13 +19,13 @@
     "periods": [
       {
         "name": "Overnight",
-        "start_time": "2026-08-08T00:00:00-05:00",
+        "start_time": "2026-08-08T01:00:00-05:00",
         "end_time": "2026-08-08T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 57,
         "wind_mph_low": 6.0,
         "wind_mph_high": 6.0,
-        "precip_chance": 2,
+        "precip_chance": 1,
         "short_forecast": "Mostly Clear"
       },
       {
@@ -45,9 +45,9 @@
         "end_time": "2026-08-09T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 60,
-        "wind_mph_low": 2.0,
+        "wind_mph_low": 3.0,
         "wind_mph_high": 7.0,
-        "precip_chance": 12,
+        "precip_chance": 8,
         "short_forecast": "Mostly Clear"
       },
       {
@@ -55,11 +55,11 @@
         "start_time": "2026-08-09T06:00:00-05:00",
         "end_time": "2026-08-09T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 83,
+        "temp_f": 81,
         "wind_mph_low": 2.0,
         "wind_mph_high": 8.0,
         "precip_chance": 41,
-        "short_forecast": "Chance Showers And Thunderstorms"
+        "short_forecast": "Slight Chance Showers And Thunderstorms"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 80,
     "forecast_wind_mph": 10.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1167,
+    "daylight_remaining_minutes": 1105,
     "active_closure_ids": []
   }
 }
