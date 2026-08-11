@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-11T22:34:05.397453+00:00",
+  "fetched_at": "2026-08-11T23:32:08.581680+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,17 +18,6 @@
   "forecast": {
     "periods": [
       {
-        "name": "This Afternoon",
-        "start_time": "2026-08-11T17:00:00-05:00",
-        "end_time": "2026-08-11T18:00:00-05:00",
-        "is_daytime": true,
-        "temp_f": 85,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 5.0,
-        "precip_chance": 12,
-        "short_forecast": "Partly Sunny"
-      },
-      {
         "name": "Tonight",
         "start_time": "2026-08-11T18:00:00-05:00",
         "end_time": "2026-08-12T06:00:00-05:00",
@@ -36,7 +25,7 @@
         "temp_f": 61,
         "wind_mph_low": 3.0,
         "wind_mph_high": 3.0,
-        "precip_chance": 14,
+        "precip_chance": 7,
         "short_forecast": "Partly Cloudy then Patchy Fog"
       },
       {
@@ -60,6 +49,17 @@
         "wind_mph_high": 5.0,
         "precip_chance": 22,
         "short_forecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy"
+      },
+      {
+        "name": "Thursday",
+        "start_time": "2026-08-13T06:00:00-05:00",
+        "end_time": "2026-08-13T18:00:00-05:00",
+        "is_daytime": true,
+        "temp_f": 81,
+        "wind_mph_low": 2.0,
+        "wind_mph_high": 6.0,
+        "precip_chance": 16,
+        "short_forecast": "Partly Sunny then Slight Chance Showers And Thunderstorms"
       }
     ]
   },
@@ -68,8 +68,8 @@
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 85,
     "forecast_wind_mph": 5.0,
-    "forecast_precip_chance": 12,
-    "daylight_remaining_minutes": 146,
+    "forecast_precip_chance": 26,
+    "daylight_remaining_minutes": 88,
     "active_closure_ids": []
   }
 }
