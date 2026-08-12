@@ -1,15 +1,23 @@
 {
-  "computed_at": "2026-08-12T10:54:48.843843+00:00",
+  "computed_at": "2026-08-12T11:40:43.377148+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.13,
     "recent_precip_in_72h": 0.13,
     "forecast_temp_f": 85,
-    "forecast_wind_mph": 5.0,
+    "forecast_wind_mph": 6.0,
     "forecast_precip_chance": 4,
-    "daylight_remaining_minutes": 844,
+    "daylight_remaining_minutes": 798,
     "active_closure_ids": []
   },
-  "active_alerts": [],
+  "active_alerts": [
+    {
+      "event": "Special Weather Statement",
+      "severity": "Moderate",
+      "headline": "Special Weather Statement issued August 12 at 6:08AM CDT by NWS Green Bay WI",
+      "area_desc": "Forest; Florence; Northern Marinette County; Langlade; Menominee; Northern Oconto County; Door; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County",
+      "ends": null
+    }
+  ],
   "ranked": [
     {
       "trail_id": "iat-harrison-hills",
@@ -3798,50 +3806,6 @@
     {
       "trail_id": "osm-luna---white-deer-trail",
       "name": "Luna - White Deer Trail",
-      "score": 85.0,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.928,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-north-wiouwash-state-recreation-trail",
-      "name": "North Wiouwash State Recreation Trail",
       "score": 85.0,
       "factors": [
         {
@@ -14488,13 +14452,13 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
-      "score": 78.7,
+      "trail_id": "osm-north-wiouwash-state-recreation-trail",
+      "name": "North Wiouwash State Recreation Trail",
+      "score": 80.5,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.857,
+          "value": 0.928,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14532,8 +14496,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
       "score": 78.7,
       "factors": [
         {
@@ -14855,6 +14819,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1109 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
+      "score": 71.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.857,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~815 min needed)"
         },
         {
           "name": "exposure",
