@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-08-14T01:18:42.992943+00:00",
+  "computed_at": "2026-08-14T03:59:54.863999+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.13,
     "forecast_temp_f": 82,
     "forecast_wind_mph": 10.0,
-    "forecast_precip_chance": 2,
-    "daylight_remaining_minutes": 1417,
+    "forecast_precip_chance": 1,
+    "daylight_remaining_minutes": 1256,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -7186,50 +7186,6 @@
     {
       "trail_id": "osmway-yellow-jacket",
       "name": "Yellow Jacket",
-      "score": 86.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.977,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
       "score": 86.2,
       "factors": [
         {
@@ -14641,6 +14597,50 @@
           "value": 0.85,
           "weight": 0.2,
           "note": "Open trail, comfortable today"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
+      "score": 81.7,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.977,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
         },
         {
           "name": "seasonality",
