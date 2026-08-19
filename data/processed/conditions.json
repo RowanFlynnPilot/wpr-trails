@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T18:23:06.053169+00:00",
+  "fetched_at": "2026-08-19T19:19:22.282286+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,7 +19,7 @@
     "periods": [
       {
         "name": "This Afternoon",
-        "start_time": "2026-08-19T13:00:00-05:00",
+        "start_time": "2026-08-19T14:00:00-05:00",
         "end_time": "2026-08-19T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 78,
@@ -33,8 +33,8 @@
         "start_time": "2026-08-19T18:00:00-05:00",
         "end_time": "2026-08-20T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 52,
-        "wind_mph_low": 0.0,
+        "temp_f": 49,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 6.0,
         "precip_chance": 0,
         "short_forecast": "Mostly Clear"
@@ -45,21 +45,21 @@
         "end_time": "2026-08-20T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 81,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 8.0,
-        "precip_chance": 37,
-        "short_forecast": "Sunny then Chance Showers And Thunderstorms"
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 9,
+        "short_forecast": "Mostly Sunny"
       },
       {
         "name": "Thursday Night",
         "start_time": "2026-08-20T18:00:00-05:00",
         "end_time": "2026-08-21T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 60,
-        "wind_mph_low": 7.0,
-        "wind_mph_high": 7.0,
-        "precip_chance": 80,
-        "short_forecast": "Showers And Thunderstorms"
+        "temp_f": 58,
+        "wind_mph_low": 6.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 70,
+        "short_forecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 78,
     "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 386,
+    "daylight_remaining_minutes": 330,
     "active_closure_ids": []
   }
 }
