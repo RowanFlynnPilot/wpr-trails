@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-08-20T07:39:33.593210+00:00",
+  "computed_at": "2026-08-20T08:28:53.704136+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 81,
     "forecast_wind_mph": 9.0,
     "forecast_precip_chance": 9,
-    "daylight_remaining_minutes": 1028,
+    "daylight_remaining_minutes": 979,
     "active_closure_ids": []
   },
   "active_alerts": [],
