@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-08-21T13:39:01.360578+00:00",
+  "computed_at": "2026-08-21T14:26:56.852492+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.01,
     "forecast_temp_f": 80,
     "forecast_wind_mph": 9.0,
-    "forecast_precip_chance": 32,
-    "daylight_remaining_minutes": 667,
+    "forecast_precip_chance": 29,
+    "daylight_remaining_minutes": 619,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -14224,50 +14224,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-bearskin-state-trail",
-      "name": "Bearskin State Trail",
-      "score": 82.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.998,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "Cutting it close - bring a headlamp"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-wood-lake",
       "name": "Ice Age Trail - Wood Lake",
       "score": 82.1,
@@ -14459,6 +14415,50 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-bearskin-state-trail",
+      "name": "Bearskin State Trail",
+      "score": 74.7,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.998,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~625 min needed)"
         },
         {
           "name": "exposure",
