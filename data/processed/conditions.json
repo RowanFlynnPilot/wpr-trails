@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T05:20:02.291267+00:00",
+  "fetched_at": "2026-08-22T06:26:51.970404+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,19 +12,19 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.02,
-    "last_72h_in": 0.02
+    "last_24h_in": 0.04,
+    "last_72h_in": 0.04
   },
   "forecast": {
     "periods": [
       {
         "name": "Overnight",
-        "start_time": "2026-08-22T00:00:00-05:00",
+        "start_time": "2026-08-22T01:00:00-05:00",
         "end_time": "2026-08-22T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 55,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 5.0,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 3.0,
         "precip_chance": 3,
         "short_forecast": "Partly Cloudy"
       },
@@ -64,12 +64,12 @@
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.02,
-    "recent_precip_in_72h": 0.02,
+    "recent_precip_in_24h": 0.04,
+    "recent_precip_in_72h": 0.04,
     "forecast_temp_f": 78,
     "forecast_wind_mph": 15.0,
     "forecast_precip_chance": 3,
-    "daylight_remaining_minutes": 1164,
+    "daylight_remaining_minutes": 1098,
     "active_closure_ids": []
   }
 }
