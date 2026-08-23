@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T03:43:31.395636+00:00",
+  "fetched_at": "2026-08-23T04:29:44.818154+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,7 +12,7 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.04,
+    "last_24h_in": 0.02,
     "last_72h_in": 0.05
   },
   "forecast": {
@@ -64,12 +64,12 @@
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.04,
+    "recent_precip_in_24h": 0.02,
     "recent_precip_in_72h": 0.05,
     "forecast_temp_f": 75,
     "forecast_wind_mph": 10.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1259,
+    "daylight_remaining_minutes": 1213,
     "active_closure_ids": []
   }
 }
