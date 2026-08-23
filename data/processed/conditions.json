@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T13:26:41.444718+00:00",
+  "fetched_at": "2026-08-23T14:15:59.011643+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -69,7 +69,7 @@
     "forecast_temp_f": 74,
     "forecast_wind_mph": 10.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 676,
+    "daylight_remaining_minutes": 627,
     "active_closure_ids": []
   }
 }
