@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T05:22:13.552526+00:00",
+  "fetched_at": "2026-08-23T06:28:09.517684+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,19 +12,19 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.02,
+    "last_24h_in": 0.01,
     "last_72h_in": 0.05
   },
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-08-22T22:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-08-23T01:00:00-05:00",
         "end_time": "2026-08-23T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 49,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 5.0,
         "precip_chance": 0,
         "short_forecast": "Mostly Clear"
       },
@@ -33,43 +33,43 @@
         "start_time": "2026-08-23T06:00:00-05:00",
         "end_time": "2026-08-23T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 75,
+        "temp_f": 74,
         "wind_mph_low": 5.0,
         "wind_mph_high": 10.0,
         "precip_chance": 0,
-        "short_forecast": "Mostly Sunny"
+        "short_forecast": "Sunny"
       },
       {
         "name": "Sunday Night",
         "start_time": "2026-08-23T18:00:00-05:00",
         "end_time": "2026-08-24T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 45,
+        "temp_f": 43,
         "wind_mph_low": 1.0,
-        "wind_mph_high": 8.0,
+        "wind_mph_high": 9.0,
         "precip_chance": 0,
-        "short_forecast": "Mostly Clear"
+        "short_forecast": "Mostly Clear then Patchy Fog"
       },
       {
         "name": "Monday",
         "start_time": "2026-08-24T06:00:00-05:00",
         "end_time": "2026-08-24T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 78,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 3.0,
+        "temp_f": 77,
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 5.0,
         "precip_chance": 0,
-        "short_forecast": "Mostly Sunny"
+        "short_forecast": "Patchy Fog then Sunny"
       }
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.02,
+    "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.05,
-    "forecast_temp_f": 75,
+    "forecast_temp_f": 74,
     "forecast_wind_mph": 10.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1161,
+    "daylight_remaining_minutes": 1095,
     "active_closure_ids": []
   }
 }
