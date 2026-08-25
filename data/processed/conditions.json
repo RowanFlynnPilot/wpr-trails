@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T17:24:43.113130+00:00",
+  "fetched_at": "2026-08-25T18:28:36.447655+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,11 +19,11 @@
     "periods": [
       {
         "name": "This Afternoon",
-        "start_time": "2026-08-25T12:00:00-05:00",
+        "start_time": "2026-08-25T13:00:00-05:00",
         "end_time": "2026-08-25T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 81,
-        "wind_mph_low": 9.0,
+        "wind_mph_low": 13.0,
         "wind_mph_high": 13.0,
         "precip_chance": 8,
         "short_forecast": "Partly Sunny"
@@ -69,7 +69,7 @@
     "forecast_temp_f": 81,
     "forecast_wind_mph": 13.0,
     "forecast_precip_chance": 8,
-    "daylight_remaining_minutes": 435,
+    "daylight_remaining_minutes": 371,
     "active_closure_ids": []
   }
 }
