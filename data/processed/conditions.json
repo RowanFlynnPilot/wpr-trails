@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29T14:52:24.250635+00:00",
+  "fetched_at": "2026-08-29T18:05:34.324164+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,14 +18,14 @@
   "forecast": {
     "periods": [
       {
-        "name": "Today",
-        "start_time": "2026-08-29T09:00:00-05:00",
+        "name": "This Afternoon",
+        "start_time": "2026-08-29T13:00:00-05:00",
         "end_time": "2026-08-29T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 71,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 9.0,
-        "precip_chance": 90,
+        "temp_f": 70,
+        "wind_mph_low": 12.0,
+        "wind_mph_high": 12.0,
+        "precip_chance": 93,
         "short_forecast": "Showers And Thunderstorms"
       },
       {
@@ -33,22 +33,22 @@
         "start_time": "2026-08-29T18:00:00-05:00",
         "end_time": "2026-08-30T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 62,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 9.0,
-        "precip_chance": 42,
-        "short_forecast": "Chance Showers And Thunderstorms"
+        "temp_f": 63,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 44,
+        "short_forecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms"
       },
       {
         "name": "Sunday",
         "start_time": "2026-08-30T06:00:00-05:00",
         "end_time": "2026-08-30T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 82,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 8.0,
+        "temp_f": 83,
+        "wind_mph_low": 6.0,
+        "wind_mph_high": 6.0,
         "precip_chance": 27,
-        "short_forecast": "Patchy Fog then Chance Showers And Thunderstorms"
+        "short_forecast": "Chance Showers And Thunderstorms"
       },
       {
         "name": "Sunday Night",
@@ -66,10 +66,10 @@
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 71,
-    "forecast_wind_mph": 9.0,
-    "forecast_precip_chance": 90,
-    "daylight_remaining_minutes": 581,
+    "forecast_temp_f": 70,
+    "forecast_wind_mph": 12.0,
+    "forecast_precip_chance": 93,
+    "daylight_remaining_minutes": 388,
     "active_closure_ids": []
   }
 }
