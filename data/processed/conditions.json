@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-03T07:35:33.358826+00:00",
+  "fetched_at": "2026-09-03T12:26:15.931614+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,24 +12,13 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.14,
+    "last_24h_in": 0.0,
     "last_72h_in": 0.14
   },
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-09-03T02:00:00-05:00",
-        "end_time": "2026-09-03T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 63,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 20,
-        "short_forecast": "Patchy Fog"
-      },
-      {
-        "name": "Thursday",
+        "name": "Today",
         "start_time": "2026-09-03T06:00:00-05:00",
         "end_time": "2026-09-03T18:00:00-05:00",
         "is_daytime": true,
@@ -40,7 +29,7 @@
         "short_forecast": "Patchy Fog"
       },
       {
-        "name": "Thursday Night",
+        "name": "Tonight",
         "start_time": "2026-09-03T18:00:00-05:00",
         "end_time": "2026-09-04T06:00:00-05:00",
         "is_daytime": false,
@@ -60,16 +49,27 @@
         "wind_mph_high": 7.0,
         "precip_chance": 36,
         "short_forecast": "Chance Showers And Thunderstorms"
+      },
+      {
+        "name": "Friday Night",
+        "start_time": "2026-09-04T18:00:00-05:00",
+        "end_time": "2026-09-05T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 63,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 8.0,
+        "precip_chance": 28,
+        "short_forecast": "Chance Showers And Thunderstorms"
       }
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.14,
+    "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.14,
     "forecast_temp_f": 80,
     "forecast_wind_mph": 8.0,
     "forecast_precip_chance": 68,
-    "daylight_remaining_minutes": 1010,
+    "daylight_remaining_minutes": 720,
     "active_closure_ids": []
   }
 }
