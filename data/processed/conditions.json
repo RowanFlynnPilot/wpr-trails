@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T05:18:46.492734+00:00",
+  "fetched_at": "2026-09-04T10:18:23.344873+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,64 +12,64 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.06,
-    "last_72h_in": 0.2
+    "last_24h_in": 0.27,
+    "last_72h_in": 0.27
   },
   "forecast": {
     "periods": [
       {
         "name": "Overnight",
-        "start_time": "2026-09-04T00:00:00-05:00",
+        "start_time": "2026-09-04T05:00:00-05:00",
         "end_time": "2026-09-04T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 65,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
-        "precip_chance": 86,
-        "short_forecast": "Showers And Thunderstorms Likely"
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 34,
+        "short_forecast": "Scattered Showers And Thunderstorms"
       },
       {
         "name": "Friday",
         "start_time": "2026-09-04T06:00:00-05:00",
         "end_time": "2026-09-04T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 82,
+        "temp_f": 86,
         "wind_mph_low": 7.0,
         "wind_mph_high": 7.0,
-        "precip_chance": 40,
-        "short_forecast": "Chance Showers And Thunderstorms then Mostly Cloudy"
+        "precip_chance": 30,
+        "short_forecast": "Scattered Showers And Thunderstorms then Partly Sunny"
       },
       {
         "name": "Friday Night",
         "start_time": "2026-09-04T18:00:00-05:00",
         "end_time": "2026-09-05T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 64,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 7.0,
-        "precip_chance": 37,
-        "short_forecast": "Chance Showers And Thunderstorms"
+        "temp_f": 65,
+        "wind_mph_low": 2.0,
+        "wind_mph_high": 6.0,
+        "precip_chance": 25,
+        "short_forecast": "Chance Rain Showers then Areas Of Fog"
       },
       {
         "name": "Saturday",
         "start_time": "2026-09-05T06:00:00-05:00",
         "end_time": "2026-09-05T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 81,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
-        "precip_chance": 37,
-        "short_forecast": "Chance Rain Showers then Partly Sunny"
+        "temp_f": 82,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 6,
+        "short_forecast": "Areas Of Fog then Mostly Sunny"
       }
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.06,
-    "recent_precip_in_72h": 0.2,
-    "forecast_temp_f": 82,
+    "recent_precip_in_24h": 0.27,
+    "recent_precip_in_72h": 0.27,
+    "forecast_temp_f": 86,
     "forecast_wind_mph": 7.0,
-    "forecast_precip_chance": 40,
-    "daylight_remaining_minutes": 1146,
+    "forecast_precip_chance": 30,
+    "daylight_remaining_minutes": 846,
     "active_closure_ids": []
   }
 }
