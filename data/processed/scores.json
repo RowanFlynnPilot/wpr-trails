@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-09-09T00:56:45.043260+00:00",
+  "computed_at": "2026-09-09T05:41:50.376760+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.01,
     "recent_precip_in_72h": 0.01,
     "forecast_temp_f": 79,
     "forecast_wind_mph": 17.0,
-    "forecast_precip_chance": 3,
-    "daylight_remaining_minutes": 1400,
+    "forecast_precip_chance": 1,
+    "daylight_remaining_minutes": 1115,
     "active_closure_ids": []
   },
   "active_alerts": [],
@@ -7492,50 +7492,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
-      "score": 86.6,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.995,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-alta-junction",
       "name": "Ice Age Trail - Alta Junction",
       "score": 86.5,
@@ -8462,50 +8418,6 @@
     {
       "trail_id": "osm-iat---grandfather-falls-turtle-rock-connection",
       "name": "IAT - Grandfather Falls-Turtle Rock connection",
-      "score": 86.5,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.989,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
       "score": 86.5,
       "factors": [
         {
@@ -13608,50 +13520,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
-      "score": 86.5,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.989,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-pond-road-no-1",
       "name": "Pond Road No 1",
       "score": 86.5,
@@ -14708,8 +14576,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-wolf-river-state-trail",
-      "name": "Wolf River State Trail",
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
       "score": 82.1,
       "factors": [
         {
@@ -14752,8 +14620,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---lake-eleven-cornell-connection",
-      "name": "IAT - Lake Eleven-Cornell connection",
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
       "score": 82.0,
       "factors": [
         {
@@ -14798,6 +14666,50 @@
     {
       "trail_id": "osmway-merrilian-to-marshfield",
       "name": "Merrilian to Marshfield",
+      "score": 82.0,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.989,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
       "score": 82.0,
       "factors": [
         {
@@ -14943,6 +14855,94 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~2776 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-wolf-river-state-trail",
+      "name": "Wolf River State Trail",
+      "score": 74.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.995,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1176 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---lake-eleven-cornell-connection",
+      "name": "IAT - Lake Eleven-Cornell connection",
+      "score": 74.5,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.989,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1227 min needed)"
         },
         {
           "name": "exposure",
