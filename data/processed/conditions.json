@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T07:43:50.823534+00:00",
+  "fetched_at": "2026-09-10T12:34:29.435841+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -13,24 +13,13 @@
   },
   "precipitation": {
     "last_24h_in": 0.0,
-    "last_72h_in": 0.02
+    "last_72h_in": 0.01
   },
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-09-10T02:00:00-05:00",
-        "end_time": "2026-09-10T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 51,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 5.0,
-        "precip_chance": 0,
-        "short_forecast": "Mostly Clear"
-      },
-      {
-        "name": "Thursday",
-        "start_time": "2026-09-10T06:00:00-05:00",
+        "name": "Today",
+        "start_time": "2026-09-10T07:00:00-05:00",
         "end_time": "2026-09-10T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 75,
@@ -40,7 +29,7 @@
         "short_forecast": "Sunny"
       },
       {
-        "name": "Thursday Night",
+        "name": "Tonight",
         "start_time": "2026-09-10T18:00:00-05:00",
         "end_time": "2026-09-11T06:00:00-05:00",
         "is_daytime": false,
@@ -60,16 +49,27 @@
         "wind_mph_high": 13.0,
         "precip_chance": 1,
         "short_forecast": "Mostly Sunny"
+      },
+      {
+        "name": "Friday Night",
+        "start_time": "2026-09-11T18:00:00-05:00",
+        "end_time": "2026-09-12T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 61,
+        "wind_mph_low": 12.0,
+        "wind_mph_high": 12.0,
+        "precip_chance": 46,
+        "short_forecast": "Mostly Cloudy then Chance Showers And Thunderstorms"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
-    "recent_precip_in_72h": 0.02,
+    "recent_precip_in_72h": 0.01,
     "forecast_temp_f": 75,
     "forecast_wind_mph": 7.0,
     "forecast_precip_chance": 1,
-    "daylight_remaining_minutes": 991,
+    "daylight_remaining_minutes": 700,
     "active_closure_ids": []
   }
 }
