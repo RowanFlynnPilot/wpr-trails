@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T10:48:03.220273+00:00",
+  "fetched_at": "2026-09-15T19:24:22.967435+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,48 +18,48 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-09-15T05:00:00-05:00",
-        "end_time": "2026-09-15T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 54,
-        "wind_mph_low": 9.0,
-        "wind_mph_high": 9.0,
-        "precip_chance": 15,
-        "short_forecast": "Slight Chance Drizzle"
-      },
-      {
-        "name": "Tuesday",
-        "start_time": "2026-09-15T06:00:00-05:00",
+        "name": "This Afternoon",
+        "start_time": "2026-09-15T14:00:00-05:00",
         "end_time": "2026-09-15T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 72,
-        "wind_mph_low": 10.0,
+        "wind_mph_low": 13.0,
         "wind_mph_high": 17.0,
-        "precip_chance": 15,
-        "short_forecast": "Slight Chance Drizzle then Partly Sunny"
+        "precip_chance": 0,
+        "short_forecast": "Mostly Cloudy"
       },
       {
-        "name": "Tuesday Night",
+        "name": "Tonight",
         "start_time": "2026-09-15T18:00:00-05:00",
         "end_time": "2026-09-16T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 45,
-        "wind_mph_low": 2.0,
+        "temp_f": 47,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 9.0,
         "precip_chance": 0,
-        "short_forecast": "Mostly Clear"
+        "short_forecast": "Mostly Cloudy"
       },
       {
         "name": "Wednesday",
         "start_time": "2026-09-16T06:00:00-05:00",
         "end_time": "2026-09-16T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 71,
-        "wind_mph_low": 2.0,
+        "temp_f": 73,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 6.0,
         "precip_chance": 0,
-        "short_forecast": "Sunny"
+        "short_forecast": "Mostly Sunny"
+      },
+      {
+        "name": "Wednesday Night",
+        "start_time": "2026-09-16T18:00:00-05:00",
+        "end_time": "2026-09-17T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 53,
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 33,
+        "short_forecast": "Chance Rain Showers"
       }
     ]
   },
@@ -68,8 +68,8 @@
     "recent_precip_in_72h": 0.37,
     "forecast_temp_f": 72,
     "forecast_wind_mph": 17.0,
-    "forecast_precip_chance": 15,
-    "daylight_remaining_minutes": 799,
+    "forecast_precip_chance": 0,
+    "daylight_remaining_minutes": 282,
     "active_closure_ids": []
   }
 }
