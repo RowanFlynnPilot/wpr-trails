@@ -1,60 +1,16 @@
 {
-  "computed_at": "2026-09-17T10:48:18.742554+00:00",
+  "computed_at": "2026-09-17T15:23:36.998687+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.56,
     "recent_precip_in_72h": 0.56,
     "forecast_temp_f": 73,
     "forecast_wind_mph": 3.0,
-    "forecast_precip_chance": 19,
-    "daylight_remaining_minutes": 795,
+    "forecast_precip_chance": 5,
+    "daylight_remaining_minutes": 520,
     "active_closure_ids": []
   },
   "active_alerts": [],
   "ranked": [
-    {
-      "trail_id": "iat-harrison-hills",
-      "name": "Ice Age Trail - Harrison Hills",
-      "score": 91.7,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.877,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Peak fall color season"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.85,
-          "weight": 0.1,
-          "note": "Verified 140 days ago"
-        }
-      ],
-      "hard_filters_failed": []
-    },
     {
       "trail_id": "osm-homestead-loop-trail",
       "name": "Homestead Loop Trail",
@@ -584,6 +540,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-harrison-hills",
+      "name": "Ice Age Trail - Harrison Hills",
+      "score": 87.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.877,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 1.0,
+          "weight": 0.15,
+          "note": "Peak fall color season"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.85,
+          "weight": 0.1,
+          "note": "Verified 140 days ago"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "iat-dells-of-the-eau-claire",
       "name": "Ice Age Trail - Dells of the Eau Claire",
       "score": 87.0,
@@ -936,50 +936,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-kettlebowl",
-      "name": "Ice Age Trail - Kettlebowl",
-      "score": 83.7,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.877,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osm-dynamite-trail",
       "name": "Dynamite Trail",
       "score": 83.7,
@@ -1070,50 +1026,6 @@
     {
       "trail_id": "osm-iat---antigo-heights-connector",
       "name": "IAT - Antigo Heights connector",
-      "score": 83.7,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.877,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---deerfield-emmons-creek-connection",
-      "name": "IAT - Deerfield-Emmons Creek connection",
       "score": 83.7,
       "factors": [
         {
@@ -3532,8 +3444,52 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-bearskin-state-trail",
-      "name": "Bearskin State Trail",
+      "trail_id": "iat-kettlebowl",
+      "name": "Ice Age Trail - Kettlebowl",
+      "score": 79.2,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.877,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---deerfield-emmons-creek-connection",
+      "name": "IAT - Deerfield-Emmons Creek connection",
       "score": 79.2,
       "factors": [
         {
@@ -3664,140 +3620,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-lumbercamp",
-      "name": "Ice Age Trail - Lumbercamp",
-      "score": 79.0,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.692,
-          "weight": 0.25,
-          "note": "Some muddy spots possible"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-rib-lake",
       "name": "Ice Age Trail - Rib Lake",
-      "score": 79.0,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.692,
-          "weight": 0.25,
-          "note": "Some muddy spots possible"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-summit-moraine",
-      "name": "Ice Age Trail - Summit Moraine",
-      "score": 79.0,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.692,
-          "weight": 0.25,
-          "note": "Some muddy spots possible"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-wood-lake",
-      "name": "Ice Age Trail - Wood Lake",
       "score": 79.0,
       "factors": [
         {
@@ -5996,50 +5820,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-forest-trail-3510",
-      "name": "Forest Trail 3510",
-      "score": 79.0,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.692,
-          "weight": 0.25,
-          "note": "Some muddy spots possible"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-forest-trail-3522",
       "name": "Forest Trail 3522",
       "score": 79.0,
@@ -6174,50 +5954,6 @@
     {
       "trail_id": "osmway-heinemania",
       "name": "Heinemania",
-      "score": 79.0,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.692,
-          "weight": 0.25,
-          "note": "Some muddy spots possible"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-hidden-lakes-trail",
-      "name": "Hidden Lakes Trail",
       "score": 79.0,
       "factors": [
         {
@@ -7492,8 +7228,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-north-wiouwash-state-recreation-trail",
-      "name": "North Wiouwash State Recreation Trail",
+      "trail_id": "iat-lumbercamp",
+      "name": "Ice Age Trail - Lumbercamp",
       "score": 74.6,
       "factors": [
         {
@@ -7507,6 +7243,226 @@
           "value": 0.7,
           "weight": 0.15,
           "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-summit-moraine",
+      "name": "Ice Age Trail - Summit Moraine",
+      "score": 74.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.692,
+          "weight": 0.25,
+          "note": "Some muddy spots possible"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-wood-lake",
+      "name": "Ice Age Trail - Wood Lake",
+      "score": 74.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.692,
+          "weight": 0.25,
+          "note": "Some muddy spots possible"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-forest-trail-3510",
+      "name": "Forest Trail 3510",
+      "score": 74.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.692,
+          "weight": 0.25,
+          "note": "Some muddy spots possible"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-hidden-lakes-trail",
+      "name": "Hidden Lakes Trail",
+      "score": 74.6,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.692,
+          "weight": 0.25,
+          "note": "Some muddy spots possible"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-bearskin-state-trail",
+      "name": "Bearskin State Trail",
+      "score": 71.7,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.877,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~625 min needed)"
         },
         {
           "name": "exposure",
@@ -7668,138 +7624,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "iat-jerry-lake",
-      "name": "Ice Age Trail - Jerry Lake",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-lake-eleven",
-      "name": "Ice Age Trail - Lake Eleven",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-mondeaux-esker",
-      "name": "Ice Age Trail - Mondeaux Esker",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "iat-new-hope",
       "name": "Ice Age Trail - New Hope",
       "score": 71.4,
@@ -7846,50 +7670,6 @@
     {
       "trail_id": "iat-new-wood",
       "name": "Ice Age Trail - New Wood",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "iat-parrish-hills",
-      "name": "Ice Age Trail - Parrish Hills",
       "score": 71.4,
       "factors": [
         {
@@ -8550,50 +8330,6 @@
     {
       "trail_id": "osm-iat---thornapple-creek-dells-of-the-eau-claire-connector",
       "name": "IAT - Thornapple Creek-Dells of the Eau Claire connector",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---underdown-grandfather-falls-connection",
-      "name": "IAT - Underdown-Grandfather Falls connection",
       "score": 71.4,
       "factors": [
         {
@@ -9428,50 +9164,6 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-flambeau-atv-trail-101",
-      "name": "Flambeau ATV Trail 101",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-flambeau-atv-trail-102",
       "name": "Flambeau ATV Trail 102",
       "score": 71.4,
@@ -9518,50 +9210,6 @@
     {
       "trail_id": "osmway-flambeau-atv-trail-104",
       "name": "Flambeau ATV Trail 104",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-flambeau-atv-trail-121",
-      "name": "Flambeau ATV Trail 121",
       "score": 71.4,
       "factors": [
         {
@@ -12200,96 +11848,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-forest-trail-300",
-      "name": "Forest Trail 300",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
       "trail_id": "osmway-forest-trail-301",
       "name": "Forest Trail 301",
-      "score": 71.4,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.384,
-          "weight": 0.25,
-          "note": "Likely muddy (0.6\" in 72h)"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-forest-trail-302",
-      "name": "Forest Trail 302",
       "score": 71.4,
       "factors": [
         {
@@ -14488,6 +14048,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "osm-north-wiouwash-state-recreation-trail",
+      "name": "North Wiouwash State Recreation Trail",
+      "score": 67.1,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.692,
+          "weight": 0.25,
+          "note": "Some muddy spots possible"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~546 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osmway-shawano---crandon-line",
       "name": "Shawano - Crandon Line",
       "score": 67.1,
@@ -14664,8 +14268,8 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
+      "trail_id": "iat-jerry-lake",
+      "name": "Ice Age Trail - Jerry Lake",
       "score": 66.9,
       "factors": [
         {
@@ -14708,8 +14312,272 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-wiouwash-state-recreation-trail",
-      "name": "Wiouwash State Recreation Trail",
+      "trail_id": "iat-mondeaux-esker",
+      "name": "Ice Age Trail - Mondeaux Esker",
+      "score": 66.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "iat-parrish-hills",
+      "name": "Ice Age Trail - Parrish Hills",
+      "score": 66.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---underdown-grandfather-falls-connection",
+      "name": "IAT - Underdown-Grandfather Falls connection",
+      "score": 66.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-flambeau-atv-trail-101",
+      "name": "Flambeau ATV Trail 101",
+      "score": 66.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-flambeau-atv-trail-121",
+      "name": "Flambeau ATV Trail 121",
+      "score": 66.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-forest-trail-300",
+      "name": "Forest Trail 300",
+      "score": 66.9,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-forest-trail-302",
+      "name": "Forest Trail 302",
       "score": 66.9,
       "factors": [
         {
@@ -14840,6 +14708,50 @@
       "hard_filters_failed": []
     },
     {
+      "trail_id": "iat-lake-eleven",
+      "name": "Ice Age Trail - Lake Eleven",
+      "score": 59.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~527 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
       "trail_id": "osm-iat---lake-eleven-cornell-connection",
       "name": "IAT - Lake Eleven-Cornell connection",
       "score": 59.3,
@@ -14855,6 +14767,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~1227 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
+      "score": 59.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~781 min needed)"
         },
         {
           "name": "exposure",
@@ -14943,6 +14899,50 @@
           "value": 0.2,
           "weight": 0.15,
           "note": "Not enough daylight (~815 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-wiouwash-state-recreation-trail",
+      "name": "Wiouwash State Recreation Trail",
+      "score": 59.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.384,
+          "weight": 0.25,
+          "note": "Likely muddy (0.6\" in 72h)"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~715 min needed)"
         },
         {
           "name": "exposure",
