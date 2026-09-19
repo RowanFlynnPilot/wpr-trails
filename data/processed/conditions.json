@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T00:56:11.839537+00:00",
+  "fetched_at": "2026-09-19T05:27:30.903920+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,15 +18,15 @@
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-09-18T18:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-09-19T00:00:00-05:00",
         "end_time": "2026-09-19T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 53,
-        "wind_mph_low": 12.0,
-        "wind_mph_high": 12.0,
-        "precip_chance": 90,
-        "short_forecast": "Rain Showers"
+        "temp_f": 54,
+        "wind_mph_low": 10.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 65,
+        "short_forecast": "Showers And Thunderstorms Likely"
       },
       {
         "name": "Saturday",
@@ -36,15 +36,15 @@
         "temp_f": 63,
         "wind_mph_low": 10.0,
         "wind_mph_high": 14.0,
-        "precip_chance": 77,
-        "short_forecast": "Showers And Thunderstorms"
+        "precip_chance": 74,
+        "short_forecast": "Rain Showers Likely"
       },
       {
         "name": "Saturday Night",
         "start_time": "2026-09-19T18:00:00-05:00",
         "end_time": "2026-09-20T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 50,
+        "temp_f": 49,
         "wind_mph_low": 6.0,
         "wind_mph_high": 10.0,
         "precip_chance": 64,
@@ -68,8 +68,8 @@
     "recent_precip_in_72h": 0.56,
     "forecast_temp_f": 63,
     "forecast_wind_mph": 14.0,
-    "forecast_precip_chance": 77,
-    "daylight_remaining_minutes": 1384,
+    "forecast_precip_chance": 74,
+    "daylight_remaining_minutes": 1113,
     "active_closure_ids": []
   }
 }
