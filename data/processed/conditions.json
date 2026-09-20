@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-20T17:12:33.619080+00:00",
+  "fetched_at": "2026-09-20T20:06:02.261624+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -19,14 +19,14 @@
     "periods": [
       {
         "name": "This Afternoon",
-        "start_time": "2026-09-20T12:00:00-05:00",
+        "start_time": "2026-09-20T14:00:00-05:00",
         "end_time": "2026-09-20T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 68,
+        "temp_f": 67,
         "wind_mph_low": 13.0,
         "wind_mph_high": 13.0,
-        "precip_chance": 0,
-        "short_forecast": "Mostly Cloudy"
+        "precip_chance": 11,
+        "short_forecast": "Chance Rain Showers"
       },
       {
         "name": "Tonight",
@@ -36,7 +36,7 @@
         "temp_f": 43,
         "wind_mph_low": 10.0,
         "wind_mph_high": 10.0,
-        "precip_chance": 0,
+        "precip_chance": 6,
         "short_forecast": "Mostly Cloudy"
       },
       {
@@ -66,10 +66,10 @@
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.02,
-    "forecast_temp_f": 68,
+    "forecast_temp_f": 67,
     "forecast_wind_mph": 13.0,
-    "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 406,
+    "forecast_precip_chance": 11,
+    "daylight_remaining_minutes": 233,
     "active_closure_ids": []
   }
 }
