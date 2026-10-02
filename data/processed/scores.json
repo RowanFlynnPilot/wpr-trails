@@ -1,24 +1,32 @@
 {
-  "computed_at": "2026-10-02T00:24:00.169859+00:00",
+  "computed_at": "2026-10-02T06:31:38.176138+00:00",
   "conditions_summary": {
     "recent_precip_in_24h": 0.0,
-    "recent_precip_in_72h": 0.06,
+    "recent_precip_in_72h": 0.05,
     "forecast_temp_f": 63,
     "forecast_wind_mph": 8.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 1396,
+    "daylight_remaining_minutes": 1028,
     "active_closure_ids": []
   },
-  "active_alerts": [],
+  "active_alerts": [
+    {
+      "event": "Frost Advisory",
+      "severity": "Minor",
+      "headline": "Frost Advisory issued October 2 at 1:00AM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "area_desc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Southern Marinette County; Southern Oconto County",
+      "ends": "2026-10-03T07:00:00-05:00"
+    }
+  ],
   "ranked": [
     {
       "trail_id": "iat-harrison-hills",
       "name": "Ice Age Trail - Harrison Hills",
-      "score": 94.6,
+      "score": 94.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -58,11 +66,11 @@
     {
       "trail_id": "osm-homestead-loop-trail",
       "name": "Homestead Loop Trail",
-      "score": 94.6,
+      "score": 94.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -106,7 +114,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -150,7 +158,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -190,11 +198,11 @@
     {
       "trail_id": "iat-plover-river",
       "name": "Ice Age Trail - Plover River",
-      "score": 94.2,
+      "score": 94.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -234,11 +242,11 @@
     {
       "trail_id": "iat-grandfather-falls",
       "name": "Ice Age Trail - Grandfather Falls",
-      "score": 93.6,
+      "score": 93.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -278,11 +286,11 @@
     {
       "trail_id": "osm-turkey-vulture-trail",
       "name": "Turkey Vulture Trail",
-      "score": 91.6,
+      "score": 91.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -322,11 +330,11 @@
     {
       "trail_id": "osm-yellow-trail",
       "name": "Yellow Trail",
-      "score": 91.6,
+      "score": 91.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -366,11 +374,11 @@
     {
       "trail_id": "osmway-beaver-meadow-loop",
       "name": "Beaver Meadow Loop",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -410,11 +418,11 @@
     {
       "trail_id": "osmway-cliffhanger",
       "name": "Cliffhanger",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -454,11 +462,11 @@
     {
       "trail_id": "osmway-pine-run",
       "name": "Pine Run",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -498,11 +506,11 @@
     {
       "trail_id": "osmway-porky-point",
       "name": "Porky Point",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -542,11 +550,11 @@
     {
       "trail_id": "osmway-sidewinder",
       "name": "Sidewinder",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -586,11 +594,11 @@
     {
       "trail_id": "osmway-switchback",
       "name": "Switchback",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -630,11 +638,11 @@
     {
       "trail_id": "osmway-upper-glen",
       "name": "Upper Glen",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -674,11 +682,11 @@
     {
       "trail_id": "osmway-wildcat-loop",
       "name": "Wildcat Loop",
-      "score": 91.1,
+      "score": 91.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -722,7 +730,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -766,7 +774,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -810,7 +818,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -854,7 +862,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -894,11 +902,11 @@
     {
       "trail_id": "osm-big-eau-pleine-bridle-trail",
       "name": "Big Eau Pleine Bridle Trail",
-      "score": 90.7,
+      "score": 90.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -938,11 +946,11 @@
     {
       "trail_id": "osm-frog-chorus-trail",
       "name": "Frog Chorus Trail",
-      "score": 90.7,
+      "score": 90.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -982,11 +990,11 @@
     {
       "trail_id": "osm-trail-of-reflections",
       "name": "Trail of Reflections",
-      "score": 90.7,
+      "score": 90.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1026,11 +1034,11 @@
     {
       "trail_id": "osmway-green-circle-trail",
       "name": "Green Circle Trail",
-      "score": 90.7,
+      "score": 90.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1070,11 +1078,11 @@
     {
       "trail_id": "osmway-homestead-trail",
       "name": "Homestead Trail",
-      "score": 90.7,
+      "score": 90.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1114,11 +1122,11 @@
     {
       "trail_id": "osmway-lake-loop-trail",
       "name": "Lake Loop Trail",
-      "score": 90.7,
+      "score": 90.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1158,11 +1166,11 @@
     {
       "trail_id": "osm-quarry-trail",
       "name": "Quarry Trail",
-      "score": 89.1,
+      "score": 89.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1202,11 +1210,11 @@
     {
       "trail_id": "osm-red-trail",
       "name": "Red Trail",
-      "score": 89.1,
+      "score": 89.2,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1246,11 +1254,11 @@
     {
       "trail_id": "iat-antigo-heights",
       "name": "Ice Age Trail - Antigo Heights",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1290,11 +1298,11 @@
     {
       "trail_id": "iat-emmons-creek",
       "name": "Ice Age Trail - Emmons Creek",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1334,11 +1342,11 @@
     {
       "trail_id": "iat-ice-override",
       "name": "Ice Age Trail - Ice Override",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1378,11 +1386,11 @@
     {
       "trail_id": "iat-iola-ski-hill",
       "name": "Ice Age Trail - Iola Ski Hill",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1422,11 +1430,11 @@
     {
       "trail_id": "iat-kettlebowl",
       "name": "Ice Age Trail - Kettlebowl",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1466,11 +1474,11 @@
     {
       "trail_id": "osm-dynamite-trail",
       "name": "Dynamite Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1510,11 +1518,11 @@
     {
       "trail_id": "osm-giant-hardwoods-nature-trail",
       "name": "Giant Hardwoods Nature Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1554,11 +1562,11 @@
     {
       "trail_id": "osm-iat---antigo-heights-connector",
       "name": "IAT - Antigo Heights connector",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1598,11 +1606,11 @@
     {
       "trail_id": "osm-iat---deerfield-emmons-creek-connection",
       "name": "IAT - Deerfield-Emmons Creek connection",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1642,11 +1650,11 @@
     {
       "trail_id": "osm-iat---ice-override-antigo-heights-connector",
       "name": "IAT - Ice Override-Antigo Heights connector",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1686,11 +1694,11 @@
     {
       "trail_id": "osm-iat---plover-river-ice-override-connector",
       "name": "IAT - Plover River-Ice Override connector",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1730,11 +1738,11 @@
     {
       "trail_id": "osm-iat---waupaca-river-connection",
       "name": "IAT - Waupaca River connection",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1774,11 +1782,11 @@
     {
       "trail_id": "osm-iat---white-cedar-ringle-connector",
       "name": "IAT - White Cedar-Ringle connector",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1818,11 +1826,11 @@
     {
       "trail_id": "osm-nature-trail-loop",
       "name": "Nature Trail Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1862,11 +1870,11 @@
     {
       "trail_id": "osm-sevenmile-trail",
       "name": "Sevenmile Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1906,11 +1914,11 @@
     {
       "trail_id": "osm-south-unit-trail",
       "name": "South Unit Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1950,11 +1958,11 @@
     {
       "trail_id": "osmway-aldo-leopold-commemorative-trail",
       "name": "Aldo Leopold Commemorative Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -1994,11 +2002,11 @@
     {
       "trail_id": "osmway-anvil-butternut-trail",
       "name": "Anvil Butternut Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2038,11 +2046,11 @@
     {
       "trail_id": "osmway-b-loop",
       "name": "B Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2082,11 +2090,11 @@
     {
       "trail_id": "osmway-boundary-trail",
       "name": "Boundary Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2126,11 +2134,11 @@
     {
       "trail_id": "osmway-brickyard",
       "name": "Brickyard",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2170,11 +2178,11 @@
     {
       "trail_id": "osmway-canoe-portage",
       "name": "Canoe Portage",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2214,11 +2222,11 @@
     {
       "trail_id": "osmway-cherry-hill-north",
       "name": "Cherry Hill North",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2258,11 +2266,11 @@
     {
       "trail_id": "osmway-cherry-hill-south",
       "name": "Cherry Hill South",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2302,11 +2310,11 @@
     {
       "trail_id": "osmway-east-levis",
       "name": "East Levis",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2346,11 +2354,11 @@
     {
       "trail_id": "osmway-forest-rd-2493",
       "name": "Forest Rd 2493",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2390,11 +2398,11 @@
     {
       "trail_id": "osmway-forest-road-1131",
       "name": "Forest Road 1131",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2434,11 +2442,11 @@
     {
       "trail_id": "osmway-forest-road-136a",
       "name": "Forest Road 136A",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2478,11 +2486,11 @@
     {
       "trail_id": "osmway-forest-road-2189",
       "name": "Forest Road 2189",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2522,11 +2530,11 @@
     {
       "trail_id": "osmway-forest-road-2494",
       "name": "Forest Road 2494",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2566,11 +2574,11 @@
     {
       "trail_id": "osmway-forest-road-2519",
       "name": "Forest Road 2519",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2610,11 +2618,11 @@
     {
       "trail_id": "osmway-forest-road-3861",
       "name": "Forest Road 3861",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2654,11 +2662,11 @@
     {
       "trail_id": "osmway-forest-trail-3543",
       "name": "Forest Trail 3543",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2698,11 +2706,11 @@
     {
       "trail_id": "osmway-giant-hardwoods-trail",
       "name": "Giant Hardwoods Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2742,11 +2750,11 @@
     {
       "trail_id": "osmway-green-circle-trail---paper-mill-trail",
       "name": "Green Circle Trail - Paper Mill Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2786,11 +2794,11 @@
     {
       "trail_id": "osmway-iat---emmons-creek-segment-faraway-valley-loop",
       "name": "IAT - Emmons Creek Segment Faraway Valley Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2830,11 +2838,11 @@
     {
       "trail_id": "osmway-jeep-trail",
       "name": "Jeep Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2874,11 +2882,11 @@
     {
       "trail_id": "osmway-lost-40",
       "name": "Lost 40",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2918,11 +2926,11 @@
     {
       "trail_id": "osmway-muskrat-trail",
       "name": "Muskrat Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -2962,11 +2970,11 @@
     {
       "trail_id": "osmway-national-forest-road-2357",
       "name": "National Forest Road 2357",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3006,11 +3014,11 @@
     {
       "trail_id": "osmway-national-forest-road-2386",
       "name": "National Forest Road 2386",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3050,11 +3058,11 @@
     {
       "trail_id": "osmway-national-forest-road-2430",
       "name": "National Forest Road 2430",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3094,11 +3102,11 @@
     {
       "trail_id": "osmway-nf-3522",
       "name": "NF-3522",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3138,11 +3146,11 @@
     {
       "trail_id": "osmway-northwest-passage",
       "name": "Northwest Passage",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3182,11 +3190,11 @@
     {
       "trail_id": "osmway-old-highway-18-alignment",
       "name": "Old Highway 18 alignment",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3226,11 +3234,11 @@
     {
       "trail_id": "osmway-oscar",
       "name": "Oscar",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3270,11 +3278,11 @@
     {
       "trail_id": "osmway-rock-the-wierzba",
       "name": "Rock the Wierzba",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3314,11 +3322,11 @@
     {
       "trail_id": "osmway-rookery",
       "name": "Rookery",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3358,11 +3366,11 @@
     {
       "trail_id": "osmway-rosholt-track-cross-counrtiy-tralis",
       "name": "Rosholt Track / Cross Counrtiy tralis",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3402,11 +3410,11 @@
     {
       "trail_id": "osmway-rosholt-track-cross-country-trails",
       "name": "Rosholt Track / Cross Country Trails",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3446,11 +3454,11 @@
     {
       "trail_id": "osmway-snowmobile-trail",
       "name": "snowmobile trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3490,11 +3498,11 @@
     {
       "trail_id": "osmway-tomorrow-river-trail",
       "name": "Tomorrow River Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3534,11 +3542,11 @@
     {
       "trail_id": "osmway-towering-pines-loop",
       "name": "Towering Pines Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3578,11 +3586,11 @@
     {
       "trail_id": "osmway-west-levis",
       "name": "West Levis",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3622,11 +3630,11 @@
     {
       "trail_id": "osmway-west-mtb-loop",
       "name": "West MTB Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3666,11 +3674,11 @@
     {
       "trail_id": "osmway-white-deer-lake-trail",
       "name": "White Deer Lake Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3710,11 +3718,11 @@
     {
       "trail_id": "osmway-xc-medium-loop",
       "name": "XC Medium Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3754,11 +3762,11 @@
     {
       "trail_id": "osmway-xc-short-loop",
       "name": "XC Short Loop",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3798,11 +3806,11 @@
     {
       "trail_id": "state-bearskin-state-trail",
       "name": "Bearskin State Trail",
-      "score": 86.6,
+      "score": 86.7,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.996,
+          "value": 0.997,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3846,7 +3854,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3890,7 +3898,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3934,7 +3942,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -3978,7 +3986,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4022,7 +4030,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4066,7 +4074,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4110,7 +4118,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4154,7 +4162,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4198,7 +4206,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4242,7 +4250,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4286,7 +4294,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4330,7 +4338,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4374,7 +4382,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4418,7 +4426,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4462,7 +4470,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4506,7 +4514,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4550,7 +4558,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4594,7 +4602,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4638,7 +4646,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4682,7 +4690,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4726,7 +4734,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4770,7 +4778,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4814,7 +4822,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4858,7 +4866,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4902,7 +4910,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4946,7 +4954,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -4990,7 +4998,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5034,7 +5042,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5078,7 +5086,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5122,7 +5130,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5166,7 +5174,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5210,7 +5218,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5254,7 +5262,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5298,7 +5306,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5342,7 +5350,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5386,7 +5394,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5430,7 +5438,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5474,7 +5482,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5518,7 +5526,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5562,7 +5570,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5606,7 +5614,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5650,7 +5658,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5694,7 +5702,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5738,7 +5746,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5782,7 +5790,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5826,7 +5834,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5870,7 +5878,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5914,7 +5922,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -5958,7 +5966,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6002,7 +6010,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6046,7 +6054,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6090,7 +6098,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6134,7 +6142,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6178,7 +6186,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6222,7 +6230,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6266,7 +6274,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6310,7 +6318,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6354,7 +6362,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6398,7 +6406,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6442,7 +6450,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6486,7 +6494,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6530,7 +6538,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6574,7 +6582,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6618,7 +6626,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6662,7 +6670,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6706,7 +6714,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6750,7 +6758,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6794,7 +6802,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6838,7 +6846,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6882,7 +6890,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6926,7 +6934,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -6970,7 +6978,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7014,7 +7022,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7058,7 +7066,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7102,7 +7110,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7146,7 +7154,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7190,7 +7198,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7234,7 +7242,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7278,7 +7286,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7322,7 +7330,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7366,7 +7374,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7410,7 +7418,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7454,51 +7462,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "state-tomorrow-river-state-trail",
-      "name": "Tomorrow River State Trail",
-      "score": 86.5,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7538,11 +7502,11 @@
     {
       "trail_id": "iat-alta-junction",
       "name": "Ice Age Trail - Alta Junction",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7582,11 +7546,11 @@
     {
       "trail_id": "iat-averill-kelly-creek-wilderness",
       "name": "Ice Age Trail - Averill-Kelly Creek Wilderness",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7626,11 +7590,11 @@
     {
       "trail_id": "iat-camp-27",
       "name": "Ice Age Trail - Camp 27",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7670,11 +7634,11 @@
     {
       "trail_id": "iat-jerry-lake",
       "name": "Ice Age Trail - Jerry Lake",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7714,11 +7678,11 @@
     {
       "trail_id": "iat-lake-eleven",
       "name": "Ice Age Trail - Lake Eleven",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7758,11 +7722,11 @@
     {
       "trail_id": "iat-mondeaux-esker",
       "name": "Ice Age Trail - Mondeaux Esker",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7802,11 +7766,11 @@
     {
       "trail_id": "iat-new-hope",
       "name": "Ice Age Trail - New Hope",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7846,11 +7810,11 @@
     {
       "trail_id": "iat-new-wood",
       "name": "Ice Age Trail - New Wood",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7890,11 +7854,11 @@
     {
       "trail_id": "iat-parrish-hills",
       "name": "Ice Age Trail - Parrish Hills",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7934,11 +7898,11 @@
     {
       "trail_id": "iat-pine-line",
       "name": "Ice Age Trail - Pine Line",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -7978,11 +7942,11 @@
     {
       "trail_id": "iat-ringle",
       "name": "Ice Age Trail - Ringle",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8022,11 +7986,11 @@
     {
       "trail_id": "iat-thornapple-creek",
       "name": "Ice Age Trail - Thornapple Creek",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8066,11 +8030,11 @@
     {
       "trail_id": "iat-timberland-wilderness",
       "name": "Ice Age Trail - Timberland Wilderness",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8110,11 +8074,11 @@
     {
       "trail_id": "iat-turtle-rock",
       "name": "Ice Age Trail - Turtle Rock",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8154,11 +8118,11 @@
     {
       "trail_id": "iat-underdown",
       "name": "Ice Age Trail - Underdown",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8198,11 +8162,11 @@
     {
       "trail_id": "iat-white-cedar",
       "name": "Ice Age Trail - White Cedar",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8242,11 +8206,11 @@
     {
       "trail_id": "osm-heritage-trail",
       "name": "Heritage Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8286,11 +8250,11 @@
     {
       "trail_id": "osm-iat---alta-junction-underdown-connection",
       "name": "IAT - Alta Junction-Underdown connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8330,11 +8294,11 @@
     {
       "trail_id": "osm-iat---averill-kelly-creek-wilderness-new-wood-connection",
       "name": "IAT - Averill-Kelly Creek Wilderness-New Wood connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8374,11 +8338,11 @@
     {
       "trail_id": "osm-iat---camp-27-tiberland-wilderness-connection",
       "name": "IAT - Camp 27-Tiberland Wilderness connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8418,11 +8382,11 @@
     {
       "trail_id": "osm-iat---dells-of-the-eau-claire-plover-river-connector",
       "name": "IAT - Dells of the Eau Claire-Plover River connector",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8462,55 +8426,11 @@
     {
       "trail_id": "osm-iat---grandfather-falls-turtle-rock-connection",
       "name": "IAT - Grandfather Falls-Turtle Rock connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osm-iat---new-hope-white-cedar-connector",
-      "name": "IAT - New Hope-White Cedar connector",
-      "score": 86.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8550,11 +8470,11 @@
     {
       "trail_id": "osm-iat---pine-line-mondeaux-esker-connection",
       "name": "IAT - Pine Line-Mondeaux Esker connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8594,11 +8514,11 @@
     {
       "trail_id": "osm-iat---thornapple-creek-dells-of-the-eau-claire-connector",
       "name": "IAT - Thornapple Creek-Dells of the Eau Claire connector",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8638,11 +8558,11 @@
     {
       "trail_id": "osm-iat---underdown-grandfather-falls-connection",
       "name": "IAT - Underdown-Grandfather Falls connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8682,11 +8602,11 @@
     {
       "trail_id": "osm-moses-creek-trail",
       "name": "Moses Creek Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8726,11 +8646,11 @@
     {
       "trail_id": "osm-pine-meadows-trail",
       "name": "Pine Meadows Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8770,11 +8690,11 @@
     {
       "trail_id": "osm-plank-trail",
       "name": "Plank Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8814,11 +8734,11 @@
     {
       "trail_id": "osm-sam-campbell-memorial-trail",
       "name": "Sam Campbell Memorial Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8858,11 +8778,11 @@
     {
       "trail_id": "osm-west-unit-trail",
       "name": "West Unit Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8902,11 +8822,11 @@
     {
       "trail_id": "osmway-a-loop",
       "name": "A Loop",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8946,11 +8866,11 @@
     {
       "trail_id": "osmway-ahdawagam-green-trail",
       "name": "Ahdawagam Green Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -8990,11 +8910,11 @@
     {
       "trail_id": "osmway-anvil-ninemile-trail",
       "name": "Anvil Ninemile Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9034,11 +8954,11 @@
     {
       "trail_id": "osmway-atv-route",
       "name": "ATV Route",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9078,11 +8998,11 @@
     {
       "trail_id": "osmway-bad-bear",
       "name": "Bad Bear",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9122,11 +9042,11 @@
     {
       "trail_id": "osmway-bakerville-snow-rovers-snowmobile-trail",
       "name": "Bakerville Snow Rovers Snowmobile Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9166,11 +9086,11 @@
     {
       "trail_id": "osmway-connor-flanner-railroad",
       "name": "Connor-Flanner Railroad",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9210,11 +9130,11 @@
     {
       "trail_id": "osmway-crandon---pelican-lake",
       "name": "Crandon - Pelican Lake",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9254,11 +9174,11 @@
     {
       "trail_id": "osmway-dalrymple-east-hunter-hiking-trail",
       "name": "Dalrymple East Hunter Hiking Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9298,11 +9218,11 @@
     {
       "trail_id": "osmway-eau-claire-river-trail",
       "name": "Eau Claire River Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9342,11 +9262,11 @@
     {
       "trail_id": "osmway-edgar-fenwood-trail",
       "name": "Edgar-Fenwood Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9386,11 +9306,11 @@
     {
       "trail_id": "osmway-field-multi-use-loop",
       "name": "Field Multi-Use Loop",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9430,11 +9350,11 @@
     {
       "trail_id": "osmway-fitness-trail",
       "name": "Fitness Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9474,11 +9394,11 @@
     {
       "trail_id": "osmway-flambeau-atv-trail-101",
       "name": "Flambeau ATV Trail 101",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9518,11 +9438,11 @@
     {
       "trail_id": "osmway-flambeau-atv-trail-102",
       "name": "Flambeau ATV Trail 102",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9562,11 +9482,11 @@
     {
       "trail_id": "osmway-flambeau-atv-trail-104",
       "name": "Flambeau ATV Trail 104",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9606,11 +9526,11 @@
     {
       "trail_id": "osmway-flambeau-atv-trail-121",
       "name": "Flambeau ATV Trail 121",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9650,11 +9570,11 @@
     {
       "trail_id": "osmway-forest-rd-2419",
       "name": "Forest Rd 2419",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9694,11 +9614,11 @@
     {
       "trail_id": "osmway-forest-road-100",
       "name": "Forest Road 100",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9738,11 +9658,11 @@
     {
       "trail_id": "osmway-forest-road-110",
       "name": "Forest Road 110",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9782,11 +9702,11 @@
     {
       "trail_id": "osmway-forest-road-1133",
       "name": "Forest Road 1133",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9826,11 +9746,11 @@
     {
       "trail_id": "osmway-forest-road-118-121a",
       "name": "Forest Road 118-121A",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9870,11 +9790,11 @@
     {
       "trail_id": "osmway-forest-road-130",
       "name": "Forest Road 130",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9914,11 +9834,11 @@
     {
       "trail_id": "osmway-forest-road-136",
       "name": "Forest Road 136",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -9958,11 +9878,11 @@
     {
       "trail_id": "osmway-forest-road-136e",
       "name": "Forest Road 136E",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10002,11 +9922,11 @@
     {
       "trail_id": "osmway-forest-road-139b",
       "name": "Forest Road 139B",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10046,11 +9966,11 @@
     {
       "trail_id": "osmway-forest-road-1419",
       "name": "Forest Road 1419",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10090,11 +10010,11 @@
     {
       "trail_id": "osmway-forest-road-1476",
       "name": "Forest Road 1476",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10134,11 +10054,11 @@
     {
       "trail_id": "osmway-forest-road-1502",
       "name": "Forest Road 1502",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10178,11 +10098,11 @@
     {
       "trail_id": "osmway-forest-road-1521",
       "name": "Forest Road 1521",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10222,11 +10142,11 @@
     {
       "trail_id": "osmway-forest-road-1521a",
       "name": "Forest Road 1521A",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10266,11 +10186,11 @@
     {
       "trail_id": "osmway-forest-road-1523",
       "name": "Forest Road 1523",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10310,11 +10230,11 @@
     {
       "trail_id": "osmway-forest-road-1528",
       "name": "Forest Road 1528",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10354,11 +10274,11 @@
     {
       "trail_id": "osmway-forest-road-1529",
       "name": "Forest Road 1529",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10398,11 +10318,11 @@
     {
       "trail_id": "osmway-forest-road-1531",
       "name": "Forest Road 1531",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10442,11 +10362,11 @@
     {
       "trail_id": "osmway-forest-road-1550",
       "name": "Forest Road 1550",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10486,11 +10406,11 @@
     {
       "trail_id": "osmway-forest-road-1553",
       "name": "Forest Road 1553",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10530,11 +10450,11 @@
     {
       "trail_id": "osmway-forest-road-1555",
       "name": "Forest Road 1555",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10574,11 +10494,11 @@
     {
       "trail_id": "osmway-forest-road-1557",
       "name": "Forest Road 1557",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10618,11 +10538,11 @@
     {
       "trail_id": "osmway-forest-road-1588",
       "name": "Forest Road 1588",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10662,11 +10582,11 @@
     {
       "trail_id": "osmway-forest-road-1597",
       "name": "Forest Road 1597",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10706,11 +10626,11 @@
     {
       "trail_id": "osmway-forest-road-2039",
       "name": "Forest Road 2039",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10750,11 +10670,11 @@
     {
       "trail_id": "osmway-forest-road-233",
       "name": "Forest Road 233",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10794,11 +10714,11 @@
     {
       "trail_id": "osmway-forest-road-2354",
       "name": "Forest Road 2354",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10838,11 +10758,11 @@
     {
       "trail_id": "osmway-forest-road-2411",
       "name": "Forest Road 2411",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10882,11 +10802,11 @@
     {
       "trail_id": "osmway-forest-road-265",
       "name": "Forest Road 265",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10926,11 +10846,11 @@
     {
       "trail_id": "osmway-forest-road-2700",
       "name": "Forest Road 2700",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -10970,11 +10890,11 @@
     {
       "trail_id": "osmway-forest-road-2864",
       "name": "Forest Road 2864",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11014,11 +10934,11 @@
     {
       "trail_id": "osmway-forest-road-430",
       "name": "Forest Road 430",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11058,11 +10978,11 @@
     {
       "trail_id": "osmway-forest-road-498",
       "name": "Forest Road 498",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11102,11 +11022,11 @@
     {
       "trail_id": "osmway-forest-road-508l",
       "name": "Forest Road 508L",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11146,11 +11066,11 @@
     {
       "trail_id": "osmway-forest-road-510",
       "name": "Forest Road 510",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11190,11 +11110,11 @@
     {
       "trail_id": "osmway-forest-road-511",
       "name": "Forest Road 511",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11234,11 +11154,11 @@
     {
       "trail_id": "osmway-forest-road-512",
       "name": "Forest Road 512",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11278,11 +11198,11 @@
     {
       "trail_id": "osmway-forest-road-515",
       "name": "Forest Road 515",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11322,11 +11242,11 @@
     {
       "trail_id": "osmway-forest-road-518",
       "name": "Forest Road 518",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11366,11 +11286,11 @@
     {
       "trail_id": "osmway-forest-road-522",
       "name": "Forest Road 522",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11410,11 +11330,11 @@
     {
       "trail_id": "osmway-forest-road-528",
       "name": "Forest Road 528",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11454,11 +11374,11 @@
     {
       "trail_id": "osmway-forest-road-534",
       "name": "Forest Road 534",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11498,11 +11418,11 @@
     {
       "trail_id": "osmway-forest-road-536",
       "name": "Forest Road 536",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11542,11 +11462,11 @@
     {
       "trail_id": "osmway-forest-road-537",
       "name": "Forest Road 537",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11586,11 +11506,11 @@
     {
       "trail_id": "osmway-forest-road-538",
       "name": "Forest Road 538",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11630,11 +11550,11 @@
     {
       "trail_id": "osmway-forest-road-543",
       "name": "Forest Road 543",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11674,11 +11594,11 @@
     {
       "trail_id": "osmway-forest-road-547",
       "name": "Forest Road 547",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11718,11 +11638,11 @@
     {
       "trail_id": "osmway-forest-road-548",
       "name": "Forest Road 548",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11762,11 +11682,11 @@
     {
       "trail_id": "osmway-forest-road-565",
       "name": "Forest Road 565",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11806,11 +11726,11 @@
     {
       "trail_id": "osmway-forest-road-567",
       "name": "Forest Road 567",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11850,11 +11770,11 @@
     {
       "trail_id": "osmway-forest-road-569",
       "name": "Forest Road 569",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11894,11 +11814,11 @@
     {
       "trail_id": "osmway-forest-road-574",
       "name": "Forest Road 574",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11938,11 +11858,11 @@
     {
       "trail_id": "osmway-forest-road-578",
       "name": "Forest Road 578",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -11982,11 +11902,11 @@
     {
       "trail_id": "osmway-forest-road-581",
       "name": "Forest Road 581",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12026,11 +11946,11 @@
     {
       "trail_id": "osmway-forest-road-591",
       "name": "Forest Road 591",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12070,11 +11990,11 @@
     {
       "trail_id": "osmway-forest-road-605",
       "name": "Forest Road 605",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12114,11 +12034,11 @@
     {
       "trail_id": "osmway-forest-road-607",
       "name": "Forest Road 607",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12158,11 +12078,11 @@
     {
       "trail_id": "osmway-forest-road-652",
       "name": "Forest Road 652",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12202,11 +12122,11 @@
     {
       "trail_id": "osmway-forest-road-653",
       "name": "Forest Road 653",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12246,11 +12166,11 @@
     {
       "trail_id": "osmway-forest-trail-300",
       "name": "Forest Trail 300",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12290,11 +12210,11 @@
     {
       "trail_id": "osmway-forest-trail-301",
       "name": "Forest Trail 301",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12334,11 +12254,11 @@
     {
       "trail_id": "osmway-forest-trail-302",
       "name": "Forest Trail 302",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12378,11 +12298,11 @@
     {
       "trail_id": "osmway-forest-trail-304",
       "name": "Forest Trail 304",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12422,11 +12342,11 @@
     {
       "trail_id": "osmway-forest-trail-306",
       "name": "Forest Trail 306",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12466,11 +12386,11 @@
     {
       "trail_id": "osmway-forest-trail-316",
       "name": "Forest Trail 316",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12510,11 +12430,11 @@
     {
       "trail_id": "osmway-forest-trail-319",
       "name": "Forest Trail 319",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12554,11 +12474,11 @@
     {
       "trail_id": "osmway-forest-trail-326",
       "name": "Forest Trail 326",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12598,11 +12518,11 @@
     {
       "trail_id": "osmway-forest-trail-333",
       "name": "Forest Trail 333",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12642,11 +12562,11 @@
     {
       "trail_id": "osmway-forest-trail-334",
       "name": "Forest Trail 334",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12686,11 +12606,11 @@
     {
       "trail_id": "osmway-forest-trail-3544",
       "name": "Forest Trail 3544",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12730,11 +12650,11 @@
     {
       "trail_id": "osmway-franklin-nature-trail",
       "name": "Franklin Nature Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12774,11 +12694,11 @@
     {
       "trail_id": "osmway-galvin-avenue-trail",
       "name": "Galvin Avenue Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12818,11 +12738,11 @@
     {
       "trail_id": "osmway-giant-white-pine-trail",
       "name": "Giant White Pine Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12862,11 +12782,11 @@
     {
       "trail_id": "osmway-green-circle-trail---shraeder-connection",
       "name": "Green Circle Trail - Shraeder Connection",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12906,11 +12826,11 @@
     {
       "trail_id": "osmway-green-circle-trail-pet-detour",
       "name": "Green Circle Trail (Pet Detour)",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12950,11 +12870,11 @@
     {
       "trail_id": "osmway-halley-creek-bird-trail",
       "name": "Halley Creek Bird Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -12994,11 +12914,11 @@
     {
       "trail_id": "osmway-homestead-loop",
       "name": "Homestead Loop",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13038,11 +12958,11 @@
     {
       "trail_id": "osmway-horseshoe-trail",
       "name": "Horseshoe Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13082,11 +13002,11 @@
     {
       "trail_id": "osmway-iat---murry-creek-trail",
       "name": "IAT - Murry Creek Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13126,11 +13046,11 @@
     {
       "trail_id": "osmway-kalinke-to-doering",
       "name": "Kalinke to Doering",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13170,11 +13090,11 @@
     {
       "trail_id": "osmway-lily-mill-fl",
       "name": "Lily Mill Fl",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13214,11 +13134,11 @@
     {
       "trail_id": "osmway-loop-d",
       "name": "Loop D",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13258,11 +13178,11 @@
     {
       "trail_id": "osmway-lost-creek-wetland-hiking-trail",
       "name": "Lost Creek Wetland Hiking Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13302,11 +13222,11 @@
     {
       "trail_id": "osmway-lost-lake-loop",
       "name": "Lost Lake Loop",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13346,11 +13266,11 @@
     {
       "trail_id": "osmway-lower-glen",
       "name": "Lower Glen",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13390,11 +13310,11 @@
     {
       "trail_id": "osmway-nelson-landing",
       "name": "Nelson Landing",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13434,11 +13354,11 @@
     {
       "trail_id": "osmway-oktoberfest",
       "name": "Oktoberfest",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13478,11 +13398,11 @@
     {
       "trail_id": "osmway-old-county-road-b",
       "name": "Old County Road B",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13522,11 +13442,11 @@
     {
       "trail_id": "osmway-oneida-cty-snowmobile-route-15",
       "name": "Oneida Cty Snowmobile Route 15",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13566,55 +13486,11 @@
     {
       "trail_id": "osmway-pembine-subdivision",
       "name": "Pembine subdivision",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-pine-line-trail",
-      "name": "Pine Line Trail",
-      "score": 86.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13654,11 +13530,11 @@
     {
       "trail_id": "osmway-pond-road-no-1",
       "name": "Pond Road No 1",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13698,11 +13574,11 @@
     {
       "trail_id": "osmway-potawatomi-nature-trail",
       "name": "Potawatomi Nature Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13742,11 +13618,11 @@
     {
       "trail_id": "osmway-prairie-dells-loop",
       "name": "Prairie Dells Loop",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13786,11 +13662,11 @@
     {
       "trail_id": "osmway-rat-river-recreation-trail",
       "name": "Rat River Recreation Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13830,11 +13706,11 @@
     {
       "trail_id": "osmway-riley-creek-hunter-hiking-trail",
       "name": "Riley Creek Hunter Hiking Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13874,11 +13750,11 @@
     {
       "trail_id": "osmway-river-bend-trail",
       "name": "River Bend Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13918,11 +13794,11 @@
     {
       "trail_id": "osmway-road-2360",
       "name": "Road 2360",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -13962,11 +13838,11 @@
     {
       "trail_id": "osmway-ruby-ridge",
       "name": "Ruby Ridge",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14006,11 +13882,11 @@
     {
       "trail_id": "osmway-schmuland-hunter-hiking-trail",
       "name": "Schmuland Hunter Hiking Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14050,11 +13926,11 @@
     {
       "trail_id": "osmway-section-19-loop",
       "name": "Section 19 Loop",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14094,11 +13970,11 @@
     {
       "trail_id": "osmway-snodgrass",
       "name": "Snodgrass",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14138,11 +14014,11 @@
     {
       "trail_id": "osmway-test-track",
       "name": "Test Track",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14182,11 +14058,11 @@
     {
       "trail_id": "osmway-tracy-creek-hunter-hiking-trail",
       "name": "Tracy Creek Hunter Hiking Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14226,11 +14102,11 @@
     {
       "trail_id": "osmway-trail-101",
       "name": "Trail 101",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14270,11 +14146,11 @@
     {
       "trail_id": "osmway-tucker-lake-trail",
       "name": "Tucker Lake Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14314,11 +14190,11 @@
     {
       "trail_id": "osmway-west-multi-use-trail",
       "name": "West Multi-Use Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14358,11 +14234,11 @@
     {
       "trail_id": "osmway-whitney-trail",
       "name": "Whitney Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14402,11 +14278,11 @@
     {
       "trail_id": "osmway-wilderness-trail",
       "name": "Wilderness Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14446,11 +14322,11 @@
     {
       "trail_id": "osmway-wildwood-station-trail",
       "name": "Wildwood Station Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14490,11 +14366,11 @@
     {
       "trail_id": "osmway-wilson-flowage-hunter-hiking-trail",
       "name": "Wilson Flowage Hunter Hiking Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14534,55 +14410,11 @@
     {
       "trail_id": "osmway-winter-trail",
       "name": "Winter Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
-          "weight": 0.25,
-          "note": "Trail should be dry"
-        },
-        {
-          "name": "daylight",
-          "value": 1.0,
-          "weight": 0.15,
-          "note": "Plenty of daylight"
-        },
-        {
-          "name": "exposure",
-          "value": 1.0,
-          "weight": 0.2,
-          "note": "Sheltered from weather"
-        },
-        {
-          "name": "seasonality",
-          "value": 0.7,
-          "weight": 0.15,
-          "note": "OK time of year"
-        },
-        {
-          "name": "scenery_match",
-          "value": 0.75,
-          "weight": 0.15,
-          "note": "No scenery preference set"
-        },
-        {
-          "name": "freshness",
-          "value": 0.5,
-          "weight": 0.1,
-          "note": "Never field-checked"
-        }
-      ],
-      "hard_filters_failed": []
-    },
-    {
-      "trail_id": "osmway-wiouwash-state-recreation-trail",
-      "name": "Wiouwash State Recreation Trail",
-      "score": 86.2,
-      "factors": [
-        {
-          "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14622,11 +14454,11 @@
     {
       "trail_id": "state-green-circle-state-trail",
       "name": "Green Circle State Trail",
-      "score": 86.2,
+      "score": 86.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14670,7 +14502,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14708,13 +14540,13 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-wolf-river-state-trail",
-      "name": "Wolf River State Trail",
+      "trail_id": "state-tomorrow-river-state-trail",
+      "name": "Tomorrow River State Trail",
       "score": 82.0,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14752,13 +14584,13 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osm-iat---lake-eleven-cornell-connection",
-      "name": "IAT - Lake Eleven-Cornell connection",
-      "score": 81.7,
+      "trail_id": "osm-iat---new-hope-white-cedar-connector",
+      "name": "IAT - New Hope-White Cedar connector",
+      "score": 81.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14796,13 +14628,57 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "osmway-merrilian-to-marshfield",
-      "name": "Merrilian to Marshfield",
-      "score": 81.7,
+      "trail_id": "osmway-pine-line-trail",
+      "name": "Pine Line Trail",
+      "score": 81.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "Cutting it close - bring a headlamp"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-wiouwash-state-recreation-trail",
+      "name": "Wiouwash State Recreation Trail",
+      "score": 81.8,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14842,11 +14718,11 @@
     {
       "trail_id": "state-wiouwash-state-trail",
       "name": "Wiouwash State Trail",
-      "score": 78.7,
+      "score": 78.8,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14890,7 +14766,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14934,7 +14810,7 @@
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.99,
+          "value": 0.991,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -14972,13 +14848,145 @@
       "hard_filters_failed": []
     },
     {
-      "trail_id": "state-mountain-bay-state-trail",
-      "name": "Mountain-Bay State Trail",
-      "score": 74.2,
+      "trail_id": "state-wolf-river-state-trail",
+      "name": "Wolf River State Trail",
+      "score": 74.5,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.991,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1176 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osm-iat---lake-eleven-cornell-connection",
+      "name": "IAT - Lake Eleven-Cornell connection",
+      "score": 74.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.983,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1227 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "osmway-merrilian-to-marshfield",
+      "name": "Merrilian to Marshfield",
+      "score": 74.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.983,
+          "weight": 0.25,
+          "note": "Trail should be dry"
+        },
+        {
+          "name": "daylight",
+          "value": 0.2,
+          "weight": 0.15,
+          "note": "Not enough daylight (~1109 min needed)"
+        },
+        {
+          "name": "exposure",
+          "value": 1.0,
+          "weight": 0.2,
+          "note": "Sheltered from weather"
+        },
+        {
+          "name": "seasonality",
+          "value": 0.7,
+          "weight": 0.15,
+          "note": "OK time of year"
+        },
+        {
+          "name": "scenery_match",
+          "value": 0.75,
+          "weight": 0.15,
+          "note": "No scenery preference set"
+        },
+        {
+          "name": "freshness",
+          "value": 0.5,
+          "weight": 0.1,
+          "note": "Never field-checked"
+        }
+      ],
+      "hard_filters_failed": []
+    },
+    {
+      "trail_id": "state-mountain-bay-state-trail",
+      "name": "Mountain-Bay State Trail",
+      "score": 74.3,
+      "factors": [
+        {
+          "name": "mud_risk",
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
@@ -15018,11 +15026,11 @@
     {
       "trail_id": "state-tuscobia-state-trail",
       "name": "Tuscobia State Trail",
-      "score": 74.2,
+      "score": 74.3,
       "factors": [
         {
           "name": "mud_risk",
-          "value": 0.979,
+          "value": 0.983,
           "weight": 0.25,
           "note": "Trail should be dry"
         },
