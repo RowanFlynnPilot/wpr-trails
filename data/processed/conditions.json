@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T09:56:08.296020+00:00",
+  "fetched_at": "2026-10-13T17:18:58.961931+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,34 +18,23 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-10-13T04:00:00-05:00",
-        "end_time": "2026-10-13T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 58,
-        "wind_mph_low": 12.0,
+        "name": "This Afternoon",
+        "start_time": "2026-10-13T12:00:00-05:00",
+        "end_time": "2026-10-13T18:00:00-05:00",
+        "is_daytime": true,
+        "temp_f": 63,
+        "wind_mph_low": 8.0,
         "wind_mph_high": 12.0,
-        "precip_chance": 2,
+        "precip_chance": 4,
         "short_forecast": "Mostly Cloudy"
       },
       {
-        "name": "Tuesday",
-        "start_time": "2026-10-13T06:00:00-05:00",
-        "end_time": "2026-10-13T18:00:00-05:00",
-        "is_daytime": true,
-        "temp_f": 67,
-        "wind_mph_low": 8.0,
-        "wind_mph_high": 13.0,
-        "precip_chance": 1,
-        "short_forecast": "Partly Sunny"
-      },
-      {
-        "name": "Tuesday Night",
+        "name": "Tonight",
         "start_time": "2026-10-13T18:00:00-05:00",
         "end_time": "2026-10-14T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 47,
-        "wind_mph_low": 2.0,
+        "temp_f": 48,
+        "wind_mph_low": 6.0,
         "wind_mph_high": 6.0,
         "precip_chance": 15,
         "short_forecast": "Slight Chance Rain Showers then Mostly Cloudy"
@@ -56,20 +45,31 @@
         "end_time": "2026-10-14T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 62,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
+        "wind_mph_low": 7.0,
+        "wind_mph_high": 7.0,
         "precip_chance": 2,
-        "short_forecast": "Mostly Sunny"
+        "short_forecast": "Partly Sunny"
+      },
+      {
+        "name": "Wednesday Night",
+        "start_time": "2026-10-14T18:00:00-05:00",
+        "end_time": "2026-10-15T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 38,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 0,
+        "short_forecast": "Mostly Cloudy"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 67,
-    "forecast_wind_mph": 13.0,
-    "forecast_precip_chance": 1,
-    "daylight_remaining_minutes": 806,
+    "forecast_temp_f": 63,
+    "forecast_wind_mph": 12.0,
+    "forecast_precip_chance": 4,
+    "daylight_remaining_minutes": 363,
     "active_closure_ids": []
   }
 }
