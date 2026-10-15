@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T15:25:31.227718+00:00",
+  "fetched_at": "2026-10-15T19:36:05.028311+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,15 +18,15 @@
   "forecast": {
     "periods": [
       {
-        "name": "Today",
-        "start_time": "2026-10-15T09:00:00-05:00",
+        "name": "This Afternoon",
+        "start_time": "2026-10-15T14:00:00-05:00",
         "end_time": "2026-10-15T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 55,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 9.0,
-        "precip_chance": 99,
-        "short_forecast": "Rain Showers"
+        "wind_mph_low": 8.0,
+        "wind_mph_high": 8.0,
+        "precip_chance": 97,
+        "short_forecast": "Rain"
       },
       {
         "name": "Tonight",
@@ -35,9 +35,9 @@
         "is_daytime": false,
         "temp_f": 40,
         "wind_mph_low": 3.0,
-        "wind_mph_high": 13.0,
-        "precip_chance": 98,
-        "short_forecast": "Rain Showers"
+        "wind_mph_high": 14.0,
+        "precip_chance": 100,
+        "short_forecast": "Rain"
       },
       {
         "name": "Friday",
@@ -45,10 +45,10 @@
         "end_time": "2026-10-16T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 50,
-        "wind_mph_low": 13.0,
-        "wind_mph_high": 23.0,
-        "precip_chance": 42,
-        "short_forecast": "Chance Rain Showers"
+        "wind_mph_low": 14.0,
+        "wind_mph_high": 22.0,
+        "precip_chance": 41,
+        "short_forecast": "Chance Light Rain then Mostly Cloudy"
       },
       {
         "name": "Friday Night",
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 55,
-    "forecast_wind_mph": 9.0,
-    "forecast_precip_chance": 99,
-    "daylight_remaining_minutes": 474,
+    "forecast_wind_mph": 8.0,
+    "forecast_precip_chance": 97,
+    "daylight_remaining_minutes": 223,
     "active_closure_ids": []
   }
 }
