@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T00:55:22.554933+00:00",
+  "fetched_at": "2026-10-16T05:19:34.900647+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,21 +12,21 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.0,
-    "last_72h_in": 0.0
+    "last_24h_in": 0.09,
+    "last_72h_in": 0.09
   },
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-10-15T19:00:00-05:00",
+        "name": "Overnight",
+        "start_time": "2026-10-16T00:00:00-05:00",
         "end_time": "2026-10-16T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 40,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 14.0,
-        "precip_chance": 100,
-        "short_forecast": "Rain"
+        "wind_mph_low": 9.0,
+        "wind_mph_high": 13.0,
+        "precip_chance": 73,
+        "short_forecast": "Rain Showers Likely"
       },
       {
         "name": "Friday",
@@ -35,9 +35,9 @@
         "is_daytime": true,
         "temp_f": 50,
         "wind_mph_low": 14.0,
-        "wind_mph_high": 22.0,
-        "precip_chance": 41,
-        "short_forecast": "Chance Light Rain then Mostly Cloudy"
+        "wind_mph_high": 24.0,
+        "precip_chance": 30,
+        "short_forecast": "Chance Rain Showers then Mostly Cloudy"
       },
       {
         "name": "Friday Night",
@@ -46,8 +46,8 @@
         "is_daytime": false,
         "temp_f": 27,
         "wind_mph_low": 2.0,
-        "wind_mph_high": 14.0,
-        "precip_chance": 0,
+        "wind_mph_high": 13.0,
+        "precip_chance": 1,
         "short_forecast": "Widespread Frost"
       },
       {
@@ -64,12 +64,12 @@
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.0,
-    "recent_precip_in_72h": 0.0,
+    "recent_precip_in_24h": 0.09,
+    "recent_precip_in_72h": 0.09,
     "forecast_temp_f": 50,
-    "forecast_wind_mph": 22.0,
-    "forecast_precip_chance": 41,
-    "daylight_remaining_minutes": 1342,
+    "forecast_wind_mph": 24.0,
+    "forecast_precip_chance": 30,
+    "daylight_remaining_minutes": 1078,
     "active_closure_ids": []
   }
 }
