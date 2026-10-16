@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T05:19:34.900647+00:00",
+  "fetched_at": "2026-10-16T10:26:22.475745+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -12,21 +12,21 @@
     "observation_station": "KCWA"
   },
   "precipitation": {
-    "last_24h_in": 0.09,
-    "last_72h_in": 0.09
+    "last_24h_in": 0.17,
+    "last_72h_in": 0.17
   },
   "forecast": {
     "periods": [
       {
         "name": "Overnight",
-        "start_time": "2026-10-16T00:00:00-05:00",
+        "start_time": "2026-10-16T05:00:00-05:00",
         "end_time": "2026-10-16T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 40,
-        "wind_mph_low": 9.0,
+        "wind_mph_low": 13.0,
         "wind_mph_high": 13.0,
-        "precip_chance": 73,
-        "short_forecast": "Rain Showers Likely"
+        "precip_chance": 52,
+        "short_forecast": "Chance Rain Showers"
       },
       {
         "name": "Friday",
@@ -44,7 +44,7 @@
         "start_time": "2026-10-16T18:00:00-05:00",
         "end_time": "2026-10-17T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 27,
+        "temp_f": 28,
         "wind_mph_low": 2.0,
         "wind_mph_high": 13.0,
         "precip_chance": 1,
@@ -57,19 +57,19 @@
         "is_daytime": true,
         "temp_f": 57,
         "wind_mph_low": 3.0,
-        "wind_mph_high": 16.0,
+        "wind_mph_high": 15.0,
         "precip_chance": 0,
         "short_forecast": "Widespread Frost then Sunny"
       }
     ]
   },
   "scoring_context": {
-    "recent_precip_in_24h": 0.09,
-    "recent_precip_in_72h": 0.09,
+    "recent_precip_in_24h": 0.17,
+    "recent_precip_in_72h": 0.17,
     "forecast_temp_f": 50,
     "forecast_wind_mph": 24.0,
     "forecast_precip_chance": 30,
-    "daylight_remaining_minutes": 1078,
+    "daylight_remaining_minutes": 771,
     "active_closure_ids": []
   }
 }
