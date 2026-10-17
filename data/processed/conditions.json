@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T09:57:56.935695+00:00",
+  "fetched_at": "2026-10-17T13:28:47.564744+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,19 +18,8 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-10-17T03:00:00-05:00",
-        "end_time": "2026-10-17T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 28,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 0,
-        "short_forecast": "Widespread Frost"
-      },
-      {
-        "name": "Saturday",
-        "start_time": "2026-10-17T06:00:00-05:00",
+        "name": "Today",
+        "start_time": "2026-10-17T07:00:00-05:00",
         "end_time": "2026-10-17T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 56,
@@ -40,7 +29,7 @@
         "short_forecast": "Widespread Frost then Sunny"
       },
       {
-        "name": "Saturday Night",
+        "name": "Tonight",
         "start_time": "2026-10-17T18:00:00-05:00",
         "end_time": "2026-10-18T06:00:00-05:00",
         "is_daytime": false,
@@ -60,6 +49,17 @@
         "wind_mph_high": 18.0,
         "precip_chance": 0,
         "short_forecast": "Sunny"
+      },
+      {
+        "name": "Sunday Night",
+        "start_time": "2026-10-18T18:00:00-05:00",
+        "end_time": "2026-10-19T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 37,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 13.0,
+        "precip_chance": 0,
+        "short_forecast": "Mostly Clear"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 56,
     "forecast_wind_mph": 16.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 798,
+    "daylight_remaining_minutes": 587,
     "active_closure_ids": []
   }
 }
