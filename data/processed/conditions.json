@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T10:57:49.767668+00:00",
+  "fetched_at": "2026-10-21T15:50:20.660749+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,48 +18,48 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-10-21T03:00:00-05:00",
-        "end_time": "2026-10-21T06:00:00-05:00",
-        "is_daytime": false,
-        "temp_f": 38,
-        "wind_mph_low": 2.0,
-        "wind_mph_high": 2.0,
-        "precip_chance": 0,
-        "short_forecast": "Patchy Fog"
-      },
-      {
-        "name": "Wednesday",
-        "start_time": "2026-10-21T06:00:00-05:00",
+        "name": "Today",
+        "start_time": "2026-10-21T10:00:00-05:00",
         "end_time": "2026-10-21T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 68,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 5.0,
+        "wind_mph_low": 6.0,
+        "wind_mph_high": 6.0,
         "precip_chance": 2,
-        "short_forecast": "Patchy Fog then Sunny"
+        "short_forecast": "Mostly Sunny"
       },
       {
-        "name": "Wednesday Night",
+        "name": "Tonight",
         "start_time": "2026-10-21T18:00:00-05:00",
         "end_time": "2026-10-22T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 43,
-        "wind_mph_low": 2.0,
-        "wind_mph_high": 2.0,
-        "precip_chance": 1,
-        "short_forecast": "Areas Of Fog"
+        "temp_f": 45,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 3.0,
+        "precip_chance": 0,
+        "short_forecast": "Mostly Clear then Patchy Fog"
       },
       {
         "name": "Thursday",
         "start_time": "2026-10-22T06:00:00-05:00",
         "end_time": "2026-10-22T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 66,
+        "temp_f": 67,
         "wind_mph_low": 5.0,
         "wind_mph_high": 5.0,
         "precip_chance": 0,
-        "short_forecast": "Sunny"
+        "short_forecast": "Areas Of Fog then Sunny"
+      },
+      {
+        "name": "Thursday Night",
+        "start_time": "2026-10-22T18:00:00-05:00",
+        "end_time": "2026-10-23T06:00:00-05:00",
+        "is_daytime": false,
+        "temp_f": 45,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 5.0,
+        "precip_chance": 0,
+        "short_forecast": "Partly Cloudy"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 68,
-    "forecast_wind_mph": 5.0,
+    "forecast_wind_mph": 6.0,
     "forecast_precip_chance": 2,
-    "daylight_remaining_minutes": 732,
+    "daylight_remaining_minutes": 440,
     "active_closure_ids": []
   }
 }
