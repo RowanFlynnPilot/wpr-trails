@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T22:57:06.417829+00:00",
+  "fetched_at": "2026-10-22T01:12:56.041487+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,24 +18,13 @@
   "forecast": {
     "periods": [
       {
-        "name": "This Afternoon",
-        "start_time": "2026-10-21T17:00:00-05:00",
-        "end_time": "2026-10-21T18:00:00-05:00",
-        "is_daytime": true,
-        "temp_f": 70,
-        "wind_mph_low": 3.0,
-        "wind_mph_high": 3.0,
-        "precip_chance": 0,
-        "short_forecast": "Sunny"
-      },
-      {
         "name": "Tonight",
-        "start_time": "2026-10-21T18:00:00-05:00",
+        "start_time": "2026-10-21T20:00:00-05:00",
         "end_time": "2026-10-22T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 45,
-        "wind_mph_low": 0.0,
-        "wind_mph_high": 3.0,
+        "wind_mph_low": 1.0,
+        "wind_mph_high": 1.0,
         "precip_chance": 0,
         "short_forecast": "Mostly Clear then Patchy Fog"
       },
@@ -60,16 +49,27 @@
         "wind_mph_high": 5.0,
         "precip_chance": 0,
         "short_forecast": "Partly Cloudy"
+      },
+      {
+        "name": "Friday",
+        "start_time": "2026-10-23T06:00:00-05:00",
+        "end_time": "2026-10-23T18:00:00-05:00",
+        "is_daytime": true,
+        "temp_f": 69,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 9.0,
+        "precip_chance": 0,
+        "short_forecast": "Partly Sunny"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 70,
-    "forecast_wind_mph": 3.0,
+    "forecast_temp_f": 67,
+    "forecast_wind_mph": 5.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 13,
+    "daylight_remaining_minutes": 1316,
     "active_closure_ids": []
   }
 }
