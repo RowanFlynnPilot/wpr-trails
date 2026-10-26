@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T12:02:01.866516+00:00",
+  "fetched_at": "2026-10-26T18:58:06.015862+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,15 +18,15 @@
   "forecast": {
     "periods": [
       {
-        "name": "Today",
-        "start_time": "2026-10-26T06:00:00-05:00",
+        "name": "This Afternoon",
+        "start_time": "2026-10-26T13:00:00-05:00",
         "end_time": "2026-10-26T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 52,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
-        "precip_chance": 32,
-        "short_forecast": "Chance Rain Showers"
+        "wind_mph_low": 7.0,
+        "wind_mph_high": 7.0,
+        "precip_chance": 33,
+        "short_forecast": "Scattered Rain Showers"
       },
       {
         "name": "Tonight",
@@ -35,8 +35,8 @@
         "is_daytime": false,
         "temp_f": 34,
         "wind_mph_low": 6.0,
-        "wind_mph_high": 12.0,
-        "precip_chance": 79,
+        "wind_mph_high": 10.0,
+        "precip_chance": 78,
         "short_forecast": "Rain Showers"
       },
       {
@@ -45,7 +45,7 @@
         "end_time": "2026-10-27T18:00:00-05:00",
         "is_daytime": true,
         "temp_f": 61,
-        "wind_mph_low": 14.0,
+        "wind_mph_low": 10.0,
         "wind_mph_high": 14.0,
         "precip_chance": 34,
         "short_forecast": "Chance Rain Showers then Partly Sunny"
@@ -56,8 +56,8 @@
         "end_time": "2026-10-28T06:00:00-05:00",
         "is_daytime": false,
         "temp_f": 49,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 12.0,
+        "wind_mph_low": 5.0,
+        "wind_mph_high": 10.0,
         "precip_chance": 3,
         "short_forecast": "Mostly Cloudy"
       }
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 52,
-    "forecast_wind_mph": 6.0,
-    "forecast_precip_chance": 32,
-    "daylight_remaining_minutes": 661,
+    "forecast_wind_mph": 7.0,
+    "forecast_precip_chance": 33,
+    "daylight_remaining_minutes": 245,
     "active_closure_ids": []
   }
 }
