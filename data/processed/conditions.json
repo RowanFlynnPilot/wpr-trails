@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T13:42:19.634105+00:00",
+  "fetched_at": "2026-10-28T19:13:09.264362+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,25 +18,25 @@
   "forecast": {
     "periods": [
       {
-        "name": "Today",
-        "start_time": "2026-10-28T08:00:00-05:00",
+        "name": "This Afternoon",
+        "start_time": "2026-10-28T14:00:00-05:00",
         "end_time": "2026-10-28T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 71,
-        "wind_mph_low": 5.0,
-        "wind_mph_high": 12.0,
-        "precip_chance": 16,
-        "short_forecast": "Partly Sunny then Slight Chance Rain Showers"
+        "temp_f": 70,
+        "wind_mph_low": 9.0,
+        "wind_mph_high": 9.0,
+        "precip_chance": 33,
+        "short_forecast": "Chance Rain Showers"
       },
       {
         "name": "Tonight",
         "start_time": "2026-10-28T18:00:00-05:00",
         "end_time": "2026-10-29T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 49,
-        "wind_mph_low": 10.0,
+        "temp_f": 45,
+        "wind_mph_low": 9.0,
         "wind_mph_high": 15.0,
-        "precip_chance": 91,
+        "precip_chance": 88,
         "short_forecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms"
       },
       {
@@ -44,8 +44,8 @@
         "start_time": "2026-10-29T06:00:00-05:00",
         "end_time": "2026-10-29T18:00:00-05:00",
         "is_daytime": true,
-        "temp_f": 60,
-        "wind_mph_low": 9.0,
+        "temp_f": 58,
+        "wind_mph_low": 7.0,
         "wind_mph_high": 13.0,
         "precip_chance": 1,
         "short_forecast": "Sunny"
@@ -55,8 +55,8 @@
         "start_time": "2026-10-29T18:00:00-05:00",
         "end_time": "2026-10-30T06:00:00-05:00",
         "is_daytime": false,
-        "temp_f": 34,
-        "wind_mph_low": 2.0,
+        "temp_f": 31,
+        "wind_mph_low": 1.0,
         "wind_mph_high": 9.0,
         "precip_chance": 0,
         "short_forecast": "Mostly Clear then Patchy Fog"
@@ -66,10 +66,10 @@
   "scoring_context": {
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
-    "forecast_temp_f": 71,
-    "forecast_wind_mph": 12.0,
-    "forecast_precip_chance": 16,
-    "daylight_remaining_minutes": 558,
+    "forecast_temp_f": 70,
+    "forecast_wind_mph": 9.0,
+    "forecast_precip_chance": 33,
+    "daylight_remaining_minutes": 227,
     "active_closure_ids": []
   }
 }
