@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T01:47:16.393144+00:00",
+  "fetched_at": "2026-11-04T08:24:07.637499+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -13,19 +13,19 @@
   },
   "precipitation": {
     "last_24h_in": 0.02,
-    "last_72h_in": 0.02
+    "last_72h_in": 0.05
   },
   "forecast": {
     "periods": [
       {
-        "name": "Tonight",
-        "start_time": "2026-11-03T18:00:00-06:00",
+        "name": "Overnight",
+        "start_time": "2026-11-04T02:00:00-06:00",
         "end_time": "2026-11-04T06:00:00-06:00",
         "is_daytime": false,
         "temp_f": 58,
-        "wind_mph_low": 10.0,
-        "wind_mph_high": 10.0,
-        "precip_chance": 94,
+        "wind_mph_low": 9.0,
+        "wind_mph_high": 9.0,
+        "precip_chance": 95,
         "short_forecast": "Rain Showers"
       },
       {
@@ -33,10 +33,10 @@
         "start_time": "2026-11-04T06:00:00-06:00",
         "end_time": "2026-11-04T18:00:00-06:00",
         "is_daytime": true,
-        "temp_f": 62,
-        "wind_mph_low": 12.0,
+        "temp_f": 61,
+        "wind_mph_low": 8.0,
         "wind_mph_high": 12.0,
-        "precip_chance": 91,
+        "precip_chance": 86,
         "short_forecast": "Rain Showers"
       },
       {
@@ -44,10 +44,10 @@
         "start_time": "2026-11-04T18:00:00-06:00",
         "end_time": "2026-11-05T06:00:00-06:00",
         "is_daytime": false,
-        "temp_f": 45,
-        "wind_mph_low": 7.0,
+        "temp_f": 43,
+        "wind_mph_low": 6.0,
         "wind_mph_high": 10.0,
-        "precip_chance": 82,
+        "precip_chance": 87,
         "short_forecast": "Rain Showers"
       },
       {
@@ -55,21 +55,21 @@
         "start_time": "2026-11-05T06:00:00-06:00",
         "end_time": "2026-11-05T18:00:00-06:00",
         "is_daytime": true,
-        "temp_f": 49,
-        "wind_mph_low": 7.0,
-        "wind_mph_high": 15.0,
-        "precip_chance": 85,
-        "short_forecast": "Rain Showers"
+        "temp_f": 48,
+        "wind_mph_low": 6.0,
+        "wind_mph_high": 16.0,
+        "precip_chance": 66,
+        "short_forecast": "Rain Showers Likely then Mostly Cloudy"
       }
     ]
   },
   "scoring_context": {
     "recent_precip_in_24h": 0.02,
-    "recent_precip_in_72h": 0.02,
-    "forecast_temp_f": 62,
+    "recent_precip_in_72h": 0.05,
+    "forecast_temp_f": 61,
     "forecast_wind_mph": 12.0,
-    "forecast_precip_chance": 91,
-    "daylight_remaining_minutes": 1263,
+    "forecast_precip_chance": 86,
+    "daylight_remaining_minutes": 866,
     "active_closure_ids": []
   }
 }
