@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T11:59:19.203104+00:00",
+  "fetched_at": "2026-11-10T19:28:55.621116+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,48 +18,48 @@
   "forecast": {
     "periods": [
       {
-        "name": "Overnight",
-        "start_time": "2026-11-10T05:00:00-06:00",
-        "end_time": "2026-11-10T06:00:00-06:00",
-        "is_daytime": false,
-        "temp_f": 34,
-        "wind_mph_low": 6.0,
-        "wind_mph_high": 6.0,
-        "precip_chance": 0,
-        "short_forecast": "Mostly Clear"
-      },
-      {
-        "name": "Tuesday",
-        "start_time": "2026-11-10T06:00:00-06:00",
+        "name": "This Afternoon",
+        "start_time": "2026-11-10T13:00:00-06:00",
         "end_time": "2026-11-10T18:00:00-06:00",
         "is_daytime": true,
         "temp_f": 54,
-        "wind_mph_low": 6.0,
+        "wind_mph_low": 9.0,
         "wind_mph_high": 9.0,
         "precip_chance": 0,
         "short_forecast": "Sunny"
       },
       {
-        "name": "Tuesday Night",
+        "name": "Tonight",
         "start_time": "2026-11-10T18:00:00-06:00",
         "end_time": "2026-11-11T06:00:00-06:00",
         "is_daytime": false,
-        "temp_f": 38,
+        "temp_f": 40,
         "wind_mph_low": 0.0,
         "wind_mph_high": 5.0,
-        "precip_chance": 19,
-        "short_forecast": "Mostly Cloudy then Slight Chance Rain Showers"
+        "precip_chance": 27,
+        "short_forecast": "Mostly Cloudy then Chance Rain Showers"
       },
       {
         "name": "Veterans Day",
         "start_time": "2026-11-11T06:00:00-06:00",
         "end_time": "2026-11-11T18:00:00-06:00",
         "is_daytime": true,
-        "temp_f": 47,
-        "wind_mph_low": 2.0,
-        "wind_mph_high": 9.0,
-        "precip_chance": 36,
+        "temp_f": 48,
+        "wind_mph_low": 3.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 45,
         "short_forecast": "Chance Rain Showers"
+      },
+      {
+        "name": "Wednesday Night",
+        "start_time": "2026-11-11T18:00:00-06:00",
+        "end_time": "2026-11-12T06:00:00-06:00",
+        "is_daytime": false,
+        "temp_f": 28,
+        "wind_mph_low": 7.0,
+        "wind_mph_high": 10.0,
+        "precip_chance": 14,
+        "short_forecast": "Mostly Cloudy"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "forecast_temp_f": 54,
     "forecast_wind_mph": 9.0,
     "forecast_precip_chance": 0,
-    "daylight_remaining_minutes": 643,
+    "daylight_remaining_minutes": 194,
     "active_closure_ids": []
   }
 }
