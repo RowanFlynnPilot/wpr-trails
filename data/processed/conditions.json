@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T21:14:41.069004+00:00",
+  "fetched_at": "2026-11-10T03:55:12.682201+00:00",
   "location": {
     "name": "Wausau, WI",
     "lat": 44.9591,
@@ -18,19 +18,8 @@
   "forecast": {
     "periods": [
       {
-        "name": "This Afternoon",
-        "start_time": "2026-11-09T14:00:00-06:00",
-        "end_time": "2026-11-09T18:00:00-06:00",
-        "is_daytime": true,
-        "temp_f": 55,
-        "wind_mph_low": 10.0,
-        "wind_mph_high": 10.0,
-        "precip_chance": 1,
-        "short_forecast": "Partly Sunny"
-      },
-      {
         "name": "Tonight",
-        "start_time": "2026-11-09T18:00:00-06:00",
+        "start_time": "2026-11-09T20:00:00-06:00",
         "end_time": "2026-11-10T06:00:00-06:00",
         "is_daytime": false,
         "temp_f": 34,
@@ -60,6 +49,17 @@
         "wind_mph_high": 5.0,
         "precip_chance": 27,
         "short_forecast": "Mostly Cloudy then Chance Rain Showers"
+      },
+      {
+        "name": "Veterans Day",
+        "start_time": "2026-11-11T06:00:00-06:00",
+        "end_time": "2026-11-11T18:00:00-06:00",
+        "is_daytime": true,
+        "temp_f": 47,
+        "wind_mph_low": 2.0,
+        "wind_mph_high": 8.0,
+        "precip_chance": 40,
+        "short_forecast": "Chance Rain Showers"
       }
     ]
   },
@@ -67,9 +67,9 @@
     "recent_precip_in_24h": 0.0,
     "recent_precip_in_72h": 0.0,
     "forecast_temp_f": 55,
-    "forecast_wind_mph": 10.0,
-    "forecast_precip_chance": 1,
-    "daylight_remaining_minutes": 89,
+    "forecast_wind_mph": 9.0,
+    "forecast_precip_chance": 0,
+    "daylight_remaining_minutes": 1127,
     "active_closure_ids": []
   }
 }
